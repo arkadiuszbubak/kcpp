@@ -1,0 +1,18 @@
+#Prosty Makefile
+
+#Obiekt "programMain" zalezny jest od plikow dwaPlikiC.o i mainDwaPlikiC.o
+
+CC=g++
+OBJS=dwaPlikiC.o mainDwaPlikiC.o
+
+mainDwaPlikiC: $(OBJS)
+	$(CC) $(OBJS) -o mainDwaPlikiC
+
+mainDwaPlikiC.o: mainDwaPlikiC.cc
+	$(CC) -c mainDwaPlikiC.cc -o mainDwaPlikiC.o
+
+dwaPlikiC.o: dwaPlikiC.cc
+	$(CC) -c dwaPlikiC.cc -o dwaPlikiC.o
+
+clean:
+	rm -f *.o mainDwaPlikiC

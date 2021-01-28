@@ -1,0 +1,143 @@
+Programy umieszczamy na swoim githubie w katalogu: zadania
+Zwrócić uwagę na nazwy programów
+------------------------------------------------------------
+
+
+
+Zadanie 1
+--------------------------------------
+Napisać program który zawiera:
+- funkcję main
+- 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
+- wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
+- nazwać program: ZadMainExample.cc 
+
+
+Zadanie 2
+--------------------------------------
+Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
+1. Przez wartość
+2. Przez referencje
+3. Przez wskaźnik
+4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
+ - nazwać program: ZadZwracanie.cc
+
+
+ Zadanie 3
+ -------------------------------------
+ Kierunke adresowania pamięci 
+ - wyjaśnić w komentarzu to programu podającego przykład:
+ - wyspisywanie adresów deklarowanych zmiennych
+ - nazwać program: ZadAdresowaniePamieci.cc
+
+
+ Zadanie 4
+ -------------------------------------
+ Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
+ - wyjaśnienie  w komentarzu
+ - przykład zastosowania
+ - nazwać program: ZadIq.cc
+
+
+ Zadanie 5
+ -------------------------------------
+ Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
+ p++;
+ ++p;
+ ++*p;
+ ++(*p);
+ ++*(p);
+ *p++;
+ (*p)++;
+ *(p)++;
+ *++p;
+ *(++p);
+ - nazwać program: ZadArytmetykaWskaznikow.cc
+
+
+Zadanie 6
+--------------------------------------
+ Patrz: LArytmetykaWskasnikowTablice.cc
+ Zaproponuj inne dwa sposoby wyboru wywołania funkcji
+ - nazwać program: ZadWywolanieFunkcji.cc 
+
+
+Zadanie 7
+--------------------------------------
+Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
+- nazwać program: ZadPriorytetyOperatorow.cc
+
+
+Zadanie 8
+--------------------------------------
+Napisać program przeliczający
+- liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
+- liczby dziesiętne na binarne (nazwać: ZadDec2Bin.cc)
+
+  Przykłady
+  (github) LPrzeliczanieDec2BinA.cc
+  (github) LPrzeliczanieDec2BinB.cc
+
+
+Zadanie 9
+--------------------------------------
+Napisz program przekazujący tablice z zachowaniem rozmiaru
+- nazwać program: ZadPrzekazywaniaTablic.cc
+
+
+Zadanie 10
+--------------------------------------
+Napisz program pokazujący funkcjonalnosc:
+- wypisywania na ekran,
+- zapisywania do pliku,
+- odczytywania z pliku,
+- nazwac program: ZadCinCoutFile.cc
+
+
+Zadanie 11
+--------------------------------------
+Napisz program:
+- pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34)
+- nazwac program: ZadCandCPP.cc
+
+
+Zadanie 12
+--------------------------------------
+Napisz program pokazujący działanie:
+- while,
+- do-while (pokazujące while i do-while ze inkrementacją: i++, ++i)
+- for
+- wykorzystaj: break, continue, return
+- nazwij program: ZadPetle.cc
+
+
+Zadanie 13
+--------------------------------------
+Pokaż działanie uni (niebezpieczenstwa, bledy)
+- nazwij program: ZadUnia.cc
+
+
+Zadanie 14
+--------------------------------------
+Napisz program wykorzystujący switch gdzie:
+- zamiast pojedynczego znaku będzie sprawdzane całę słowo
+- nazwij program: ZadSwitch.cc
+
+
+Zadanie 15
+--------------------------------------
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1-14
+  jak metody danej klasy/klas
+- Deklaracja metod w ciele klasy, a definicja poza,
+- Definicje metod w osobnym pliku nagłówkowym
+- nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
+- wszystko w osobnym katalogu: ZadKcpp
+  - main.cc w ZadKcpp,
+  - pliki nagłówkowew katalogu: ZadKcpp/inlclude,
+  - pliki źródłowe w katalogu: ZadKcpp/src
+
+
+Zadanie 16
+--------------------------------------
+- Stwórz Makefile (lub uzyj cmake) do kompilacji programów z zadania 15
+

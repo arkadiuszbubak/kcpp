@@ -1,0 +1,23 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Funkcja main w C++
+ * v0.01
+ */
+
+#include <iostream>
+using namespace std;
+
+int Function(a, b, c)
+int a, b, c;
+{
+   cout <<"a"<< endl;
+}
+
+
+int main(){
+
+  cout <<"Test"<< endl;
+  Function(1,2,3);
+	return 0;     
+}

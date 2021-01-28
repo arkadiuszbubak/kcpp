@@ -1,0 +1,2 @@
+g++ -c dwaPlikiC.cc mainDwaPlikiC.cc
+g++ *.o -o programMain
