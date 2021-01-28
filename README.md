@@ -27,3 +27,17 @@ Uwagi:
 	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminie, przy omawianiu klas w c++
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
+
+#Doxygen
+
+  Generacja dokumentacji z uzyciem doxygen. Uruchom z lini komend:
+  
+  doxygen Doxyfile
+
+  Bazujac na aktualnej konfiguracji w pliku Doxyfile dokumentacja zostanie wygenerowana w:
+  
+  ../kcpp.doxygen/html
+  
+  (zmienna OUTPUT)
+
+  Plik startowy do otworzenia w przegladarce: index.html
