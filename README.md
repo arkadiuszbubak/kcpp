@@ -28,7 +28,7 @@ Uwagi:
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
-#Doxygen
+# Doxygen
 
   Generacja dokumentacji z uzyciem doxygen. Uruchom z lini komend:
   
