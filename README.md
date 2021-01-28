@@ -2,7 +2,7 @@
 
 Zajęcia aż do odwołania odbywać będą się z wykorzystaniem Google Meet Hangout.  Odnośnik do dołączenia do zajęć:
 
-   https://meet.google.com/xyv-iymj-bch
+   podany później
 
 Uwagi:
 
@@ -15,7 +15,7 @@ Uwagi:
 
 1. Download:
 
-   git clone https://github.com/epittek/kcpp.git
+   git clone https://github.com/arkadiuszbubak/kcpp.git
 
 2. Zrozumiale napisana instrukcja korzystania z git:
 
