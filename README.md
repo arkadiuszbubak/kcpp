@@ -6,7 +6,7 @@ Zajęcia aż do odwołania odbywać będą się z wykorzystaniem Google Meet Han
 
 Uwagi:
 
-  1. Dostęp tylko przy użyciu kont w domenie smcebi.edu.pl.
+  1. Dostęp tylko przy użyciu kont w domenie smcebi.edu.pl
   2. Materiały pomocnicze do kursu: (github)
   3. Proszę zajrzeć przed samymi zajęciami na githuba. Link do zajeć może ulec zmianie. Aktualny zostanie umieszczony w README.md
 
@@ -17,14 +17,14 @@ Uwagi:
 
    git clone https://github.com/arkadiuszbubak/kcpp.git
 
-2. Zrozumiale napisana instrukcja korzystania z git:
+2. Zrozumiale napisana instrukcja korzystania z git:przyk
 
    https://git-scm.com/book/pl
 
 3. Repozytorium składa się z kilku niezależnych części:
 
 	1. kcppBasic - postawowe pliki użyte do omawiania poszczególnych zagadnień kursu. Aktualne pliki mogą i z pewnością ulegną zmianie w trakcie semestru.
-	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminiei (także mogą/ulegną zmianie), przy omawianiu klas w C++
+	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminie (i także mogą/ulegną zmianie), przy omawianiu klas w C++
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
@@ -34,10 +34,8 @@ Uwagi:
   
   doxygen Doxyfile
 
-  Bazujac na aktualnej konfiguracji w pliku Doxyfile dokumentacja zostanie wygenerowana w:
+  Bazując na aktualnej konfiguracji (zmienna OUTPUT w pliku Doxyfile) dokumentacja zostanie wygenerowana w:
   
   ../kcpp.doxygen/html
   
-  (zmienna OUTPUT)
-
   Plik startowy do otworzenia w przegladarce: index.html
