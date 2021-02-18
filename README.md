@@ -11,7 +11,7 @@ Uwagi:
   3. Proszę zajrzeć przed samymi zajęciami na githuba. Link do zajeć może ulec zmianie. Aktualny zostanie umieszczony w README.md
 
 
-# Pomocnicze materiały do kursu C++
+# Materiały pomocnicze do kursu C++
 
 1. Download:
 
@@ -28,7 +28,7 @@ Uwagi:
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
-# Doxygen
+# Generowanie dokumentacji: Doxygen
 
   Generacja dokumentacji z użyciem doxygen. Uruchom z lini komend:
   
