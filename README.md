@@ -19,7 +19,7 @@ Uwagi:
 
 2. Zrozumiale napisana instrukcja korzystania z git:
 
-   https://git-scm.com/book/pl/v2
+   https://git-scm.com/book/pl
 
 3. Repozytorium składa się z kilku niezależnych części:
 
