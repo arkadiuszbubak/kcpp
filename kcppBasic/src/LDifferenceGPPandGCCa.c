@@ -1,7 +1,7 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2020.03.16
- * \brief Roznica pomiedzy g++i  gcc
+ * \brief Roznica pomiedzy g++ i gcc
  * v0.01
  */
 
