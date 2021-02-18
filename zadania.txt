@@ -1,4 +1,4 @@
-Programy umieszczamy na swoim githubie w katalogu: zadania
+Programy umieszczamy na swoim githubie w katalogu: zadania.
 Zwrócić uwagę na nazwy programów.
 ------------------------------------------------------------
 
