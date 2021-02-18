@@ -30,7 +30,7 @@ Uwagi:
 
 # Doxygen
 
-  Generacja dokumentacji z uzyciem doxygen. Uruchom z lini komend:
+  Generacja dokumentacji z użyciem doxygen. Uruchom z lini komend:
   
   doxygen Doxyfile
 
