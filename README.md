@@ -23,8 +23,8 @@ Uwagi:
 
 3. Repozytorium składa się z kilku niezależnych części:
 
-	1. kcppBasic - postawowe pliki użyte do omawiania poszczególnych zagadnień kursu
-	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminie, przy omawianiu klas w c++
+	1. kcppBasic - postawowe pliki użyte do omawiania poszczególnych zagadnień kursu. Aktualne pliki mogą i z pewnością ulegną zmianie w trakcie semestru.
+	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminiei (także mogą/ulegną zmianie), przy omawianiu klas w C++
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
