@@ -1,15 +1,6 @@
 # Zajęcia zdalne
 
-Zajęcia aż do odwołania odbywać będą się z wykorzystaniem Google Meet Hangout.  Odnośnik do dołączenia do zajęć:
-
-   podany później
-
-Uwagi:
-
-  1. Dostęp tylko przy użyciu kont w domenie smcebi.edu.pl
-  2. Materiały pomocnicze do kursu: (github)
-  3. Proszę zajrzeć przed samymi zajęciami na githuba. Link do zajeć może ulec zmianie. Aktualny zostanie umieszczony w README.md
-
+Zajęcia aż do odwołania odbywać będą się z wykorzystaniem platformy MS Teams. Odnośnik do dołączenia do zajęć został przesłany przez system USOS
 
 # Materiały pomocnicze do kursu C++
 
