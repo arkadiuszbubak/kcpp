@@ -17,7 +17,7 @@ Uwagi:
 
    git clone https://github.com/arkadiuszbubak/kcpp.git
 
-2. Zrozumiale napisana instrukcja korzystania z git:przyk
+2. Zrozumiale napisana instrukcja korzystania z git:
 
    https://git-scm.com/book/pl
 
