@@ -15,12 +15,12 @@ int main()
 
   // ---- sizeof, typeid -----
   auto var1 = 137;
-  cout << sizeof(var1) << endl;
-  cout << typeid(var1).name() << endl;
+  cout << "Size of:\t"<< sizeof(var1) << endl;
+  cout << "Type:\t"<< typeid(var1).name() << endl;
   
   auto var2 = 137.1;
-  cout << sizeof(var2) << endl;
-  cout << typeid(var2).name() << endl;
+  cout << "Size of:\t"<< sizeof(var2) << endl;
+  cout << "Type:\t"<< typeid(var2).name() << endl;
   // -------------------------------
 
 
