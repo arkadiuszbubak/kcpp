@@ -29,4 +29,4 @@ Zajęcia aż do odwołania odbywać będą się z wykorzystaniem platformy MS Te
   
   ../kcpp.doxygen/html
   
-  Plik startowy do otworzenia w przegladarce: index.html
+  Katalog 'kcpp.doxygen', na ścieżce '../' trzeba utowrzyć ręcznie. Katalog 'html' tworzony jest automatycznie. Plik startowy do otworzenia w przegladarce: index.html
