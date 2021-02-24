@@ -25,7 +25,7 @@ Zajęcia aż do odwołania odbywać będą się z wykorzystaniem platformy MS Te
   
   doxygen Doxyfile
 
-  Bazując na aktualnej konfiguracji (zmienna OUTPUT w pliku Doxyfile) dokumentacja zostanie wygenerowana w:
+  Bazując na aktualnej konfiguracji (zmienna HTML_OUTPUT w pliku Doxyfile) dokumentacja zostanie wygenerowana w:
   
   ../kcpp.doxygen/html
   
