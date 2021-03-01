@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2020.02.29
  * \brief Typ auto w C++
- * v0.01
+ * v0.02i (2021.03.01)
  */
 
 #include<iostream>
