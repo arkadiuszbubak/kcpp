@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2020.02.21
  * \brief Typy danych w C++
- * v0.01
+ * v0.02 (2021.03.01)
  */
 
 #include<iostream>
@@ -27,6 +27,7 @@ int main()
 
   cout << "fVarC: "<< fVarC << endl;
   cout << "fVarD: "<< fVarD << endl;
+  //cout << "fVarE: "<< fVarE << endl;
 
   return 0;                              
 }
