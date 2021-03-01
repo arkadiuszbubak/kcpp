@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2020.02.29
  * \brief Typ auto w C++
- * v0.02i (2021.03.01)
+ * v0.02 (2021.03.01)
  */
 
 #include<iostream>
@@ -35,6 +35,7 @@ int main()
   // ----- Inicjalizownane zwracana wartoscia -----
   map<char, float> mapa;
   mapa['a'] = 1.0;
+
   auto itA = mapa.begin(); //C++11
   std::map<char, float>::iterator itB = mapa.begin(); //C++
   // -------------------------------
