@@ -1,6 +1,6 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2021.02.01
+ * \date 2021.03.01
  * \brief POD 0 inicialization in C++
  * v0.01
  */
