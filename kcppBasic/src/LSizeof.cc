@@ -22,8 +22,7 @@ int main()
   cout << "typ long        : \t" << sizeof(long) << endl ;
   cout << "typ float       : \t" << sizeof(float) << endl ;
   cout << "typ double      : \t" << sizeof(double) << endl ;
-  cout << "typ long double : \t"<< sizeof(long double)
-    << endl ;
+  cout << "typ long double : \t" << sizeof(long double) << endl ;
 
   cout << "Nasz obiekt lokalny mm ma rozmiar : "
     << sizeof(mm) << endl ;
