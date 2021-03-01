@@ -8,6 +8,21 @@
 #include<iostream>
 using namespace std;
 
+//--- Const function --------------------------------
+const int FunA()
+{
+  return 73;
+}
+
+
+//--------------------------------------------------
+void FunB(const int t)
+{
+  //i++; //error
+}
+
+
+//--------------------------------------------------
 int main()
 {
 
@@ -30,6 +45,9 @@ int main()
 
   const int *w2 = &x;
   cout << *w1 << endl;
+
+  cout <<"Call FunA function: "<< FunA() << endl;
+
 
   return 0;                              
 }
