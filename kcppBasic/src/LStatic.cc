@@ -19,6 +19,11 @@ int comp(int c) {
 	return c;
 }
 
+/* //--- Prosze sprawdzic czy to dziala ----------
+ * void comp1(){
+ *   ncall++;
+ * } */
+
 //----------------------------------------------
 int main(){
 	int a = 5, b = -10;
