@@ -10,11 +10,11 @@ using namespace std;
 
 int main()
 {
-  int mm ;
+  int mm;
 
   cout << "Godzina prawdy. W tym komputerze "
     << "poszczegolne typy\n"
-    << "maja nastepujace rozmiary w bajtach: \n"  ;
+    << "maja nastepujace rozmiary w bajtach: \n";
 
   cout << "typ char        : \t" << sizeof(char) << endl;
   cout << "typ int         : \t" << sizeof(int) << endl;
@@ -24,7 +24,7 @@ int main()
   cout << "typ double      : \t" << sizeof(double) << endl;
   cout << "typ long double : \t" << sizeof(long double) << endl;
 
-  cout << "Nasz obiekt lokalny mm ma rozmiar : "
+  cout << "Nasz obiekt lokalny mm (tutaj int) ma rozmiar : "
     << sizeof(mm) << endl ;
 
 
