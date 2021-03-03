@@ -37,7 +37,7 @@ class LBox {
 
 
 		inline double GetVolume()    { return dLength *dBreadth *dHeight; }
-		// inline static int GetCount() { return iObjectCount; }
+		//inline static int GetCount() { return iObjectCount; }
 		static int GetCount()        { return iObjectCount; }
 
 	private:

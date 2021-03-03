@@ -18,7 +18,7 @@ const int FunA()
 //--------------------------------------------------
 void FunB(const int t)
 {
-  //i++; //error
+  //t++; //error
 }
 
 
