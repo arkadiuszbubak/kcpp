@@ -31,7 +31,7 @@ int main(){
 	int a = 5, b = -10;
 
 	cout << comp(a) << ' ' << comp(b);
-	comp1();
+	//comp1();
 	cout << "\nFunkcja zostala wywolana " << comp(0) << " razy.\n";
 
 	return 0;
