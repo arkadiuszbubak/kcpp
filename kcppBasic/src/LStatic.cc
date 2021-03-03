@@ -14,7 +14,7 @@ using namespace std;
 
 //----------------------------------------------
 int comp(int c) {
-	//static int ncall = 0;
+	static int ncall = 0;
 	ncall++;
 	if(!c)
 		return ncall;
