@@ -23,6 +23,13 @@ int main()
   cout << "Type:    "<< typeid(var2).name() << endl;
   // -------------------------------
 
+  float var3 = 137.1;
+  cout << "Size of: "<< sizeof(var3) << endl;
+  cout << "Type:    "<< typeid(var3).name() << endl;
+
+  double var4 = 137.1;
+  cout << "Size of: "<< sizeof(var4) << endl;
+  cout << "Type:    "<< typeid(var4).name() << endl;
 
 
   // ----- Inicjalizownanie stala -----
