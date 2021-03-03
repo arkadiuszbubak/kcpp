@@ -14,12 +14,14 @@ int main()
   fVarA = 7;
   fVarA = 7.3;
 
-  cout << fVarA << endl;
+  cout <<"fVarA: "<< fVarA << endl;
 
   //float fVarA;              //Error
   //float fVarB;
   //fVarB = 7;
   //fVarB = 7.3;
+  //cout <<"fVarB: "<< fVarB << endl;
+
 
   char fVarC[10];   //deklaracja stringu o długości 10 znaków
   char fVarD[] = "Tutaj jakis napis";  /*deklaracja napisu (następuje automatyczne przypisanie tekstu zmiennej oraz określenie jej długości) */
