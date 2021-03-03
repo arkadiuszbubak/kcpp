@@ -8,8 +8,18 @@
 #include <iostream>
 using namespace std;
 
-int comp(int c);
+//int comp(int c); //niepotrzebna gdy funkcja jest zdefiniowana przed funkcja main
 
+//----------------------------------------------
+int comp(int c) {
+	static int ncall = 0;
+	ncall++;
+	if(!c)
+		return ncall;
+	return c;
+}
+
+//----------------------------------------------
 int main(){
 	int a = 5, b = -10;
 
@@ -19,10 +29,3 @@ int main(){
 	return 0;
 }
 
-int comp(int c) {
-	static int ncall = 0;
-	ncall++;
-	if(!c)
-		return ncall;
-	return c;
-}
