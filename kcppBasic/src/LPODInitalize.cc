@@ -25,6 +25,11 @@ struct default_initializes
 int main()
 {
   int a;
+
+  //a = a + 1;
+  //a++;
+  
+
   int b = 7;
   cout <<"a: " << a << endl;
   cout <<"b: " << b << endl;
