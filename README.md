@@ -6,7 +6,7 @@ Zajęcia aż do odwołania odbywać będą się z wykorzystaniem platformy MS Te
 
 1. Download:
 
-   git clone https://github.com/arkadiuszbubak/kcpp.git
+   git clone https://github.com/arkadiuszbubak/kcpp
 
 2. Zrozumiale napisana instrukcja korzystania z git:
 
