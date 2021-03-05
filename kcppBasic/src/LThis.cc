@@ -20,7 +20,7 @@ class LClassThis
 //-----------------------------------------------
 void LClassThis::Method2()
 {
-   cout << "Address: " << this << endl;
+  cout << "Address: " << this << endl;
 }
 
 
@@ -42,6 +42,7 @@ int main()
 {
   LClassThis object1, object2;
   object1.Method1();
+  //object1.Method2();
   object2.Method1();
 
   object1.Method3(object1);
