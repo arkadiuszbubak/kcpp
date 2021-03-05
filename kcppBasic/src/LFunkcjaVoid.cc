@@ -12,7 +12,7 @@ using namespace std;
 void FunctionA()
 {
   cout <<"W funkcji FunctionA"<< endl;
-  return;
+  //return;
 }
 
 
