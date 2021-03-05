@@ -18,8 +18,9 @@ void CoutWholeArray(int *array, int size){
     * see: LCoutArray */
    //Ponizsze nie zadziaala poniewaz tablica jest przeksztalaca do wskaznika do niej przy przekazywaniu do funkcji
    //see: decay to pointer
-   //int size = sizeof(array)/sizeof(array[0]);
-   cout <<"Array size: "<< size << " ->";
+   //int size1 = sizeof(array)/sizeof(array[0]);
+   //cout <<"Array size1: "<< size1 << " ->";
+   cout <<"Array size:  "<< size << " ->";
    std::copy(array, array+size, std::ostream_iterator<int>(std::cout," "));
    std::cout << std::endl;
 }
