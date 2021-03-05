@@ -17,6 +17,8 @@ int main(){
 	//std::cout << "Test" << std::endl;
 	cout << "Test" << endl;
 
+  //int k = 6;
+
   cout << nasza::k << endl;
   cout << k << endl;
 
