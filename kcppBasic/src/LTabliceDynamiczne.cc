@@ -13,31 +13,33 @@ void tablice();
 
 int main(){
 
-	tablice();
+  tablice();
 
-	return 0;
+  return 0;
 }
 
 void tablice(){
-	int k;
+  int k;
 
-	int   *tInt   = new int[7];
-	float *tFloat = new float[7];
-	char  *tChar  = new char[7];
+  int   *tInt   = new int[7];
+  float *tFloat = new float[7];
+  char  *tChar  = new char[7];
 
-	tInt[0] = 0;
+  tInt[0] = 0;
 
-	*(tInt+1) = 1;
-	*(tFloat) = 3.14;
+  *(tInt+1) = 1;
+  *(tFloat) = 3.14;
 
-	strcpy(tChar, "abcd");
+  strcpy(tChar, "abcd");
 
-	for(k = 0; k < 7; k++){
-		cout <<"tInt["<< k <<"]=" << *(tInt+k)<< endl;
-	}
+  for(k = 0; k < 7; k++){
+    cout <<"tInt["<< k <<"]=" << *(tInt+k)<< endl;
+  }
 
-	delete [] tInt;
-	delete [] tFloat;
-	delete [] tChar;
+  cout <<"tFloat["<< 0 <<"]=" << *(tFloat+0)<< endl;
+
+  delete [] tInt;
+  delete [] tFloat;
+  delete [] tChar;
 
 }
