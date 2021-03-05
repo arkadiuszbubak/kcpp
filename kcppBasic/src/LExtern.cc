@@ -24,9 +24,10 @@ extern "C" {
 }
 #endif
 
+
 extern "C" void cc(){}
 
-/* Zapobiegnij optymalizacji funkcji g i eg */
+//------------------------------------------
 void h()
 {
   b();
