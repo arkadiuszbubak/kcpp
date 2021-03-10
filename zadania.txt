@@ -1,5 +1,5 @@
 Programy umieszczamy na swoim githubie w katalogu: zadania
-Zwrócić uwagę na nazwy programów
+Zwrócić uwagę na nazwy programów.
 ------------------------------------------------------------
 repozytorium: https://github.com/XXXXX/kcppzadania/
 
