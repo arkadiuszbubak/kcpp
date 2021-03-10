@@ -46,8 +46,8 @@ void tablice(){
 
 	int A2[6]={0};
   //CoutWholeArray(A2);
-	//int A3[6]{0,0,0,0,0,0};
-	//int A4[6]{0};
+	int A3[6]{0,0,0,0,0,0};
+	int A4[6]{0};
 	//tablica 20 znaków
 	char B[i]={'a', 'b', 'c', 'd', 'e', 'f'};
 	//tablica 3 znakow
@@ -64,7 +64,7 @@ void tablice(){
 	*(A+3) = *(A+2)+1;
 
 	for (k=0; k<10; k++){
-		cout<<"A["<<k<<"]="<<*(A+k)<<endl;}
+		cout<<"A["<<k<<"]="<<*(A+k) <<"\t"<< A[k] <<endl;}
 
   /* //--------------------------------------
    * // Zadanie

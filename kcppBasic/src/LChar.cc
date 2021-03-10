@@ -37,8 +37,8 @@ int main(){
   //Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
   //strcpy (string1, string2);
 
-  //strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
-  strcpy(mystring3, "Dzien dobry");
+  strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
+  //strcpy(mystring3, "Dzien dobry");
   cout <<"mystring3: " <<mystring3 << endl;
   cout <<"mystring3: " <<mystring3[11] << endl;
 
@@ -58,12 +58,12 @@ int main(){
     << str2 << "\n"
     << str3 << endl;
 
-/*   //Prosze sprawdzic co robi sizeof
- *   int iTab[10];
- *   double dTab[10];
- *
- *   cout <<"iTab: "<< sizeof(iTab) << endl;
- *   cout <<"dTab: "<< sizeof(dTab) << endl; */
+  //Prosze sprawdzic co robi sizeof
+  int iTab[10];
+  double dTab[10];
+
+  cout <<"iTab: "<< sizeof(iTab) << endl;
+  cout <<"dTab: "<< sizeof(dTab) << endl;
 
 
   /*from cstring
