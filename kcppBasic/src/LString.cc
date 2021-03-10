@@ -37,6 +37,9 @@ int main(){
   a1 = b1;
   cout <<"a1=b1: "<< a1 << endl;
 
+  /* //Sprawdzenie adresow
+   * cout << &a1 << endl;
+   * cout << &b1 << endl; */
 
   string a,b,c;
   a = "gosia";
@@ -45,6 +48,9 @@ int main(){
 
   // porównywanie napisów
   if (a == c) cout << "a i c sa takie same\n";
+  /* cout << &a << endl;
+   * cout << &c << endl; */
+
 
   if (a != b) cout << "a i b sa rozne\n" ;
 
