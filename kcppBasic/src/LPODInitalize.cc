@@ -28,7 +28,6 @@ int main()
 
   //a = a + 1;
   //a++;
-  
 
   int b = 7;
   cout <<"a: " << a << endl;
