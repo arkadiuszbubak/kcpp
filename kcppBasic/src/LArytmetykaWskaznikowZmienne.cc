@@ -21,30 +21,43 @@ int main() {
 	//Rozne sposoby zapisu nowej wartosci do zmiennej b za pomoca wskaznika na b i sasiadujace zmienne
 
 	// Wyswieltlenie adresow zmiennych
-	//printf(" \n Adres zmiennej A = %u ", &a);
+  printf("\n--- C --------------------------------");
+	//printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
+	//printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
+	printf(" \nAdres zmiennej A: %p\n", &a);
 
 	//string a1 = std::to_string(0xa1a56);
 
+  //-----------------------------------
+  cout <<"--- C++ ------------------------------"<< endl;
 	ostringstream sa;
-	sa << &a; string a1 = sa.str();
-	cout <<"Adres zminnej A: "<< &a << "\t dec: " << hextodec(a1) << endl;
-	// lub prosciej
-	unsigned long p = (unsigned long) &a;
-	cout << dec << p << endl;
+	sa << &a;
+  string a1 = sa.str();
+	cout <<"Adres zmiennej A: "<< &a << "\t dec: " << hextodec(a1) << endl;
 
+	//--- lub prosciej ------------------
+	unsigned long p = (unsigned long) &a;
+	//long p = (long) &a;
+	cout <<"Adres zmiennej A: "<< &a << "\t dec: " << p  << endl;
+	//cout <<"Adres zmiennej A: "<< &a << "\t dec: " << dec << &a << endl;
+	//cout << dec << &a << endl;
+
+  //-----------------------------------
 	ostringstream sb;
 	sb << &b; string b1 = sb.str();
-	cout <<"Adres zminnej B: "<< &b << "\t dec: " << hextodec(b1) << endl;
+	cout <<"Adres zmiennej B: "<< &b << "\t dec: " << hextodec(b1) << endl;
 
+  //-----------------------------------
 	ostringstream sc;
 	sc << &c; string c1 = sc.str();
-	cout <<"Adres zminnej C: "<< &c << "\t dec: " << hextodec(c1) << endl;
+	cout <<"Adres zmiennej C: "<< &c << "\t dec: " << hextodec(c1) << endl;
 
+  //-----------------------------------
 	ostringstream sx;
 	sx << &x; string x1 = sx.str();
-	cout <<"Adres zminnej X: "<< &x << "\t dec: " << hextodec(x1) << endl;
+	cout <<"Adres zmiennej X: "<< &x << "\t dec: " << hextodec(x1) << endl;
 
-	cout <<"Adres zminnej WSK_INT: "<< &wsk_int << endl;
+	cout <<"Adres zmiennej WSK_INT: "<< &wsk_int << endl;
 
 
 
