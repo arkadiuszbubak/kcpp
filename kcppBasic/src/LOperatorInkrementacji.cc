@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.04.23
  * \brief Operator inkrementacji w C++
- * v0.01
+ * v0.02 2021.03.12
  */
 
 #include <iostream>
@@ -12,8 +12,8 @@ int main() {
 
     int a = 5;
     cout << a << endl;
-    cout  <<  ++a  <<  endl; //preinkrementacja
-    cout  <<  a++  <<  endl; //postinkrementacja
+    cout  <<  ++a  <<  endl; //!< preinkrementacja
+    cout  <<  a++  <<  endl; //!< postinkrementacja
     cout  <<  a  <<  endl;
 
 
@@ -29,17 +29,18 @@ int main() {
     }
 
     cout <<"-----------"<< endl;
+
     // ----- Z roznica -------------------------------
     int x = 10;
-    //Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11
+    /** Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11 */
     int y = ++x;
-    cout << "(x, y)\t"<< x <<"\t"<< y << endl; // x = 11; y = 11
+    cout << "(x, y)\t"<< x <<"\t"<< y << endl; //!< x = 11; y = 11
     //printf( "x = %d; y = %d\n", x, y );
 
     x = 10;
-    //Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11
+    /** Najpierw zostanie użyta wartość 10, a następnie zostanie zwiększonwa wartość o 1 */
     y = x++;
-    cout << "(x, y)\t"<< x <<"\t"<< y << endl; // x = 11; y = 10
+    cout << "(x, y)\t"<< x <<"\t"<< y << endl; //!< x = 11; y = 10
 
 
 
