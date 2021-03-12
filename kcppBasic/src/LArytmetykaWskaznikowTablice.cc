@@ -40,7 +40,7 @@ void funB(){
 
 	int tab[ROZMIAR];
 	int i; 
-	int k;
+
 	for(i = 0; i < ROZMIAR; i++) {
 
 		//scanf("%d", tab+i);      //&*(tab+i) == tab+i
@@ -63,7 +63,7 @@ int main(int argc, char *argv[]){
   //if (argv[1] == "yes");              // Wrong, compares two pointers
   //if (strcmp(argv[1], "yes") == 0);   // This compares what the pointers point to
   //if (std::string(argv[1]) == "yes"); // Works fine
-  //f (argv[1] == std::string("yes")); // Works fine
+  //if (argv[1] == std::string("yes")); // Works fine
 
 
   if(argc == 2){
@@ -91,7 +91,7 @@ int main(int argc, char *argv[]){
  //-----------------------------------------
 
   //------ Sposób 3,4 ----------------------
-  // Zaproponuj inne 2 sposoby wywołąnia funkcji
+  // Zaproponuj inne 2 sposoby wywołania funkcji
   //----------------------------------------
   
 
