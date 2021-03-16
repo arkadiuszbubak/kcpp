@@ -1,9 +1,16 @@
 Programy umieszczamy na swoim githubie w katalogu: kcppZadania
-Zwrócić uwagę na nazwy programów.
-------------------------------------------------------------
-repozytorium: https://github.com/XXXXX/kcppZadania/
+Zwrócić uwagę na nazwy programów i katalogu
+------------------------------------------------------------------------------------------
+repozytorium: https://github.com/IdentyfikatorUzytkownika/kcppZadania
+------------------------------------------------------------------------------------------
 
 
+
+
+
+------------------------------------------------------------------------------------------
+   Zwracanie przez funkcje
+------------------------------------------------------------------------------------------
 
 Zadanie 1
 --------------------------------------
