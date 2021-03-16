@@ -28,8 +28,6 @@ int main() {
 
 /*   Zadanie:
  *    Co robia ponizsze operacje?
- *    Napisac program (git: zadania/LZadanieArytmetykaWskaznikow.cc) ktory pokazuje ich dzialanie.
- *    p++;
  *    ++p;
  *    ++*p;
  *    ++(*p);
