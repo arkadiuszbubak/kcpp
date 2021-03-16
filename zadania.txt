@@ -14,6 +14,15 @@ Napisać program który zawiera:
 - nazwać program: ZadMainExample.cc 
 
 
+
+
+
+
+------------------------------------------------------------------------------------------
+   Zwracanie przez funkcje
+------------------------------------------------------------------------------------------
+
+
 Zadanie 2
 --------------------------------------
 Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
@@ -23,6 +32,14 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
  - nazwać program: ZadZwracanie.cc
 
+
+
+
+
+
+------------------------------------------------------------------------------------------
+   Arytmetyka wskaźników
+------------------------------------------------------------------------------------------
 
  Zadanie 3
  -------------------------------------
@@ -84,6 +101,14 @@ Zadanie 9
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
 - nazwać program: ZadPrzekazywaniaTablic.cc
+
+
+
+
+
+------------------------------------------------------------------------------------------
+  Operacje wejści/wyjścia 
+------------------------------------------------------------------------------------------
 
 
 Zadanie 10
