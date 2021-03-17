@@ -26,9 +26,11 @@ void swapB(int &a, int &b) { //Przekazywanie przez referencje
 
 void swapC(int *a, int *b) { //Przekazywanie przez wskaznik
 	cout <<"\n---> Przez wskaznik:"<< endl;
-	int *temp = a;
-	a = b;
-	b = temp;
+	//int *temp = a;
+	//*a = *b;
+	//*b = *temp;
+  *a = *a * 3;
+  *b = *b * 3;
 }
 
 
@@ -53,6 +55,7 @@ int main() {
 	int *wskA = &A;
 	int *wskB = &B;
 	swapC(wskA, wskB);    
+	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
 
 	swapC(&A, &B);    
