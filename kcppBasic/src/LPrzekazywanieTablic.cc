@@ -19,12 +19,17 @@ void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
     cout <<"-------------------"<< endl;
 }
 
-//---z zachowaniem rozmiaru --------
-// Zadanie
-/* void przekaz1DA(...){ ///Przekazywanie tablic 1D
-   int iSize = sizeof(iArray)/sizeof(iArray[0]);
- *      //jak?
- *      //Zadanie: 10 minut
+/* //---z zachowaniem rozmiaru --------
+ * // Zadanie
+ * void przekaz1DA(int tab[]){ ///Przekazywanie tablic 1D
+ *   int iSize = sizeof(&tab)/sizeof(tab[0]);
+ *   cout <<"Size:"<< iSize << endl;
+ *   for(int i = 0; i <= iSize; i++){
+ *     cout << tab[i] << endl;
+ *   }
+ *
+ *   //jak?
+ *   //Zadanie: 10 minut
  * } */
 
 
@@ -55,7 +60,6 @@ void przekaz2D(int tab[3][3]) {///Przekazywanie tablic 2D
 
 
 
-
 //-------------------------------
 int main() {
 
@@ -76,6 +80,7 @@ int main() {
 		}
 	}
 	przekaz2D(tablica2D);
+
 
 	return 0;
 }
