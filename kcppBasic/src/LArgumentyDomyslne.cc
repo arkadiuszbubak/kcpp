@@ -8,14 +8,15 @@
 #include<iostream>
 using namespace std;
 
+
 int zwieksz(int a, int b = 1) {
 	return a + b;
 }
 
 int zmniejsz(int a, int b = 1);
 
-/*  //---------------------------------------------------------------
- *  // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
+ //---------------------------------------------------------------
+/*  // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
  *  int zwieksz(int a){
  *    return a;
  *  }
@@ -26,8 +27,8 @@ int zmniejsz(int a, int b = 1);
  *
  *  int zwiekszNew(int a){
  *    return a;
- *  }
- *  //--------------------------------------------------------------- */
+ *  } */
+ //---------------------------------------------------------------
 
 
 

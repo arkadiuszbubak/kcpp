@@ -82,7 +82,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 
 Zadanie 6
 --------------------------------------
- Patrz: LArytmetykaWskasnikowTablice.cc
+ Patrz: LArytmetykaWskaznikowTablice.cc
  Zaproponuj inne dwa sposoby wyboru wywołania funkcji
  - nazwać program: ZadWywolanieFunkcji.cc 
 
