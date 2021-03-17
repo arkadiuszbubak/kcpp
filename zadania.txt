@@ -1,7 +1,7 @@
 Programy umieszczamy na swoim githubie w katalogu: kcppZadania
 Zwrócić uwagę na nazwy programów i katalogu
 ------------------------------------------------------------------------------------------
-repozytorium: https://github.com/IdentyfikatorUzytkownika/kcppZadania
+repozytorium: https://github.com/IdentyfikatorUzytkownika/NazwaRepozytorium/kcppZadania
 ------------------------------------------------------------------------------------------
 
 
