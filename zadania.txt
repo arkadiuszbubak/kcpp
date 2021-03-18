@@ -9,7 +9,7 @@ repozytorium: https://github.com/IdentyfikatorUzytkownika/NazwaRepozytorium/kcpp
 
 
 ------------------------------------------------------------------------------------------
-  1. Zwracanie przez funkcje
+  1. Funkcja main
 ------------------------------------------------------------------------------------------
 
 Zadanie 1.1
@@ -38,6 +38,13 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 3. Przez wskaźnik
 4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
  - nazwać program: ZadZwracanie.cc
+
+
+
+Zadanie 2.2
+--------------------------------------
+Napisz program przekazujący tablice z zachowaniem rozmiaru
+- nazwać program: ZadPrzekazywaniaTablic.cc
 
 
 
@@ -112,10 +119,6 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 3.8
---------------------------------------
-Napisz program przekazujący tablice z zachowaniem rozmiaru
-- nazwać program: ZadPrzekazywaniaTablic.cc
 
 
 
