@@ -19,7 +19,7 @@ void printBinaryShort(const unsigned char val) {
 }
 
 #define PR(STR, EXPR) \
-	cout << EXPR << STR <<"\t"; printBinary(EXPR); cout << endl;
+	cout << EXPR << STR <<"\t"; printBinaryShort(EXPR); cout << endl;
 
 int main(){
 	unsigned int getval;
@@ -27,7 +27,7 @@ int main(){
 	for(int i = 0; i<= 10; i++) {
 		PR(" in binary: ", i);
 		/* cout << i <<"\t";
-		 * printBinary(i);
+		 * printBinaryShort(i);
 		 * cout << endli;
      * //Przepisac powyżczy fragment jako funkcje bez uzycia dyrektywy preprocesora */
 	}
