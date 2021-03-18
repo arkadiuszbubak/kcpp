@@ -9,10 +9,10 @@ repozytorium: https://github.com/IdentyfikatorUzytkownika/NazwaRepozytorium/kcpp
 
 
 ------------------------------------------------------------------------------------------
-   Zwracanie przez funkcje
+  1. Zwracanie przez funkcje
 ------------------------------------------------------------------------------------------
 
-Zadanie 1
+Zadanie 1.1
 --------------------------------------
 Napisać program który zawiera:
 - funkcję main
@@ -26,11 +26,11 @@ Napisać program który zawiera:
 
 
 ------------------------------------------------------------------------------------------
-   Zwracanie przez funkcje
+  2. Zwracanie przez funkcje
 ------------------------------------------------------------------------------------------
 
 
-Zadanie 2
+Zadanie 2.1
 --------------------------------------
 Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 1. Przez wartość
@@ -45,10 +45,10 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 
 
 ------------------------------------------------------------------------------------------
-   Arytmetyka wskaźników
+   3. Arytmetyka wskaźników
 ------------------------------------------------------------------------------------------
 
- Zadanie 3 (LArytmetykaWskaznikowZmienne.cc)
+ Zadanie 3.1 (LArytmetykaWskaznikowZmienne.cc)
  -------------------------------------
  Kierunke adresowania pamięci 
  - wyjaśnić w komentarzu do programu podającego przykład:
@@ -56,7 +56,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadAdresowaniePamieci.cc
 
 
- Zadanie 4 (LArytmetykaWskazikow.cc)
+ Zadanie 3.2 (LArytmetykaWskazikow.cc)
  -------------------------------------
  Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
  - wyjaśnienie  w komentarzu
@@ -64,7 +64,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadIq.cc
 
 
- Zadanie 5 (LArytmetykaWskaznikow.cc)
+ Zadanie 3.3 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
  p++;
@@ -80,19 +80,28 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 6 (LArytmetykaWskaznikowTablice.cc)
+Zadanie 3.4 (LArytmetykaWskaznikowTablice.cc)
 --------------------------------------
  Zaproponuj inne dwa sposoby wyboru wywołania funkcji
  - nazwać program: ZadWywolanieFunkcji.cc 
 
 
-Zadanie 7
+Zadanie 3.5 (LOperatoryPrzypisania.cc)
+-------------------------------------
+Napisac program z przykladami:
+(1) operatorow arytmetycznych i (2) operatorow przypisania
+(1) i (2) jako osobne funkcje: (1) OperatoryArytmetyczne (2) OperatoryPrzypisania
+- nazwac program: ZadOperatoryPrzypisania.cc
+
+
+
+Zadanie 3.6
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 8
+Zadanie 3.7
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
@@ -103,7 +112,7 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 9
+Zadanie 3.8
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
 - nazwać program: ZadPrzekazywaniaTablic.cc
@@ -113,11 +122,11 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
 
 
 ------------------------------------------------------------------------------------------
-  Operacje wejści/wyjścia 
+  4. Operacje wejści/wyjścia 
 ------------------------------------------------------------------------------------------
 
 
-Zadanie 10
+Zadanie 4.1
 --------------------------------------
 Napisz program pokazujący funkcjonalnosc:
 - wypisywania na ekran,
@@ -126,14 +135,14 @@ Napisz program pokazujący funkcjonalnosc:
 - nazwac program: ZadCinCoutFile.cc
 
 
-Zadanie 11
+Zadanie 4.2
 --------------------------------------
 Napisz program:
 - pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34)
 - nazwac program: ZadCandCPP.cc
 
 
-Zadanie 12
+Zadanie 4.3
 --------------------------------------
 Napisz program pokazujący działanie:
 - while,
@@ -143,20 +152,20 @@ Napisz program pokazujący działanie:
 - nazwij program: ZadPetle.cc
 
 
-Zadanie 13
+Zadanie 14
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 14
+Zadanie 15
 --------------------------------------
 Napisz program wykorzystujący switch gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całę słowo
 - nazwij program: ZadSwitch.cc
 
 
-Zadanie 15
+Zadanie 16
 --------------------------------------
 - Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1-14
   jak metody danej klasy/klas
@@ -169,7 +178,7 @@ Zadanie 15
   - pliki źródłowe w katalogu: ZadKcpp/src
 
 
-Zadanie 16
+Zadanie 17
 --------------------------------------
 - Stwórz Makefile (lub uzyj cmake) do kompilacji programów z zadania 15
 
