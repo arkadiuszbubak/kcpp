@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void printBinary(const unsigned char val) {
+void printBinaryShort(const unsigned char val) {
 	for(int i = 7; i >= 0; i--)
 		if(val & (1 << i))
 			//(1 << 0) "wstawia 1 na kolejnych pozycjach"
