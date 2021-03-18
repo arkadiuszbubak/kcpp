@@ -48,15 +48,15 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
    Arytmetyka wskaźników
 ------------------------------------------------------------------------------------------
 
- Zadanie 3
+ Zadanie 3 (LArytmetykaWskaznikowZmienne.cc)
  -------------------------------------
  Kierunke adresowania pamięci 
- - wyjaśnić w komentarzu to programu podającego przykład:
+ - wyjaśnić w komentarzu do programu podającego przykład:
  - wyspisywanie adresów deklarowanych zmiennych
  - nazwać program: ZadAdresowaniePamieci.cc
 
 
- Zadanie 4
+ Zadanie 4 (LArytmetykaWskazikow.cc)
  -------------------------------------
  Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
  - wyjaśnienie  w komentarzu
@@ -64,7 +64,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadIq.cc
 
 
- Zadanie 5
+ Zadanie 5 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
  p++;
@@ -80,9 +80,8 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 6
+Zadanie 6 (LArytmetykaWskaznikowTablice.cc)
 --------------------------------------
- Patrz: LArytmetykaWskaznikowTablice.cc
  Zaproponuj inne dwa sposoby wyboru wywołania funkcji
  - nazwać program: ZadWywolanieFunkcji.cc 
 
