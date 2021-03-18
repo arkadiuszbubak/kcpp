@@ -90,6 +90,7 @@ int main(int argc, char *argv[]){
  *   } */
  //-----------------------------------------
 
+  //Zadanie 6
   //------ Sposób 3,4 ----------------------
   // Zaproponuj inne 2 sposoby wywołania funkcji
   //----------------------------------------
