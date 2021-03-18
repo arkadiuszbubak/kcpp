@@ -96,5 +96,7 @@ int main() {
 	cout <<"10. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
 
 
+  //Zadanie 3
+
 	return 0;
 }
