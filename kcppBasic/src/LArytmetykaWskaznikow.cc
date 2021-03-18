@@ -26,8 +26,8 @@ int main() {
 	i++;
 	cout << "*(i+q)   = " << *(i+q) << endl;
 
-/*   Zadanie 4 */
-/*   Zadanie 5
+/*   Zadanie 3.2 */
+/*   Zadanie 3.3
  *    Co robia ponizsze operacje?
  *    ++p;
  *    ++*p;
