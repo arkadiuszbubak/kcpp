@@ -36,8 +36,9 @@ int main() {
 	cout <<"Dlaczego zatem wypisuje nam tylko 1111 0010?\n"<< endl;
 	cout <<"Szukamy, jesli nie wiemy... Dzien dobry wujku Google\n"<< endl;
 
-	//unsigned char val;
-	//cout << sizeof val << endl;
+	unsigned int val;
+	cout << sizeof(val) << endl;
+	cout << sizeof val  << endl;
 
 	return 0;
 }
