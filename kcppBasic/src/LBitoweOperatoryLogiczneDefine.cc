@@ -26,9 +26,10 @@ int main(){
 
 	for(int i = 0; i<= 10; i++) {
 		PR(" in binary: ", i);
-		//cout << i <<"\t";
-	  //printBinary(i);
-		//cout << endl;
+		/* cout << i <<"\t";
+		 * printBinary(i);
+		 * cout << endli;
+     * //Przepisac powyżczy fragment jako funkcje bez uzycia dyrektywy preprocesora */
 	}
 
 	//PR("a in binary: ", a);
