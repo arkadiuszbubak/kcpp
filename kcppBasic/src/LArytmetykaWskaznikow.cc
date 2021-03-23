@@ -27,18 +27,7 @@ int main() {
 	cout << "*(i+q)   = " << *(i+q) << endl;
 
 /*   Zadanie 3.2 */
-/*   Zadanie 3.3
- *    Co robia ponizsze operacje?
- *    ++p;
- *    ++*p;
- *    ++(*p);
- *    ++*(p);
- *    *p++;
- *    (*p)++;
- *    *(p)++;
- *    *++p;
- *    *(++p);
- *  */
+/*   Zadanie 3.3 */
 
 	return 0;
 }
