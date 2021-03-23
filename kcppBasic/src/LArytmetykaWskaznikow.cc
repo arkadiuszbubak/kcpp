@@ -22,7 +22,7 @@ int main() {
 	cout << "q[2]   = " << q[2]   << endl;
 
 	cout << "q[i]   = " << q[i] << endl;
-	cout << "i[q]   = " << i[q] << endl;   //<-- Proszę to wyjaśnić
+	cout << "i[q]   = " << i[q] << endl;   //   <-- Proszę to wyjaśnić
 	i++;
 	cout << "*(i+q)   = " << *(i+q) << endl;
 
