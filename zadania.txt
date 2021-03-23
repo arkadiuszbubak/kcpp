@@ -59,14 +59,14 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
  -------------------------------------
  Kierunke adresowania pamięci 
  - wyjaśnić w komentarzu do programu podającego przykład:
- - wyspisywanie adresów deklarowanych zmiennych
+ - wypisywanie adresów deklarowanych zmiennych
  - nazwać program: ZadAdresowaniePamieci.cc
 
 
  Zadanie 3.2 (LArytmetykaWskazikow.cc)
  -------------------------------------
  Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
- - wyjaśnienie  w komentarzu
+ - wyjaśnienie  w komentarzu w treści programu!!!!
  - przykład zastosowania
  - nazwać program: ZadIq.cc
 
@@ -74,6 +74,7 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
  Zadanie 3.3 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
+-funkcja 1:
  p++;
  ++p;
  ++*p;
@@ -84,6 +85,21 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
  *(p)++;
  *++p;
  *(++p);
+
+ oraz (funkcja 2) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywal na ekran:
+
+ 1.  A, B, C: 0  0   0
+ 2.  A, B, C: 0  10  0
+ 3.  A, B, C: 0  10  20
+ 4.  A, B, C: 0  30  20
+ 5.  A, B, C: 40 30  20
+ 6.  A, B, C: 40 50  20
+ 7.  A, B, C: 40 50  60
+ 8.  A, B, C: 40 70  60
+ 9.  A, B, C: 80 70  60
+ 10. A, B, C: 80 90  60
+
+ przy poczatkowych zmmiennych: int a = 0, b = 0, c = 0;
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
