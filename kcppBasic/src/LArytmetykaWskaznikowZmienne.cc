@@ -12,6 +12,15 @@
 #include "LConversion.h"
 using namespace std;
 
+void SizeofPointer(){
+  int a;
+  int *wsk = &a;
+  cout <<"Address(zmienna,wskaznik): "<< &a <<"\t"<< &wsk << endl;
+  cout <<"Sizeof(zmienna,wskaznik):  "<< sizeof(a) <<"\t"<< sizeof(wsk) << endl;
+}
+
+
+//----------------------------------
 int main() { 
 	int a;
 	int b;
@@ -98,6 +107,10 @@ int main() {
 
 	*(int*) (&wsk_int - 1) = 90;
 	cout <<"10. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
+
+
+  SizeofPointer();  
+
 
 
   //Zadanie 3.1
