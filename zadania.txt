@@ -44,7 +44,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 Zadanie 2.2
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
-- nazwać program: ZadPrzekazywaniaTablic.cc
+- nazwać program: ZadPrzekazywanieTablic.cc
 
 
 
