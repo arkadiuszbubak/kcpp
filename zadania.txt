@@ -74,8 +74,8 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
  Zadanie 3.3 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
- 1. Funkcja1: Przy deklaracji zmiennych
- 2. Funkcja2: Przy deklaracji tablicy
+ 1. Funkcja1(): Przy deklaracji zmiennych
+ 2. Funkcja2(): Przy deklaracji tablicy
  p++;
  ++p;
  ++*p;
@@ -87,7 +87,7 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
  *++p;
  *(++p);
 
- oraz (Funkcja3) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywal na ekran:
+ oraz (Funkcja3()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywal na ekran:
 
  1.  A, B, C: 0  0   0
  2.  A, B, C: 0  10  0
