@@ -57,7 +57,7 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
 
  Zadanie 3.1 (LArytmetykaWskaznikowZmienne.cc)
  -------------------------------------
- Kierunke adresowania pamięci 
+ Kierunek adresowania pamięci 
  - wyjaśnić w komentarzu do programu podającego przykład:
  - wypisywanie adresów deklarowanych zmiennych
  - nazwać program: ZadAdresowaniePamieci.cc
