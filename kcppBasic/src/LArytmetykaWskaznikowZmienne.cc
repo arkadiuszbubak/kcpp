@@ -25,6 +25,8 @@ int main() {
 	//printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
 	//printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
 	printf(" \nAdres zmiennej A: %p\n", &a);
+  //cout << a << endl;
+
 
 	//string a1 = std::to_string(0xa1a56);
 
@@ -80,7 +82,9 @@ int main() {
 	*(&a + 1) = 40; 
 	cout <<"5. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
 
+  //wsk_int = &c;
 	*(&c - 1) = 50;
+	//*(wsk_int - 1) = 50;
 	cout <<"6. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
 
 	*( (int*)&x - 2) = 60;
