@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
 
      char cVar01;
      //cVar01 = "error";  //error
-     cVar01 = 'koerror';
+     cVar01 = 'error';
      cout <<"cVar01: "<< cVar01 << endl;
 
     }
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]){
     if(argv[1] == string("2")){
       char *cVar2;
       cout << "Podaj wartosc: ";
-      cin >> cVar2;                     //-- ERROR
+      //cin >> cVar2;                     //-- ERROR
       //cout <<"*cVar2: "<< *cVar2 << endl;
     }
   }
