@@ -22,13 +22,13 @@ void printBinaryShort(const unsigned char val) {
 	cout << EXPR << STR <<"\t"; printBinaryShort(EXPR); cout << endl;
 
 int main(){
-	unsigned int getval;
 
 	for(int i = 0; i<= 10; i++) {
 		PR(" in binary: ", i);
+	  //cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl;
 		/* cout << i <<"\t";
 		 * printBinaryShort(i);
-		 * cout << endli;
+		 * cout << endl;
      * //Przepisac powyżczy fragment jako funkcje bez uzycia dyrektywy preprocesora */
 	}
 
