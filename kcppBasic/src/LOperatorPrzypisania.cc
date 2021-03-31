@@ -13,7 +13,7 @@ int main() {
 
   int
     varA = 5,
-         varB = 27;
+    varB = 27;
 
   float result[10];
 
@@ -21,21 +21,21 @@ int main() {
   result[1] = varB%varA;
 
   if(varB%varA != 0) cout << "bleee bleee" << endl;
-
+ 
 
   cout << "Rezultaty: "
     << result[0] << "\t"
     << result[1] << endl;
 
 
-  /* //Application example    
-   * for(int i = 0; i < 100; i++){
-   *   sleep(1);
-   *   cout <<"---->"<< i << endl;
-   *   if(i%10 == 0){
-   *     cout <<"#"<<i<< endl;
-   *   }
-   * } */
+  //Application example
+  for(int i = 0; i < 100; i++){
+    sleep(1);
+    //cout <<"---->"<< i << endl;
+    if(i%10 == 0){
+      cout <<"#"<<i<< endl;
+    }
+  }
 
 
   return 0;   
