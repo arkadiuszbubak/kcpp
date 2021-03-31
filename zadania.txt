@@ -145,6 +145,12 @@ Napisać program przeliczający
   4. Operacje wejści/wyjścia 
 ------------------------------------------------------------------------------------------
 
+Zadanie 4.0
+--------------------------------------
+Napisz program z przykładami manipulacji strumieniem cout:
+- setw, setprecision, setfill, fixed, scientific, hex, dec... etc (patrz plik kcpp02.pdf)
+Nazwij program LManipulacjaStrumieniemCout.cc
+
 
 Zadanie 4.1
 --------------------------------------
