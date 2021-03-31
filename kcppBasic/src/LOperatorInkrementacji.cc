@@ -43,6 +43,10 @@ int main() {
     cout << "(x, y)\t"<< x <<"\t"<< y << endl; //!< x = 11; y = 10
 
 
+    int k = 0;
+    for(int i = 0; i<1000000000; i++){
+      k++;
+    }
 
     return 0;
 }
