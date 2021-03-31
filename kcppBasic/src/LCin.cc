@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
       char *cVar2;
       cout << "Podaj wartosc: ";
       //cin >> cVar2;                     //-- ERROR
-      //cout <<"*cVar2: "<< *cVar2 << endl;
+      //cout <<"*cVar2: "<< *cVar2 << endl;  //<-- Do sprawdzenia
     }
   }
   return 0;
