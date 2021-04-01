@@ -152,6 +152,22 @@ Napisz program z przykładami manipulacji strumieniem cout:
 Nazwij program LManipulacjaStrumieniemCout.cc
 
 
+
+
+
+
+
+------------------------------------------------------------------
+     Dotąd zrobione na dzień 2021.04.08
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
 Zadanie 4.1
 --------------------------------------
 Napisz program pokazujący funkcjonalnosc:
