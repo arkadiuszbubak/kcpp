@@ -11,6 +11,8 @@ using namespace std;
 void GotoInstead(){
   cout <<"Inside function"<< endl;
   int k;
+
+  cout <<"Podaj wartość: ";
   cin >> k;
   if(k<0){
     GotoInstead();
