@@ -12,18 +12,18 @@ int main()
 {   
   int i = 5;
   cout << i << endl;
-  
-  while(i < 10) i++; //po wykonaniu petli i = 10
+
+  while(i < 10) i++; ///< po wykonaniu petli i = 10
   cout << i << endl;
 
-  while(i++) if(i==15) break; //jesli wynosi 15 to przerywamy wykonywanie petli
+  while(i++) if(i==15) break; ///< jesli wynosi 15 to przerywamy wykonywanie petli
 
-  while(true) goto etykieta1; //skok do etykiety
+  while(true) goto etykieta1; ///< skok do etykiety
   cout <<"Czy kiedykolwiek sie pojawie?"<< endl;
 
 etykieta1:
 
-  while(i <= 20) { //wyswietla liczby 15, 16, 17, 19 i 20
+  while(i <= 20) { ///< wyswietla liczby 15, 16, 17, 19 i 20
     if(i==18) {
       i++;
       continue; 
