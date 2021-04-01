@@ -11,15 +11,15 @@ using namespace std;
 int main()
 {   
   int i = 0;
-  //int  iMaxLoop = 5; //<- Opcja 1
-  int  iMaxLoop = i; //<- Opcja 2
+  int  iMaxLoop = 5; ///<  Opcja 1
+  //int  iMaxLoop = i; ///< Opcja 2
 
 
   cout <<"\n--- While ---------------------"<< endl;
   cout <<" before: "<< i << endl;
 
   while(i < iMaxLoop){
-    i++; //po wykonaniu petli i = 5
+    i++;   ///< po wykonaniu petli i = 5
     cout <<" inside: "<< i << endl;
   }
   cout <<"  after: "<< i << endl;
@@ -28,7 +28,7 @@ int main()
   cout <<"\n--- Do While ------------------"<< endl;
   i = 0;
   cout <<" before: "<< i << endl;
-  
+
   do {
     i++;
     cout <<" inside: "<< i << endl;
