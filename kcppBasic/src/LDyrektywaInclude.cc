@@ -12,8 +12,8 @@ using namespace std;
 
 int main()
 {
-   WywolywanaFunkcjaA();
-   WywolywanaFunkcjaB();
+  WywolywanaFunkcjaA();
+  WywolywanaFunkcjaB();
 
-   return 0;
+  return 0;
 }
