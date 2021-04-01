@@ -16,7 +16,7 @@ int main() {
   int var4, var5, var6;
 
   {
-    int var1 = 7;              //!< Przesloniecie poprzedniej definicji var1
+    int var1 = -4;              //!< Przesloniecie poprzedniej definicji var1
     cout << var1 << endl;      //!< Na ekranie: 7
   }
 
