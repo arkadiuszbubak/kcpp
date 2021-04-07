@@ -194,22 +194,30 @@ Napisz program pokazujący działanie:
 - nazwij program: ZadPetle.cc
 
 
-Zadanie 14
+Zadanie 4.4
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 15
+Zadanie 4.5
 --------------------------------------
 Napisz program wykorzystujący switch gdzie:
-- zamiast pojedynczego znaku będzie sprawdzane całę słowo
+- zamiast pojedynczego znaku będzie sprawdzane całe słowo
 - nazwij program: ZadSwitch.cc
 
 
-Zadanie 16
+
+
+
+
+------------------------------------------------------------------------------------------
+  5. Klasy
+------------------------------------------------------------------------------------------
+
+Zadanie 5.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1-14
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1.X-4.X
   jak metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
