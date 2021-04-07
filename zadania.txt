@@ -186,6 +186,15 @@ Napisz program:
 
 Zadanie 4.3
 --------------------------------------
+Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
+- dwie funkcje:
+  (a) w jednej sprawdamy z wykorzystaniem operacji bitowych (&);
+  (b) w drugiej inaczej.
+  - w kodzie funckji (a) proszę rozpisać jako komentarz przykładowe sprawdzenie
+
+
+Zadanie 4.4
+--------------------------------------
 Napisz program pokazujący działanie:
 - while,
 - do-while (pokazujące while i do-while ze inkrementacją: i++, ++i)
@@ -194,13 +203,13 @@ Napisz program pokazujący działanie:
 - nazwij program: ZadPetle.cc
 
 
-Zadanie 4.4
+Zadanie 4.5
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 4.5
+Zadanie 4.6
 --------------------------------------
 Napisz program wykorzystujący switch gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całe słowo
