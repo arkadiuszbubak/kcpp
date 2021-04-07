@@ -17,7 +17,7 @@ int main() {
 
   {
     int var1 = -4;              //!< Przesloniecie poprzedniej definicji var1
-    cout << var1 << endl;      //!< Na ekranie: 7
+    cout << var1 << endl;      //!< Na ekranie: -4
   }
 
   cout << var1 << endl;         //!< Na ekranie: 1
