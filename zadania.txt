@@ -187,10 +187,12 @@ Napisz program:
 Zadanie 4.3
 --------------------------------------
 Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
-- dwie funkcje:
+- trzy funkcje:
   (a) w jednej sprawdamy z wykorzystaniem operacji bitowych (&);
-  (b) w drugiej inaczej.
-  - w kodzie funckji (a) proszę rozpisać jako komentarz przykładowe sprawdzenie
+  (b) w drugiej inaczej
+  (c) w trzeciej sprawdzenie z użyciem operatora warunkowego zamiast if lub jako warunek w if: TRUE || FALSE; (... ? 0 : 1)
+  - w kodzie funkcji (a) proszę rozpisać jako komentarz przykładowe sprawdzenie
+- nazwac funkcje: ZadParzysta.cc
 
 
 Zadanie 4.4
