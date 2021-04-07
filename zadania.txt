@@ -197,8 +197,8 @@ Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
 
 Zadanie 4.4
 --------------------------------------
-Napisz program z uzyciem 'case' wybierajacy jedną z trzech funkcji z zadania ZadParzyste.cc:
-- nazwij funkcje: ZadParzysteCase.cc
+Napisz program z uzyciem 'case' wybierajacy jedną z trzech funkcji z zadania ZadParzysta.cc:
+- nazwij funkcje: ZadParzystaCase.cc
 
 
 Zadanie 4.5
