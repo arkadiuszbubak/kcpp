@@ -11,8 +11,8 @@ using namespace std;
 int main()
 {   
   int i = 0;
-  int  iMaxLoop = 5; ///<  Opcja 1
-  //int  iMaxLoop = i; ///< Opcja 2
+  int  iMaxLoop = 5; ///<  Option 1
+  //int  iMaxLoop = i; ///< Option 2; direct show differcence between while and do.while
 
 
   cout <<"\n--- While ---------------------"<< endl;
