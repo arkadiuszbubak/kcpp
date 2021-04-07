@@ -1,7 +1,7 @@
 //Example from
 //https://stackoverflow.com/questions/22387586/measuring-execution-time-of-a-function-in-com
 
-#include <chrono>
+#include <chrono>   ///< chrono_literals is new in c++14
 
 /* Only needed for the sake of this example. */
 #include <iostream>
