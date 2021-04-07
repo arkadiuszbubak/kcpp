@@ -197,6 +197,12 @@ Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
 
 Zadanie 4.4
 --------------------------------------
+Napisz program z uzyciem 'case' wybierajacy jedną z trzech funkcji z zadania ZadParzyste.cc:
+- nazwij funkcje: ZadParzysteCase.cc
+
+
+Zadanie 4.5
+--------------------------------------
 Napisz program pokazujący działanie:
 - while,
 - do-while (pokazujące while i do-while ze inkrementacją: i++, ++i)
@@ -205,13 +211,13 @@ Napisz program pokazujący działanie:
 - nazwij program: ZadPetle.cc
 
 
-Zadanie 4.5
+Zadanie 4.6
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 4.6
+Zadanie 4.7
 --------------------------------------
 Napisz program wykorzystujący switch gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całe słowo
