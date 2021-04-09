@@ -19,7 +19,8 @@ class Licznik
     }          
 
     Licznik& Ustaw(int n) {                                // (1) (3)
-      this->fN = n;
+      //this->fN = n;
+      fN = n;
       return *this;
     }
     int Pokaz() { return fN; }
@@ -36,4 +37,6 @@ int main()
   cin >> zmienna;
 
   cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
+
+  return 0;
 }
