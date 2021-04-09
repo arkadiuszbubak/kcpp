@@ -22,8 +22,8 @@ class B
   public:
     int fIndex;
     void Ustaw(int fIndex)  {
-      //this->fIndex = fIndex;  // dostęp do przesłoniętej składowej klasy
-      fIndex = fIndex;  //Zobaczmy co sie stanie
+      this->fIndex = fIndex;  // dostęp do przesłoniętej składowej klasy
+       //fIndex = fIndex;  //Zobaczmy co sie stanie
     }
 };
 
