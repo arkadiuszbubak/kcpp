@@ -23,7 +23,7 @@ class B
     int fIndex;
     void Ustaw(int fIndex)  {
       this->fIndex = fIndex;  // dostęp do przesłoniętej składowej klasy
-       //fIndex = fIndex;  //Zobaczmy co sie stanie
+      //fIndex = fIndex;  //Zobaczmy co sie stanie
     }
 };
 
@@ -37,5 +37,5 @@ int main()
   objektB.Ustaw(3);
   cout << objektB.fIndex << endl;
 
-
+  return 0;
 }
