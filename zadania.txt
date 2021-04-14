@@ -184,9 +184,9 @@ Napisz program:
 
 Zadanie 4.3
 --------------------------------------
-Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
+Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - trzy funkcje:
-  (a) w jednej sprawdamy z wykorzystaniem operacji bitowych (&);
+  (a) w jednej sprawdzamy z wykorzystaniem operacji bitowych (&);
   (b) w drugiej inaczej (eg. modulo)
   (c) w trzeciej sprawdzenie z użyciem operatora warunkowego zamiast if (lub jako warunek w if: TRUE || FALSE; (... ? 0 : 1))
   - w kodzie funkcji (a) proszę rozpisać jako komentarz przykładowe sprawdzenie
@@ -196,7 +196,7 @@ Napisz program sprawdzający czy licza jest parzysta/nieparzysta:
 Zadanie 4.4
 --------------------------------------
 Napisz program z użyciem 'switch' wybierajacy do wykonania jedną z trzech funkcji z zadania ZadParzysta.cc:
-- nazwać program: ZadParzystaCase.cc
+- nazwać program: ZadParzystaCase.cc (kopia ZadParzyste do ZadParzysteCase+switch, lub pominięcie ZadParzyste i umieszczenie wszystkiego w ZadParzystaCase)
 
 
 Zadanie 4.5
@@ -219,8 +219,13 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 
 
 ------------------------------------------------------------------
-     Dotąd zrobione na dzień 2021.04.14
+     Dotąd zrobione na dzień 2021.04.21
 ------------------------------------------------------------------
+
+
+
+
+
 
 
 Zadanie 4.7
