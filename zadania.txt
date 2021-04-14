@@ -142,7 +142,7 @@ Napisać program przeliczający
 
 
 ------------------------------------------------------------------------------------------
-  4. Operacje wejści/wyjścia 
+  4. Operacje wejścia/wyjścia 
 ------------------------------------------------------------------------------------------
 
 Zadanie 4.0
@@ -154,7 +154,7 @@ Napisz program z przykładami manipulacji strumieniem cout:
 
 Zadanie 4.1
 --------------------------------------
-Napisz program pokazujący funkcjonalnosc:
+Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
 - zapisywania do pliku,
 - odczytywania z pliku,
@@ -218,6 +218,7 @@ oraz
   '#define':
   (a) użycie makra
   (b) uzycie '#' i '##'
+  (a) i (b) stwórz także dla porównania bez dyrektywy preprocesora
 - nazwać program: ZadPreprocesor.cc
 
 
@@ -227,23 +228,31 @@ oraz
   5. Klasy
 ------------------------------------------------------------------------------------------
 
+
 Zadanie 5.1
+--------------------------------------
+Napisz prosty program z klasą
+- nazwij program: ZadClass.cc
+
+
+Zadanie 5.2
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 5.2
+Zadanie 5.3
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1.X-4.X
-  jak metody danej klasy/klas
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.X-5.2
+  jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
 - nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
-- wszystko w osobnym katalogu: ZadKcpp
-  - main.cc w ZadKcpp,
-  - pliki nagłówkowew katalogu: ZadKcpp/inlclude,
-  - pliki źródłowe w katalogu: ZadKcpp/src
+- używaj durektywy preprocesora #define w plikach nagłówkowych
+- wszystko w osobnym katalogu: ZadClassKcpp
+  - main.cc w ZadClassKcpp,
+  - pliki nagłówkowew katalogu: ZadClassKcpp/inlclude,
+  - pliki źródłowe w katalogu: ZadClassKcpp/src
 
 
 
