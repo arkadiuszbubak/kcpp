@@ -151,7 +151,7 @@ Napisz program z przykładami manipulacji strumieniem cout:
 - setw, setprecision, setfill, fixed, scientific, hex, dec... etc (patrz plik kcpp02.pdf)
 - nazwać program LManipulacjaStrumieniemCout.cc
 
-  Spraw aby na ekran wypisało:
+  Spraw aby na ekran wypisało to co jest pomiedzy liniami ze znakami =:
   ==================================================
   Wynika naszego działania: x.xxxxx jest niepoprawny
   ale:
