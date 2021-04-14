@@ -153,8 +153,7 @@ Napisz program z przykładami manipulacji strumieniem cout:
 
   Spraw aby na ekran wypisało to co jest pomiedzy liniami ze znakami =:
   ==================================================
-  Wynika naszego działania: x.xxxxx jest niepoprawny
-  ale:
+  Wynika naszego działania: x.xxxxx jest niepoprawny ale:
      output:   xx.xxx    T:  x.xxx 
      output1:   x.xxxx   T: xx.xxxxx
      output2:   x.xxxx   T: xx.xxxxxx
