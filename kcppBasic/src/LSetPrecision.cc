@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.02.10
  * \brief Manipulatory: setprecision w C++
- * from: https://www.cplusplus.com/reference/iomanip/setprecision/
+ * modified from: https://www.cplusplus.com/reference/iomanip/setprecision/
  * v0.01
  */
 
