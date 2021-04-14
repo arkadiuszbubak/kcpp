@@ -9,6 +9,7 @@
 #include <string>
 using namespace std;
 
+//Pokazanie strumienia bledow: a.out |tee -a plikWynikowy.txt 2>&1
 
 void InputZeSpacjami(){
 
