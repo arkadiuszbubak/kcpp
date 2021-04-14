@@ -162,13 +162,14 @@ Napisz program z przykładami manipulacji strumieniem cout:
      average:  xx.xxxx   T: xx.xxxxxx
   ==================================================
   - x.xxxx są wynikami jakiś działań, a nie sztucznie wstawionymi liczbami
-  - ustawienie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " "
+  - ustawienie liczb/wypisanie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " "
 
 
 Zadanie 4.1
 --------------------------------------
 Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
+- +zapisywanie do strumienie błędów
 - zapisywania do pliku,
 - odczytywania z pliku,
 - nazwać program: ZadCinCoutFile.cc
