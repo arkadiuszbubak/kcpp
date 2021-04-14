@@ -209,6 +209,16 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 ------------------------------------------------------------------
 
 
+Zadanie 4.7
+--------------------------------------
+Napisz program pokazujący zstosowanie dyrektywy preprocesora:
+  '#ifdef' (#else)
+  '#ifndef'
+oraz
+  '#define':
+  (a) użycie makra
+  (b) uzycie '#' i '##'
+- nazwać program: ZadPreprocesor.cc
 
 
 
