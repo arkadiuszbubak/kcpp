@@ -251,7 +251,7 @@ Zadanie 5.1
 --------------------------------------
 Napisz prosty program z klasą
 - metody deklarowane i definiowane w klasie
-- metody deklarowan w klasie, a definiowane poza klasą
+- metody deklarowane w klasie, a definiowane poza klasą
 - zastosowanie 3 sekcji: public, private, protected
 - zmienne w każdej z sekcji
 - funkcje, które mają dostęp do zmiennych z sekcji protected i private
@@ -265,7 +265,12 @@ Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
-Zadanie 5.3
+
+
+
+
+
+Zadanie 5.xxx
 --------------------------------------
 - Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.X-5.2
   jako metody danej klasy/klas

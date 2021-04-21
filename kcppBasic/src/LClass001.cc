@@ -28,7 +28,7 @@ int main()
   Samochod *wskSyrenka = new Samochod();
   obiektSyrenka.fA = 1;        //  OK
   //obiektSyrenka.fB = 1;        //  Error
-  obiektSyrenka.fC = 1;        //  Error
+  //obiektSyrenka.fC = 1;        //  Error
 
   obiektSyrenka.Metoda();      //  OK
 
