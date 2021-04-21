@@ -250,6 +250,12 @@ oraz
 Zadanie 5.1
 --------------------------------------
 Napisz prosty program z klasą
+- metody deklarowane i definiowane w klasie
+- metody deklarowan w klasie, a definiowane poza klasą
+- zastosowanie 3 sekcji: public, private, protected
+- zmienne w każdej z sekcji
+- funkcje, które mają dostęp do zmiennych z sekcji protected i private
+- funkcje inline
 - nazwij program: ZadClass.cc
 
 
