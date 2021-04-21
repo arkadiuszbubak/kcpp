@@ -38,6 +38,7 @@ int main()
   struct Person person1, person2;
   //struct Person person1 = { "Olaf", "Arek", 4, 4.5};   ///< ok
   //struct Person person2 = { "Olaf", "Arek", 4, 4.5};   ///< ok
+  person1.age = 59;
 
 
   //person1.name1 = "Olaf";   ///< Error
@@ -51,6 +52,7 @@ int main()
   cout << person1.name1 << endl;
   //cout << person1.name2 << endl;
   //-------------------------------------------
+  cout << person1.age << endl;
 
   return 0;
 }
