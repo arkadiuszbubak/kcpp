@@ -26,16 +26,17 @@ int main()
   Samochod Volvo;
   Volvo.fZmienna = 7;
 
-  Samochod *Volvo1 = new Samochod();
-  Volvo1->fZmienna = 8;
+  Samochod *Ford = new Samochod();
+  Ford->fZmienna = 8;
 
   //Akcje Trab;                 //Error
   //Trab.fZmienna = 5;         //Error
+
 
   Samochod::Akcje Trab;
   Trab.fZmienna = 5;
 
   cout << Volvo.fZmienna << endl;
-  cout << Volvo1->fZmienna << endl;
-  cout << Trab.fZmienna  << endl;
+  cout << Ford->fZmienna << endl;
+  //cout << Trab.fZmienna  << endl;
 }
