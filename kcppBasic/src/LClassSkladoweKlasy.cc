@@ -44,6 +44,8 @@ int main()
   obiektSyrenka.SetC(4);      //  OK
   cout << obiektSyrenka.GetC() << endl;      //  OK
 
+  /* wskSyrenka->SetC(4);      //  OK
+   * cout << wskSyrenka->GetC() << endl;      //  OK */
 
 
 
