@@ -36,9 +36,10 @@ int main()
 {
   //-------------------------------------------
   struct Person person1, person2;
+  person1.age = 59;
+
   //struct Person person1 = { "Olaf", "Arek", 4, 4.5};   ///< ok
   //struct Person person2 = { "Olaf", "Arek", 4, 4.5};   ///< ok
-  person1.age = 59;
 
 
   //person1.name1 = "Olaf";   ///< Error
