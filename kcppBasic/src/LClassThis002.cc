@@ -34,7 +34,8 @@ int main()
 {
   Licznik obiekt;
   int zmienna;
-  cin >> zmienna;
+  //cin >> zmienna;
+  zmienna = 7;
 
   cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
 
