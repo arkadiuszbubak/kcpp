@@ -16,7 +16,7 @@ class A
       fX = fY = 0; 
    }
 
-   /** Konstruktor kopiujacyi **/
+   /** Konstruktor kopiujacy **/
    // A co jesli go wcale nie zdefiniujemy? 
    A(const A &c) {
       fX = c.fX; fY = c.fY;
@@ -37,22 +37,25 @@ void A::Wypisz(){
 
 int main()
 {
-   // automatyczne
+   //--------- automatyczne -------
    A c1(4, -1);
    A c2;
    A c3 = c1; // kopiujący <=> c3(c1)
   
-   //dynamiczne
-   A *p1, *p2, *p3;
-   p1 = new A(4, 7);
-   p2 = new A();
-   p3 = new A(*p1);
    
    cout << "Wypis danych z obiektu c1"<<endl;
    c1.Wypisz();
    cout << "Wypis danych z obiektu c3"<<endl;
    c3.Wypisz();
+
    
+
+   //-------- dynamiczne ----------
+   A *p1, *p2, *p3;
+   p1 = new A(4, -1);
+   p2 = new A();
+   p3 = new A(*p1);
+
    cout << "\nWypis danych z obiektu p1"<<endl;
    p1->Wypisz();
    cout << "Wypis danych z obiektu p3"<<endl;
