@@ -26,18 +26,19 @@ int A::gLicznik = 0;         // konieczna definicja !
 int main()
 {
    
-   cout << A::GetValue() << endl;
-   /* A objectD;
-    * cout << objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
+   cout <<"no object GetValue: "<< A::GetValue() << endl;
    
    A objectA;
-   cout << objectA.GetValue() << endl;
+   cout <<"objectA.GetValue: "<< objectA.GetValue() << endl;
    
    A *objectB = new A();
-   cout << objectB->GetValue() << endl;
+   cout <<"objectB.GetValue: "<<objectB->GetValue() << endl;
 
    A *objectC = new A(0);
-   cout << objectC->GetValue() << endl;
+   cout <<"objectC.GetValue: "<< objectC->GetValue() << endl;
+
+   /* A objectD;
+    * cout <<"objectD variable: "<< objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
    
    return 0;
 }
