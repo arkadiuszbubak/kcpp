@@ -19,15 +19,17 @@ class A
    int fLicznikC;
 };
 
+//--- Lista inicializacyjna -------
 A::A(int zmiennaA, int zmiennaB) : fLicznikA(zmiennaA), fLicznikB(zmiennaB)
 {}
 
-//Porównanie:
+//--- 'Standardowy konstruktor' ---
 A::A(int zmiennaA, int zmiennaB, int zmiennaC){
   fLicznikA = zmiennaA;
   fLicznikB = zmiennaB;
   fLicznikC = zmiennaC;
 }
+//---------------------------------------------------------------
 
 int main()
 {
