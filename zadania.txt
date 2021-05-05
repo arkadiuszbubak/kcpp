@@ -259,6 +259,17 @@ Napisz prosty program z klasą
 - nazwij program: ZadClass.cc
 
 
+Zadanie 5.1
+--------------------------------------
+Stwórz plik z działająca strukturą:
+- deklaracja,
+- definicja obiektów (w dowolny sposób):
+  - wywołanie,
+  - zmiana wartości,
+  - odczyt wartości,
+- nazwij program: ZadStruct.cc
+
+
 Zadanie 5.2
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
