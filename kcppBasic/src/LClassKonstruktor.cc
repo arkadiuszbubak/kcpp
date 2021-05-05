@@ -11,7 +11,7 @@ using namespace std;
 class A 
 {
   public:
-    A() {};
+    A() {};    ///< It hast to be created if another construtor (with non-zero amount arguments exist)
     A(int zmienna);
     int fLicznik;
     int Pusta();
