@@ -26,11 +26,12 @@ struct Person
 /* Second struct creation method */
 /* struct Person
  * {
- *   char name[50];
+ *   char name1[50];
+ *   string name2;
  *   int age;
  *   float salary;
- * } person1, person2;
- *  */
+ * } person1, person2; */
+
 
 int main()
 {
@@ -43,7 +44,7 @@ int main()
 
 
   //person1.name1 = "Olaf";   ///< Error
-  //struct Person person1 = { "Olaf", "Bart", "Arek", 4, 4.5}; ///< Warning: ISI C++11 does not allow conversion string literal to 'char *'
+  //struct Person person1 = { "Olaf", "Bart", "Arek", 4, 4.5}; ///< Warning: ISO C++11 does not allow conversion string literal to 'char *'
 
   
   strncpy(person1.name1, "Olaf", 5);

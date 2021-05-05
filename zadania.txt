@@ -259,7 +259,7 @@ Napisz prosty program z klasą
 - nazwij program: ZadClass.cc
 
 
-Zadanie 5.1
+Zadanie 5.2
 --------------------------------------
 Stwórz plik z działająca strukturą:
 - deklaracja,
@@ -267,10 +267,11 @@ Stwórz plik z działająca strukturą:
   - wywołanie,
   - zmiana wartości,
   - odczyt wartości,
+  - czy można stworzyć konstruktor (inicjalizacja wartości poczatkowych - standard, lista inicjalizacyjna)
 - nazwij program: ZadStruct.cc
 
 
-Zadanie 5.2
+Zadanie 5.3
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
