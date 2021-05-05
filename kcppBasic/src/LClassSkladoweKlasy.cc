@@ -13,10 +13,10 @@ class Samochod
 
   public:
     int fA;
-    void SetB(int Val) { fB = Val; }
-    void SetC(int Val) { fC = Val; }
-    int  GetB() { return fB; }
-    int  GetC() { return fC; }
+    inline void SetB(int Val) { fB = Val; }
+    inline void SetC(int Val) { fC = Val; }
+    inline int  GetB() { return fB; }
+    inline int  GetC() { return fC; }
 
   protected:
     int fB;
