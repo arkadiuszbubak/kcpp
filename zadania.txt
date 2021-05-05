@@ -267,7 +267,7 @@ Stwórz plik z działająca strukturą:
   - wywołanie,
   - zmiana wartości,
   - odczyt wartości,
-  - czy można stworzyć konstruktor (inicjalizacja wartości poczatkowych - standard, lista inicjalizacyjna)
+  // - czy można stworzyć konstruktor (inicjalizacja wartości poczatkowych - standard, lista inicjalizacyjna)
 - nazwij program: ZadStruct.cc
 
 
