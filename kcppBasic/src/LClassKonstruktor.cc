@@ -2,7 +2,7 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.04.23
  * \brief Klasy: Konstruktor w C++
- * v0.01
+ * v0.02
  */
 
 #include <iostream>
@@ -14,10 +14,15 @@ class A
     A() {};
     A(int zmienna);
     int fLicznik;
+    int Pusta();
 };
 
 A::A(int zmienna) {
   fLicznik = zmienna;
+}
+
+int A::Pusta(){
+  return 0;
 }
 
 int main()
@@ -26,8 +31,8 @@ int main()
   A objektB(7);
   A *objektC = new A(9);
 
-  //objektA.fLicznik = 3;
-  //cout << objektA.fLicznik  << endl;
+  /* objektA.fLicznik = 3;
+   * cout << objektA.fLicznik  << endl; */
   cout << objektB.fLicznik  << endl;
-  cout << objektC->fLicznik << endl; 
+  cout << objektC->fLicznik << endl;
 }
