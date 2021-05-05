@@ -3,6 +3,7 @@
  * \date 2019.04.23
  * \brief Klasy: This w C++
  * v0.01
+ * v0.02 (2021.05.06)
  */
 
 #include <iostream>
@@ -38,6 +39,13 @@ int main()
   zmienna = 7;
 
   cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
+  cout << obiekt.Pokaz() << endl;
+
+/*   obiekt.Zwieksz();
+ *   cout << obiekt.Pokaz() << endl;
+ *
+ *   obiekt.Ustaw(13);
+ *   cout << obiekt.Pokaz() << endl; */
 
   return 0;
 }
