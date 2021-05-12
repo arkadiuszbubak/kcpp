@@ -281,7 +281,8 @@ Zadanie 5.4
 --------------------------------------
 Stwórz klase (program: ZadKlasaKonstruktor.cc) oraz structure (program: ZadStructKonstruktor.cc) z przykładami konstruktorów i 
 inicializacją zmiennych:
-- default konstruktor,
+- domyślny konstruktor,
+- domyślny destruktor,
 - konstruktor z niepustą liczbą zmiennych argumentów
 - inicjalizacja zmiennych:
   - 'standardowa',
