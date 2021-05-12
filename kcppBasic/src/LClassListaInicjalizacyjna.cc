@@ -11,6 +11,7 @@ using namespace std;
 class A 
 {   
  public:
+   A() {};
    A(int zmiennaA, int zmiennaB);
    A(int zmiennaA, int zmiennaB, int zmiennaC);
    
@@ -40,6 +41,8 @@ int main()
    
    A *obiektM = new A(3, 6);
    cout << obiektM->fLicznikA <<"\t"
-        << obiektM->fLicznikB << endl;
+        << obiektM->fLicznikB <<"\t"
+        << obiektM->fLicznikC <<"\t"
+        << endl;
 }  
 
