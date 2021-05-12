@@ -11,7 +11,9 @@ using namespace std;
 class A 
 {   
  public:
-   A() {};
+   /* A() {
+    *   cout <<"Empty default constructor"<< endl;
+    * }; */
    A(int zmiennaA, int zmiennaB);
    A(int zmiennaA, int zmiennaB, int zmiennaC);
    
@@ -44,5 +46,8 @@ int main()
         << obiektM->fLicznikB <<"\t"
         << obiektM->fLicznikC <<"\t"
         << endl;
-}  
+   //A *obiekt = new A();
+   //A obiekt;
+
+}   
 
