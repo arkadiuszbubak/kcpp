@@ -30,7 +30,8 @@ A::~A(){
 
 int  main(){
    A *obiektC = new A(9);
-   A *obiektD = new A();
+   A *obiektD = new A(9.1);
+   A *obiektE = new A();
         
    cout << obiektC->fLicznik << endl; 
  
