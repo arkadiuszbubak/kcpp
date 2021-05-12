@@ -13,13 +13,7 @@ class A
   public:
     //A() {};    ///< It has to be created if another construtor (with non-zero amount arguments exist)
     int fLicznik;
-    int Pusta();
 };
-
-
-int A::Pusta(){
-  return 0;
-}
 
 int main()
 {   
