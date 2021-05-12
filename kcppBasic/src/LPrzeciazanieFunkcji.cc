@@ -22,6 +22,15 @@ void dzialanie(double a, double b) {
    cout << r << endl;
 }
 
+/* void dzialanie(int a, int b, int c = 0) {
+ *
+ *    cout <<"Dzialanie na int"<< endl;
+ *    int r = a - b;
+ *    cout << r << endl;
+ * } */
+
+
+
 int main()
 {
    dzialanie(2,2);
