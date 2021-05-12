@@ -32,11 +32,11 @@ int main()
    cout <<"objectA.GetValue: "<< objectA.GetValue() << endl;
    
    A *objectB = new A();
-   cout <<"objectB.GetValue: "<<objectB->GetValue() << endl;
+   cout <<"objectB.GetValue: "<< objectB->GetValue() << endl;
 
    A *objectC = new A(0);
    cout <<"objectC.GetValue: "<< objectC->GetValue() << endl;
-
+ 
    /* A objectD;
     * cout <<"objectD variable: "<< objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
    
