@@ -277,6 +277,15 @@ Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
 
 
+Zadanie 5.4
+--------------------------------------
+Stwórz klase (program: ZadKlasaKonstruktor.cc) oraz structure (program: ZadStructKonstruktor.cc) z przykładami konstruktorów i 
+inicializacją zmiennych:
+- default konstruktor,
+- konstruktor z niepustą liczbą zmiennych argumentów
+- inicjalizacja zmiennych:
+  - 'standardowa',
+  - inicjalizacyjna za pomocą listy inicjalizacyjnej
 
 
 
