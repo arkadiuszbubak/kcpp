@@ -14,11 +14,12 @@ class A
    A() { gLicznik++; }
    A(int k) { }
    
-   static int gLicznik;      // licznik obiektów
    static int GetValue() {   // Zlikwidujmy static i zobaczmy co sie stanie
       return gLicznik;
    }
-   
+
+ //private:
+   static int gLicznik;      // licznik obiektów
 };
 
 int A::gLicznik = 0;         // konieczna definicja !
@@ -26,7 +27,8 @@ int A::gLicznik = 0;         // konieczna definicja !
 int main()
 {
    
-   cout <<"no object GetValue: "<< A::GetValue() << endl;
+   cout <<"no object: get gLicznik by GetValue: "<< A::GetValue() << endl;
+   //cout <<"no object: get gLicznik: "<< A::gLicznik << endl;
    
    A objectA;
    cout <<"objectA.GetValue: "<< objectA.GetValue() << endl;
@@ -38,7 +40,7 @@ int main()
    cout <<"objectC.GetValue: "<< objectC->GetValue() << endl;
  
    /* A objectD;
-    * cout <<"objectD variable: "<< objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
+   * cout <<"objectD variable: "<< objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
    
    return 0;
 }
