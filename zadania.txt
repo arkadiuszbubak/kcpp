@@ -294,7 +294,7 @@ inicializacją zmiennych:
 
 Zadanie 5.xxx
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.X-5.2
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.X-5.xx
   jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
