@@ -3,6 +3,7 @@
  * \date 2019.04.23
  * \brief Klasy: Dziedziczenie wybiorcze w C++
  * v0.01
+ * v0.02 (2021.05.14)
  */
 
 #include <iostream>
@@ -13,25 +14,27 @@ class Przodek
  protected:
    int   fN;
    float fX;
-   void FunProtected(float*, int &) {};
-   void FunProtected(float*, int zm, int zn) {};
+   int FunProtected(int a, int zm) {
+    return a+zm;
+   };
+   int FunProtected(int a, int zm, int zn) {
+     return a+zm+zn;
+   };
  public:
    int fM;
-   float *FunPublic(int m) {
-      float *zm;
-      return zm;
+   int FunPublic(int m) {
+      return m;
    };
 };
 
 class Potomek : private Przodek 
 { // class Potomek : Przodek { 
  protected:
-   Przodek::fX;
-   Przodek::FunProtected;
+   using Przodek::fX;
+   using Przodek::FunProtected;
  public:
-   Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
-   Przodek::FunPublic;
-   
+   using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
+   using Przodek::FunPublic; 
 };
 
 int main()
