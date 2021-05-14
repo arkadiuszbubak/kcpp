@@ -33,9 +33,9 @@ void C::Fun(){
    fA = fB;          // poprawne
    fI = 7;           // blad (niejednoznaczne)
    A::fI = 1;        // poprawne
-   //B::fI = 2;        // A czy to poprawne? :) Gdy odkomentujemy, to ile będzie wynosiło fI
-   cout << fI << endl;
-   cout << A::fI << endl;
+   B::fI = 2;        // A czy to poprawne? :) Gdy odkomentujemy, to ile będzie wynosiło fI
+   cout <<"fI:\t"<< fI << endl;
+   cout <<"A::fI:\t"<< A::fI << endl;
 }
 
 
