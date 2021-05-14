@@ -11,40 +11,38 @@ using namespace std;
 
 class Przodek 
 {
- protected:
-   int   fN;
-   float fX;
-   int FunProtected(int a, int zm) {
-    return a+zm;
-   };
-   int FunProtected(int a, int zm, int zn) {
-     return a+zm+zn;
-   };
- public:
-   int fM;
-   int FunPublic(int m) {
+  public:
+    int fM;
+    int FunPublic(int m) {
       return m;
-   };
+    };
+  protected:
+    int   fN;
+    float fX;
+    int FunProtected(int a, int zm) {
+      return a+zm;
+    };
+    int FunProtected(int a, int zm, int zn) {
+      return a+zm+zn;
+    };
 };
 
 class Potomek : private Przodek 
 { // class Potomek : Przodek { 
- protected:
-   using Przodek::fX;
-   using Przodek::FunProtected;
- public:
-   using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
-   using Przodek::FunPublic; 
+  public:
+    using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
+    using Przodek::FunPublic; 
 };
 
 int main()
 {
+  Potomek potObiekt;
+  potObiekt.fM = 8;
+  cout << potObiekt.fM << endl;
 
-   Potomek potObiekt;
-   potObiekt.fM = 8;
-   cout << potObiekt.fM << endl;
-   
-   Przodek przObiekt;
-   cout << przObiekt.fM << endl;
+  Przodek przObiekt;
+  cout << przObiekt.fM << endl;
+
+  cout << potObiekt.FunPublic(3) << endl;
 }
 
