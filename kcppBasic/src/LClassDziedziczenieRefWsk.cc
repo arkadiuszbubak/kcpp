@@ -26,12 +26,13 @@ int main() {
 
 #define ZMIANA
 
+/* O metodzie decyduje typ wskaznika, a nie obiektu (porownanie z virtual) */
 #ifdef ZMIANA
   A *p1 = &a;
   B *p2 = &b;
   A &r1 = a;
   B &r2 = b;
-#else  
+#else   
   A *p1 = &a;
   A *p2 = &b;
   A &r1 = a;
