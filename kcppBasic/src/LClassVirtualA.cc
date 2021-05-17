@@ -13,6 +13,7 @@ class A
 {
   public:
   void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
+  //virtual void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
 };
 
 class B : public A 
@@ -31,8 +32,10 @@ int main() {
 
   a.Funkcja();
   b.Funkcja();
+
   p1->Funkcja();
   p2->Funkcja();
+
   r1.Funkcja();
   r2.Funkcja();
 
