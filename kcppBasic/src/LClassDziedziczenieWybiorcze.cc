@@ -32,7 +32,9 @@ class Potomek : private Przodek
 { 
   public:
     using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
-    using Przodek::FunPublic; 
+    using Przodek::FunPublic;
+  protected:
+    using Przodek::FunProtected;
 };
 
 int main()
