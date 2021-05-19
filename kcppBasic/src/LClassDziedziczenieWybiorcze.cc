@@ -16,6 +16,8 @@ class Przodek
     int FunPublic(int m) {
       return m;
     };
+    /* int GetValue() {return fM;}
+     * void SetValue(int fm) { fM = fm;} */
   protected:
     int   fN;
     float fX;
@@ -33,6 +35,8 @@ class Potomek : private Przodek
   public:
     using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
     using Przodek::FunPublic;
+    //using Przodek::GetValue;
+    //using Przodek::SetValue;
   protected:
     using Przodek::FunProtected;
 };
@@ -42,6 +46,10 @@ int main()
   Potomek potObiekt;
   potObiekt.fM = 8;
   cout << potObiekt.fM << endl;
+  
+  /* Potomek potObiekt;
+   * potObiekt.SetValue(56);
+   * cout << potObiekt.GetValue() << endl; */
 
   Przodek przObiekt;
   cout << przObiekt.fM << endl;
