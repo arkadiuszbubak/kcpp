@@ -28,7 +28,8 @@ class Przodek
 };
 
 class Potomek : private Przodek 
-{ // class Potomek : Przodek { 
+//class Potomek : Przodek    //< To samo co linia wyzej
+{ 
   public:
     using Przodek::fM; // Jesli linia zakomentowant to fM jest w klasie Potomek privat
     using Przodek::FunPublic; 
