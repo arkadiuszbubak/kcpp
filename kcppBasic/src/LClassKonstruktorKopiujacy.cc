@@ -19,7 +19,8 @@ class A
    /** Konstruktor kopiujacy **/
    // A co jesli go wcale nie zdefiniujemy? 
    A(const A &c) {
-      fX = c.fX; fY = c.fY;
+      fX = c.fX;
+      fY = c.fY;
    }
 
    void Wypisz();
