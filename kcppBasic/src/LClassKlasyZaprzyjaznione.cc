@@ -9,6 +9,9 @@
 using namespace std;
 
 //-----------------------------------------------------------
+class A;
+class B;
+
 class A 
 {
  public:
@@ -16,15 +19,19 @@ class A
       fZmiennaA = A;
       fZmiennaB = B;
      }
-   /* void SetABZero() {
-    *   fZmiennaA = fZmiennaB = 0;
-    * } */
+   void SetABZero() {
+     fZmiennaA = fZmiennaB = 4;
+   }
+   void GetB(B &obj) {
+     cout << obj.fB << endl;
+     }
    
+   friend void Pokaz(A&);
+   friend class B;
+
  private:
    int fZmiennaA, fZmiennaB;
 
-   friend void Pokaz(A&);
-   friend class B;
 };
 
 //-----------------------------------------------------------
@@ -32,9 +39,14 @@ class B
 {
  public:
    void ZerujA(A &obj) {
-      obj.fZmiennaA = obj.fZmiennaB = 0;
+     obj.fZmiennaA = obj.fZmiennaB = 0;
       //obj.SetABZero(); //Gdy class B nie jest zaprzyjaźniona 
    }
+
+  private:
+    int fB;
+
+   //friend class A;
 };
 
 //-----------------------------------------------------------
@@ -48,7 +60,10 @@ int main()
    objA.SetValue(7,8);
    Pokaz(objA);
 
+
    B objB;
    objB.ZerujA(objA);
    Pokaz(objA);
+   
+   //objA.GetB(objB);
 }
