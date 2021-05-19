@@ -26,7 +26,7 @@ class C : public A, public B
     void Fun() {
       fA = fB;          ///< poprawne
       //fI = 0;            ///< błąd (niejednoznaczne)
-      A::fI = 0;        ///< poprawne
+      A::fI = 7;        ///< poprawne
       //B::fI = 2;        ///< A czy to poprawne? :)
     }
 };
