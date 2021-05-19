@@ -289,6 +289,17 @@ inicializacją zmiennych:
   - inicjalizacyjna za pomocą listy inicjalizacyjnej
 
 
+Zadanie 5.5
+--------------------------------------
+Sprawdzić dziłanie przyjaźni klas:
+- Klasa B zaprzyjaźniona z klasą A ma ma dostęp do składników prywatnych
+- Czy klasa A w tym samym momencie może być także zaprzyjaźniona z klasą B?
+    
+Friendship is not mutual. If class A is a friend of B, then B doesn’t become a friend of A automatically.
+https://www.geeksforgeeks.org/friend-class-function-cpp/
+
+
+
 
 
 
