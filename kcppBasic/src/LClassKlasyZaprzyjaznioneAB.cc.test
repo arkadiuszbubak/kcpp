@@ -1,0 +1,31 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.23
+ * \brief Klasy: Klasy zaprzyjaznione w C++
+ * v0.01
+ */
+
+#include <iostream>
+#include "LClassKlasyZaprzyjaznioneA.hh"
+//#include "LClassKlasyZaprzyjaznioneB.hh"
+using namespace std;
+
+
+//-----------------------------------------------------------
+//void Pokaz(A &obj){
+//   cout << obj.fZmiennaA << " " << obj.fZmiennaB << endl;;
+//}
+
+int main()
+{
+   A objA;
+//   objA.SetValue(7,8);
+//   Pokaz(objA);
+
+
+   //B objB;
+   //objB.ZerujA(objA);
+   //Pokaz(objA);
+   
+   //objA.GetB(objB);
+}

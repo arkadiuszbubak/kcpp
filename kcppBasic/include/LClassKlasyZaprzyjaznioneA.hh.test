@@ -1,0 +1,39 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.23
+ * \brief Klasy: Klasy zaprzyjaznione w C++
+ * v0.01
+ */
+
+//class B;
+
+#ifndef ClassKlasyZaprzyjaznioneA_1
+#define ClassKlasyZaprzyjaznioneA_1
+
+#include <iostream>
+#include "LClassKlasyZaprzyjaznioneB.hh"
+using namespace std;
+
+
+class A 
+{
+ public:
+   void SetValue(int A, int B) {
+      fZmiennaA = A;
+      fZmiennaB = B;
+     }
+   void SetABZero() {
+     fZmiennaA = fZmiennaB = 4;
+   }
+  /*  void GetB(B &obj) {
+   *    cout << obj.fB << endl;
+   * } */
+   
+   friend void Pokaz(A&);
+   friend class B;
+
+ private:
+   int fZmiennaA, fZmiennaB;
+
+};
+#endif

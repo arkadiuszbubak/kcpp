@@ -1,0 +1,29 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.23
+ * \brief Klasy: Klasy zaprzyjaznione w C++
+ * v0.01
+ */
+
+//class A;
+#ifndef ClassKlasyZaprzyjaznioneB_1
+#define ClassKlasyZaprzyjaznioneB_1
+
+#include <iostream>
+#include "LClassKlasyZaprzyjaznioneA.hh"
+using namespace std;
+
+
+class B 
+{
+ public:
+   void ZerujA(A& obj) {
+     obj.fZmiennaA = obj.fZmiennaB = 0;
+   //   //obj.SetABZero(); //Gdy class B nie jest zaprzyjaźniona 
+   }
+
+  private:
+    int fB;
+
+};
+#endif
