@@ -10,15 +10,15 @@ cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 project(carfactory)
 
 #---Set global variables e.g. where sources and includes are
-file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cxx)
-#file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.h)
+file(GLOB SOURCES "src/*.cxx")
+include_directories(include)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 #---Create a shared library with generated dictionary
-add_library(carfactory SHARED CarFactory.cxx ${sources})
+#add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
 #---Create  a main program using the library
-add_executable(CarFactory CarFactory.cxx)
-target_link_libraries(CarFactory carfactory)
+#add_executable(CarFactory ${SOURCES} CarFactory.cxx)
+add_executable(CarFactory ${SOURCES})
+#target_link_libraries(CarFactory carfactory)
 
