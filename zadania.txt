@@ -299,7 +299,13 @@ Friendship is not mutual. If class A is a friend of B, then B doesn’t become a
 https://www.geeksforgeeks.org/friend-class-function-cpp/
 
 
-
+Zadanie 5.6
+--------------------------------------
+Bazując na pliku LClassMetodyAbstrakcyjne.cc stwórz program który oblicza:
+- obwód, pole powierzchni
+dla:
+- kwadrat, trójkąt, prostokąt, koło, 
+Nazwij program: ZadMetodyAbstrakcyjne.cc 
 
 
 
