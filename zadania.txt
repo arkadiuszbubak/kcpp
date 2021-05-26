@@ -304,7 +304,10 @@ Zadanie 5.6
 Bazując na pliku LClassMetodyAbstrakcyjne.cc stwórz program który oblicza:
 - obwód, pole powierzchni
 dla:
-- kwadrat, trójkąt, prostokąt, koło, 
+- kwadrat, trójkąt, prostokąt, koło,
+oraz funkcja Dystans:
+Jeśli rząd podaje, że na każdego obywatela w sklepie (kościele etc) przypada X metrów kwadratowych (argument przekazywany do funkcji)
+to w jakiej odległości (promieniu - to ma funkcja Dystans zwracać) może znaleźć się następna osoba.
 Nazwij program: ZadMetodyAbstrakcyjne.cc 
 
 
