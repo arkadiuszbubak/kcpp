@@ -52,10 +52,10 @@ class Prostokat : public Figura
 //------------------------------------------------------------------
 int main()
 { 
-   Kwadrat *objKwadrat = new Kwadrat();
-   //Figura *objKwadrat = new Kwadrat();
+   //Kwadrat *objKwadrat = new Kwadrat();
+   Figura *objKwadrat = new Kwadrat();
    objKwadrat->Narysuj();  
 
-   //Figura fig;    //ERROR
-   //Figura *fig = new Figura();    //ERROR
+  //Figura fig;    //ERROR
+  //Figura *fig = new Figura();    //ERROR
 }
