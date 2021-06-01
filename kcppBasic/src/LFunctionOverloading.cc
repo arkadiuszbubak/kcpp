@@ -19,10 +19,10 @@ void Print(double  f) {
   cout << " Here is floati (double) " << f << endl;
 }
 
-//--------------------------------------------
-void Print(float  f) {
-  cout << " Here is float " << f << endl;
-}
+/* //--------------------------------------------
+ * void Print(float  f) {
+ *   cout << " Here is float " << f << endl;
+ * } */
 
 //--------------------------------------------
 void Print(char const *c) {
@@ -34,9 +34,9 @@ void Print(char const *c) {
 //--------------------------------------------
 int main() {
 
-  print(10);
-  print(10.10);
-  print("dziesiec");
+  Print(13);
+  Print(13.10);
+  Print("trzynascie");
 
   return 0;
 }
