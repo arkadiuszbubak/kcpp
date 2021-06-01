@@ -50,6 +50,8 @@ int main() {
    cout << x << endl;
    
    CCalculator<float> calcF(5.2, 2.2);
+   //CCalculator<> calcF(5.2, 2.2);
+   //CCalculator calcF(5.2, 2.2);
    const float y = calcF.Add();
    cout << y << endl;
 }
