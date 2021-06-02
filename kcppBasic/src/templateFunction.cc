@@ -22,5 +22,6 @@ int main() {
    cout << Add(2.6,3.2)      << endl;  // wywolanie szablonu max<double> (dedukcja typu argumentów)
    cout << Add<>(2,13)       << endl;  // wywolanie szablonu max<int> (dedukcja typu argumentów)
    cout << Add<double>(2,14.2) << endl;  // wywolanie szablonu max<double> (bez dedukcji typu)
+   //cout << Add<int>(2,14.2) << endl;  ///< ERROR
 
 }
