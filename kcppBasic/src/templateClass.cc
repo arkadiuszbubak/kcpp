@@ -49,9 +49,9 @@ int main() {
    const int x = calcR.Mult();
    cout << x << endl;
    
-   CCalculator<float> calcF(5.2, 2.2);
-   //CCalculator<> calcF(5.2, 2.2);   ///< ?
-   //CCalculator calcF(5.2, 2.2);
+   //CCalculator<float> calcF(5.2, 2.2);
+   //CCalculator<> calcF(5.2, 2.2);   ///< ERROR in template
+   CCalculator calcF(5.2, 2.2);
    const float y = calcF.Add();
    cout << y << endl;
 }
