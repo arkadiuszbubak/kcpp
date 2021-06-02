@@ -16,7 +16,7 @@ void Print(int i) {
 
 //--------------------------------------------
 void Print(double  f) {
-  cout << " Here is floati (double) " << f << endl;
+  cout << " Here is float (double) " << f << endl;
 }
 
 /* //--------------------------------------------
