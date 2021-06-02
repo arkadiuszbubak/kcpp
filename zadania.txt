@@ -216,17 +216,6 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - nazwać program: ZadSwitch.cc
 
 
-
-------------------------------------------------------------------
-     Dotąd zrobione na dzień 2021.04.21
-------------------------------------------------------------------
-
-
-
-
-
-
-
 Zadanie 4.7
 --------------------------------------
 Napisz program pokazujący zstosowanie dyrektywy preprocesora:
@@ -312,9 +301,15 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 
 
-Zadanie 5.xxx
+
+------------------------------------------------------------------------------------------
+  6. Podsumowanie zadań
+------------------------------------------------------------------------------------------
+
+
+Zadanie 6.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.X-5.xx
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.1-5.6
   jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
@@ -324,17 +319,20 @@ Zadanie 5.xxx
   - main.cc w ZadClassKcpp,
   - pliki nagłówkowew katalogu: ZadClassKcpp/inlclude,
   - pliki źródłowe w katalogu: ZadClassKcpp/src
-
+- Program powinien zawierać interaktywne menu z możliwościa wyboru zadania do wywołania 
+  - menu:
+   - sekcja
+   - numer zadania w sekcji i opis w kilu słowach co dana funkcja (zadanie) zawiera
 
 
 
 
 ------------------------------------------------------------------------------------------
-  6. Kompilacja
+  7. Kompilacja
 ------------------------------------------------------------------------------------------
 
 
-Zadanie 6.1
+Zadanie 7.1
 --------------------------------------
-- Stwórz Makefile (lub uzyj cmake) do kompilacji programów z zadania 15
+- Stwórz Makefile (lub uzyj cmake) do kompilacji programów z zadania 5.7 
 
