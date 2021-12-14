@@ -1,4 +1,4 @@
-# Zajęcia zdalne
+# Zajęcia w formie kontaktowej
 
 Zajęcia odbywają się w sposób kontaktowy.
 
