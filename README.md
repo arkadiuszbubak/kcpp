@@ -1,6 +1,7 @@
 # Zajęcia zdalne
 
 Zajęcia odbywają się w sposób kontaktowy.
+
 Calnceled: Zajęcia aż do odwołania odbywać będą się z wykorzystaniem platformy MS Teams. Odnośnik do dołączenia do zajęć został przesłany przez system USOS
 
 # Materiały pomocnicze do kursu C++
