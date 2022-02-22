@@ -1,6 +1,6 @@
 # Zajęcia w formie kontaktowej
 
-Zajęcia odbywają się w sposób kontaktowy.
+Zajęcia odbywają się w sposób kontaktowy
 
 
 # Materiały pomocnicze do kursu C++
