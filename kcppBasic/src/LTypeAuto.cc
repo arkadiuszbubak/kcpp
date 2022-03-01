@@ -15,22 +15,26 @@ int main()
 
   // ---- sizeof, typeid -----
   auto var1 = 137;
+  cout << "var1:    "<< var1 << endl;
   cout << "Size of: "<< sizeof(var1) << endl;
   cout << "Type:    "<< typeid(var1).name() << endl;
   
   auto var2 = 137.1;
+  cout << "var2 :   "<< var2 << endl;
   cout << "Size of: "<< sizeof(var2) << endl;
   cout << "Type:    "<< typeid(var2).name() << endl;
   // -------------------------------
 
 /*   float var3 = 137.1;
+ *   cout << "var3:    "<< var3 << endl;
  *   cout << "Size of: "<< sizeof(var3) << endl;
  *   cout << "Type:    "<< typeid(var3).name() << endl;
  *
  *   double var4 = 137.1;
+ *   cout << "var4:    "<< var4 << endl;
  *   cout << "Size of: "<< sizeof(var4) << endl;
- *   cout << "Type:    "<< typeid(var4).name() << endl; */
-
+ *   cout << "Type:    "<< typeid(var4).name() << endl;
+ *  */
 
   // ----- Inicjalizownanie stala -----
   auto varA = 137.1;  //C++11 (auto bedzie typu zmiennoprzecinkowego)
