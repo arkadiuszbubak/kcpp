@@ -31,6 +31,7 @@ int main()
     cout << "Hello, Ford-car owner!: " << BMW  << endl;
     cout << "Hello, Ford-car owner!: " << Cadillac << endl;
     cout << "Hello, Ford-car owner!: " << Ford << endl;
+    //cout << "Hello, Ford-car owner!: " << Lexus << endl;
     cout << "Hello, Ford-car owner!: " << Maybach << endl;
   }
   return 0;                              
