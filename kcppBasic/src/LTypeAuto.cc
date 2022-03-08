@@ -36,33 +36,41 @@ int main()
  *   cout << "Type:    "<< typeid(var4).name() << endl;
  *  */
 
-  // ----- Inicjalizownanie stala -----
-  auto varA = 137.1;  //C++11 (auto bedzie typu zmiennoprzecinkowego)
-  int  varB = 137.1;  //C i C++)
-  // -------------------------------
+/*   // ----- Inicjalizownanie stala -----
+ *   auto varA = 137.1;  //C++11 (auto bedzie typu zmiennoprzecinkowego)
+ *   int  varB = 137.1;  //C i C++)
+ *
+ *   cout <<"--------------------------------------"<<endl;
+ *   cout << "varA :   "<< varA << endl;
+ *   cout << "Size of: "<< sizeof(varA) << endl;
+ *   cout << "Type:    "<< typeid(varA).name() << endl;
+ *   cout << "varB :   "<< varB << endl;
+ *   cout << "Size of: "<< sizeof(varB) << endl;
+ *   cout << "Type:    "<< typeid(varB).name() << endl;
+ *   // ------------------------------- */
 
 
 
-  // ----- Inicjalizownane zwracana wartoscia -----
-  map<char, float> mapa;
-  mapa['a'] = 1.0;
-
-  auto itA = mapa.begin(); //C++11
-  std::map<char, float>::iterator itB = mapa.begin(); //C++
-  // -------------------------------
-
-
-
-  // ----- Inicjalizacja wskaznikiem -----
-  double varC = 3.14;
-
-  auto *wskA = new auto(varC);     //C++11
-  double *wskB = new double(varC); //C++
+/*   // ----- Inicjalizownane zwracana wartoscia -----
+ *   map<char, float> mapa;
+ *   mapa['a'] = 1.0;
+ *
+ *   auto itA = mapa.begin(); //C++11
+ *   std::map<char, float>::iterator itB = mapa.begin(); //C++
+ *   // ------------------------------- */
 
 
-  //------ cleaning
-  delete wskA;
-  delete wskB;
+
+/*   // ----- Inicjalizacja wskaznikiem -----
+ *   double varC = 3.14;
+ *
+ *   auto *wskA = new auto(varC);     //C++11
+ *   double *wskB = new double(varC); //C++
+ *
+ *
+ *   //------ cleaning
+ *   delete wskA;
+ *   delete wskB; */
 
   // --------------------------------
   return 0;                 
