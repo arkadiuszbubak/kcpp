@@ -22,9 +22,8 @@ int comp(int c) {
 }
 
 /* //--- Prosze sprawdzic czy to dziala ----------
- * int comp1(){
+ * void comp1(){
  *   ncall++;
- *   return ncall;
  * } */
 
 //----------------------------------------------
@@ -35,7 +34,6 @@ int main(){
 	//comp1();
 	cout << "\nFunkcja zostala wywolana " << comp(0) << " razy.\n";
 
-  //cout << comp1() << endl;
 	return 0;
 }
 

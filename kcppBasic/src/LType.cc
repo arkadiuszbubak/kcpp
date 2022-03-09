@@ -16,11 +16,11 @@ int main()
 
   cout <<"fVarA: "<< fVarA << endl;
 
-  // float fVarA;              //Error
-  // float fVarB;
-  // fVarB = 7;
-  // fVarB = 7.3;
-  // cout <<"fVarB: "<< fVarB << endl;
+  //float fVarA;              //Error
+  //float fVarB;
+  //fVarB = 7;
+  //fVarB = 7.3;
+  //cout <<"fVarB: "<< fVarB << endl;
 
 
   char fVarC[10];   //deklaracja stringu o długości 10 znaków
