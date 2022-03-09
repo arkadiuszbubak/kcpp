@@ -14,11 +14,11 @@ struct does_not_default_initialize
   std::string s;  // default initializes
 };
 
-struct default_initializes
+struct default_initialize
 {
   int x;
   std::string s;
-  default_initializes(): x{0} { } // default ctor initializes x
+  default_initialize(): x{0} { } // default ctor initializes x
 };
 
 
@@ -34,8 +34,9 @@ int main()
   cout <<"b: " << b << endl;
 
   does_not_default_initialize DNDI;
-  cout <<"int from struct: " << DNDI.x << endl;
-  cout <<"str from struct: " << DNDI.s << endl;
+  //default_initialize DNDI;
+  cout <<"int x from struct: " << DNDI.x << endl;
+  cout <<"str s from struct: " << DNDI.s << endl;
 
   //napisz swoj wlasny program z deklaracja int (tylko i wylacznie z jedna deklaracja) i sprawdz
   return 0;
