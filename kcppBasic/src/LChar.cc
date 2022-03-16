@@ -20,11 +20,10 @@ int main(){
   cout << "mystring3:  "<< mystring3 << endl;
 
 
-  /* Not allowed
-     mystring = "Hello";
-     mystring[] = "Hello";
-     mystring = { 'H', 'e', 'l', 'l', 'o', '\0' };
-     */
+  /* // Not allowed
+   * char mystringA = "Hello";
+   * char mystringC = { 'H', 'e', 'l', 'l', 'o', '\0' }; */
+
 
   // Assigning values to strings
   mystring3[0] = 'H';
@@ -37,8 +36,8 @@ int main(){
   //Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
   //strcpy (string1, string2);
 
-  strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
-  //strcpy(mystring3, "Dzien dobry");
+  strcpy(mystring3, "Dzien dobry");
+  //strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
   cout <<"mystring3: " <<mystring3 << endl;
   cout <<"mystring3: " <<mystring3[11] << endl;
 
@@ -54,9 +53,9 @@ int main(){
   /* partial copy (only 5 chars): */
   strncpy ( str3, str2, 5 );
 
-  cout << str1 << "\n"
-    << str2 << "\n"
-    << str3 << endl;
+  cout <<"str1:\t"<< str1 << "\n"
+    <<"str2:\t"<< str2 << "\n"
+    <<"str3:\t"<< str3 << endl;
 
   //Prosze sprawdzic co robi sizeof
   int iTab[10];
