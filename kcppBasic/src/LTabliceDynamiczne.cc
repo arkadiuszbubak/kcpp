@@ -38,7 +38,7 @@ void tablice(){
 
   cout <<"tFloat["<< 0 <<"]=" << *(tFloat+0)<< endl;
 
-  delete [] tInt;
+  delete tInt;
   delete [] tFloat;
   delete [] tChar;
 
