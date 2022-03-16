@@ -21,7 +21,7 @@ void FunctionA()
 void FunctionB(void)
 {
   cout <<"W funkcji FunctionB"<< endl;
-  return;
+  //return;
 }
 
 

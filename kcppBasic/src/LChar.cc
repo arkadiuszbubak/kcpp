@@ -37,9 +37,10 @@ int main(){
   //strcpy (string1, string2);
 
   strcpy(mystring3, "Dzien dobry");
-  //strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
+  strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
   cout <<"mystring3: " <<mystring3 << endl;
   cout <<"mystring3: " <<mystring3[11] << endl;
+  //cout <<"mystring3: " <<mystring3[37] << endl;
 
 
   // Partial copy
