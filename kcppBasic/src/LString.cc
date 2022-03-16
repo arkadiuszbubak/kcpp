@@ -37,9 +37,9 @@ int main(){
   a1 = b1;
   cout <<"a1=b1: "<< a1 << endl;
 
-  /* //Sprawdzenie adresow
-   * cout << &a1 << endl;
-   * cout << &b1 << endl; */
+  //Sprawdzenie adresow
+  cout << &a1 << endl;
+  cout << &b1 << endl;
 
   string a,b,c;
   a = "gosia";
@@ -65,14 +65,11 @@ int main(){
   cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
   else cout << "nieprawda\n";
-
   
   // modyfikacja
-  b[0] = '_';
+  b[1] = '_';
 
   cout << "zmieniony wyraz b: "<<b<<'\n';
-
-
 
   return 0;
 }
