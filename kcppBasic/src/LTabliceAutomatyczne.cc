@@ -45,7 +45,7 @@ void tablice(){
 
 
 	int A2[6]={0};
-  //CoutWholeArray(A2);
+  //CoutWholeArray(A2,6);
 	int A3[6]{0,0,0,0,0,0};
 	int A4[6]{0};
 	//tablica 20 znaków
