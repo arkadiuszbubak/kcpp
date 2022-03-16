@@ -62,10 +62,11 @@ int main(){
   // łączenie łańcuchów
   a = "mal"+ a;
 
-  cout << "napis a ("<<a<<") poprzedza napis b("<<b<<"): ";
+  cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
   else cout << "nieprawda\n";
 
+  
   // modyfikacja
   b[0] = '_';
 

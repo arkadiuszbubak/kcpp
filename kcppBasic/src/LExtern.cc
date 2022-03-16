@@ -11,9 +11,9 @@ using namespace std;
 
 void a() {}
 void b() {}
-/* void b(int zmienna) {
- *   zmienna = 0;
- * } */
+void b(int zmienna) {
+  zmienna = 0;
+}
 
 
 #ifdef __cplusplus
