@@ -48,14 +48,14 @@ int main(){
 
   // porównywanie napisów
   if (a == c) cout << "a i c sa takie same\n";
-  /* cout << &a << endl;
-   * cout << &c << endl; */
+  cout << &a << endl;
+  cout << &c << endl;
 
 
   if (a != b) cout << "a i b sa rozne\n" ;
 
   // porządek leksykograficzny
-  cout << "napis a ("<<a<<") poprzedza napis b("<<b<<"): ";
+  cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
   else cout << "nieprawda\n";
 
