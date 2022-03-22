@@ -17,17 +17,17 @@ int zmniejsz(int a, int b = 1);
 
  //---------------------------------------------------------------
  // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
- int zwieksz(int a){
-   return a;
- }
+ /* int zwieksz(int a){
+  *   return a;
+  * } */
 
- int zwiekszNew(int a, int b){
-   return a + b;
- }
-
- int zwiekszNew(int a){
-   return a;
- }
+/*  int zwiekszNew(int a, int b){
+ *    return a + b;
+ *  }
+ *
+ *  int zwiekszNew(int a){
+ *    return a;
+ *  } */
  //---------------------------------------------------------------
 
 
