@@ -56,7 +56,6 @@ int main() {
 	int *wskB = &B;
 	swapC(wskA, wskB);    
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
-	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
 
 	swapC(&A, &B);    
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
