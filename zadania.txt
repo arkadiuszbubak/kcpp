@@ -44,8 +44,19 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 Zadanie 2.2
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
+Czy się da?
+Jeśli tak to proszę wykonać zadanie:
 - nazwać program: ZadPrzekazywanieTablic.cc
+Jeśli się nie da to proszę wykonać zadanie:
+- zdefiniować ogólną funkcję w której nie jest na sztywno ustawiony rozmiar tablicy, która przekazujemy:
+- nazwać program: ZadPrzekazywanieTablicZpodaniemRozmiaru.cc
 
+
+
+Zadanie 2.3 
+--------------------------------------
+Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
+- nazwać program: ZadPrzekazywanieTablicKopia.cc
 
 
 
