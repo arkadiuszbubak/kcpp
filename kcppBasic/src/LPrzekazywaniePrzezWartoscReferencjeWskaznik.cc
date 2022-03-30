@@ -9,22 +9,26 @@
 using namespace std;
 
 
-void swapA(int a, int b) { // Przekazywanie zmiennych
+
+//---------------------------------------------------------------------
+void swapA(int a, int b) { /// Przekazywanie zmiennych
+ /// \brief Przekazywanie zmiennych przez wartość
 	cout <<"\n---> Przez wartosc:"<< endl;
 	int temp = a;
 	a = b;
 	b = temp;    
 }
 
-void swapB(int &a, int &b) { //Przekazywanie przez referencje
+//---------------------------------------------------------------------
+void swapB(int &a, int &b) { /// Przekazywanie przez referencje
 	cout <<"\n---> Przez referencje:"<< endl;
 	int temp = a;
 	a = b;
 	b = temp;
 }
 
-
-void swapC(int *a, int *b) { //Przekazywanie przez wskaznik
+//---------------------------------------------------------------------
+void swapC(int *a, int *b) { /// Przekazywanie przez wskaznik
 	cout <<"\n---> Przez wskaznik:"<< endl;
 	//int *temp = a;
 	//*a = *b;
@@ -34,6 +38,8 @@ void swapC(int *a, int *b) { //Przekazywanie przez wskaznik
 }
 
 
+
+//---------------------------------------------------------------------
 int main() {
 
 	int A = 4;   
