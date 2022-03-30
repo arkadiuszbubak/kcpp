@@ -9,6 +9,7 @@
 #include <iterator>
 using namespace std;
 
+
 //---------------------------------
 void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
   for (int i = 0; i < 6; i++){
@@ -78,7 +79,7 @@ int main() {
       tablica2D[i][j] = i+j;
     }
   }
-  //przekaz2D(tablica2D);
+  przekaz2D(tablica2D);
 
 
   return 0;
