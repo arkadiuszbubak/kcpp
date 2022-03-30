@@ -48,6 +48,13 @@ int zmienC(int, int, int = 2);
 int zmienC(int a, int b, int c){
   return 0;
 }
+//---------------------------------------------------------------
+int zmienD(int a, int b, int c = 2);
+int zmienD(int, int, int){
+
+  //int w = a+b;
+  return 0;
+}
 
 
 
@@ -59,6 +66,8 @@ int main(){
   int *wskaznik;
   zmienB(wskaznik,2);
   zmienB(wskaznik,2,3);
+
+  zmienC(1,2);
 
   zmienC(1,2);
   //------------------------------
