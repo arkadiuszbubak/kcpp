@@ -32,7 +32,36 @@ int zmniejsz(int a, int b = 1);
 
 
 
+//---------------------------------------------------------------
+int zmienA(int, int, int = 2){
+  return 0;
+}
+
+//---------------------------------------------------------------
+int zmienB(int*, int, int = 2);
+int zmienB(int*, int, int){
+  return 0;
+}
+
+//---------------------------------------------------------------
+int zmienC(int, int, int = 2);
+int zmienC(int a, int b, int c){
+  return 0;
+}
+
+
+
 int main(){
+ 
+  //------------------------------
+  zmienA(1,2);
+
+  int *wskaznik;
+  zmienB(wskaznik,2);
+  zmienB(wskaznik,2,3);
+
+  zmienC(1,2);
+  //------------------------------
 
 	int wynik;
 	wynik = zwieksz(2, 5);
