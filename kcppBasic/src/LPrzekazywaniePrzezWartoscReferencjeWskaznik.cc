@@ -16,6 +16,7 @@ void swapA(int a, int b) { /// Przekazywanie zmiennych przez wartość
 	int temp = a;
 	a = b;
 	b = temp;    
+	cout <<"W: A = "<< a <<" B = "<< b << endl;
 }
 
 //---------------------------------------------------------------------
@@ -28,12 +29,14 @@ void swapB(int &a, int &b) { /// Przekazywanie przez referencje
 
 //---------------------------------------------------------------------
 void swapC(int *a, int *b) { /// Przekazywanie przez wskaźnik
-	cout <<"\n---> Przez wskaznik:"<< endl;
-	//int *temp = a;
-	//*a = *b;
-	//*b = *temp;
-  *a = *a * 3;
-  *b = *b * 3;
+  cout <<"\n---> Przez wskaznik:"<< endl;
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+  /* *a = *a * 3;
+   * *b = *b * 3; */
+	cout <<"W swapC: A = "<< *a   <<" B = "<< *b << endl;
+	//cout <<"W swapC: A = "<< temp <<" B = "<< *b << endl;
 }
 
 
