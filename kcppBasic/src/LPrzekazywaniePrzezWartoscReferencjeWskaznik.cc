@@ -12,7 +12,6 @@ using namespace std;
 
 //---------------------------------------------------------------------
 void swapA(int a, int b) { /// Przekazywanie zmiennych
- /// \brief Przekazywanie zmiennych przez wartość
 	cout <<"\n---> Przez wartosc:"<< endl;
 	int temp = a;
 	a = b;
