@@ -92,8 +92,8 @@ int main() {
 	cout <<"5. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
 
   //wsk_int = &c;
-	*(&c - 1) = 50;
 	//*(wsk_int - 1) = 50;
+	*(&c - 1) = 50;
 	cout <<"6. A, B, C: "<< a <<"\t"<< b <<"\t"<< c << endl;
 
 	*( (int*)&x - 2) = 60;
