@@ -24,13 +24,16 @@ void printBinaryShort(const unsigned char val) {
 int main(){
 
 	for(int i = 0; i<= 10; i++) {
-		PR(" in binary: ", i);
-	  //cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl;
-		/* cout << i <<"\t";
-		 * printBinaryShort(i);
-		 * cout << endl;
-     * //Przepisac powyżczy fragment jako funkcje bez uzycia dyrektywy preprocesora */
-	}
+
+    PR(" in binary: ", i);
+	  
+    /* cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl; */
+		
+    /* cout << i <<"\t";
+     * printBinaryShort(i);
+     * cout << endl; */
+    
+  }
 
 	//PR("a in binary: ", a);
 
