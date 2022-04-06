@@ -10,7 +10,7 @@
 #include <cstring>
 using namespace std;
 
-#define ROZMIAR 10
+#define ROZMIAR 5
 
 //--- dostep za pomoca indeksu --------------------------------------
 void funA(){
