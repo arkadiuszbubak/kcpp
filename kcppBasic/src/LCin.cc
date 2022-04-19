@@ -19,11 +19,15 @@ int main(int argc, char *argv[]){
       cin >> cVar0;                 // porównaj do "2"
       cout <<"cVar0: "<< cVar0 << endl;
 
-     char cVar01;
-     //cVar01 = "error";  //error
-     cVar01 = 'error';
-     cout <<"cVar01: "<< cVar01 << endl;
 
+     // Porównaj powyższe do: --------------------
+     char cVar01;
+     //cVar01 = "error";  ///<error
+     //cVar01 = "e"; ///< error
+     //cVar01 = 'error'; ///< warning
+     cVar01 = 'e';
+     cout <<"cVar01: "<< cVar01 << endl;
+    //--------------------------------------------
     }
 
     if(argv[1] == string("1")){
@@ -37,8 +41,7 @@ int main(int argc, char *argv[]){
     if(argv[1] == string("2")){
       char *cVar2;
       cout << "Podaj wartosc: ";
-      //cin >> cVar2;                     //-- ERROR
-      //cout <<"*cVar2: "<< *cVar2 << endl;  //<-- Do sprawdzenia
+      cin >> cVar2;                     ///< ERROR, ale nie podczas kompilacji
     }
   }
   return 0;
