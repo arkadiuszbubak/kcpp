@@ -10,6 +10,7 @@
 using namespace std;
 
 //Pokazanie strumienia bledow: a.out |tee -a plikWynikowy.txt 2>&1
+//Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
 
 void InputZeSpacjami(){
 
