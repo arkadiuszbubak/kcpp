@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
      char cVar01;
      //cVar01 = "error";  ///<error
      //cVar01 = "e"; ///< error
-     //cVar01 = 'error'; ///< warning
+     //cVar01 = 'errorx'; ///< warning
      cVar01 = 'e';
      cout <<"cVar01: "<< cVar01 << endl;
     //--------------------------------------------

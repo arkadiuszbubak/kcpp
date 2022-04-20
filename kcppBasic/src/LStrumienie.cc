@@ -67,8 +67,8 @@ int main(){
     cout <<"Wpisales: "<< B <<"\t"<< A << endl;
 
 
-    InputZeSpacjami();
-    //InputZeSpacjamiPoprawny();
+    //InputZeSpacjami();
+    InputZeSpacjamiPoprawny();
 
     return 0;
 }

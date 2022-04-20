@@ -15,10 +15,11 @@ int main(){
 	float y = 8.123456789;
 
 	cout << x << endl;
-	//cout << setfill ('x') << setw (10);
+	cout << setfill ('x') << setw (10);
 	cout << setw (10) << y << endl;
 	cout << y << endl;
-  //cout <<"   "<< y << endl;
+  cout <<"  "<< y << endl;
+  cout <<"\t"<< y << endl;
 
 
 	return 0;
