@@ -121,7 +121,7 @@ Zadanie 3.4 (LArytmetykaWskaznikowTablice.cc)
  - nazwać program: ZadWywolanieFunkcji.cc 
 
 
-Zadanie 3.5 (LOperatoryPrzypisania.cc)
+NIE: Zadanie 3.5 (LOperatoryPrzypisania.cc)
 -------------------------------------
 Napisac program z przykladami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
@@ -136,7 +136,7 @@ Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 3.7
+NIE: Zadanie 3.7
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
