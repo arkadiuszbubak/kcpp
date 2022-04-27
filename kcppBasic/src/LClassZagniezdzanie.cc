@@ -13,6 +13,11 @@ class Samochod
   public:
     int fZmienna;
 
+    inline void FunkcjaA(){
+      cout <<"FunkcjaA"<< endl;
+    }
+    void FunkcjaB();
+
     class Akcje
     {
       public:
@@ -20,6 +25,10 @@ class Samochod
     };
 };
 
+
+void Samochod::FunkcjaB(){
+  cout <<"FunkcjaB" << endl;
+}
 
 int main()
 {
@@ -39,4 +48,6 @@ int main()
   cout << Volvo.fZmienna << endl;
   cout << Ford->fZmienna << endl;
   //cout << Trab.fZmienna  << endl;
+  Volvo.FunkcjaA();
+  Ford->FunkcjaB();
 }
