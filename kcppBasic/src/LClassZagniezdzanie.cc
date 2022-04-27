@@ -13,23 +13,30 @@ class Samochod
   public:
     int fZmienna;
 
-    inline void FunkcjaA(){
+    inline void FunkcjaA(){   ///<Deklaracjai jednocześnie definicja
       cout <<"FunkcjaA"<< endl;
     }
-    void FunkcjaB();
+    void FunkcjaB();          ///< Deklaracja funkcji, definicja poza klasą
 
+    //--- klasa zagnieżdżona ------
     class Akcje
     {
       public:
         int fZmienna;
     };
+    //-------------------------------
 };
 
 
+
+//-----------------------------------------------------------
 void Samochod::FunkcjaB(){
   cout <<"FunkcjaB" << endl;
 }
 
+
+
+//-----------------------------------------------------------
 int main()
 {
   Samochod Volvo;
