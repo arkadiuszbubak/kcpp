@@ -12,6 +12,9 @@ class A
 {   
  public:
    A(int x, int y) : fX(x), fY(y) {}
+   A(int x){
+       fX = x;
+   }
    A() {
       fX = fY = 0; 
    }
