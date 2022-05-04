@@ -31,8 +31,8 @@ int main()
   A objektB(7);
   A *objektC = new A(9);
 
-  /* objektA.fLicznik = 3;
-   * cout << objektA.fLicznik  << endl; */
+  objektA.fLicznik = 3;
+  cout << objektA.fLicznik  << endl;
   cout << objektB.fLicznik  << endl;
   cout << objektC->fLicznik << endl;
 }
