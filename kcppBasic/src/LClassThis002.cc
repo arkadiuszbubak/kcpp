@@ -18,6 +18,7 @@ class Licznik
       ++fN;
       return *this; 
     }          
+    Licznik& ZwiekszNew();         
 
     Licznik& Ustaw(int n) {                                // (1) (3)
       //this->fN = n;
@@ -30,6 +31,11 @@ class Licznik
     int fN;
 };
 
+Licznik& Licznik::ZwiekszNew()
+{
+  ++fN;
+  return *this; 
+}          
 
 int main()
 {
@@ -39,7 +45,13 @@ int main()
   zmienna = 7;
 
   cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
+  //cout << obiekt.Ustaw(zmienna).Pokaz() << endl;  // (2)
   cout << obiekt.Pokaz() << endl;
+
+  obiekt.Ustaw(4);
+  obiekt.Zwieksz();
+  cout << obiekt.Pokaz() << endl;
+
 
 /*   obiekt.Zwieksz();
  *   cout << obiekt.Pokaz() << endl;
