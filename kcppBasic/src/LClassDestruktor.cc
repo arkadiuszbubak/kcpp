@@ -14,26 +14,29 @@ class A
  public:
    A() {};
    A(int zmienna);
-   A(double zmienna) {};
+   A(double zmienna) { fLicznikDouble = zmienna; };
    ~A();
 
-   int fLicznik;
+   int fLicznikInt;
+   double fLicznikDouble;
 };
 
 A::A(int zmienna){
-   fLicznik = zmienna;
+   fLicznikInt = zmienna;
 }
         
 A::~A(){
-   cout <<"Obiekt objectC zostal zniszczony"<< endl;
+   cout <<"Obiekt zostal zniszczony"<< endl;
 }
 
 int  main(){
-   A *obiektC = new A(9);
-   A *obiektD = new A(9.1);
+   A *obiektC = new A(444);
+   A *obiektD = new A(444.1);
    A *obiektE = new A();
         
-   cout << obiektC->fLicznik << endl; 
+   cout << obiektC->fLicznikInt    << endl; 
+   cout << obiektD->fLicznikDouble << endl; 
+   cout << obiektE->fLicznikInt    << endl; 
  
    delete obiektC;  //sprawdzic co sie stanie gdy zakomentujemy ta linie
 }
