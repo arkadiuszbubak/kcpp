@@ -17,7 +17,7 @@ class A
    A(double zmienna) { fLicznikDouble = zmienna; };
    ~A();
 
-   int fLicznikInt;
+   int    fLicznikInt;
    double fLicznikDouble;
 };
 
