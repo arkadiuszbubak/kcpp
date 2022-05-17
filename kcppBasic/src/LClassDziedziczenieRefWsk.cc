@@ -41,6 +41,7 @@ int main() {
 
   a.Funkcja();
   b.Funkcja();
+
   p1->Funkcja();
   p2->Funkcja();
   r1.Funkcja();
