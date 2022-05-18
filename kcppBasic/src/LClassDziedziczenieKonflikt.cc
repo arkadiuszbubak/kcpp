@@ -39,5 +39,6 @@ int main()
   obiekt->Fun();
   cout << obiekt->A::fI << endl;
   cout << obiekt->B::fI << endl;
+  //cout << obiekt->B::fB << endl;
 }
 
