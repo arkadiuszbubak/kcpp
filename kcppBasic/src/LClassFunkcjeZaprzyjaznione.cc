@@ -22,8 +22,8 @@ class Pudelko
 
 int Equalsize(Pudelko a, Pudelko b) {
 
-  // Funkcja nie bedaca metoda klasy Pudelko korzysta ze
-  // skladowych prywatnych klasy Pudelko
+  /* Funkcja nie bedaca metoda klasy Pudelko korzysta ze
+   * skladowych prywatnych klasy Pudelko */
 
   //if( a.GetValueD() == b.GetValueD()) return 1;    // A czy to zadziała?
   if( a.fD * a.fS * a.fW == b.fD * b.fS * b.fW) return 1;
