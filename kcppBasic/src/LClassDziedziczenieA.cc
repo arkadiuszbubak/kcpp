@@ -59,8 +59,8 @@ int main()
    //------------ 5 ------------------------
    potObiekt.fM = 3;
    cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
-   przObiekt.fM = 7;
 
+   przObiekt.fM = 7;
    cout <<"przObiekt.fM: "<< przObiekt.fM << endl;
    cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
 
