@@ -54,7 +54,6 @@ int main()
   objA.SetValue(7,8);
   Pokaz(objA);
 
-
   B objB;
   objB.ZerujA(objA);
   Pokaz(objA);
