@@ -56,6 +56,6 @@ int main()
    Figura *objKwadrat = new Kwadrat();
    objKwadrat->Narysuj();  
 
-  Figura fig;    //ERROR
+  //Figura fig;    //ERROR
   //Figura *fig = new Figura();    //ERROR
 }
