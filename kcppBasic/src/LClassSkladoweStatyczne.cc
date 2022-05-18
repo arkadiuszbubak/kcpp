@@ -12,7 +12,7 @@ class A
 {
  public:
    A() { gLicznik++; }
-   A(int k) { }
+   A(int k) { k++; }
    
    static int GetValue() {   // Zlikwidujmy static i zobaczmy co sie stanie
       return gLicznik;
