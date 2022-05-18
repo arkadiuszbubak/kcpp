@@ -12,7 +12,7 @@ class Pudelko
 {   
   public:
     Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) { }
-    //float GetValueD() { return fD; }; 
+    //float GetValueD() { return  fD; }; 
     friend int Equalsize(Pudelko a, Pudelko b);
 
   private:
@@ -36,7 +36,7 @@ int main()
   Pudelko objA(1, 2, 3);
   Pudelko objB(1, 2, 3);    // 1.
   //Pudelko objB(1, 4, 3);  // 2. Linie 1.to zamienmy na linie 2.
-
+ 
   //cout << objA.fD << endl;
   //cout << objA.GetValueD() << endl;
 
