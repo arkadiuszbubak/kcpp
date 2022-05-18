@@ -12,7 +12,7 @@ class A
 {
  public:
    A() { gLicznik++; }
-   A(int k) { k++; }
+   A(int k) { k++;}
    
    static int GetValue() {   // Zlikwidujmy static i zobaczmy co sie stanie
       return gLicznik;
@@ -40,7 +40,10 @@ int main()
    cout <<"objectC.GetValue: "<< objectC->GetValue() << endl;
  
    /* A objectD;
-   * cout <<"objectD variable: "<< objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
+    * cout <<"objectD variable: "<< objectD.gLicznik << endl;  ///< A czy tak można? Proszę sprawdzić. */
+   //cout <<"no object variable: "<< A::gLicznik++ << endl;
+   //cout <<"no object variable: "<< ++A::gLicznik << endl;
+
    
    return 0;
 }
