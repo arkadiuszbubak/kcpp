@@ -8,6 +8,7 @@
 #include <iostream>
 using namespace std;
 
+//----------------------------------------------------------------------
 class Przodek 
 {
  public:
@@ -17,10 +18,14 @@ class Przodek
    float fN;   ///< fN ia only here in the class you inherit from
 };
 
+
+
+//----------------------------------------------------------------------
 class Potomek : public Przodek 
 { 
  public:
    int fM;
+   //int fN;
    
 };
 
@@ -33,6 +38,7 @@ int Przodek::FunA(int zm)
 
 
 
+//----------------------------------------------------------------------
 int main()
 {
    Potomek potObiekt;
@@ -64,6 +70,12 @@ int main()
    cout <<"przObiekt.fM: "<< przObiekt.fM << endl;
    cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
 
+/*    //------------ 6 ------------------------
+ *    potObiekt.fN = 9;
+ *    cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
+ *
+ *    potObiekt.fN = 9.6;
+ *    cout <<"potObiekt.fN: "<< potObiekt.fN << endl; */
 
 }
 
