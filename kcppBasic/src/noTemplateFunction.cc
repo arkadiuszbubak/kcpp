@@ -29,9 +29,9 @@ int Add(int t1, int t2) {
 float Add(float t1, float t2) {
   return t1 + t2;
 }
-//double Add(double t1, double t2) {
-//  return t1 + t2;
-//}
+/* double Add(double t1, double t2) {
+ *   return t1 + t2;
+ * } */
 //----------------------------
 
 
@@ -47,8 +47,8 @@ int main() {
 
   // ----- Wersja 1 -----------
   cout << Add(2,3)     << endl;
-  //cout << Add(2.6,3.2) << endl;  
-  cout << Add(2,13)    << endl;  
+  // cout << Add(2.6,3.2) << endl;
+  cout << Add(2,13)    << endl;
   cout << Add(2,14)    << endl;  
   //----------------------------
   
