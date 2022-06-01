@@ -328,7 +328,7 @@ Zadanie 6.1
 - używaj dyrektywy preprocesora #define w plikach nagłówkowych
 - wszystko w osobnym katalogu: ZadClassKcpp
   - main.cc w ZadClassKcpp,
-  - pliki nagłówkowew katalogu: ZadClassKcpp/inlclude,
+  - pliki nagłówkowew katalogu: ZadClassKcpp/include,
   - pliki źródłowe w katalogu: ZadClassKcpp/src
 - Program powinien zawierać interaktywne menu z możliwościa wyboru zadania do wywołania 
   - menu:
