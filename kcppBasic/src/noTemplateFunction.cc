@@ -47,7 +47,7 @@ int main() {
 
   // ----- Wersja 1 -----------
   cout << Add(2,3)     << endl;
-  // cout << Add(2.6,3.2) << endl;
+  //cout << Add(2.6,3.2) << endl;
   cout << Add(2,13)    << endl;
   cout << Add(2,14)    << endl;  
   //----------------------------
