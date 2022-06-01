@@ -320,7 +320,7 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 Zadanie 6.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań z zakresu 1.1-5.6
+- Zaprojektuj klasę/klasy i umieść funkcje z 5 wybranych zadań z zakresu 1.1-5.6
   jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
