@@ -325,12 +325,12 @@ Zadanie 6.1
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
 - nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
-- używaj dyrektywy preprocesora #define w plikach nagłówkowych
+- używaj dyrektywy preprocesora #define w plikach nagłówkowych aby zapobiec powtórnemu umieszczaniu treści pliku nagłówkowego
 - wszystko w osobnym katalogu: ZadClassKcpp
   - main.cc w ZadClassKcpp,
-  - pliki nagłówkowew katalogu: ZadClassKcpp/include,
-  - pliki źródłowe w katalogu: ZadClassKcpp/src
-- Program powinien zawierać interaktywne menu z możliwościa wyboru zadania do wywołania 
+  - pliki nagłówkowe (*.h) w katalogu: ZadClassKcpp/include,
+  - pliki źródłowe (*.cc) w katalogu: ZadClassKcpp/src
+- Program powinien zawierać interaktywne menu z możliwością wyboru zadania do wywołania 
   - menu:
    - sekcja
    - numer zadania w sekcji i opis w kilu słowach co dana funkcja (zadanie) zawiera
