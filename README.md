@@ -11,7 +11,7 @@ Zajęcia odbywają się w sposób kontaktowy
 
 2. Zrozumiale napisana instrukcja korzystania z git
 
-   https://git-scm.com/book/pl  (2nd Edition 20)
+   https://git-scm.com/book/pl  (2nd Edition 2014)
 
 3. Repozytorium składa się z kilku niezależnych części
 
