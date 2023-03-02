@@ -5,15 +5,15 @@ Zajęcia odbywają się w sposób kontaktowy
 
 # Materiały pomocnicze do kursu C++
 
-1. Download:
+1. Download
 
    git clone https://github.com/arkadiuszbubak/kcpp
 
-2. Zrozumiale napisana instrukcja korzystania z git:
+2. Zrozumiale napisana instrukcja korzystania z git
 
    https://git-scm.com/book/pl
 
-3. Repozytorium składa się z kilku niezależnych części:
+3. Repozytorium składa się z kilku niezależnych części
 
 	1. kcppBasic - postawowe pliki użyte do omawiania poszczególnych zagadnień kursu. Aktualne pliki mogą i z pewnością ulegną zmianie w trakcie semestru.
 	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminie (i także mogą/ulegną zmianie), przy omawianiu klas w C++
