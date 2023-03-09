@@ -10,7 +10,7 @@ using namespace std;
 
 //int comp(int c); //niepotrzebna gdy funkcja jest zdefiniowana przed funkcja main
 
-//static int ncall = 0;
+// static int ncall = 0;
 
 //----------------------------------------------
 int comp(int c) {
@@ -31,8 +31,10 @@ int main(){
 	int a = 5, b = -10;
 
 	cout << comp(a) << ' ' << comp(b);
-	//comp1();
 	cout << "\nFunkcja zostala wywolana " << comp(0) << " razy.\n";
+
+	/* comp1();
+   * cout << ncall << endl; */
 
 	return 0;
 }
