@@ -31,7 +31,7 @@ int main()
   //i++;    // this leads to Compile time error 
 
   //Pointer to a const variable. This means that the pointer is pointing to a const variable.
-  const int* u1;  //u is a pointer that can point to a const int type variable.
+  const int* u1;  //u1 is a pointer that can point to a const int type variable.
 
   //Można też tak
   int const* u2;
