@@ -55,8 +55,8 @@ int main(void) {
 	// Print total number of objects before creating object.
 	cout << "Inital Stage Count: " << LBox::GetCount() << endl;
 
-	LBox objectBox1(4.1, 2.2, 3.6);    // Declare objectBox1
-	LBox objectBox2(4.7, 2.3, 4.1);    // Declare objectBox2
+	LBox objectBox1(4.1, 2.2, 3.6);    // Declare object objectBox1
+	LBox objectBox2(4.7, 2.3, 4.1);    // Declare object objectBox2
 
 	// Print total number of objects after creating object.
 	cout << "Final Stage Count: " << LBox::GetCount() << endl;
