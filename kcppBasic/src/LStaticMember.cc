@@ -15,7 +15,7 @@ class Box {
 
     // Constructor definition
     Box(double l = 2.0, double b = 2.0, double h = 2.0) {
-      cout <<"Constructor called." << endl;
+      cout <<"Constructor called" << endl;
       length = l;
       breadth = b;
       height = h;
@@ -37,8 +37,8 @@ class Box {
 int Box::objectCount = 0;
 
 int main(void) {
-  Box Box1(3.3, 1.2, 1.5);    // Declare box1
-  Box Box2(8.5, 6.0, 2.0);    // Declare box2
+  Box Box1(3.3, 1.2, 1.5);    // Declare object box1
+  Box Box2(8.5, 6.0, 2.0);    // Declare object box2
 
   // Print total number of objects.
   cout << "Total objects: " << Box::objectCount << endl;
