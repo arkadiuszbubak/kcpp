@@ -5,6 +5,22 @@
  * v0.02 (2021.03.01)
  */
 
+/* Information
+ * ---------------------------------------------------------------------------------------------------
+ *              enum name(optional) { enumerator = constexpr , enumerator = constexpr , ... }
+ * since C++11: enum name(optional) : type { enumerator = constexpr , enumerator = constexpr , ... }
+ * since C++11: enum name : type;
+ * enum Foo { a, b, c = 10, d, e = 1, f, g = f + c };
+ * //a = 0, b = 1, c = 10, d = 11, e = 1, f = 2, g = 12
+ *
+ * enum color { red, yellow, green = 20, blue };
+ * color col = red;
+ * int n = blue; // n == 21
+ *
+ * enum { a, b, c = 0, d = a + 2 }; // defines a = 0, b = 1, c = 0, d = 2
+ * ----------------------------------------------------------------------------------------------------
+ *  */
+
 #include<iostream>
 using namespace std;
 
@@ -19,6 +35,7 @@ enum e_acompany {
     RollsRoyce, 
     Saab
   };
+
 
 int main()
 {
