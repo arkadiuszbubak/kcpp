@@ -23,7 +23,8 @@ int main()
   cout << "var2 :   "<< var2 << endl;
   cout << "Size of: "<< sizeof(var2) << endl;
   cout << "Type:    "<< typeid(var2).name() << endl;
-  // -------------------------------
+  cout <<"--------------------------------------"<<endl;
+
 
 /*   float var3 = 137.1;
  *   cout << "var3:    "<< var3 << endl;
