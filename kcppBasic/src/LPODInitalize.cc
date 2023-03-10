@@ -26,15 +26,15 @@ int main()
 {
   int a;
 
-  //a = a + 1;
-  //a++;
+  // a = a + 1;
+  // a++;
 
   int b = 7;
   cout <<"a: " << a << endl;
   cout <<"b: " << b << endl;
 
-  does_not_default_initialize DNDI;
-  //default_initialize DNDI;
+  //does_not_default_initialize DNDI;
+  default_initialize DNDI;
   cout <<"int x from struct: " << DNDI.x << endl;
   cout <<"str s from struct: " << DNDI.s << endl;
 
