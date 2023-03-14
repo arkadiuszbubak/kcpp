@@ -38,11 +38,15 @@ int main(){
   Ford *fordTaurus = new Ford();
   fordTaurus->Run();
 
-  Car *car = dynamic_cast<Car*>(fordTaurus);
-  car->Run();
+  Car *car1 = dynamic_cast<Car*>(fordTaurus);
+  car1->Run();
+  // fordTaurus->Run();
+  /* Car *car2 = new Ford();
+   * car2->Run(); */
 
   delete fordTaurus;
-  delete car;
+  // delete car1;
+  // delete car2;
 
   Derived d; Base *b = &d;
   //dynamic_cast<Derived*>(b); //Niepoprawne
