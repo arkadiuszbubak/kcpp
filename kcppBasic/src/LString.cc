@@ -42,14 +42,17 @@ int main(){
   cout << &b1 << endl;
 
   string a,b,c;
+  // string d;
   a = "gosia";
   b = "iza";
   c = "gosia";
+  // d = "gosia";
 
   // porównywanie napisów
   if (a == c) cout << "a i c sa takie same\n";
   cout << &a << endl;
   cout << &c << endl;
+  // cout << &d << endl;
 
 
   if (a != b) cout << "a i b sa rozne\n" ;
@@ -58,9 +61,9 @@ int main(){
   cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
   else cout << "nieprawda\n";
-
+ 
   // łączenie łańcuchów
-  a = "mal"+ a;
+  a = "mal" + a;
 
   cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
