@@ -15,9 +15,9 @@ int main(){
   char mystring2[] = "Dzień dobry";
   char mystring3[12];	
 
-  cout << "mystring1:  "<< mystring1 << endl;
-  cout << "mystring2:  "<< mystring2 << endl;
-  cout << "mystring3:  "<< mystring3 << endl;
+  cout << "mystring1.0:  "<< mystring1 << endl;
+  cout << "mystring2.0:  "<< mystring2 << endl;
+  cout << "mystring3.0:  "<< mystring3 << endl;
 
 
   /* // Not allowed
@@ -37,10 +37,11 @@ int main(){
   //strcpy (string1, string2);
 
   strcpy(mystring3, "Dzien dobry");
-  strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekst bedzie dluzszy
-  cout <<"mystring3: " <<mystring3 << endl;
-  cout <<"mystring3: " <<mystring3[11] << endl;
-  //cout <<"mystring3: " <<mystring3[37] << endl;
+  strcpy(mystring3, "Dzien dobry wszystkim"); ///<A co jesli tekst bedzie dluzszy niż 12 znaków?
+  cout <<"mystring3.1: " <<mystring3 << endl;
+  cout <<"mystring3.2: " <<mystring3[11] << endl;
+  cout <<"mystring3.3: " <<mystring3[12] << endl;
+  // cout <<"mystring3.4: " <<mystring3[37] << endl;
 
 
   // Partial copy
@@ -58,12 +59,12 @@ int main(){
     <<"str2:\t"<< str2 << "\n"
     <<"str3:\t"<< str3 << endl;
 
-  //Prosze sprawdzic co robi sizeof
-  int iTab[10];
-  double dTab[10];
-
-  cout <<"iTab: "<< sizeof(iTab) << endl;
-  cout <<"dTab: "<< sizeof(dTab) << endl;
+/*   //Prosze sprawdzic co robi sizeof
+ *   int iTab[10];
+ *   double dTab[10];
+ *
+ *   cout <<"iTab: "<< sizeof(iTab) << endl;
+ *   cout <<"dTab: "<< sizeof(dTab) << endl; */
 
 
   /*from cstring
