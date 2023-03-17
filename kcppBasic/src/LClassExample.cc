@@ -23,7 +23,7 @@ class ClassExample
     void SetVariable(int rvariable)       { fVariable     = rvariable; };
 
     /** Accesors **/
-    int GetPlate()     { return fVariable; };
+    int GetVariable()     { return fVariable; };
 
   private:
     int fVariable;
@@ -34,5 +34,9 @@ class ClassExample
 int main(){
 
   ClassExample *object = new ClassExample();
+  object->SetVariable(10);
+  int var = object->GetVariable();
+  cout << var << endl;
 
+  delete object;
 }
