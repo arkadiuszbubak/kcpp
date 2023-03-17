@@ -9,8 +9,6 @@
 #include <iomanip>
 using namespace std;
 
-
-
 int main(){
 	int a = 3;
 	int b = 9;
@@ -22,10 +20,13 @@ int main(){
   cout <<" 0: "<< a/b << endl;
   cout <<" 1: "<< (double)(a)/double(b) << endl;
 	cout <<" 2: "<< (double)(a)/b << endl;
-	cout <<" 3: "<< (double)(a/b) << endl;   ///< niepoprawne
-	cout <<" 4: "<< (double) a/b << endl;    
-  //cout <<" 5: "<< double(a)/b  << endl;
-	//cout <<" 6: "<< a/double(b)  << endl;
+	cout <<" 3: "<< a/(double)(b) << endl;
+
+	cout <<" 4: "<< (double)(a/b) << endl;   ///< niepoprawne
+	cout <<" 5: "<< (double) a/b << endl;    
+
+  cout <<" 6: "<< double(a)/b  << endl;
+	cout <<" 7: "<< a/double(b)  << endl;
 	//-------------------------------------------------
 
   /* //--C++like----------------------------------------
