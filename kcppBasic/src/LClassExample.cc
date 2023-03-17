@@ -34,7 +34,9 @@ class ClassExample
 int main(){
 
   ClassExample *object = new ClassExample();
+
   object->SetVariable(10);
+
   int var = object->GetVariable();
   cout << var << endl;
 
