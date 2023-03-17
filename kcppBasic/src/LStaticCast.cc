@@ -14,26 +14,26 @@ int main(){
 	int b = 9;
   float c;
 
-	//--C-like ----------------------------------------
+  //--C-like ----------------------------------------
   c = a/b;
   cout <<"-1: "<< c << endl;
   cout <<" 0: "<< a/b << endl;
   cout <<" 1: "<< (double)(a)/double(b) << endl;
-	cout <<" 2: "<< (double)(a)/b << endl;
-	cout <<" 3: "<< a/(double)(b) << endl;
+  cout <<" 2: "<< (double)(a)/b << endl;
+  cout <<" 3: "<< a/(double)(b) << endl;
 
-	cout <<" 4: "<< (double)(a/b) << endl;   ///< niepoprawne
-	cout <<" 5: "<< (double) a/b << endl;    
+  cout <<" 4: "<< (double)(a/b) << endl;   ///< niepoprawne
+  cout <<" 5: "<< (double) a/b << endl;
 
   cout <<" 6: "<< double(a)/b  << endl;
-	cout <<" 7: "<< a/double(b)  << endl;
-	//-------------------------------------------------
+  cout <<" 7: "<< a/double(b)  << endl;
+  //-------------------------------------------------
 
   /* //--C++like----------------------------------------
    * double c1 = static_cast<double>(a) / static_cast<double>(b);
    * double c2 = static_cast<double>(a) /b;
    * double c3 = static_cast<double>(a/b);  ///< niepoprawne
-   * //double c4 = static_cast<double> a/b; ///< ERROR
+   * // double c4 = static_cast<double> a/b; ///< ERROR
    * //-------------------------------------------------
    * std::cout << std::fixed << std::setprecision(3) <<"c1: "<< c1 << endl;
    * std::cout << std::fixed << std::setprecision(3) <<"c2: "<< c2 << endl;
@@ -44,20 +44,24 @@ int main(){
   cout << endl;
 
   int i1 = 6;
-  cout <<" i1.1: "<< i1 << endl;
-  std::cout << std::fixed << std::setprecision(3) <<" i1.0: "<< i1 << endl;
+  cout <<" i1.0: "<< i1 << endl;
+  std::cout << std::fixed << std::setprecision(3) <<" i1.1: "<< i1 << endl;
+  cout << endl;
 
   double d1 = (double)i1;               ///< C-like
-  cout <<" d1.2: "<< d1 << endl;
-  std::cout << std::fixed << std::setprecision(3) <<" d1.1: "<< d1 << endl;
+  cout <<" d1.1: "<< d1 << endl;
+  std::cout << std::fixed << std::setprecision(3) <<" d1.2: "<< d1 << endl;
+  cout << endl;
 
   double d2 = static_cast<double>(i1);  ///< C++-like
-  cout <<" d2.2: "<< d2 << endl;
-  std::cout << std::fixed << std::setprecision(3) <<" d2.1: "<< d1 << endl;
+  cout <<" d2.1: "<< d2 << endl;
+  std::cout << std::fixed << std::setprecision(3) <<" d2.2: "<< d1 << endl;
+  cout << endl;
 
   double pi  = 3.14159265;
   cout <<" pi: "<< pi << endl;
   std::cout << std::fixed << std::setprecision(3) <<" pi: "<< pi << endl;
+  cout << endl;
 
   int    p1 = static_cast<int>(pi);
   cout <<" p1: "<< p1 << endl;
