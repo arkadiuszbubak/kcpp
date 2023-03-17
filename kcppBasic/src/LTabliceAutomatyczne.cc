@@ -45,15 +45,19 @@ void tablice(){
 
 	int A0[10];             ///<tablica 10 int
 
-  //CoutWholeArray(A,10);
+  // CoutWholeArray(A,10);
 	int A1[]={1,2,3,4,5,6};  ///<tablica 6 int
-  //CoutWholeArray(A1,6);
+  // CoutWholeArray(A1,6);
 
-	int A2[6]={0};
-  //CoutWholeArray(A2,6);
-  //
-  int A3[6]{0,0,0,0,0,0};
+  int A2[6]={0};
+	// int A2[6]={6};
+  // CoutWholeArray(A2,6);
+
+  int A3[6]{0,0,1,0,0,0};
+  // CoutWholeArray(A3,6);
 	int A4[6]{0};
+	//int A4[6]{7};
+  // CoutWholeArray(A4,6);
 
 	//tablica 20 znaków
 	char B[i]={'a', 'b', 'c', 'd', 'e', 'f'};
@@ -84,7 +88,7 @@ void tablice(){
    * //--------------------------------------
    * cout <<"\nA[0] = "<< A[0] << endl;
    * (*A)++;
-   * //(*A++);  // error, prosze powiedziec dlaczego?
+   * // (*A++);     ///< error, prosze powiedziec dlaczego?
    * cout <<  (*A)++ << endl;
    * cout <<"A[0] = "<< A[0] << endl;
    * //-------------------------------------- */
