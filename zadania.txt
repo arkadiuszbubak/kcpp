@@ -347,3 +347,4 @@ Zadanie 7.1
 --------------------------------------
 - Stwórz Makefile (lub użyj cmake) do kompilacji programu (programów) z zadania 6.1
 
+
