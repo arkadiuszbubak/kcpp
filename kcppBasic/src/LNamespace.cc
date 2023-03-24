@@ -15,7 +15,6 @@ namespace nasza {
     cout <<"Namespace: Funkcja"<< endl;
   }
 }
-using namespace nasza;
 //---------------------------
 
 
@@ -33,8 +32,9 @@ int main(){
   cout << nasza::k << endl;
   cout << k << endl;
 
-  // Funkcja();          ///<< Error: global function  
-  nasza::Funkcja();
+  //Funkcja();          ///<< Error: global function  
+  //using namespace nasza;
+  //nasza::Funkcja();
 
 	return 0;
 }
