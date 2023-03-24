@@ -80,5 +80,18 @@ int main(){
 
   cout << "zmieniony wyraz b: "<<b<<'\n';
 
+
+  /* Zadanie podczas zajęć
+   *   Napisz funkcje (osobny program) w którym zadeklarujesz string i uzyjesz na nim funkcji manimulacyjnych:
+   *   1. empty() 	Zwraca wartość true jeżeli napis jest pusty.
+   *   2. size(),length() 	Zwraca ilość znaków w napisie.
+   *   3. at() 	Zwraca znak o podanym położeniu, tak jak operator [], z tym że ta metoda jest bezpieczniejsza - wyrzuca wyjątek w przypadku wyjścia poza zakres stringa.
+   *   4. clear() 	Usuwa wszystkie znaki z napisu.
+   *   5. erase(...) 	Usuwa wybrane znaki.
+   *   6. find(...) 	Znajduje podciąg w ciągu, są też bardziej rozbudowane funkcje tego typu.
+   *   7. swap(...) 	Zamienia miejscami dwa stringi, a staje się b, a b staje się a.
+   *   8. substr(...) 	Zwraca podciąg na podstawie indeksu początkowego i długości podciągu.
+   *   9. append(...) */
+
   return 0;
 }
