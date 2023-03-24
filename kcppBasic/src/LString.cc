@@ -11,7 +11,8 @@ using namespace std;
 
 int main(){
 
-  //https://pl.wikibooks.org/wiki/C%2B%2B/String
+  /* Based on https://pl.wikibooks.org/wiki/C%2B%2B/String
+   * look also at: https://cplusplus.com/reference/string/string/ */
 
   string napis1;
   napis1 = "text1";
