@@ -41,7 +41,7 @@ int main(){
   cout <<"mystring3.1: " <<mystring3 << endl;
   cout <<"mystring3.2: " <<mystring3[11] << endl;
   cout <<"mystring3.3: " <<mystring3[12] << endl;
-  // cout <<"mystring3.4: " <<mystring3[37] << endl;
+  cout <<"mystring3.4: " <<mystring3[37] << endl;
 
 
   // Partial copy
