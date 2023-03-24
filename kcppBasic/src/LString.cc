@@ -46,7 +46,12 @@ int main(){
   a = "gosia";
   b = "iza";
   c = "gosia";
-  // d = "gosia";
+
+  // Przykład porządku leksykograficznego ------------
+  /* a = "adad";
+   * b = "aeac";
+   * c = "gosia"; */
+  //---------------------------------------------------
 
   // porównywanie napisów
   if (a == c) cout << "a i c sa takie same\n";
