@@ -21,13 +21,13 @@ int zmniejsz(int a, int b = 1);
   *   return a;
   * } */
 
-/*  int zwiekszNew(int a, int b){
- *    return a + b;
- *  }
- *
- *  int zwiekszNew(int a){
- *    return a;
- *  } */
+ int zwiekszNew(int a, int b){
+   return a + b;
+ }
+
+ int zwiekszNew(int a){
+   return a;
+ }
  //---------------------------------------------------------------
 
 
