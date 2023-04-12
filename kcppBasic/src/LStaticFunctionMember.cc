@@ -23,10 +23,10 @@ class LBox {
 		static int iObjectCount;
 
 		// Constructor definition
-		LBox(double l = 2.0, double b = 2.0, double h = 2.0) {
+		LBox(double l = 2.0, double w = 2.0, double h = 2.0) {
 			cout <<"Constructor called." << endl;
 			dLength  = l;
-			dBreadth = b;
+			dWidth   = w;
 			dHeight  = h;
 
 			// Increase every time object is created
@@ -36,13 +36,13 @@ class LBox {
     ~LBox(){};
 
 
-		inline double GetVolume()    { return dLength *dBreadth *dHeight; }
+		inline double GetVolume()    { return dLength *dWidth *dHeight; }
 		//inline static int GetCount() { return iObjectCount; }
 		static int GetCount()        { return iObjectCount; }
 
 	private:
 		double dLength;     // Length of a box
-		double dBreadth;    // Breadth of a box
+		double dWidth;      // Width of a box
 		double dHeight;     // Height of a box
 };
 
