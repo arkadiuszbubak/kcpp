@@ -1,47 +1,46 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.02.10
+ * \date 2019.02.10 v0.01, 2023.04.12 v0.02
  * \brief Static member w C++
- * v0.01
+ * v0.02
  */
 
 #include <iostream>
-
 using namespace std;
 
-class Box {
+class LBox {
   public:
-    static int objectCount;
+    static int iObjectCount;
 
     // Constructor definition
-    Box(double l = 2.0, double b = 2.0, double h = 2.0) {
+    LBox(double l = 2.0, double w = 2.0, double h = 2.0) {
       cout <<"Constructor called" << endl;
-      length = l;
-      breadth = b;
-      height = h;
+      dLength = l;
+      dWidth  = w;
+      dHeight = h;
 
       // Increase every time object is created
-      objectCount++;
+      iObjectCount++;
     }
     double Volume() {
-      return length * breadth * height;
+      return dLength * dWidth * dHeight;
     }
 
   private:
-    double length;     // Length of a box
-    double breadth;    // Breadth of a box
-    double height;     // Height of a box
+    double dLength;     // Length of a box
+    double dWidth;      // Width of a box
+    double dHeight;     // Height of a box
 };
 
 // Initialize static member of class Box
-int Box::objectCount = 0;
+int LBox::iObjectCount = 0;
 
 int main(void) {
-  Box Box1(3.3, 1.2, 1.5);    // Declare object box1
-  Box Box2(8.5, 6.0, 2.0);    // Declare object box2
+  LBox objectBox1(3.3, 1.2, 1.5);    // Declare object box1
+  LBox objectBox2(8.5, 6.0, 2.0);    // Declare object box2
 
   // Print total number of objects.
-  cout << "Total objects: " << Box::objectCount << endl;
+  cout << "Total objects: " << LBox::iObjectCount << endl;
 
   return 0;
 }
