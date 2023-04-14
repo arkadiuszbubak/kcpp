@@ -40,10 +40,13 @@ void tablice(){
 
 	int A[10] = {0};         ///<tablica 10 int
   /* for(int w=0; w<10; w++){
-   *   cout <<"Tab: "<< A[w] << endl;
+   *   cout <<"Tab A: "<< A[w] << endl;
    * } */
 
 	int A0[10];             ///<tablica 10 int
+  /* for(int w=0; w<10; w++){
+   *   cout <<"Tab A0: "<< A0[w] << endl;
+   * } */
 
   // CoutWholeArray(A,10);
 	int A1[]={1,2,3,4,5,6};  ///<tablica 6 int
@@ -51,7 +54,7 @@ void tablice(){
 
   int A2[6]={0};
 	// int A2[6]={6};
-  // CoutWholeArray(A2,6);
+  CoutWholeArray(A2,6);
 
   int A3[6]{0,0,1,0,0,0};
   // CoutWholeArray(A3,6);
@@ -69,6 +72,9 @@ void tablice(){
 	//tablica 3 znakow
 	char B1[]={'g', 'h', 'i'};
 	char B2[4]="abc";
+  /* for(int w=0; w<4; w++){
+   *   cout << B2[w] <<"\t"<< endl;
+   * } */
 
 	float C[i+j];    ///<tablica 30 float
 	int k = 0;
@@ -81,14 +87,16 @@ void tablice(){
 	*(A+3) = *(A+2)+1;
 
 	for (k=0; k<10; k++){
-		cout<<"A["<<k<<"]="<<*(A+k) <<"\t"<< A[k] <<endl;}
+		cout<<"A["<<k<<"]= "<<*(A+k) <<"\t\t"<< A[k] <<endl;}
 
-  /* //--------------------------------------
-   * // Zadanie
-   * //--------------------------------------
+  /* //---------------------------------------------------------------
+   * // Zadanie: przykład pre i post inkrementacji ++(*A) i (*A)++
+   * //---------------------------------------------------------------
    * cout <<"\nA[0] = "<< A[0] << endl;
    * (*A)++;
    * // (*A++);     ///< error, prosze powiedziec dlaczego?
+   * int fVar = (*A)++;
+   * cout << fVar;
    * cout <<  (*A)++ << endl;
    * cout <<"A[0] = "<< A[0] << endl;
    * //-------------------------------------- */
