@@ -13,6 +13,7 @@ void FunctionA()
 {
   cout <<"W funkcji FunctionA"<< endl;
   return;
+  cout << "Jestem poza?" << endl;
 }
 
 
