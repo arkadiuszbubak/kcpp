@@ -59,7 +59,8 @@ int main(void) {
 	LBox objectBox2(4.7, 2.3, 4.1);    // Declare object objectBox2
 
 	// Print total number of objects after creating object.
-	cout << "Final Stage Count: " << LBox::GetCount() << endl;
+	cout << "Final Stage Count outside of object:       " << LBox::GetCount() << endl;
+	cout << "Final Stage Count call as object function: " << objectBox1.GetCount() << endl;
 
 	return 0;
 }
