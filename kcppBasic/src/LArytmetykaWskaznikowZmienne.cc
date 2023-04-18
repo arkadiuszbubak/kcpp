@@ -34,7 +34,7 @@ int main() {
 	//printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
 	//printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
 	printf(" \nAdres zmiennej A: %p\n", &a);
-  //cout << a << endl;
+  // cout << &a << endl;
 
 
 	//string a1 = std::to_string(0xa1a56);
