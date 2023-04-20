@@ -39,7 +39,11 @@ int main() {
 	PR("~b = ", ~b);
 
 
-	unsigned char c = 0x5A;
+  /* https://bytetool.web.app/en/ascii/code/0x5a/
+   * https://stackoverflow.com/questions/75191/what-is-an-unsigned-char */
+  unsigned char c = 0x5A;
+	// unsigned char c = 90;
+
 	PR("c w binarnej notacji: ", c);
 	a |= c;
 
