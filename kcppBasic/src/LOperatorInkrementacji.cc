@@ -38,7 +38,7 @@ int main() {
     //printf( "x = %d; y = %d\n", x, y );
 
     x = 10;
-    /** Najpierw zostanie użyta wartość 10, a następnie zostanie zwiększonwa wartość o 1 */
+    /** Najpierw zostanie użyta wartość 10, a następnie zostanie zwiększona wartość o 1 */
     y = x++;
     cout << "(x, y)\t"<< x <<"\t"<< y << endl; //!< x = 11; y = 10
 
