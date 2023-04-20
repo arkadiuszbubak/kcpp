@@ -20,7 +20,7 @@ int main() {
   result[0] = varB/varA;
   result[1] = varB%varA;
 
-  if(varB%varA != 0) cout << "bleee bleee" << endl;
+  if(varB%varA != 0) cout << "Values differ" << endl;
  
 
   cout << "Rezultaty: "
