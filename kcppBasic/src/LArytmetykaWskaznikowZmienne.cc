@@ -3,6 +3,7 @@
  * \date 2019.02.10
  * \brief Arytmetyka wskaznikow (wskaznik zmienne) w C++
  * v0.01
+ * TODO: add hextodec which works wit double
  */
 
 #include <iostream>
@@ -10,7 +11,31 @@
 #include <string>
 #include <sstream>
 #include "LConversion.h"
+/* //4 includes
+ * #include <string>
+ * #include <vector>
+ * #include <stdint.h>
+ * #include <math.h> */
 using namespace std;
+
+
+/* //in order to avoid include LConversion.h. Remember to add 4 includes
+ * unsigned long hextodec(string hex)
+ * {
+ *     unsigned long result = 0;
+ *     for (unsigned int i=0; i<hex.length(); i++) {
+ *         if (hex[i]>=48 && hex[i]<=57)
+ *         {
+ *             result += (hex[i]-48)*pow(16,hex.length()-i-1);
+ *         } else if (hex[i]>=65 && hex[i]<=70) {
+ *             result += (hex[i]-55)*pow(16,hex.length( )-i-1);
+ *         } else if (hex[i]>=97 && hex[i]<=102) {
+ *             result += (hex[i]-87)*pow(16,hex.length()-i-1);
+ *         }
+ *     }
+ *     return result;
+ * }
+ *  */
 
 void SizeofPointer(){
   int a;
@@ -26,15 +51,20 @@ int main() {
 	int b;
 	int c;
 	float x;
+  double y;
 	int *wsk_int;
 	//Rozne sposoby zapisu nowej wartosci do zmiennej b za pomoca wskaznika na b i sasiadujace zmienne
+  cout <<"Size of intiger: "<< sizeof(int)    << endl;
+  cout <<"Size of float:   "<< sizeof(float)  << endl;
+  cout <<"Size of double:  "<< sizeof(double) << endl;
+
 
 	// Wyswieltlenie adresow zmiennych
   printf("\n--- C --------------------------------");
-	//printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
-	//printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
-	printf(" \nAdres zmiennej A: %p\n", &a);
-  // cout << &a << endl;
+	// printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
+	/* printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
+	 * printf(" \nAdres zmiennej A: %p\n", &a);
+   * cout << &a << endl; */
 
 
 	//string a1 = std::to_string(0xa1a56);
@@ -68,6 +98,12 @@ int main() {
 	sx << &x; string x1 = sx.str();
 	cout <<"Adres zmiennej X: "<< &x << "\t dec: " << hextodec(x1) << endl;
 
+  /* //-----------------------------------
+	 * ostringstream sy;
+	 * sx << &y; string y1 = sy.str();
+	 * cout <<"Adres zmiennej Y: "<< &x << "\t dec: " << hextodec(y1) << endl; */
+
+  //-----------------------------------
 	cout <<"Adres zmiennej WSK_INT: "<< &wsk_int << endl;
 
 
