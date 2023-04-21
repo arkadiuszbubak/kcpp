@@ -46,7 +46,9 @@ void funB(){
 		//scanf("%d", tab+i);      //&*(tab+i) == tab+i
 		cout <<"Wpisz wartosc: ";
 		cin >> *(tab+i);
+		// cin >> tab[i];
 		*(tab+i) = 2**(tab+i);  // tab[i] *= 2;
+		// tab[i] = 2 * tab[i];  // tab[i] *= 2;
 		cout <<"Tab["<<i<<"] = "<< *(tab+i) << endl;
 		//printf("Tab[%d] = %d \n", i+1 , *(tab+i));
 	}
