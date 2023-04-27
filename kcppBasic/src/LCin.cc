@@ -22,9 +22,9 @@ int main(int argc, char *argv[]){
 
      // Porównaj powyższe do: --------------------
      char cVar01;
-     //cVar01 = "error";  ///<error
-     //cVar01 = "e"; ///< error
-     //cVar01 = 'errorx'; ///< warning
+     //cVar01 = "error";  ///< error
+     //cVar01 = "e"; i    ///< error
+     //cVar01 = 'error';  ///< warning
      cVar01 = 'e';
      cout <<"cVar01: "<< cVar01 << endl;
     //--------------------------------------------
@@ -41,7 +41,8 @@ int main(int argc, char *argv[]){
     if(argv[1] == string("2")){
       char *cVar2;
       cout << "Podaj wartosc: ";
-      cin >> cVar2;                     ///< ERROR, ale nie podczas kompilacji
+      cin >> cVar2;                     
+      cout <<"cVar2: "<< cVar2 << endl;
     }
   }
   return 0;
