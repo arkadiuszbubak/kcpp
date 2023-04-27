@@ -74,7 +74,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - nazwać program: ZadAdresowaniePamieci.cc
 
 
- Zadanie 3.2 (LArytmetykaWskazikow.cc)
+ Zadanie 3.2 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
  - wyjaśnienie  w komentarzu w treści programu!!!!
@@ -84,9 +84,8 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
 
  Zadanie 3.3 (LArytmetykaWskaznikow.cc)
  -------------------------------------
- Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
+ Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
  1. Funkcja1(): Przy deklaracji zmiennych
- 2. Funkcja2(): Przy deklaracji tablicy
  p++;
  ++p;
  ++*p;
@@ -98,7 +97,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  *++p;
  *(++p);
 
- oraz (Funkcja3()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywal na ekran:
+ oraz (Funkcja3()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
 
  1.  A, B, C: 0  0   0
  2.  A, B, C: 0  10  0
@@ -111,32 +110,26 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  9.  A, B, C: 80 70  60
  10. A, B, C: 80 90  60
 
- przy poczatkowych zmmiennych: int a = 0, b = 0, c = 0;
+ przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 3.4 (LArytmetykaWskaznikowTablice.cc)
---------------------------------------
- Zaproponuj inne dwa sposoby wyboru wywołania funkcji
- - nazwać program: ZadWywolanieFunkcji.cc 
-
-
-NIE: Zadanie 3.5 (LOperatoryPrzypisania.cc)
+Zadanie 3.4 (LOperatoryPrzypisania.cc)
 -------------------------------------
-Napisac program z przykladami:
+Napisać program z przykładami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
 (1) i (2) jako osobne funkcje: (1) OperatoryArytmetyczne (2) OperatoryPrzypisania
 - nazwać program: ZadOperatoryPrzypisania.cc
 
 
 
-Zadanie 3.6
+Zadanie 3.5
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-NIE: Zadanie 3.7
+Nie trzeba robić: Zadanie 3.6
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
