@@ -85,7 +85,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  Zadanie 3.3 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
- 1. Funkcja1(): Przy deklaracji zmiennych
+ 1. Funkcja1()
  p++;
  ++p;
  ++*p;
@@ -97,7 +97,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  *++p;
  *(++p);
 
- oraz (Funkcja3()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
+ oraz (Funkcja2()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
 
  1.  A, B, C: 0  0   0
  2.  A, B, C: 0  10  0
