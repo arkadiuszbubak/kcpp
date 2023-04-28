@@ -1,7 +1,7 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2023.04.28
- * \brief Bitowe operatory logiczne w C++
+ * \brief Bitowe operatory logiczne w C++. Short example of setting 1 at requested position
  * v0.01
  */
 
@@ -22,11 +22,6 @@ void printBinary(const unsigned char val) {
 int main() {
 
   //-------------------------------------------
-  //Short example of setting 1 at requested position
-  //Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
-  //elementową, gdize na poszczególnych pozycjach tablicy będize 0 lub 1. Program będzie
-  //zwracał liczbę, która w formi bonarnej będzie miała ustawione 1 na pozycjach odpowiadających
-  //pozycjom 1 w tablicy. Wystarczy zmodyfikować poniższy program
   int k = 0;
   PR("Primary value equal 0",k);
 
