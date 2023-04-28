@@ -123,13 +123,13 @@ Napisać program z przykładami:
 
 
 
-Zadanie 3.5
+Zadanie 3.5 (Nie trzeba, bo jest zrobione)
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Nie trzeba robić: Zadanie 3.6
+Zadanie 3.6 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
