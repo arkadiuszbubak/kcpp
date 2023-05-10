@@ -11,7 +11,7 @@ using namespace std;
 
 // Pokazanie strumienia bledow: a.out 2>&1 | tee -a plikWynikowy.txt
 // Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
-
+ 
 void InputZeSpacjami(){
 
     cout <<"--------------------"<<endl;
