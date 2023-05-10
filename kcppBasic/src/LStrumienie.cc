@@ -1,15 +1,15 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.03
+ * \date 2019.04.03 v0.01, 2023.05.10 v0.02
  * \brief Strumienie w C++
- * v0.01
+ * v0.02
  */
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-//Pokazanie strumienia bledow: a.out |tee -a plikWynikowy.txt 2>&1
+//Pokazanie strumienia bledow: a.out 2>&1 | tee -a plikWynikowy.txt
 //Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
 
 void InputZeSpacjami(){
@@ -19,7 +19,7 @@ void InputZeSpacjami(){
     cout << "Podaj tekst: ";
     string tekst;
     getline(cin, tekst);  ///< problem
-    //cin >> tekst;         ///< ok
+    // cin >> tekst;         ///< ok
     cout << tekst << endl;
 
 }
