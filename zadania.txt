@@ -158,6 +158,12 @@ pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.
   4. Operacje wejścia/wyjścia 
 ------------------------------------------------------------------------------------------
 
+Zadanie 4. -1
+--------------------------------------
+Napisz program z przykładem zastosowania klasy stringstream z biblioteki sstream
+- nazwać program LStringStream.cc
+
+
 Zadanie 4.0
 --------------------------------------
 Napisz program z przykładami manipulacji strumieniem cout:
