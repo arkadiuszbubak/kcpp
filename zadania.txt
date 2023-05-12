@@ -181,7 +181,7 @@ Zadanie 4.1
 --------------------------------------
 Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
-- +zapisywanie do strumienie błędów
+- +zapisywanie do strumienia błędów
 - zapisywania do pliku,
 - odczytywania z pliku,
 - nazwać program: ZadCinCoutFile.cc
@@ -205,7 +205,7 @@ Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - nazwać program: ZadParzysta.cc
 
 
-Zadanie 4.4
+Zadanie 4.4 
 --------------------------------------
 Napisz program z użyciem 'switch' wybierajacy do wykonania jedną z trzech funkcji z zadania ZadParzysta.cc:
 - nazwać program: ZadParzystaCase.cc (kopia ZadParzyste do ZadParzysteCase+switch, lub pominięcie ZadParzyste i umieszczenie wszystkiego w ZadParzystaCase)
