@@ -13,18 +13,22 @@ using namespace std;
 
 int main(){
 
-	//double f = 3.14159;
-	//double f = 3.141592653589793238462643;
+  // double f = 3.14159;
+  // double f = 3.141592653589793238462643;
 	//double f = 30.14159;
-	long double f = M_PI; // wykorzystanie pi z biblioteki math.h
+  long double f = M_PI; // wykorzystanie pi z biblioteki math.h
   cout << f << endl;
-	cout << fixed;
+  //------------------------------------------------
+  // float w = 16.0;
+  cout << fixed;
+  // cout << "Float with/without fixed stream  manipulator:<< "w << endl;
+  //------------------------------------------------
 	cout <<"Set precision: 5\t"<< setprecision (5) << f << endl;
 	cout <<"Set precision: 9\t"<< setprecision (9) << f << endl;
 	cout <<"Set scientific"<< scientific << endl;;
 	cout <<"Set precision: 5\t"<< setprecision (5) << f << endl;
 	cout <<"Set precision: 9\t"<< setprecision (9) << f << endl;
-	//cout << setprecision (60) << M_PI << endl;
+  //cout << setprecision (60) << M_PI << endl;
 
   /* float   4   pojedyncza precyzja - dokładność 6 - 7 cyfr po przecinku
    * double  8   podwójna precyzja - dokładność 15 - 16 cyfr po przecinku

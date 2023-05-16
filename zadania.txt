@@ -158,13 +158,13 @@ pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.
   4. Operacje wejścia/wyjścia 
 ------------------------------------------------------------------------------------------
 
-Zadanie 4. -1
+Zadanie 4.0
 --------------------------------------
 Napisz program z przykładem zastosowania klasy stringstream z biblioteki sstream
 - nazwać program LStringStream.cc
 
 
-Zadanie 4.0
+Zadanie 4.1
 --------------------------------------
 Napisz program z przykładami manipulacji strumieniem cout:
 - setw, setprecision, setfill, fixed, scientific, hex, dec... etc (patrz plik kcpp02.pdf)
@@ -174,16 +174,17 @@ Napisz program z przykładami manipulacji strumieniem cout:
   ==================================================
   Wynika naszego działania: x.xxxxx jest niepoprawny ale:
      output:   xx.xxx    T:  x.xxx 
+  // float w = 16.0;
      output1:   x.xxxx   T: xx.xxxxx
      output2:   x.xxxx   T: xx.xxxxxx
      ---------------------------------
      average:  xx.xxxx   T: xx.xxxxxx
   ==================================================
   - x.xxxx są wynikami jakiś działań, a nie sztucznie wstawionymi liczbami
-  - ustawienie liczb/wypisanie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " "
+  - ustawienie liczb/wypisanie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " " czy \t
 
 
-Zadanie 4.1
+Zadanie 4.2
 --------------------------------------
 Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
@@ -193,14 +194,14 @@ Napisz program pokazujący funkcjonalność:
 - nazwać program: ZadCinCoutFile.cc
 
 
-Zadanie 4.2
+Zadanie 4.3
 --------------------------------------
 Napisz program:
 - pokazujący wykonanie tych samych operacji w c i c++ (kcpp02::34)
 - nazwać program: ZadCandCPP.cc
 
 
-Zadanie 4.3
+Zadanie 4.4
 --------------------------------------
 Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - trzy funkcje:
@@ -211,13 +212,13 @@ Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - nazwać program: ZadParzysta.cc
 
 
-Zadanie 4.4 
+Zadanie 4.5 
 --------------------------------------
 Napisz program z użyciem 'switch' wybierajacy do wykonania jedną z trzech funkcji z zadania ZadParzysta.cc:
 - nazwać program: ZadParzystaCase.cc (kopia ZadParzyste do ZadParzysteCase+switch, lub pominięcie ZadParzyste i umieszczenie wszystkiego w ZadParzystaCase)
 
 
-Zadanie 4.5
+Zadanie 4.6
 --------------------------------------
 Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; trzy funkcje od a do c):
 (a) while    (pokazujące while z inkrementacją: i++, ++i)
@@ -227,7 +228,7 @@ Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; tr
 - nazwać program: ZadPetle.cc
 
 
-Zadanie 4.6
+Zadanie 4.7
 --------------------------------------
 Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całe słowo
@@ -235,7 +236,7 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - nazwać program: ZadSwitch.cc
 
 
-Zadanie 4.7
+Zadanie 4.8
 --------------------------------------
 Napisz program pokazujący zstosowanie dyrektywy preprocesora:
   '#ifdef' (#else)

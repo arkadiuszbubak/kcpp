@@ -18,8 +18,8 @@ void InputZeSpacjami(){
     cout <<"Input ze spacjami (zły)"<< endl;
     cout << "Podaj tekst: ";
     string tekst;
-    getline(cin, tekst);  ///< problem
-    // cin >> tekst;         ///< ok
+    // getline(cin, tekst);  ///< problem
+    cin >> tekst;         ///< ok
     cout << tekst << endl;
 
 }
@@ -62,13 +62,13 @@ int main(){
     cout <<"Wpisales: "<< A << endl;
 
 
-    cout <<"Podaj dwie wartosci: ";
-    cin >> B >> C;
-    cout <<"Wpisales: "<< B <<"\t"<< C << endl;
-    cout <<"Wpisales: "<< B <<"\t"<< A << endl;
+    /* cout <<"Podaj dwie wartosci: ";
+     * cin >> B >> C;
+     * cout <<"Wpisales: "<< B <<"\t"<< C << endl;
+     * cout <<"Wpisales: "<< B <<"\t"<< A << endl; */
 
 
-    InputZeSpacjami();
+    // InputZeSpacjami();
     // InputZeSpacjamiPoprawny();
 
     return 0;
