@@ -2,10 +2,13 @@
 #include <cstdlib>
 using namespace std;
 
+/* Online converter
+ * https://www.rapidtables.com/convert/number/decimal-to-binary.html */
 
 void dec_to_bin(int liczba)
 {
-    int i=0,tab[31];
+    cout <<"\nInside dec_to_bin function:"; 
+    int i=0, tab[31];
 
     while(liczba) //dopóki liczba będzie różna od zera
     {
@@ -25,18 +28,20 @@ union elements {
 
 
 int main(){
-  elements e1;
+  elements eName;
 
-  e1.weight = 33.44;
-  cout << "e1.weight: " << e1.weight << endl;
+  eName.weight = 4.0;
+  cout << "1. eName.weight: " << eName.weight << endl;
 
-  e1.amount = 12;
-  cout << "e1.amount: " << e1.amount << endl;
-  cout << "e1.weight: " << e1.weight << endl;
+  eName.amount = 9;
+  cout << "2. eName.amount: " << eName.amount << endl;
+  cout << "2. eName.weight: " << eName.weight << endl;
+  cout << "2. eName.amount: " << eName.amount << endl;
  
-  cout << &e1 << ", " << &e1.weight << ", " << &e1.amount << endl;
-  cout << sizeof(e1) << ", " << sizeof(e1.weight) << ", " << sizeof(e1.amount) << endl;
-  dec_to_bin(12);
+  cout << &eName << ", " << &eName.weight << ", " << &eName.amount << endl;
+  cout << sizeof(eName) << ", " << sizeof(eName.weight) << ", " << sizeof(eName.amount) << endl;
+  dec_to_bin(4);
+  dec_to_bin(9);
   return 0;
 }
 
