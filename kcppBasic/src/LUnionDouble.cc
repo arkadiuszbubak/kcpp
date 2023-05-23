@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bitset>
 #include <cstdlib>
 using namespace std;
 
@@ -40,8 +41,12 @@ int main(){
  
   cout << &eName << ", " << &eName.weight << ", " << &eName.amount << endl;
   cout << sizeof(eName) << ", " << sizeof(eName.weight) << ", " << sizeof(eName.amount) << endl;
-  dec_to_bin(4);
+
+  dec_to_bin(4.0);
+  cout << endl << bitset<8>(4.0)  << endl;
   dec_to_bin(9);
+  cout << endl << bitset<8>(9)  << endl;
+
   return 0;
 }
 
