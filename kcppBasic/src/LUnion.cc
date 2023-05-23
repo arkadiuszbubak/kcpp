@@ -28,7 +28,7 @@ int main()
   cout <<"Correct int value:\t"<< nz.iVariable << endl;
 
   nz.fVariable = 18.1;
-  cout <<"Correct int value:\t"<< nz.fVariable << endl;
+  cout <<"Correct float value:\t"<< nz.fVariable << endl;
   cout <<"Wrong int value:\t"<< nz.iVariable << endl;
 
   // and again
@@ -44,7 +44,7 @@ int main()
  *
  *   nz.iVariable = 18;
  *   cout <<"Correct int value:\t"<< nz.iVariable << endl;
- *   cout <<"Wrong int value:\t"<< nz.fVariable << endl;
+ *   cout <<"Wrong float value:\t"<< nz.fVariable << endl;
  *
  *   // and again
  *   nz.fVariable = 7.8;
