@@ -34,7 +34,7 @@ int main()
   // and again
   nz.z1 = 7;
   cout <<"Correct int value:\t"<< nz.z1 << endl;
-  cout <<"Wrong int value:\t"<< nz.z2 << endl;
+  cout <<"Wrong float value:\t"<< nz.z2 << endl;
 
 
 /*   //---------------------------------------------------------
