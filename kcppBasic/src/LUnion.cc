@@ -12,9 +12,9 @@ using namespace std;
 
 union Nazwa
 {
-  int z1;
-  float z2;
-  double z3;
+  int iVariable;
+  float fVariable;
+  double dVariable3;
   //string st;  ///< Wrong 
 } nz;
 
@@ -24,32 +24,32 @@ union Nazwa
 int main()
 {
   // in one direction: first defined int
-  nz.z1 = 6;
-  cout <<"Correct int value:\t"<< nz.z1 << endl;
+  nz.iVariable = 6;
+  cout <<"Correct int value:\t"<< nz.iVariable << endl;
 
-  nz.z2 = 18.1;
-  cout <<"Correct int value:\t"<< nz.z2 << endl;
-  cout <<"Wrong int value:\t"<< nz.z1 << endl;
+  nz.fVariable = 18.1;
+  cout <<"Correct int value:\t"<< nz.fVariable << endl;
+  cout <<"Wrong int value:\t"<< nz.iVariable << endl;
 
   // and again
-  nz.z1 = 7;
-  cout <<"Correct int value:\t"<< nz.z1 << endl;
-  cout <<"Wrong float value:\t"<< nz.z2 << endl;
+  nz.iVariable = 7;
+  cout <<"Correct int value:\t"<< nz.iVariable << endl;
+  cout <<"Wrong float value:\t"<< nz.fVariable << endl;
 
 
 /*   //---------------------------------------------------------
  *   // another way: first defined float
- *   nz.z2 = 6.7;
- *   cout <<"Correct int value:\t"<< nz.z2 << endl;
+ *   nz.fVariable = 6.7;
+ *   cout <<"Correct float value:\t"<< nz.fVariable << endl;
  *
- *   nz.z1 = 18;
- *   cout <<"Correct int value:\t"<< nz.z1 << endl;
- *   cout <<"Wrong int value:\t"<< nz.z2 << endl;
+ *   nz.iVariable = 18;
+ *   cout <<"Correct int value:\t"<< nz.iVariable << endl;
+ *   cout <<"Wrong int value:\t"<< nz.fVariable << endl;
  *
  *   // and again
- *   nz.z2 = 7.8;
- *   cout <<"Correct int value:\t"<< nz.z2 << endl;
- *   cout <<"Wrong int value:\t"<< nz.z1 << endl; */
+ *   nz.fVariable = 7.8;
+ *   cout <<"Correct float value:\t"<< nz.fVariable << endl;
+ *   cout <<"Wrong int value:\t"<< nz.iVariable << endl; */
 
   return 0;
 }
