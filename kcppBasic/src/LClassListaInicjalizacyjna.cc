@@ -46,8 +46,8 @@ int main()
         << obiektM->fLicznikB <<"\t"
         << obiektM->fLicznikC <<"\t"
         << endl;
-   //A *obiekt = new A();
-   //A obiekt;
+   /* A *obiekt1 = new A();
+    * A obiekt2; */
 
 }   
 
