@@ -300,7 +300,7 @@ inicializacją zmiennych:
 
 Zadanie 5.5
 --------------------------------------
-Sprawdzić dziłanie przyjaźni klas:
+Sprawdzić działanie przyjaźni klas:
 - Klasa B zaprzyjaźniona z klasą A ma ma dostęp do składników prywatnych
 - Czy klasa A w tym samym momencie może być także zaprzyjaźniona z klasą B?
     
