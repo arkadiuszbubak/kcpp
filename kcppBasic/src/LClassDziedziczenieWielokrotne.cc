@@ -30,6 +30,7 @@ void C::Fun(){
 	
    fA = fB;          ///< poprawne
    fI = 7;           ///< blad (niejednoznaczne)
+   // cout <<"fI:\t"<< fI << endl;
    A::fI = 1;        // poprawne
    //B::fI = 2;        // A czy to poprawne? :) Gdy odkomentujemy, to ile będzie wynosiło fI
 
