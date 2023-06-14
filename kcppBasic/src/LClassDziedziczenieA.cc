@@ -12,7 +12,7 @@ using namespace std;
 class Przodek 
 {
  public:
-   int FunA(int zm);
+   int FunFromPrzodek(int zm);
 
    int   fM;
    float fN;   ///< fN ia only here in the class you inherit from
@@ -30,7 +30,7 @@ class Potomek : public Przodek
 };
 
 
-int Przodek::FunA(int zm)
+int Przodek::FunFromPrzodek(int zm)
 {
    int result = zm + fN;
    return result;
@@ -54,11 +54,11 @@ int main()
    cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
    
    //------------ 3 ------------------------
-   int resA = przObiekt.FunA(3);
+   int resA = przObiekt.FunFromPrzodek(3);
    cout << resA << endl;
 
    //------------ 4 ------------------------
-   int resB = potObiekt.FunA(3);
+   int resB = potObiekt.FunFromPrzodek(3);
    cout << resB << endl;
 
 
@@ -70,12 +70,12 @@ int main()
    cout <<"przObiekt.fM: "<< przObiekt.fM << endl;
    cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
 
-/*    //------------ 6 ------------------------
- *    potObiekt.fN = 9;
- *    cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
- *
- *    potObiekt.fN = 9.6;
- *    cout <<"potObiekt.fN: "<< potObiekt.fN << endl; */
+   //------------ 6 ------------------------
+   potObiekt.fN = 9;
+   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
+
+   potObiekt.fN = 9.6;
+   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
 
 }
 
