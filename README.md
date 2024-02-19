@@ -9,7 +9,7 @@ Zajęcia odbywają się w sposób kontaktowy (sala A/-1/04)
 
    git clone https://github.com/arkadiuszbubak/kcpp
 
-2. Zrozumiale napisana instrukcja korzystania z git
+2. W miarę zrozumiale napisana instrukcja korzystania z git
 
    https://git-scm.com/book/pl  (2nd Edition 2014)
 
