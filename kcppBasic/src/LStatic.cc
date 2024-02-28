@@ -15,8 +15,8 @@ static int ncall = 0;
 //----------------------------------------------
 int comp(int c) {
   ncall++;
-	static int ncall = 0;
-	ncall++;
+	/* static int ncall = 0;
+	 * ncall++; */
 	if(!c)
 		return ncall;
 	return c;
