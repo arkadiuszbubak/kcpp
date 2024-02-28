@@ -41,11 +41,15 @@ int main()
   //To make a pointer constant, we have to put the const keyword to the right of the *
   int x = 37;
   int* const w1 = &x;
+  // int* w1 = &x;
   cout << *w1 << endl;
 
   const int *w2 = &x;
   cout << *w1 << endl;
 
+  // int y = 37;
+  // w1 = &y;
+  
   cout <<"Call FunA function: "<< FunA() << endl;
 
 
