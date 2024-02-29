@@ -26,8 +26,8 @@ int main()
 {
   int a;
 
-  // a = a + 1;
-  // a++;
+  a = a + 1;
+  a++;
 
   int b = 7;
   cout <<"a: " << a << endl;
