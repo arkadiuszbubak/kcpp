@@ -32,9 +32,9 @@ int main()
    * cin >> fVarC; */
 
 
-  cout << "fVarC: "<< fVarC << endl;
-  cout << "fVarD: "<< fVarD << endl;
-  // cout << "fVarE: "<< fVarE << endl
+  // cout << "fVarC: "<< fVarC << endl;
+  // cout << "fVarD: "<< fVarD << endl;
+  // cout << "fVarE: "<< fVarE << endl;
   // cout << "fVarF: "<< fVarF << endl;
 
   return 0;                              
