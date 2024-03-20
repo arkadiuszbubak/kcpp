@@ -38,26 +38,31 @@ int main(){
 
   strcpy(mystring3, "Dzien dobry");
   strcpy(mystring3, "Dzien dobry wszystkim"); ///<A co jesli tekst bedzie dluzszy niż 12 znaków?
-  cout <<"mystring3.1: " <<mystring3 << endl;
-  cout <<"mystring3.2: " <<mystring3[11] << endl;
-  cout <<"mystring3.3: " <<mystring3[12] << endl;
-  cout <<"mystring3.4: " <<mystring3[37] << endl;
+  cout <<"mystring3.1: "<<      mystring3 << endl;
+  cout <<"mystring3.2 (11): "<< mystring3[11] << endl;
+  cout <<"mystring3.3 (12): "<< mystring3[12] << endl;
+  cout <<"mystring3.4 (16): "<< mystring3[16] << endl;
+  cout <<"mystring3.5 (39): "<< mystring3[39] << endl;
 
 
   // Partial copy
   char str1[]= "To be or not to be";
-  char str2[40];
+  // char str2[40];
+  char str2[10];
   char str3[40];
 
   /* copy to sized buffer (overflow safe): */
-  strncpy ( str2, str1, sizeof(str2) );
+  strncpy(str2, str1, sizeof(str2)-1);
+  // strncpy(str2, str1, sizeof(str2));    //<< See what happens
 
   /* partial copy (only 5 chars): */
-  strncpy ( str3, str2, 5 );
+  // memset(str3, '\0', sizeof(str3));     //<< 1. Add a null terminator to the end of dest
+  strncpy(str3, str2, 5);
+  // str3[5] = '\0';                       //<< 2. Add a null terminator to the end of dest
 
   cout <<"str1:\t"<< str1 << "\n"
-    <<"str2:\t"<< str2 << "\n"
-    <<"str3:\t"<< str3 << endl;
+       <<"str2:\t"<< str2 << "\n"
+       <<"str3:\t"<< str3 << endl;
 
 /*   //Prosze sprawdzic co robi sizeof
  *   int iTab[10];
