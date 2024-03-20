@@ -8,14 +8,15 @@
 #include <iostream>
 using namespace std;
 
-//---------------------------
+//----------------------------------------------------------
 namespace nasza {
   int k = 7;
   void Funkcja(){
     cout <<"Namespace: Funkcja"<< endl;
   }
 }
-//---------------------------
+// using namespace nasza;
+//----------------------------------------------------------
 
 
 void Funkcja(){
@@ -32,9 +33,9 @@ int main(){
   cout << nasza::k << endl;
   cout << k << endl;
 
-  //Funkcja();          ///<< Error: global function  
+  // Funkcja();          ///<< Error: global function in case of add 'using namespece nasz;'
   //using namespace nasza;
-  //nasza::Funkcja();
+  nasza::Funkcja();
 
 	return 0;
 }
