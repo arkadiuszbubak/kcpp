@@ -31,39 +31,45 @@ int main(){
 
   cout <<"napis4: " << napis4 << endl;
 
-  //Manipulacja stringami
+  // Manipulacja stringami
+  cout << endl << "Manipulacja stringami" << endl;
+  cout <<"----------------------------------------"<< endl;
   string a1, b1;
   a1 = '1';
   b1 = '2';
   a1 = b1;
   cout <<"a1=b1: "<< a1 << endl;
 
-  //Sprawdzenie adresow
+  // Sprawdzenie adresow
+  cout << endl << "Sprawdzenie adresów" << endl;
+  cout <<"----------------------------------------"<< endl;
   cout << &a1 << endl;
   cout << &b1 << endl;
 
+
+  // Porównywanie napisów
   string a,b,c;
   // string d;
   a = "gosia";
   b = "iza";
   c = "gosia";
 
-  // Przykład porządku leksykograficznego ------------
-  /* a = "adad";
-   * b = "aeac";
-   * c = "gosia"; */
-  //---------------------------------------------------
 
-  // porównywanie napisów
+  cout << endl << "Porównanie napisów" << endl;
+  cout <<"----------------------------------------"<< endl;
   if (a == c) cout << "a i c sa takie same\n";
+  if (a != b) cout << "a i b sa rozne\n" ;
   cout << &a << endl;
   cout << &c << endl;
   // cout << &d << endl;
 
-
-  if (a != b) cout << "a i b sa rozne\n" ;
-
-  // porządek leksykograficzny
+  // Przykład porządku leksykograficznego ------------
+  cout << endl << "Przykład porządku leksykograficznego" << endl;
+  cout <<"----------------------------------------"<< endl;
+  a = "adad";
+  b = "aeac";
+  c = "gosia";
+  //---------------------------------------------------
   cout << "napis a ("<<a<<") poprzedza napis b ("<<b<<"): ";
   if (a < b) cout << "prawda\n";
   else cout << "nieprawda\n";
@@ -82,7 +88,7 @@ int main(){
 
 
   /* Zadanie podczas zajęć
-   *   Napisz funkcje (osobny program) w którym zadeklarujesz string i uzyjesz na nim funkcji manimulacyjnych:
+   *   Napisz funkcje (osobny program) w którym zadeklarujesz string i uzyjesz na nim funkcji manipulacyjnych:
    *   1. empty() 	Zwraca wartość true jeżeli napis jest pusty.
    *   2. size(),length() 	Zwraca ilość znaków w napisie.
    *   3. at() 	Zwraca znak o podanym położeniu, tak jak operator [], z tym że ta metoda jest bezpieczniejsza - wyrzuca wyjątek w przypadku wyjścia poza zakres stringa.
