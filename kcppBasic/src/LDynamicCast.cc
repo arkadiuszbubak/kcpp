@@ -29,10 +29,6 @@ class Ford : public Car
 
 //-----------------------------
 //
-//-----------------------------
-struct Base { };
-struct Derived : Base { };
-//-----------------------------
 
 int main(){
   Ford *fordTaurus = new Ford();
@@ -41,15 +37,12 @@ int main(){
   Car *car1 = dynamic_cast<Car*>(fordTaurus);
   car1->Run();
   // fordTaurus->Run();
-  /* Car *car2 = new Ford();
-   * car2->Run(); */
+  // Car *car2 = new Ford();
+  // car2->Run();
 
   delete fordTaurus;
   // delete car1;
   // delete car2;
-
-  Derived d; Base *b = &d;
-  //dynamic_cast<Derived*>(b); //Niepoprawne
 
   return 0;
 }
