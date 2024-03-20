@@ -27,7 +27,7 @@ using namespace std;
 enum e_acompany {
     Audi,
     BMW, 
-    Cadillac,  //problem jesli nie zainicjalisuje sie wartoscia 
+    Cadillac, 
     Ford,
     Jaguar, 
     Lexus, 
@@ -37,19 +37,62 @@ enum e_acompany {
   };
 
 
+
+//----------------------------------------------------------------------------------------------
+/*! Scoped enumerations (also known as strongly-typed enums) were introduced in C++11.
+ * The enumerators are declared within the scope of the enumeration itself.
+ * You need to qualify the enumerator names with the enumeration name.
+ */
+
+enum class ScopedTypes {
+    Int,
+    Double,
+    String
+};
+
+enum UnscopedTypes {
+    Int,
+    Double,
+    String
+};
+//----------------------------------------------------------------------------------------------
+
+
+
 int main()
 {
-  e_acompany my_car_brand;
-  my_car_brand = Ford;
-  //my_car_brand = BMW;
+  e_acompany my_car_brand = Ford;
+  // my_car_brand = Ford;            //! Można też tak
+  // enum e_acompany my_car_brand;   //! Można też tak
+  // my_car_brand = BMW;
 
   if(my_car_brand == Ford) { 
-    cout << "Hello, Ford-car owner!: " << Audi << endl;
-    cout << "Hello, Ford-car owner!: " << BMW  << endl;
-    cout << "Hello, Ford-car owner!: " << Cadillac << endl;
-    cout << "Hello, Ford-car owner!: " << Ford << endl;
-    cout << "Hello, Ford-car owner!: " << Maybach << endl;
-    //cout << "Hello, Ford-car owner!: " << RollsRoyce << endl;
+    cout << "Hello, Ford-car owner! Audi:       " << Audi << endl;
+    cout << "Hello, Ford-car owner! BMW:        " << BMW  << endl;
+    cout << "Hello, Ford-car owner! Cadillac:   " << Cadillac << endl;
+    cout << "Hello, Ford-car owner! Ford:       " << Ford << endl;
+    cout << "Hello, Ford-car owner! Maybach:    " << Maybach << endl;
+    cout << "Hello, Ford-car owner! RollsRoyce: " << RollsRoyce << endl;
   }
+
+  
+
+
+//----------------------------------------------------------------------------------------------
+ /* ScopedTypes a = ScopedTypes::Double; // Correct
+  * // ScopedTypes b = Double; // Error: Requires qualification
+  * UnscopedTypes c = UnscopedTypes::Double;
+  * UnscopedTypes d = Double; */
+
+
+ cout << UnscopedTypes::Int << endl;
+ cout << UnscopedTypes::Double << endl;
+ cout << UnscopedTypes::String << endl;
+ cout << Int << endl;
+ cout << Double << endl;
+ cout << String << endl;
+
+//----------------------------------------------------------------------------------------------
+
   return 0;                              
 }
