@@ -21,7 +21,7 @@ Napisać krótki program oparty na pliku LTypeEnumerated.cc, zawierający przyk�
 Zadanie 1.0.1
 --------------------------------------
 Napisać prosty program z jedną klasą. Wszystko zawarte w jednym pliku: klasa oraz definicje funkcji. Definicje funkcji mogą być w klasie lub poza nią. Klasa oparta o przykład: KviCar.cc
-- nazwać program: ZadClass.cc
+- nazwać program: ZadClassExample.cc
 
 
 Zadanie 1.1
