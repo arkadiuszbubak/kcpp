@@ -37,7 +37,6 @@ enum e_acompany {
   };
 
 
-
 //----------------------------------------------------------------------------------------------
 /*! Scoped enumerations (also known as strongly-typed enums) were introduced in C++11.
  * The enumerators are declared within the scope of the enumeration itself.
@@ -73,17 +72,17 @@ int main()
     cout << "Hello, Ford-car owner! Ford:       " << Ford << endl;
     cout << "Hello, Ford-car owner! Maybach:    " << Maybach << endl;
     cout << "Hello, Ford-car owner! RollsRoyce: " << RollsRoyce << endl;
+    cout << "Hello, Ford-car owner! Saab:       " << Saab << endl;
   }
 
   
 
 
 //----------------------------------------------------------------------------------------------
- /* ScopedTypes a = ScopedTypes::Double; // Correct
-  * // ScopedTypes b = Double; // Error: Requires qualification
-  * UnscopedTypes c = UnscopedTypes::Double;
-  * UnscopedTypes d = Double; */
-
+ ScopedTypes a = ScopedTypes::Double; // Correct
+ // ScopedTypes b = Double; // Error: Requires qualification
+ UnscopedTypes c = UnscopedTypes::Double;
+ UnscopedTypes d = Double;
 
  cout << UnscopedTypes::Int << endl;
  cout << UnscopedTypes::Double << endl;
