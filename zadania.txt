@@ -12,6 +12,13 @@ repozytorium: https://github.com/IdentyfikatorUzytkownika/NazwaRepozytorium/kcpp
   1. Funkcja main
 ------------------------------------------------------------------------------------------
 
+
+Zadanie 1.0
+--------------------------------------
+Napisać krótki program oparty na pliku LTypeEnumerated.cc, zawierający przykład użycia typu enum (z miesiącemi)
+- nazwać program: ZadEnumExample.cc
+
+
 Zadanie 1.1
 --------------------------------------
 Napisać program który zawiera:
