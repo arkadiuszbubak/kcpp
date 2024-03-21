@@ -18,6 +18,11 @@ Zadanie 1.0
 Napisać krótki program oparty na pliku LTypeEnumerated.cc, zawierający przykład użycia typu enum (scoped lub unscoped, z miesiącami)
 - nazwać program: ZadEnumExample.cc
 
+Zadanie 1.0.1
+--------------------------------------
+Napisać prosty program z jedną klasą. Wszystko zawarte w jednym pliku: klasa oraz definicje funkcji. Definicje funkcji mogą być w klasie lub poza nią. Klasa oparta o przykład: KviCar.cc
+- nazwać program: ZadClass.cc
+
 
 Zadanie 1.1
 --------------------------------------
