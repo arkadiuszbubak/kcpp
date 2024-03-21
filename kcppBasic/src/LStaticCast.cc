@@ -32,7 +32,7 @@ int main(){
   //--C++like----------------------------------------
   double c1 = static_cast<double>(a) / static_cast<double>(b);
   double c2 = static_cast<double>(a) /b;
-  double c3 = static_cast<double>(a/b);  ///< niepoprawne
+  double c3 = static_cast<double>(a/b);  ///< niepoprawne rzutowanie
   // double c4 = static_cast<double> a/b; ///< ERROR
   //-------------------------------------------------
   std::cout << endl << ">> C++like" << endl;
