@@ -54,12 +54,13 @@ void tablice(){
 
   int A2[6]={0};
 	// int A2[6]={6};
-  CoutWholeArray(A2,6);
+  // CoutWholeArray(A2,6);
 
   int A3[6]{0,0,1,0,0,0};
   // CoutWholeArray(A3,6);
-	int A4[6]{0};
-	//int A4[6]{7};
+  int A4[6]{0};
+  // CoutWholeArray(A4,6);
+  // int A4[6]{7};
   // CoutWholeArray(A4,6);
 
 	//tablica 20 znaków
