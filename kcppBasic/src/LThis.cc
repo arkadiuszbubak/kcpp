@@ -21,7 +21,7 @@ class LClassThis
 void LClassThis::Method2()
 {
   cout << "Address: " << this << endl;
-  return;
+  // return;
 }
 
 
