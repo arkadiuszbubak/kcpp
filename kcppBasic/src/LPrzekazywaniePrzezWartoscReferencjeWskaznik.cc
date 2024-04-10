@@ -11,7 +11,7 @@ using namespace std;
 
 
 //---------------------------------------------------------------------
-void swapA(int a, int b) { /// Przekazywanie zmiennych przez wartość
+void swapA(int a, int b) { //!< Przekazywanie zmiennych przez wartość
 	cout <<"---> Przez wartosc:"<< endl;
 	int temp = a;
 	a = b;
@@ -20,7 +20,7 @@ void swapA(int a, int b) { /// Przekazywanie zmiennych przez wartość
 }
 
 //---------------------------------------------------------------------
-void swapB(int &a, int &b) { /// Przekazywanie przez referencje
+void swapB(int &a, int &b) { //!< Przekazywanie przez referencje
 	cout <<"---> Przez referencje:"<< endl;
 	int temp = a;
 	a = b;
@@ -29,7 +29,7 @@ void swapB(int &a, int &b) { /// Przekazywanie przez referencje
 }
 
 //---------------------------------------------------------------------
-void swapC(int *a, int *b) { /// Przekazywanie przez wskaźnik
+void swapC(int *a, int *b) { //!< Przekazywanie przez wskaźnik
   cout <<"---> Przez wskaznik:"<< endl;
   int temp = *a;
   *a = *b;
@@ -53,12 +53,14 @@ int main() {
 	cout <<"\nPrzed: A = "<< A <<" B = "<< B << endl;
   swapA(A, B);
 	cout <<"Po:\tA = "<< A <<" B = "<< B << endl;
+  cout <<"--------------------------------"<<endl;
 
 
   //--- przez referencje -------------------
 	cout <<"\nPrzed: A = "<< A <<" B = "<< B << endl;
 	swapB(A, B);    
 	cout <<"Po:\tA = "<< A <<" B = "<< B << endl;
+  cout <<"--------------------------------"<<endl;
 
 
 	//--- przez wskaznik ----------------------
@@ -67,10 +69,12 @@ int main() {
 	cout <<"\nPrzed: A = "<< A <<" B = "<< B << endl;
 	swapC(wskA, wskB);    
 	cout <<"Po:\tA = "<< A <<" B = "<< B << endl;
+  cout <<"--------------------------------"<<endl;
 
 	cout <<"\nPrzed: A = "<< A <<" B = "<< B << endl;
 	swapC(&A, &B);    
 	cout <<"Po:\tA = "<< A <<" B = "<< B << endl;
+  cout <<"--------------------------------"<<endl;
 
 
 	return 0;
