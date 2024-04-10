@@ -15,7 +15,10 @@
  *  Static member functions have a class scope and they do not have access to the this pointer of the class.
  *  You could use a static member function to determine whether some objects of
  *  the class have been created or not.
+ *
+ * Compare to the LStatic.cc
  **/
+
 
 #include <iostream>
 using namespace std;
