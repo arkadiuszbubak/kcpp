@@ -16,6 +16,7 @@ int main()
 
    int iSize = sizeof(iArray)/sizeof(iArray[0]);
    //int iSize = *(&iArray + 1) - iArray;
+   std::cout <<"Table size:"<< iSize << std::endl;
 
    std::copy(iArray, iArray+iSize, std::ostream_iterator<int>(std::cout," "));
    //std::copy(std::begin(iArray), std::end(iArray), std::ostream_iterator<int>(std::cout," "));
