@@ -57,7 +57,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 
 
 
-Zadanie 2.2
+Zadanie 2.2 (z gwiazdką == dla chętnych)
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
 Czy się da?
@@ -69,7 +69,7 @@ Jeśli się nie da to proszę wykonać zadanie:
 
 
 
-Zadanie 2.3 
+Zadanie 2.3 (z gwiazdką == dla chętnych)
 --------------------------------------
 Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
 - nazwać program: ZadPrzekazywanieTablicKopia.cc
