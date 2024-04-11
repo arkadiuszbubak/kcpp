@@ -1,7 +1,7 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2024.04.10
- * \brief Przekazywanie tablic w C++
+ * \brief Przekazywanie tablic w C++. Wyjaśnienie dlaczego nie działa tutaj to co w LCoutArray.cc
  * v0.01
  */
 
@@ -25,8 +25,8 @@ void przekaz1Dwsk(int *tab, int size){ ///Przekazywanie tablic 1D
   /* for (int i = 0; i < size; i++){
    *   cout << i << ":\t" << tab[i] << endl;
    * } */
-  tab[1] = 39;
-  //tab[3] = 399;
+  //tab[1] = 39;
+  *(tab+1) = 39;
 }
 
 //-------------------------------

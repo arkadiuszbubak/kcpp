@@ -21,7 +21,7 @@ class LClassThis
 void LClassThis::Method2()
 {
   cout << "Address: " << this << endl;
-  // return;
+  return;
 }
 
 
@@ -29,14 +29,9 @@ void LClassThis::Method2()
 void LClassThis::Method3(LClassThis &var) {
   if(this == &var){
     cout <<"The same object"<< endl;
-    cout <<" --> Address this: " << this << endl;
-    cout <<" --> Address &var: " << &var << endl;
-
   }
   else {
     cout <<"Different object"<< endl;
-    cout <<" --> Address this: " << this << endl;
-    cout <<" --> Address &var: " << &var << endl;
   }
 }
 
