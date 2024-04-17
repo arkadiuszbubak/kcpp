@@ -10,23 +10,20 @@ using namespace std;
 
 void dzialanie(int a, int b) {
    
-   cout <<"Dzialanie na int"<< endl;
    int r = a + b;
-   cout << r << endl;
+   cout <<"Dzialanie na int: "<< r << endl;
 }
 
 void dzialanie(double a, double b) {
 
-   cout <<"Dzialanie na double"<< endl;   
    double r = a + b;
-   cout << r << endl;
+   cout <<"Dzialanie na double: "<< r << endl;
 }
 
 /* void dzialanie(int a, int b, int c = 0) {
  *
- *    cout <<"Dzialanie na int"<< endl;
  *    int r = a - b;
- *    cout << r << endl;
+ *    cout <<"Dzialanie na int: "<<  r << endl;
  * } */
 
 
