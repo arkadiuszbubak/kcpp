@@ -44,9 +44,10 @@ int zmienB(int*, int, int){
 }
 
 //---------------------------------------------------------------
-int zmienC(int, int, int = 2);
+int zmienC(int, int = 1, int = 2);
 int zmienC(int a, int b, int c){
-  return 0;
+  int w = a+c;
+  return w;
 }
 //---------------------------------------------------------------
 int zmienD(int a, int b, int c = 2);
@@ -85,7 +86,8 @@ int main(){
 	wynik = zmniejsz(5);
 	cout << "Wywolanie zmniejsz(5): "<< wynik << endl;
 
- 
+  cout << zmienC(2) << endl;
+
   cout <<"Czy możliwe jest przeciążenie funkcji 'zwieksz'"<< endl;
 	return 0;
 }
