@@ -35,7 +35,7 @@ void Print(char const *c) {
 int main() {
 
   Print(13);
-  Print(13.10);
+  Print(13.10);    //!< To call function Print(float f) instead Print(double f) --> 13.10f
   Print("trzynascie");
 
   return 0;

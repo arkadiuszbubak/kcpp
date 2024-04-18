@@ -15,11 +15,11 @@ int zwieksz(int a, int b = 1) {
 
 int zmniejsz(int a, int b = 1);
 
- //---------------------------------------------------------------
- // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
- /* int zwieksz(int a){
-  *   return a;
-  * } */
+/* //---------------------------------------------------------------
+ * // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
+ * int zwieksz(int a){
+ *   return a;
+ * } */
 
  int zwiekszNew(int a, int b){
    return a + b;
@@ -68,7 +68,7 @@ int main(){
   zmienB(wskaznik,2);
   zmienB(wskaznik,2,3);
 
-  zmienC(1,2);
+  zmienC(1);
 
   zmienC(1,2);
   //------------------------------
