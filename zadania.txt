@@ -97,8 +97,15 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - przykład zastosowania
  - nazwać program: ZadIq.cc
 
+ 
+ Zadanie 3.3 (LArytmetykaWskaznikowTablice.cc)
+ -------------------------------------
+ Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
+ Wypisać adresy poszczególnych elementów.
+ - nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
 
- Zadanie 3.3 (LArytmetykaWskaznikow.cc)
+
+ Zadanie 3.4 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
  1. Funkcja1()
@@ -130,7 +137,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 3.4 (LOperatoryPrzypisania.cc)
+Zadanie 3.5 (LOperatoryPrzypisania.cc)
 -------------------------------------
 Napisać program z przykładami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
@@ -139,13 +146,13 @@ Napisać program z przykładami:
 
 
 
-Zadanie 3.5 (Nie trzeba, bo jest zrobione)
+Zadanie 3.6 (Nie trzeba, bo jest zrobione)
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 3.6 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
+Zadanie 3.7 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
@@ -156,7 +163,7 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 3.7 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
+Zadanie 3.8 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
 -------------------------------------
 Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
 elementową, gdize na poszczególnych pozycjach tablicy będize 0 lub 1. Program będzie
