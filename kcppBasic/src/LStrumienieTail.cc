@@ -9,6 +9,9 @@
 #include <unistd.h>
 using namespace std;
 
+// ./a.out > plik.txt
+// tail -f plik.txt
+
 int main(){
 
     for(int i = 0; i < 10; i++){
