@@ -11,14 +11,14 @@ using namespace std;
 int main() {
 
     int a = 5;
-    cout << a << endl;
-    cout  <<  ++a  <<  endl; //!< preinkrementacja
-    cout  <<  a++  <<  endl; //!< postinkrementacja
-    cout  <<  a  <<  endl;
+    cout << a   <<" -- przed zmianą"<< endl;
+    cout << ++a <<" -- preinkrementacja" << endl; //!< preinkrementacja
+    cout << a++ <<" -- postinkrementacja"<< endl; //!< postinkrementacja
+    cout << a   <<" -- resultat"<<  endl;
 
 
     // ----- Bez roznicy ----------------------------
-    cout <<"-----------"<< endl;
+    cout <<"\n--> Bez różnicy ------"<< endl;
     for(int k = 1; k < 5; k++){
         cout << k << endl;
     }
@@ -28,7 +28,7 @@ int main() {
         cout << j << endl;
     }
 
-    cout <<"-----------"<< endl;
+    cout <<"\n--> Z różnicą  ------"<< endl;
 
     // ----- Z roznica -------------------------------
     int x = 10;
@@ -42,11 +42,6 @@ int main() {
     y = x++;
     cout << "(x, y)\t"<< x <<"\t"<< y << endl; //!< x = 11; y = 10
 
-
-    int k = 0;
-    for(int i = 0; i<1000000000; i++){
-      k++;
-    }
 
     return 0;
 }
