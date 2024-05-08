@@ -9,33 +9,37 @@
 using namespace std;
 
 void printBinaryShort(const unsigned char val) {
-	for(int i = 7; i >= 0; i--)
-		if(val & (1 << i))
-			//(1 << 0) "wstawia 1 na kolejnych pozycjach"
-			//(zmienna << ilosc_miejsc)
-			cout << "1";
-		else
-			cout << "0";
+  for(int i = 7; i >= 0; i--)
+    if(val & (1 << i))
+      //(1 << 0) "wstawia 1 na kolejnych pozycjach"
+      //(zmienna << ilosc_miejsc)
+      cout << "1";
+    else
+      cout << "0";
 }
 
 #define PR(STR, EXPR) \
-	cout << EXPR << STR <<"\t"; printBinaryShort(EXPR); cout << endl;
+  cout << EXPR << STR <<"\t"; printBinaryShort(EXPR); cout << endl;
 
 int main(){
 
-	for(int i = 0; i<= 10; i++) {
+  for(int i = 0; i<= 10; i++) {
 
+    // First method
     PR(" in binary: ", i);
-	  
-    /* cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl; */
-		
-    /* cout << i <<"\t";
+
+    /*
+    // Second method
+     * cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl; */
+
+
+    /* // Third method
+     * cout << i <<"\t";
      * printBinaryShort(i);
      * cout << endl; */
-    
+
   }
 
-	//PR("a in binary: ", a);
 
-    return 0;
+  return 0;
 }
