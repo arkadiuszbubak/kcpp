@@ -167,7 +167,7 @@ Zadanie 3.8 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
 -------------------------------------
 Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
 elementową, gdize na poszczególnych pozycjach tablicy będize 0 lub 1. Program będzie
-zwracał liczbę, która w formi bonarnej będzie miała ustawione 1 na pozycjach odpowiadających
+zwracał liczbę, która w formie binarnej będzie miała ustawione 1 na pozycjach odpowiadających
 pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.cc
 - nazwać program: LBitoweOperatoryLogiczneSingleVariable.cc
 
