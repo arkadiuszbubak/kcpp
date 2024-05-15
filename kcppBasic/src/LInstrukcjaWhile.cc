@@ -21,6 +21,8 @@ int main()
     if(i==15) break; ///< jesli wynosi 15 to przerywamy wykonywanie petli
   }
 
+
+  // -- Kod który nie powinien być nigdy stosowany --------
   while(true) goto etykieta1; ///< skok do etykiety
   cout <<"Czy kiedykolwiek sie pojawie?"<< endl;
 
@@ -34,4 +36,5 @@ etykieta1:
     cout << i++ <<" ";
   }
   cout << endl;
+  //-------------------------------------------------------
 }
