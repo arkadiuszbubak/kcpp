@@ -26,5 +26,14 @@ int main()
   fZmienna[5] = 7;
   cout <<"Value: "<< fZmienna[5] << endl;
 
+  
+#define concatenate(a, b) a ## b
+	int xy = 10;
+	cout << concatenate(x, y) << endl;
+	cout << xy << endl;
+
+
+
+
   return 0;
 }
