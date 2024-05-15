@@ -9,11 +9,18 @@
 #include <iostream>
 using namespace std;
 
-#define c1Variable(L,N,K) int L##N[K];
 
 int main()
 {
 
+  //--------------------------------------------------------------
+#define to_string( s ) # s
+  cout << to_string(Hello World!) << endl;
+
+
+
+  //--------------------------------------------------------------
+#define c1Variable(L,N,K) int L##N[K];
   c1Variable(f,Zmienna,30);
 
   fZmienna[5] = 7;
