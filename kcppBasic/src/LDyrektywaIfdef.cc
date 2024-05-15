@@ -6,6 +6,7 @@
  */
 
 #define ZMIENNA 13
+// #define ANNEIMZ
 #include <iostream>
 
 int main()
