@@ -12,11 +12,12 @@ void GotoInstead(){
   cout <<"Inside function"<< endl;
   int k;
 
-  cout <<"Podaj wartość: ";
+  cout <<"Podaj wartość: "<< endl;
   cin >> k;
   if(k<0){
     GotoInstead();
   }
+  cout <<"Podana liczba "<< k <<" jest poprawna"<< endl;
 }
 
 int main()

@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
 tryAgain:           // etykieta
-  cout << "Wpisz dodatnia liczbe: ";
+  cout << "Wpisz dodatnia liczbe: "<< endl;
 
   double dX;
   cin >> dX;
