@@ -13,7 +13,7 @@ int main()
 
   short x;
 
-  cout << "Podaj cyfre od 0 do 5: ";
+  cout << "Podaj cyfre od 0 do 5: "<< endl;
   cin >> x;
 
   switch(x) {	

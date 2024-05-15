@@ -14,7 +14,7 @@ int main()
   //Uzycie malych lub duzych liter
   char var = 0;
 
-  cout << "Wybierz: [O]la || [M]arzena || [A]nia: ";
+  cout << "Wybierz: [O]la || [M]arzena || [A]nia: "<< endl;
   cin >> var;
 
   switch(var) {	
