@@ -16,6 +16,7 @@ int main()
   while(i < 10) i++; ///< po wykonaniu petli i = 10
   cout << i << endl;
 
+  i=-2;
   while(i++){
     cout << i << " ";
     if(i==15) break; ///< jesli wynosi 15 to przerywamy wykonywanie petli
