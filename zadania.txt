@@ -261,7 +261,7 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 
 Zadanie 4.8
 --------------------------------------
-Napisz program pokazujący zstosowanie dyrektywy preprocesora:
+Napisz program pokazujący zastosowanie dyrektywy preprocesora:
   '#ifdef' (#else)
   '#ifndef'
 oraz
