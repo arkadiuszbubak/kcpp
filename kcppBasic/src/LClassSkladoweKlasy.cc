@@ -27,32 +27,32 @@ class Samochod
 int main()
 {
 
-  Samochod obiektSyrenka;            //tworzymy obiekt
+  Samochod obiektSyrenka;            ///<tworzymy obiekt
   Samochod *wskSyrenka = new Samochod();
 
   //--------------------------------------------------
-  obiektSyrenka.fA = 1;        //  OK
-  //obiektSyrenka.fB = 1;        //  Error
-  //obiektSyrenka.fC = 1;        //  Error
+  obiektSyrenka.fA = 1;        ///<  OK
+  //obiektSyrenka.fB = 1;        ///<  Error
+  //obiektSyrenka.fC = 1;        ///<  Error
   cout << obiektSyrenka.fA << endl;
 
   //--------------------------------------------------
-  obiektSyrenka.SetB(3);      //  OK
-  cout << obiektSyrenka.GetB() << endl;      //  OK
+  obiektSyrenka.SetB(3);      ///<  OK
+  cout << obiektSyrenka.GetB() << endl;      ///<  OK
 
   //--------------------------------------------------
-  obiektSyrenka.SetC(4);      //  OK
-  cout << obiektSyrenka.GetC() << endl;      //  OK
+  obiektSyrenka.SetC(4);      ///<  OK
+  cout << obiektSyrenka.GetC() << endl;      ///<  OK
 
-  /* wskSyrenka->SetC(4);      //  OK
-   * cout << wskSyrenka->GetC() << endl;      //  OK */
+  /* wskSyrenka->SetC(4);      ///<  OK
+   * cout << wskSyrenka->GetC() << endl;      ///<  OK */
 
 
 
   //--------------------------------------------------
-  wskSyrenka->fA = 7;          //  OK
-  //wskSyrenka->fB = 1;          //  Error
-  //wskSyrenka->fC = 1;          //  Error
+  wskSyrenka->fA = 7;          ///<  OK
+  //wskSyrenka->fB = 1;          ///<  Error
+  //wskSyrenka->fC = 1;          ///<  Error
   cout << wskSyrenka->fA << endl;
 
   delete wskSyrenka;
