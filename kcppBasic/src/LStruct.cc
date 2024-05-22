@@ -40,11 +40,11 @@ struct PersonSt
   string name2;
   int age;
   float salary;
-  /* PersonSt(){
-   *   age = 18;
-   * } */
-  //PersonSt(int fAge, float fSalary) : age(fAge), salary(fSalary) {}
-  //PersonSt() : age(18), salary(153) { }
+  PersonSt(){
+    age = 18;
+  }
+  // PersonSt(int fAge, float fSalary) : age(fAge), salary(fSalary) {}
+  // PersonSt() : age(18), salary(153) { }
 } personSt1;
 //};
 
@@ -57,7 +57,7 @@ union Nazwa
   int z1;
   float z2;
   double z3;
-}nz;
+} nz;
 //--------------------------------------------------------
 
 
