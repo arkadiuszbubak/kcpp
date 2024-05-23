@@ -13,12 +13,16 @@ class Samochod
 
   public:
     int fA;
-    void Metoda() {}
+    void MetodaPublicA() {}
+    void MetodaPublicB() {
+      MetodaPrivateA();
+    }
 
   protected:
     int fB;
   private:
     int fC;
+    void MetodaPrivateA() {}
 };
 
 int main()
@@ -26,17 +30,20 @@ int main()
 
   Samochod obiektSyrenka;      ///< tworzymy obiekt
   Samochod *wskSyrenka = new Samochod();
-  obiektSyrenka.fA = 1;        //  OK
-  //obiektSyrenka.fB = 1;        //  Error
-  //obiektSyrenka.fC = 1;        //  Error
+  obiektSyrenka.fA = 1;        ///<  OK
+  //obiektSyrenka.fB = 1;        ///<  Error
+  //obiektSyrenka.fC = 1;        ///<  Error
 
-  obiektSyrenka.Metoda();      //  OK
+  obiektSyrenka.MetodaPublicA();      ///<  OK
 
-  wskSyrenka->fA = 1;          //  OK
-  //wskSyrenka->fB = 1;          //  Error
-  //wskSyrenka->fC = 1;          //  Error
+  wskSyrenka->fA = 1;          ///<  OK
+  //wskSyrenka->fB = 1;          ///<  Error
+  //wskSyrenka->fC = 1;          ///<  Error
 
-  wskSyrenka->Metoda();        //  OK
+  wskSyrenka->MetodaPublicA();       ///<  OK
+  wskSyrenka->MetodaPublicB();       ///<  OK
+  // wskSyrenka->MetodaPrivateA();      ///<  Error
+
 
   delete wskSyrenka;
 }

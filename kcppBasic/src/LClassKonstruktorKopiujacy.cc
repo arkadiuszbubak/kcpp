@@ -12,6 +12,10 @@ class A
 {   
  public:
    A(int x, int y) : fX(x), fY(y) {}
+   /* A(int x, int y){
+    *    fX = x;
+    *    fY = y;
+    * } */
    A(int x){
        fX = x;
    }
@@ -42,9 +46,11 @@ void A::Wypisz(){
 int main()
 {
    //--------- automatyczne -------
+   A c(7);
    A c1(4, -1);
    A c2;
-   A c3 = c1; // kopiujący <=> c3(c1)
+   A c3 = c1; ///< kopiujący <=> c3(c1)
+   // A c3(c1);
   
    
    cout << "Wypis danych z obiektu c1"<<endl;

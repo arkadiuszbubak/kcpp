@@ -11,7 +11,7 @@ using namespace std;
 class A 
 {
   public:
-    A() {};    ///< It has to be created if another construtor (with non-zero amount arguments exist)
+    A() {};     ///< It has to be created if another construtor (with non-zero amount arguments exist)
     A(int zmienna);
     int fLicznik;
     int Pusta();
@@ -35,4 +35,4 @@ int main()
   cout << objektA.fLicznik  << endl;
   cout << objektB.fLicznik  << endl;
   cout << objektC->fLicznik << endl;
-}
+ }

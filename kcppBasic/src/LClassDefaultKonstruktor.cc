@@ -11,7 +11,9 @@ using namespace std;
 class A 
 {
   public:
-    //A() {};    ///< It has to be created if another construtor (with non-zero amount arguments exist)
+    /* A() {
+     *   cout <<"Tworze obiekt" << endl;
+     * };    ///< It has to be created if another construtor (with non-zero amount arguments exist) */
     int fLicznik;
 };
 

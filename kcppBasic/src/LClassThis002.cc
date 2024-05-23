@@ -44,9 +44,10 @@ int main()
   //cin >> zmienna;
   zmienna = 7;
 
-  cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
-  //cout << obiekt.Ustaw(zmienna).Pokaz() << endl;  // (2)
-  cout << obiekt.Pokaz() << endl;
+  cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;     // (2)
+  // cout << obiekt.Ustaw(zmienna).ZwiekszNew().Pokaz() << endl;  // (2)
+  /* cout << obiekt.Ustaw(zmienna).Pokaz() << endl;  // (2)
+   * cout << obiekt.Pokaz() << endl; */
 
   obiekt.Ustaw(4);
   obiekt.Zwieksz();

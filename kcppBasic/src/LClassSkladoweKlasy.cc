@@ -27,8 +27,8 @@ class Samochod
 int main()
 {
 
-  Samochod obiektSyrenka;            ///<tworzymy obiekt
-  Samochod *wskSyrenka = new Samochod();
+  Samochod obiektSyrenka;                       ///<tworzymy obiekt
+  Samochod *wskSyrenka = new Samochod();        ///<tworzymy obiekt
 
   //--------------------------------------------------
   obiektSyrenka.fA = 1;        ///<  OK
