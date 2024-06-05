@@ -41,17 +41,17 @@ int Przodek::FunFromPrzodek(int zm)
 //----------------------------------------------------------------------
 int main()
 {
+   Przodek przObiekt;
+   przObiekt.fN = 7;
+   cout <<"przObiekt.fN: "<<przObiekt.fN << endl;
+  
+   //------------ 1 ------------------------
    Potomek potObiekt;
    potObiekt.fN = 8;
    cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
    
-   //------------ 1 ------------------------
-   Przodek przObiekt;
-   przObiekt.fN = 7;
-   cout <<"przObiekt.fN: "<<przObiekt.fN << endl;
-   
    //------------ 2 ------------------------
-   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
+   cout <<"przObiekt.fN: "<< przObiekt.fN << endl;
    
    //------------ 3 ------------------------
    int resA = przObiekt.FunFromPrzodek(3);
