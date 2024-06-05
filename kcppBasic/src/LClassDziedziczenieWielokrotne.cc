@@ -14,13 +14,13 @@ class A
    int fA, fI;
 };
 
-class B : public A   
+class B : public A      //< 1. remove public A   
 {	
  public: 
    int fB, fI;
 };
 
-class C : public B 
+class C : public B     //< 1. add public A
 {
  public:
    void Fun();    
