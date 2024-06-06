@@ -17,7 +17,10 @@ class A
    A(int zmiennaA, int zmiennaB);
    A(int zmiennaA, int zmiennaB, int zmiennaC);
    A(int zmiennaA, int zmiennaB, float zmiennaD);
-   
+  
+   // void SetValue(int zmiennaA){ fLicznikA=zmiennaA; }
+
+  // private:
    int fLicznikA;
    int fLicznikB;
    int fLicznikC;
@@ -44,7 +47,9 @@ A::A(int zmiennaA, int zmiennaB, int zmiennaC){
 int main()
 {
    int zm = 5;
+   // A obiektNS(7, 4, zm);
    A *obiektN = new A(7, 4, zm);
+   // obiektN->SetValue(7);
    cout << obiektN->fLicznikA <<"\t"
         << obiektN->fLicznikB <<"\t"
         << obiektN->fLicznikC << endl;;

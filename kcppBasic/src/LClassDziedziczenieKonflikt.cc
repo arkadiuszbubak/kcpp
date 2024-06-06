@@ -25,10 +25,12 @@ class C : public A, public B
   public:
     void Fun() {
       fA = fB;          ///< poprawne
-      //fI = 0;            ///< błąd (niejednoznaczne)
+      // fI = 0;            ///< błąd (niejednoznaczne)
       A::fI = 7;        ///< poprawne
-      //B::fI = 2;        ///< A czy to poprawne? :)
+      B::fI = 2;        ///< A czy to poprawne? :)
     }
+    // float fI;
+    // int fI;
 };
 
 
@@ -39,6 +41,6 @@ int main()
   obiekt->Fun();
   cout << obiekt->A::fI << endl;
   cout << obiekt->B::fI << endl;
-  //cout << obiekt->B::fB << endl;
+  // cout << obiekt->fI << endl;
 }
 

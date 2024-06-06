@@ -30,6 +30,7 @@ class Trojkat : public Figura
 };
 
 //------------------------------------------------------------------
+// class Kwadrat : public Figura
 class Kwadrat : public Figura 
 {  
  public:
@@ -52,9 +53,9 @@ class Prostokat : public Figura
 //------------------------------------------------------------------
 int main()
 { 
-   //Kwadrat *objKwadrat = new Kwadrat();
+   // Kwadrat *objKwadrat = new Kwadrat();
    Figura *objKwadrat = new Kwadrat();
-   objKwadrat->Narysuj();  
+   objKwadrat->Narysuj();   
 
   //Figura fig;    //ERROR
   //Figura *fig = new Figura();    //ERROR

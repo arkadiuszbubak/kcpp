@@ -16,8 +16,8 @@ class Przodek
     int FunPublic(int m) {
       return m;
     };
-    /* int GetValue() {return fM;}
-     * void SetValue(int fm) { fM = fm;} */
+    int GetValue() {return fM;}
+    void SetValue(int fm) { fM = fm;}
   protected:
     int   fN;
     float fX;
@@ -53,6 +53,8 @@ int main()
 
   Przodek przObiekt;
   cout << przObiekt.fM << endl;
+  // cout << przObiekt.GetValue() << endl;
+  // cout << przObiekt.FunProtected(2,4) << endl;
 
   cout << potObiekt.FunPublic(3) << endl;
 }

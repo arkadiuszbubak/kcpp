@@ -15,15 +15,19 @@ class Pudelko
     //float GetValueD() { return  fD; }; 
     friend int Equalsize(Pudelko a, Pudelko b);
     inline float GetValueD(){ return fD; }
+   // inline float GetValueD();
 
   private:
     float fD, fS, fW;
 };
 
+/* float Pudelko::GetValueD(){
+ *   return fD;
+ * } */
 
 int Equalsize(Pudelko a, Pudelko b) {
 
-  /* Funkcja nie bedaca metoda klasy Pudelko korzysta ze
+  /* Funkcja nie bedąca metodą klasy Pudelko korzysta ze
    * skladowych prywatnych klasy Pudelko */
 
   //if( a.GetValueD() == b.GetValueD()) return 1;    // A czy to zadziała?
@@ -42,5 +46,9 @@ int main()
   // cout << objA.GetValueD() << endl;
 
   cout << Equalsize(objA, objB) << endl;
+
+  /* // A czy to zadzaiała?
+   * Pudelko objC(3, 2, 1);
+   * cout << objC.Equalsize(objA, objB) << endl; */
 }
 
