@@ -1,6 +1,6 @@
 # Zajęcia w formie kontaktowej
 
-Zajęcia odbywają się w sposób kontaktowy (sala A/-1/04)
+Zajęcia odbywają się w sposób kontaktowy (sala P/0/07)
 
 
 # Materiały pomocnicze do kursu C++
