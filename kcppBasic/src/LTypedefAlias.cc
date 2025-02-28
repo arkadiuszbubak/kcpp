@@ -1,4 +1,24 @@
 /**
+<<<<<<< HEAD
+=======
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2024.02.29
+ * \brief Aliasy Typedef
+ */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  typedef int LInt;
+  LInt zmienna = 8;
+  cout << zmienna << endl;
+
+  return 0;
+}
+
+/**
+>>>>>>> bbce3dd100fb1851ee5124316465c9ba44f025ec
  * @file LTypedefAlias.cc
  * @author Arkadiusz Bubak <arkadiusz@bubak.pl>
  * @date 2024.02.29 v0.01, 2025.02.28 v0.02
