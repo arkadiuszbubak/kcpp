@@ -1,41 +1,4 @@
 /**
- * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.02.10
- * \brief Rozmiary zmiennych w C++
- * v0.01
- */
-
-#include <iostream>
-
-using namespace std;
-
-/**
- * \brief Main function
- * \return int
- */
-int main() {
-  int mm;
-
-  // Display the size of various data types
-  cout << "Godzina prawdy. W tym komputerze "
-       << "poszczegolne typy\n"
-       << "maja nastepujace rozmiary w bajtach: \n";
-
-  cout << "typ char        : \t" << sizeof(char) << " bajtów" << endl;
-  cout << "typ int         : \t" << sizeof(int) << " bajtów" << endl;
-  cout << "typ short       : \t" << sizeof(short) << " bajtów" << endl;
-  cout << "typ long        : \t" << sizeof(long) << " bajtów" << endl;
-  cout << "typ float       : \t" << sizeof(float) << " bajtów" << endl;
-  cout << "typ double      : \t" << sizeof(double) << " bajtów" << endl;
-  cout << "typ long double : \t" << sizeof(long double) << " bajtów" << endl;
-
-  cout << "Nasz obiekt lokalny mm (tutaj int) ma rozmiar : " << sizeof(mm)
-       << " bajtów" << endl;
-
-  return 0;
-}
-
-/**
  * \file LSizeof.cc
  * \author Arkadiusz Bubak <arkadiusz@bubak.pl>
  * \date 2019.02.10
