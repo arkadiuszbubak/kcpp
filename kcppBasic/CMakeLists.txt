@@ -1,56 +1,90 @@
-#
 # \author: Arkadiusz Bubak arkadiusz@bubak.pl
 # \date 2020.02.21
 # \brief Kurs C++
 # \version v0.02
 
-cmake_minimum_required(VERSION 3.0)
-project(kcpp)
+# Minimum required CMake version
+cmake_minimum_required(VERSION 3.14)
 
-#set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_BUILD_TYPE Debug)
+# Project name, version, and languages
+project(kcpp
+    VERSION 0.02
+    LANGUAGES C CXX
+    DESCRIPTION "Kurs C++ Project"
+)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0 -Wno-unused-variable")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -Wno-unused-variable -Wliteral-conversion")
-
-
-#----------------------------------------------------------------------
-include(CheckCXXCompilerFlag)
-CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
-CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
-CHECK_CXX_COMPILER_FLAG("-std=c++14" COMPILER_SUPPORTS_CXX14)
-if(COMPILER_SUPPORTS_CXX14)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
-elseif(COMPILER_SUPPORTS_CXX11)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-elseif(COMPILER_SUPPORTS_CXX0X)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
-else()
-  message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11(14) support. Please use a different C++ compiler.")
+# Set default build type to Debug if not specified
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build." FORCE)
 endif()
-#----------------------------------------------------------------------
 
+# Enable C++ standard and require it
+set(CMAKE_CXX_STANDARD 14) # Prefer C++14
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-#add_executable(start introduction/start.cc)
-#add_executable(lsizeof src/LSizeof.cc)
-#add_executable(lstatic src/LStatic.cc)
-#add_executable(lstaticCast src/LStaticCast.cc)
+# Platform-specific compiler flags
+if(MSVC)
+    # Flags for MSVC (Visual Studio)
+    add_compile_options(/W3 /WX) # Enable warnings and treat warnings as errors
+else()
+    # Flags for GCC/Clang
+    add_compile_options(-Wall -Wextra -Wpedantic -Wno-unused-variable)
+endif()
 
-
-file(GLOB_RECURSE APP_SOURCES src/*.cc)
+# Include directories (prefer target-specific includes)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-foreach (sourcefile ${APP_SOURCES})
-    #get filename without extension (NAME_(W)ethout(E)xtenction)
-    get_filename_component(filename ${sourcefile} NAME_WE)
-    #add executable for all file
-    add_executable(${filename} ${sourcefile})
-endforeach (sourcefile ${APP_SOURCES})
+# Find all source files in the src directory
+file(GLOB_RECURSE APP_SOURCES "src/*.cc")
 
+# Check if any source files were found
+if(NOT APP_SOURCES)
+    message(FATAL_ERROR "No source files found in the 'src' directory!")
+else()
+  #message(STATUS "Source files found: ${APP_SOURCES}")
+    message(STATUS "Source files found")
+endif()
 
-# Create shared library
-# add_library(${PROJECT_NAME} SHARED ${APP_SOURCES})
+# Create a shared library for each source file
+foreach(sourcefile ${APP_SOURCES})
+    # Get the filename without extension
+    get_filename_component(lib_name ${sourcefile} NAME_WE)
 
-# Install library
-# install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
+    # Prefix the library name with "lib_" to make it unique
+    set(library_name "lib_${lib_name}")
 
+    # Create a shared library for the source file
+    add_library(${library_name} SHARED ${sourcefile})
+
+    # Set target properties for the library
+    target_include_directories(${library_name} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+    # Platform-specific compiler flags for the library
+    if(MSVC)
+        target_compile_options(${library_name} PRIVATE /W3 /WX)
+    else()
+        target_compile_options(${library_name} PRIVATE -Wall -Wextra -Wpedantic -Wno-unused-variable)
+    endif()
+
+    # Install the library to the 'lib' directory
+    install(TARGETS ${library_name}
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+    )
+endforeach()
+
+# Create an executable for each source file (optional, if you still want executables)
+foreach(sourcefile ${APP_SOURCES})
+    # Get the filename without extension
+    get_filename_component(target_name ${sourcefile} NAME_WE)
+
+    # Add an executable for the source file
+    add_executable(${target_name} ${sourcefile})
+
+    # Set target properties (e.g., C++ standard, include directories)
+    target_include_directories(${target_name} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+    # Link the executable to the corresponding shared library
+    target_link_libraries(${target_name} PRIVATE "lib${target_name}")
+endforeach()

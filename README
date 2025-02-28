@@ -1,0 +1,11 @@
+# To build kccBasic run the following commands from the main kcpp project directory
+
+# Configure the project
+cmake -S ./kcppBasic -B kcppBasic.build
+
+# Build the project
+cmake --build kcppBasic.build
+
+# and eventually install the library
+cmake --install kcppBasic.build
+
