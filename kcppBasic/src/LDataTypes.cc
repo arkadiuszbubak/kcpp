@@ -22,10 +22,11 @@ int main() {
   // Integer variable demonstration
   int fVarA;
   // fVarA = 7; // Uncomment to assign an integer value
-  fVarA = 7.3;  // Implicit conversion from double to int (value truncated to 7)
+  fVarA = 7.3; // Implicit conversion from double to int (value truncated to 7)
 
-  cout << "fVarA: " << fVarA << endl;  // Output: 7 (truncated value)
+  cout << "fVarA: " << fVarA << endl; // Output: 7 (truncated value)
 
+  //------------------------------------------------------------------------
   // Uncomment the following section to demonstrate floating-point behavior
 
   /* float fVarB;
@@ -34,20 +35,18 @@ int main() {
    * cout << "fVarB: " << fVarB << endl; // Output: 7.3 */
 
   // Character array (string) demonstration
-  char fVarC[10];  // Declaration of a character array with a length of 10
+  char fVarC[10]; // Declaration of a character array with a length of 10
   char fVarD[] =
-      "Tutaj jakis napis";  // Declaration with automatic length determination
+      "Tutaj jakis napis"; // Declaration with automatic length determination
 
-  //--------------------------
+  //------------------------------------------------------------------------
   // Deprecated or problematic practices (commented out for reference)
 
-  /* char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbids
-   * converting
-   *                                     // a string constant to 'char*'
-   * char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is
-   * stored */
+  char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbids converting
+                                      // a string constant to 'char*'
+  char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is stored
 
-  //--------------------------
+  //------------------------------------------------------------------------
   // Uncomment the following section to demonstrate user input for character
   // arrays
 
@@ -55,12 +54,13 @@ int main() {
    * cin >> fVarC; // User input for fVarC
    * cout << "fVarC: " << fVarC << endl; */
 
+  //------------------------------------------------------------------------
   // Uncomment the following section to print character arrays
   /*
-  cout << "fVarD: " << fVarD << endl;
-  cout << "fVarE: " << fVarE << endl;
-  cout << "fVarF: " << fVarF << endl;
-  */
+   * cout << "fVarD: " << fVarD << endl;
+   * cout << "fVarE: " << fVarE << endl;
+   * cout << "fVarF: " << fVarF << endl;
+   *  */
 
   return 0;
 }
