@@ -42,8 +42,8 @@ file(GLOB_RECURSE APP_SOURCES "src/*.cc")
 if(NOT APP_SOURCES)
     message(FATAL_ERROR "No source files found in the 'src' directory!")
 else()
-  #message(STATUS "Source files found: ${APP_SOURCES}")
     message(STATUS "Source files found")
+    #message(STATUS "Source files found: ${APP_SOURCES}")
 endif()
 
 # Create a shared library for each source file
@@ -51,8 +51,8 @@ foreach(sourcefile ${APP_SOURCES})
     # Get the filename without extension
     get_filename_component(lib_name ${sourcefile} NAME_WE)
 
-    # Prefix the library name with "lib_" to make it unique
-    set(library_name "lib_${lib_name}")
+    # Use the filename as the library name (CMake will add the "lib" prefix automatically)
+    set(library_name "${lib_name}_lib")  # Append "_lib" to make the name unique
 
     # Create a shared library for the source file
     add_library(${library_name} SHARED ${sourcefile})
@@ -86,5 +86,5 @@ foreach(sourcefile ${APP_SOURCES})
     target_include_directories(${target_name} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
     # Link the executable to the corresponding shared library
-    target_link_libraries(${target_name} PRIVATE "lib${target_name}")
+    target_link_libraries(${target_name} PRIVATE "${target_name}_lib")
 endforeach()
