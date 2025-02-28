@@ -22,9 +22,9 @@ int main() {
   // Integer variable demonstration
   int fVarA;
   // fVarA = 7; // Uncomment to assign an integer value
-  fVarA = 7.3; // Implicit conversion from double to int (value truncated to 7)
+  fVarA = 7.3;  // Implicit conversion from double to int (value truncated to 7)
 
-  cout << "fVarA: " << fVarA << endl; // Output: 7 (truncated value)
+  cout << "fVarA: " << fVarA << endl;  // Output: 7 (truncated value)
 
   // Uncomment the following section to demonstrate floating-point behavior
 
@@ -34,9 +34,9 @@ int main() {
    * cout << "fVarB: " << fVarB << endl; // Output: 7.3 */
 
   // Character array (string) demonstration
-  char fVarC[10]; // Declaration of a character array with a length of 10
+  char fVarC[10];  // Declaration of a character array with a length of 10
   char fVarD[] =
-      "Tutaj jakis napis"; // Declaration with automatic length determination
+      "Tutaj jakis napis";  // Declaration with automatic length determination
 
   //--------------------------
   // Deprecated or problematic practices (commented out for reference)
