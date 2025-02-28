@@ -26,7 +26,7 @@ int main() {
        << "poszczegolne typy\n"
        << "maja nastepujace rozmiary w bajtach: \n";
 
-  cout << "typ char        : \t" << sizeof(char) << " bajtów" << endl;
+  cout << "typ char        : \t" << sizeof(char) << " bajt" << endl;
   cout << "typ int         : \t" << sizeof(int) << " bajtów" << endl;
   cout << "typ short       : \t" << sizeof(short) << " bajtów" << endl;
   cout << "typ long        : \t" << sizeof(long) << " bajtów" << endl;
@@ -36,7 +36,7 @@ int main() {
 
   // Display the size of the local variable
   cout << "Nasz obiekt lokalny mm (tutaj int) ma rozmiar : " << sizeof(mm)
-       << " bajtów" << endl;
+       << " bajty/ów" << endl;
 
   return 0;
 }
