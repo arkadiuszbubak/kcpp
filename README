@@ -19,6 +19,7 @@ Second option
 ----------------------------
 cd kcpp
 mkdir kcppBasic.build
+cd kcppBasic.build
 cmake ../kcppBasic
 make
 ----------------------------
