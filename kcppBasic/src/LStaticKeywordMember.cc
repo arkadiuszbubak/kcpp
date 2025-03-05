@@ -1,76 +1,54 @@
 /**
- * @file LStaticKeywordMember.cc
- * @author Arkadiusz Bubak <arkadiusz@bubak.pl>
- * @date 2019.02.10 v0.01, 2023.04.12 v0.02, 2025.02.28 v0.03
- * @brief Demonstration of static members in C++
- * @version v0.03
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10 v0.01, 2023.04.12 v0.02
+ * \brief Static member w C++
+ * v0.02
  */
 
 #include <iostream>
 using namespace std;
 
-/**
- * @class LBox
- * @brief Represents a box with length, width, and height
- *
- * This class demonstrates the use of a static member to track the number of
- * objects created.
- */
 class LBox {
 public:
-  static int
-      iObjectCount; /**< Static member to count the number of objects created */
+  static int iObjectCount;
 
-  /**
-   * @brief Constructor for LBox
-   *
-   * Initializes the dimensions of the box and increments the object count.
-   *
-   * @param l Length of the box (default: 2.0)
-   * @param w Width of the box (default: 2.0)
-   * @param h Height of the box (default: 2.0)
-   */
+  /* static const int staticConstVar = 42; // Allowed in class
+   * static constexpr double pi = 3.14159; // Allowed in class
+   * static std::string message;           // Definition must be done outside
+   * class */
+
+  //! Constructor definition
   LBox(double l = 2.0, double w = 2.0, double h = 2.0) {
     cout << "Constructor called" << endl;
     dLength = l;
     dWidth = w;
     dHeight = h;
 
-    // Increment the object count every time an object is created
+    //! Increase every time object is created
     iObjectCount++;
   }
-
-  /**
-   * @brief Calculates the volume of the box
-   *
-   * @return double Volume of the box (length * width * height)
-   */
   double Volume() { return dLength * dWidth * dHeight; }
+  // constexpr int Square(int x) { return x * x; }
 
 private:
-  double dLength; /**< Length of the box */
-  double dWidth;  /**< Width of the box */
-  double dHeight; /**< Height of the box */
+  double dLength; //!< Length of a box
+  double dWidth;  //!< Width of a box
+  double dHeight; //!< Height of a box
 };
 
-// Initialize the static member of class LBox
+//! Initialize static member of class Box
 int LBox::iObjectCount = 0;
+//! Definition outside the class
+// string LBox::message = "Hello, world!";
 
-/**
- * @brief Main function
- *
- * This program demonstrates the use of a static member variable in a class to
- * track the number of objects created. It creates two `LBox` objects and prints
- * the total number of objects.
- *
- * @return int Returns 0 on successful execution.
- */
-int main() {
-  // Create two LBox objects
-  LBox objectBox1(3.3, 1.2, 1.5); /**< Declare object box1 */
-  LBox objectBox2(8.5, 6.0, 2.0); /**< Declare object box2 */
+int main(void) {
+  LBox objectBox1(3.3, 1.2, 1.5); //!< Declare object box1
+  LBox objectBox2(8.5, 6.0, 2.0); //!< Declare object box2
 
-  // Print the total number of objects created
+  /* constexpr int result = objectBox1.Square(5);
+   * cout << "Results from Square function: " << result << endl; */
+
+  //! Print total number of objects
   cout << "Total objects: " << LBox::iObjectCount << endl;
 
   return 0;
