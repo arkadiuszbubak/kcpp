@@ -42,6 +42,7 @@ int comp(int c) {
 void comp1() {
   ncall++; // Increment the global call count
 }
+//! Create another comp2 function
 
 /**
  * @brief Main function
