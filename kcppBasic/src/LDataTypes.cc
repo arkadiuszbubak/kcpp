@@ -34,33 +34,41 @@ int main() {
    * fVarB = 7.3; // Double assigned to float (implicit conversion)
    * cout << "fVarB: " << fVarB << endl; // Output: 7.3 */
 
-  // Character array (string) demonstration
+  //--- Character array (string) demonstration
   char fVarC[10]; // Declaration of a character array with a length of 10
-  char fVarD[] =
+
+  char fVarD1[] =
       "Tutaj jakis napis"; // Declaration with automatic length determination
+  cout << "fVarD1: " << fVarD1 << endl;
 
-  //------------------------------------------------------------------------
-  // Deprecated or problematic practices (commented out for reference)
-
-  char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbids converting
-                                      // a string constant to 'char*'
-  char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is stored
+  char fVarD2[20] =
+      "Tutaj jakis napis"; // Declaration with specification of length
+  cout << "fVarD2: " << fVarD2 << endl;
 
   //------------------------------------------------------------------------
   // Uncomment the following section to demonstrate user input for character
   // arrays
 
-  /* cout << "Set fVarC variable: ";
-   * cin >> fVarC; // User input for fVarC
-   * cout << "fVarC: " << fVarC << endl; */
+  cout << "Set fVarC variable: ";
+  cin >> fVarC; // User input for fVarC
+  cout << "fVarC: " << fVarC << endl;
+
+  //------------------------------------------------------------------------
+  // Deprecated or problematic practices (commented out for reference)
+
+  /* char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbids
+   * converting
+   *                                     // a string constant to 'char*'
+   * char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is
+   * stored */
 
   //------------------------------------------------------------------------
   // Uncomment the following section to print character arrays
-  /*
-   * cout << "fVarD: " << fVarD << endl;
-   * cout << "fVarE: " << fVarE << endl;
-   * cout << "fVarF: " << fVarF << endl;
-   *  */
+
+  cout << "fVarD1: " << fVarD1 << endl;
+  cout << "fVarD2: " << fVarD2 << endl;
+  // cout << "fVarE: " << fVarE << endl;
+  // cout << "fVarF: " << fVarF << endl;
 
   return 0;
 }
