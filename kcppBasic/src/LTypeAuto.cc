@@ -35,49 +35,45 @@ int main() {
   cout << "--------------------------------------" << endl;
 
   // Uncomment the following section to demonstrate explicit types
-  /*
-  float var3 = 137.1; // Explicit `float` type
-  cout << "var3:    " << var3 << endl;
-  cout << "Size of: " << sizeof(var3) << endl;
-  cout << "Type:    " << typeid(var3).name() << endl;
-
-  double var4 = 137.1; // Explicit `double` type
-  cout << "var4:    " << var4 << endl;
-  cout << "Size of: " << sizeof(var4) << endl;
-  cout << "Type:    " << typeid(var4).name() << endl;
-  */
+  /*   float var3 = 137.1; // Explicit `float` type
+   *   cout << "var3:    " << var3 << endl;
+   *   cout << "Size of: " << sizeof(var3) << endl;
+   *   cout << "Type:    " << typeid(var3).name() << endl;
+   *
+   *   double var4 = 137.1; // Explicit `double` type
+   *   cout << "var4:    " << var4 << endl;
+   *   cout << "Size of: " << sizeof(var4) << endl;
+   *   cout << "Type:    " << typeid(var4).name() << endl; */
 
   //----------------------------------------------------------------------------
   // Uncomment the following section to demonstrate initialization with literals
-  /*
-  auto varA = 137.1;  // `auto` deduces `double` type (C++11)
-  int varB = 137.1;   // Explicit `int` type (truncates to 137)
 
-  cout << "--------------------------------------" << endl;
-  cout << "varA:    " << varA << endl;
-  cout << "Size of: " << sizeof(varA) << endl;
-  cout << "Type:    " << typeid(varA).name() << endl;
-  cout << "varB:    " << varB << endl;
-  cout << "Size of: " << sizeof(varB) << endl;
-  cout << "Type:    " << typeid(varB).name() << endl;
-  */
+  /*   auto varA = 137.1;  // `auto` deduces `double` type (C++11)
+   *   int varB = 137.1;   // Explicit `int` type (truncates to 137)
+   *
+   *   cout << "--------------------------------------" << endl;
+   *   cout << "varA:    " << varA << endl;
+   *   cout << "Size of: " << sizeof(varA) << endl;
+   *   cout << "Type:    " << typeid(varA).name() << endl;
+   *   cout << "varB:    " << varB << endl;
+   *   cout << "Size of: " << sizeof(varB) << endl;
+   *   cout << "Type:    " << typeid(varB).name() << endl; */
 
   //----------------------------------------------------------------------------
   // Uncomment the following section to demonstrate initialization with return
   // values
-  /*   map<char, float> mapa;
-   *   mapa['a'] = 1.0;
+  /*     map<char, float> mapa;
+   *     mapa['a'] = 1.0;
    *
-   *   auto itA = mapa.begin(); // `auto` deduces `std::map<char,
-   * float>::iterator`
-   *                            // type (C++11)
-   *   std::map<char, float>::iterator itB =
-   *       mapa.begin(); // Explicit iterator type (C++)
+   *     auto itA = mapa.begin(); // `auto` deduces
+   * `std::map<char,float>::iterator`
+   *                              // type (C++11)
+   *     std::map<char, float>::iterator itB =
+   *         mapa.begin(); // Explicit iterator type (C++)
    *
-   *   cout << "--------------------------------------" << endl;
-   *   cout << "itA type: " << typeid(itA).name() << endl;
-   *   cout << "itB type: " << typeid(itB).name() << endl;
-   *  */
+   *     cout << "--------------------------------------" << endl;
+   *     cout << "itA type: " << typeid(itA).name() << endl;
+   *     cout << "itB type: " << typeid(itB).name() << endl; */
 
   //----------------------------------------------------------------------------
   // Uncomment the following section to demonstrate pointer initialization
