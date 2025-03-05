@@ -49,6 +49,7 @@ struct default_initialize {
  *
  * @return int Returns 0 on successful execution.
  */
+
 int main() {
   int a; // Uninitialized variable
 
@@ -66,11 +67,11 @@ int main() {
        << endl; // Output: 0 (explicitly initialized)
   cout << "str s from struct: " << DNDI.s << endl; // Output: (empty string)
 
-  // Uncomment the following to test the `does_not_default_initialize` struct
-  // does_not_default_initialize DNDI2;
-  // cout << "int x from struct (uninitialized): " << DNDI2.x << endl; //
-  // Output: garbage cout << "str s from struct: " << DNDI2.s << endl; //
-  // Output: (empty string)
+  /* //Uncomment the following to test the `does_not_default_initialize` struct
+   * does_not_default_initialize DNDI2;
+   * cout << "int x from struct (uninitialized): " << DNDI2.x << endl; //
+   * //Output: garbage cout << "str s from struct: " << DNDI2.s << endl; //
+   * //Output: (empty string) */
 
   // Write your own program with a single int declaration and test its behavior
   return 0;
