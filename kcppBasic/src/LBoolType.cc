@@ -1,7 +1,7 @@
 /**
  * \file LBoolType.cc
  * \author Arkadiusz Bubak <arkadiusz@bubak.pl>
- * \date 2025.03.05
+ * \date 2025.02.10
  * \brief Program to show example of Bool type in C++
  * \version v0.01 (2025.03.05)
  */

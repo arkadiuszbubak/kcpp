@@ -8,28 +8,25 @@
 #include <iostream>
 using namespace std;
 
-class A 
-{    
-  public:
-    int fIndex;
-    void Ustaw(int x) {
-      fIndex = x;        ///< this->fIndex = x;
-    }
+class A {
+public:
+  int fIndex;
+  void Ustaw(int x) {
+    fIndex = x; ///< this->fIndex = x;
+  }
 };
 
-class B
-{
-  public:
-    int fIndex;
-    void Ustaw(int fIndex)  {
-      // this->fIndex = fIndex;  ///< dostęp do przesłoniętej składowej klasy
-      cout <<"fIndex inside Ustaw(): "<< fIndex << endl;
-      fIndex = fIndex;  // Zobaczmy co sie stanie
-    }
+class B {
+public:
+  int fIndex;
+  void Ustaw(int fIndex) {
+    // this->fIndex = fIndex;  ///< dostęp do przesłoniętej składowej klasy
+    cout << "fIndex inside Ustaw(): " << fIndex << endl;
+    fIndex = fIndex; // Zobaczmy co sie stanie
+  }
 };
 
-int main()
-{
+int main() {
   A objektA;
   objektA.Ustaw(7);
   cout << objektA.fIndex << endl;

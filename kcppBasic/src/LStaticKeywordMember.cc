@@ -45,6 +45,9 @@ int main(void) {
   LBox objectBox1(3.3, 1.2, 1.5); //!< Declare object box1
   LBox objectBox2(8.5, 6.0, 2.0); //!< Declare object box2
 
+  // LBox *objectBox3 = new LBox(1, 4, 5);
+  // LBox objectBox4;
+
   /* constexpr int result = objectBox1.Square(5);
    * cout << "Results from Square function: " << result << endl; */
 
