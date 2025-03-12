@@ -71,8 +71,8 @@ int main() {
 
   // Uncommenting the following line would cause a conflict(?) if `using
   // namespace nasza` is active
-  Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
-             // functions
+  // Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
+  // functions
 
   return 0;
 }
