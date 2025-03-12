@@ -5,25 +5,23 @@
  * v0.01
  */
 
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main() {
 
-  char mystring1[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
+  char mystring1[] = {'H', 'e', 'l', 'l', 'o', '\0'};
   char mystring2[] = "Dzień dobry";
-  char mystring3[12];	
+  char mystring3[12];
 
-  cout << "mystring1.0:  "<< mystring1 << endl;
-  cout << "mystring2.0:  "<< mystring2 << endl;
-  cout << "mystring3.0:  "<< mystring3 << endl;
-
+  cout << "mystring1.0:  " << mystring1 << endl;
+  cout << "mystring2.0:  " << mystring2 << endl;
+  cout << "mystring3.0:  " << mystring3 << endl;
 
   /* // Not allowed
    * char mystringA = "Hello";
    * char mystringC = { 'H', 'e', 'l', 'l', 'o', '\0' }; */
-
 
   // Assigning values to strings
   mystring3[0] = 'H';
@@ -33,44 +31,47 @@ int main(){
   mystring3[4] = 'o';
   mystring3[5] = '\0';
 
-  //Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
-  //strcpy (string1, string2);
+  // Generally for assigning values to an array, and more specifically to a
+  // string of characters, a series of functions like strcpy are used. strcpy
+  // (string copy) is defined in the cstring (string.h) library and can be
+  // called the following way: strcpy (string1, string2);
 
   strcpy(mystring3, "Dzien dobry");
-  strcpy(mystring3, "Dzien dobry wszystkim"); ///<A co jesli tekst bedzie dluzszy niż 12 znaków?
-  cout <<"mystring3.1: "<<      mystring3 << endl;
-  cout <<"mystring3.2 (11): "<< mystring3[11] << endl;
-  cout <<"mystring3.3 (12): "<< mystring3[12] << endl;
-  cout <<"mystring3.4 (16): "<< mystring3[16] << endl;
-  cout <<"mystring3.5 (39): "<< mystring3[39] << endl;
-
+  strcpy(mystring3, "Dzien dobry wszystkim"); ///< A co jesli tekst bedzie
+                                              ///< dluzszy niż 12 znaków?
+  cout << "mystring3.1: " << mystring3 << endl;
+  cout << "mystring3.2 (11): " << mystring3[11] << endl;
+  cout << "mystring3.3 (12): " << mystring3[12] << endl;
+  cout << "mystring3.4 (16): " << mystring3[16] << endl;
+  cout << "mystring3.5 (39): " << mystring3[39] << endl;
 
   // Partial copy
-  char str1[]= "To be or not to be";
+  char str1[] = "To be or not to be";
   // char str2[40];
   char str2[10];
   char str3[40];
 
   /* copy to sized buffer (overflow safe): */
-  strncpy(str2, str1, sizeof(str2)-1);
+  strncpy(str2, str1, sizeof(str2) - 1);
   // strncpy(str2, str1, sizeof(str2));    //<< See what happens
 
   /* partial copy (only 5 chars): */
-  // memset(str3, '\0', sizeof(str3));     //<< 1. Add a null terminator to the end of dest
+  // memset(str3, '\0', sizeof(str3));     //<< 1. Add a null terminator to the
+  // end of dest
   strncpy(str3, str2, 5);
-  // str3[5] = '\0';                       //<< 2. Add a null terminator to the end of dest
+  // str3[5] = '\0';                       //<< 2. Add a null terminator to the
+  // end of dest
 
-  cout <<"str1:\t"<< str1 << "\n"
-       <<"str2:\t"<< str2 << "\n"
-       <<"str3:\t"<< str3 << endl;
+  cout << "str1:\t" << str1 << "\n"
+       << "str2:\t" << str2 << "\n"
+       << "str3:\t" << str3 << endl;
 
-/*   //Prosze sprawdzic co robi sizeof
- *   int iTab[10];
- *   double dTab[10];
- *
- *   cout <<"iTab: "<< sizeof(iTab) << endl;
- *   cout <<"dTab: "<< sizeof(dTab) << endl; */
-
+  /*   //Prosze sprawdzic co robi sizeof
+   *   int iTab[10];
+   *   double dTab[10];
+   *
+   *   cout <<"iTab: "<< sizeof(iTab) << endl;
+   *   cout <<"dTab: "<< sizeof(dTab) << endl; */
 
   /*from cstring
 https://www.programiz.com/cpp-programming/library-function/cstring/strlen
