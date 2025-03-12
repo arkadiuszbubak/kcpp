@@ -53,8 +53,7 @@ int main() {
   double c2 = static_cast<double>(a) / b;                      // Proper casting
   double c3 =
       static_cast<double>(a / b); // Incorrect casting (integer division first)
-  // double c4 = static_cast<double> a / b;                      // ERROR:
-  // Invalid syntax
+  // double c4 = static_cast<double> a / b;      // ERROR: Invalid syntax
   //----------------------------------------------------------
 
   std::cout << endl << ">> C++-like" << endl;
