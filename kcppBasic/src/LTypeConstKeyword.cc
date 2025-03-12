@@ -49,12 +49,15 @@ int main() {
 
   // Pointer to a constant variable
   const int *u1; // `u1` is a pointer to a constant integer
-  int const *u2; // Equivalent to `const int* u2`
-  char const *v; // Pointer to a constant character
+  // int const *u2;  // Equivalent to `const int* u2`
+  const char *v2; // Pointer to a constant character
+  // char const *v1; // Equivalent to 'const char *v2
 
   // Constant pointer to a variable
   int x = 37;
-  int *const w1 = &x;  // `w1` is a constant pointer to an integer
+  int *const w1 = &x; // `w1` is a constant pointer to an integer
+  // int const *w1 = &x;  // `w1` is a constant pointer to an integer
+  // const int *w1 = &x;  // `w1` is a constant pointer to an integer
   cout << *w1 << endl; // Output: 37
 
   // Pointer to a constant variable
@@ -62,13 +65,15 @@ int main() {
   cout << *w2 << endl; // Output: 37
 
   // Uncommenting the following lines will result in errors
-  /*
-  int y = 37;
-  w1 = &y;                   // Error: Cannot reassign a constant pointer
-  */
+
+  /* int y = 37;
+   * w1 = &y;    // Error: Cannot reassign a constant pointer */
 
   // Call a function that returns a constant integer
   cout << "Call FunA function: " << FunA() << endl;
+
+  /* Task:
+   * Please assign to the variable what is returned before FunA function */
 
   return 0;
 }
