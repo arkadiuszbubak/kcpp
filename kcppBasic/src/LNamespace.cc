@@ -69,9 +69,10 @@ int main() {
   // Call the `Funkcja` function from the `nasza` namespace
   nasza::Funkcja();
 
-  // Uncommenting the following line would cause a conflict if `using namespace
-  // nasza` is active Funkcja(); // Error: Ambiguous call between global and
-  // namespace-scoped functions
+  // Uncommenting the following line would cause a conflict(?) if `using
+  // namespace nasza` is active
+  Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
+             // functions
 
   return 0;
 }
