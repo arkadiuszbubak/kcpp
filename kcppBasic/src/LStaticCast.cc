@@ -75,29 +75,30 @@ int main() {
   /*
    *   int i1 = 6;
    *   cout << " i1.0: " << i1 << endl; // Output: 6
-   *   std::cout << std::fixed << std::setprecision(3) << " i1.1: " << i1 <<
-   * endl; // Output: 6.000 cout << endl;
+   *   std::cout << std::fixed << std::setprecision(3) << " i1.1: " << i1
+   *             << endl; // Output: 6.000 cout << endl;
    *
-   *   double d1 = (double)i1; // C-style casting
+   *   double d1 = (double)i1;          // C-style casting
    *   cout << " d1.1: " << d1 << endl; // Output: 6
-   *   std::cout << std::fixed << std::setprecision(3) << " d1.2: " << d1 <<
-   * endl; // Output: 6.000 cout << endl;
+   *   std::cout << std::fixed << std::setprecision(3) << " d1.2: " << d1
+   *             << endl; // Output: 6.000 cout << endl;
    *
    *   double d2 = static_cast<double>(i1); // C++-style casting
-   *   cout << " d2.1: " << d2 << endl; // Output: 6
-   *   std::cout << std::fixed << std::setprecision(3) << " d2.2: " << d1 <<
-   * endl; // Output: 6.000 cout << endl;
+   *   cout << " d2.1: " << d2 << endl;     // Output: 6.000
+   *   std::cout << std::fixed << std::setprecision(3) << " d2.2: " << d1
+   *             << endl; // Output: 6.000 cout << endl;
    *
    *   double pi = 3.14159265;
-   *   cout << " pi: " << pi << endl; // Output: 3.14159
-   *   std::cout << std::fixed << std::setprecision(3) << " pi: " << pi << endl;
-   * // Output: 3.142 cout << endl;
+   *   cout << " pi.1: " << pi << endl; // Output: 3.142
+   *   std::cout << std::fixed << std::setprecision(5) << " pi.2: " << pi <<
+   * endl;
+   *   // Output: 3.14159 cout << endl;
    *
-   *   int p1 = static_cast<int>(pi); // C++-style casting (truncation)
-   *   cout << " p1: " << p1 << endl; // Output: 3
-   *   std::cout << std::fixed << std::setprecision(3) << " p1: " << p1 << endl;
-   * // Output: 3.000
-   *   */
+   *   int p1 = static_cast<int>(pi);   // C++-style casting (truncation)
+   *   cout << " p1.1: " << p1 << endl; // Output: 3
+   *   std::cout << std::fixed << std::setprecision(3) << " p1.1: " << p1 <<
+   * endl;
+   *   // Output: 3 */
 
   return 0;
 }
