@@ -45,11 +45,15 @@ int main(void) {
   LBox objectBox1(3.3, 1.2, 1.5); //!< Declare object box1
   LBox objectBox2(8.5, 6.0, 2.0); //!< Declare object box2
 
-  // LBox *objectBox3 = new LBox(1, 4, 5);
-  // LBox objectBox4;
+  LBox *objectBox3 = new LBox(1, 4, 5);
+  LBox objectBox4;
 
-  /* constexpr int result = objectBox1.Square(5);
-   * cout << "Results from Square function: " << result << endl; */
+  cout << "Volume (static object call):  " << objectBox4.Volume() << endl;
+  cout << "Volume (dynamic object call): " << objectBox3->Volume() << endl;
+
+  // constexpr int result = objectBox1.Square(objectBox3->Volume()); //!< Error
+  // constexpr int result = objectBox1.Square(5);
+  // cout << "Results from Square function: " << result << endl;
 
   //! Print total number of objects
   cout << "Total objects: " << LBox::iObjectCount << endl;
