@@ -13,6 +13,7 @@
 
 #include <iostream>
 using namespace std;
+// using namespace nasza;
 
 /**
  * @namespace nasza
@@ -71,7 +72,7 @@ int main() {
 
   // Uncommenting the following line would cause a conflict(?) if `using
   // namespace nasza` is active
-  // Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
+  Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
   // functions
 
   return 0;

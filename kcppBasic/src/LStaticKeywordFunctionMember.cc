@@ -27,7 +27,7 @@ using namespace std;
  * static data member that tracks the number of objects created.
  */
 class LBox {
- public:
+public:
   static int
       iObjectCount; /**< Static member to count the number of objects created */
 
@@ -72,7 +72,7 @@ class LBox {
    */
   static int GetCount() { return iObjectCount; }
 
- private:
+private:
   double dLength; /**< Length of the box */
   double dWidth;  /**< Width of the box */
   double dHeight; /**< Height of the box */
@@ -96,8 +96,8 @@ int main() {
   cout << "Initial Stage Count: " << LBox::GetCount() << endl;
 
   // Create two LBox objects
-  LBox objectBox1(4.1, 2.2, 3.6);  // Declare object objectBox1
-  LBox objectBox2(4.7, 2.3, 4.1);  // Declare object objectBox2
+  LBox objectBox1(4.1, 2.2, 3.6); // Declare object objectBox1
+  LBox objectBox2(4.7, 2.3, 4.1); // Declare object objectBox2
 
   // Print the total number of objects after creating objects
   cout << "Final Stage Count outside of object:       " << LBox::GetCount()
