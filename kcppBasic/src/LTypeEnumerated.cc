@@ -68,8 +68,8 @@ int main() {
 
   e_acompany my_car_brand = Ford;
   // my_car_brand = Ford;            //! Can be done in such way
-  // enum e_acompany my_car_brand;   //! Can be done in such way
-  // my_car_brand = BMW;
+  /* enum e_acompany my_car_brand;   //! Can be done in such way
+   * my_car_brand = BMW; */
 
   if (my_car_brand == Ford) {
     cout << "Hello, Ford-car owner! Audi:       " << Audi << endl;
