@@ -28,6 +28,17 @@ Zadanie 1.2
 Napisać program (z zajęć) o treści zadanej w pliku LString.cc
 - nazwać program: ZadStringExample.cc
 
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.03.12
+
+
+
+
+
+
+
 Zadanie 1.3
 --------------------------------------
 Napisać program który zawiera:
