@@ -83,44 +83,50 @@ void tablice() {
   /* for(int w = 0; w < 10; w++) {
    *   cout << "Tab A: " << A[w] << endl;
    * } */
+  // CoutWholeArray(A, 10);
 
   int A0[10]; ///< Array of 10 integers, uninitialized
   /* for(int w = 0; w < 10; w++) {
    *   cout << "Tab A0: " << A0[w] << endl;
    * } */
+  // CoutWholeArray(A0, 10);
 
-  // CoutWholeArray(A, 10);
   int A1[] = {1, 2, 3,
               4, 5, 6}; ///< Array of 6 integers, initialized with values
   // CoutWholeArray(A1, 6);
 
-  int A2[6] = {0}; ///< Array of 6 integers, initialized to 0
-  // int A2[6] = {6}; ///< Array of 6 integers, first element initialized to 6,
-  // rest to 0 CoutWholeArray(A2, 6);
+  // int A2[6] = {0}; ///< Array of 6 integers, initialized to 0
+  int A2[6] = {
+      6}; ///< Array of 6 integers, first element initialized to 6, rest to 0
+  // CoutWholeArray(A2, 6);
 
   int A3[6]{0, 0, 1,
             0, 0, 0}; ///< Array of 6 integers, initialized with specific values
   // CoutWholeArray(A3, 6);
-  // int A4[6]{0}; ///< Array of 6 integers, initialized to 0
+
+  int A4[6]{0}; ///< Array of 6 integers, initialized to 0
   // CoutWholeArray(A4, 6);
-  int A4[6]{
+
+  int A5[6]{
       7}; ///< Array of 6 integers, first element initialized to 7, rest to 0
-  // CoutWholeArray(A4, 6);
+  // CoutWholeArray(A5, 6);
 
   // Array of 20 characters, partially initialized
   char B[i] = {'a', 'b', 'c', 'd', 'e', 'f'};
-  /* for(int w = 0; w < i; w++) {
-   *   cout << B[w] << "\t" << endl;
+  // char B[6] = {'a', 'b', 'c', 'd', 'e', 'f'};
+  /* for (int w = 0; w < i; w++) {
+   *   cout << B[w] << endl;
    * } */
+
   int BB[j] = {0, 1, 2, 3}; ///< Array of 10 integers, partially initialized
 
   // Array of 3 characters
   char B1[] = {'g', 'h', 'i'};
   char B2[4] =
-      "abc"; ///< Array of 4 characters, initialized with a string literal
-  /* for(int w = 0; w < 4; w++) {
-   *   cout << B2[w] << "\t" << endl;
-   * } */
+      "abc"; ///< Array of 3 characters, initialized with a string literal
+  for (int w = 0; w < 3; w++) {
+    cout << B2[w] << "\t" << endl;
+  }
 
   float C[i + j]; ///< Array of 30 floats, uninitialized
   int k = 0;
@@ -129,6 +135,7 @@ void tablice() {
   A[j - 1] = A[5] + 3; ///< Initialize element 9 with value A[5] + 3
   A[1] = A[0] + A[5];  ///< Initialize element 1 with value A[0] + A[5]
   A[A[9]] = 8;         ///< Initialize element A[9] with value 8
+  A[2] = 17;
   *(A + 2) =
       17; ///< Initialize element 2 with value 17 using pointer arithmetic
   *(A + 3) = *(A + 2) + 1; ///< Initialize element 3 with value *(A + 2) + 1
