@@ -3,11 +3,12 @@
  * @author Arkadiusz Bubak <arkadiusz@bubak.pl>
  * @date 2020.03.16 v0.01, 2023.04.12 v0.02
  * @brief Demonstration of the difference between `gcc` and `g++`
- * @version v0.02
- *
+ * @version v0.03 (2025.03.19)
+ *i
  * This program demonstrates the differences between compiling C code with `gcc`
  * and `g++`. It shows how the choice of compiler affects name mangling and
- * linking behavior.
+ * linking behavior, even when the file extension suggests a C source file
+ * (`.c`).
  */
 
 #include <stdio.h>

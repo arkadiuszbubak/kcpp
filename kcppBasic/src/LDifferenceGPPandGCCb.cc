@@ -38,9 +38,11 @@ int main(void) {
   /* Try the following commands to compile and inspect the binaries:
    *
    * Compile with `gcc` (requires explicit linking of the C++ standard library):
-   *   gcc LDifferenceGPPandGCCb.cc -o gccb.out // ERROR: Missing C++ standard
-   * library gcc LDifferenceGPPandGCCb.cc -lstdc++ -o gccb1.out // Correct:
-   * Explicitly link stdc++
+   *   gcc LDifferenceGPPandGCCb.cc -o gccb.out
+   *   // ERROR: Missing C++ standard library
+   *
+   *   gcc LDifferenceGPPandGCCb.cc -lstdc++ -o gccb1.out
+   *   // Correct: Explicitly link stdc++
    *
    * Compile with `g++` (automatically links the C++ standard library):
    *   g++ LDifferenceGPPandGCCb.cc -o gccb2.out
