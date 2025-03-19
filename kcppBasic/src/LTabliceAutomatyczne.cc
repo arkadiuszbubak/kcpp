@@ -101,10 +101,11 @@ void tablice() {
   int A3[6]{0, 0, 1,
             0, 0, 0}; ///< Array of 6 integers, initialized with specific values
   // CoutWholeArray(A3, 6);
-  int A4[6]{0}; ///< Array of 6 integers, initialized to 0
+  // int A4[6]{0}; ///< Array of 6 integers, initialized to 0
   // CoutWholeArray(A4, 6);
-  // int A4[6]{7}; ///< Array of 6 integers, first element initialized to 7,
-  // rest to 0 CoutWholeArray(A4, 6);
+  int A4[6]{
+      7}; ///< Array of 6 integers, first element initialized to 7, rest to 0
+  // CoutWholeArray(A4, 6);
 
   // Array of 20 characters, partially initialized
   char B[i] = {'a', 'b', 'c', 'd', 'e', 'f'};
@@ -124,8 +125,6 @@ void tablice() {
   float C[i + j]; ///< Array of 30 floats, uninitialized
   int k = 0;
 
-  // Manipulate array elements
-  A[0] = 1;            ///< Initialize element 0 with value 1
   A[j - 5] = 5;        ///< Initialize element 5 with value 5
   A[j - 1] = A[5] + 3; ///< Initialize element 9 with value A[5] + 3
   A[1] = A[0] + A[5];  ///< Initialize element 1 with value A[0] + A[5]
@@ -139,15 +138,15 @@ void tablice() {
     cout << "A[" << k << "]= " << *(A + k) << "\t\t" << A[k] << endl;
   }
 
-  /* //---------------------------------------------------------------
-   * // Zadanie: przykład pre i post inkrementacji ++(*A) i (*A)++
-   * //---------------------------------------------------------------
-   * cout << "\nA[0] = " << A[0] << endl;
-   * (*A)++;
-   * // (*A++);     ///< error, prosze powiedziec dlaczego?
-   * int fVar = (*A)++;
-   * cout << fVar;
-   * cout <<  (*A)++ << endl;
-   * cout << "A[0] = " << A[0] << endl;
-   * //-------------------------------------- */
+  //---------------------------------------------------------------
+  // Examples: try pre and post incrementation
+  //---------------------------------------------------------------
+  cout << "\nA[0] = " << A[0] << endl;
+  (*A)++;
+  // (*A++);     ///< error, prosze powiedziec dlaczego?
+  int fVar = (*A)++;
+  cout << "fVar =   " << fVar << endl;
+  cout << "(*A)++ = " << (*A)++ << endl;
+  cout << "A[0] = " << A[0] << endl;
+  //--------------------------------------
 }
