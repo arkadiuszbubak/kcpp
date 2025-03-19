@@ -52,7 +52,9 @@ void tablice() {
   char *tChar = new char[7];    /**< Dynamic array of characters */
 
   // Initialize array elements
-  tInt[0] = 0;           // Direct indexing
+  tInt[0] = 0; // Direct indexing
+  // *(tInt) = 0;           // Direct indexing
+  // *tInt = 0;           // Direct indexing
   *(tInt + 1) = 1;       // Pointer arithmetic
   *(tFloat) = 3.14;      // Pointer arithmetic for float array
   strcpy(tChar, "abcd"); // Copy a string into the char array
