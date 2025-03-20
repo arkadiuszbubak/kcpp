@@ -28,17 +28,6 @@ Zadanie 1.2
 Napisać program (z zajęć) o treści zadanej w pliku LString.cc
 - nazwać program: ZadStringExample.cc
 
-
-
-
------> Powyższe do wykonania po zajęciach 2025.03.12
-
-
-
-
-
-
-
 Zadanie 1.3
 --------------------------------------
 Napisać program który zawiera:
@@ -47,6 +36,9 @@ Napisać program który zawiera:
 - dodatkowo do wykonania w późniejszej cześci kursu: wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
 - nazwać program: ZadMainExample.cc 
 
+
+
+-----> Powyższe do wykonania po zajęciach 2025.03.19
 
 
 
