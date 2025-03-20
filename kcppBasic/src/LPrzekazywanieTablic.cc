@@ -85,6 +85,22 @@ void przekaz2D(int tab[3][3]) {
 }
 
 /**
+ * @brief Function to pass a 2D array
+ *
+ * The function works with any type and size of array.
+ * The size is "computed" at compile time, so it's efficient.
+ * The array is not copied - we pass it by reference.__LDBL_REDIR
+ */
+template <typename T, int tabSize>
+void przekazTab(const T (&tablica)[tabSize]) {
+  cout << "Rozmiar tablicy: " << tabSize << endl;
+  for (int i = 0; i < tabSize; ++i) {
+    cout << tablica[i] << " ";
+  }
+  cout << endl;
+}
+
+/**
  * @brief Main function
  *
  * This is the entry point of the program. It demonstrates passing 1D and 2D
@@ -115,6 +131,9 @@ int main() {
 
   // Pass 2D array
   przekaz2D(tablica2D);
+
+  // The most classic method that preserves the size of the array
+  przekazTab(tablica1D);
 
   return 0;
 }
