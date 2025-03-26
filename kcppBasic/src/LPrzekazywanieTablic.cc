@@ -11,6 +11,7 @@
  * information.
  */
 
+#include <array>
 #include <iostream>
 #include <iterator>
 using namespace std;
@@ -24,12 +25,13 @@ using namespace std;
  * @param tab A 1D array of integers.
  */
 void przekaz1D(int tab[]) {
+  cout << endl << "*** Przekaz1DA ---------------------------" << endl;
   for (int i = 0; i < 6; i++) {
-    cout << i << ":\t" << tab[i] << endl;
+    cout << tab[i] << " ";
   }
-  cout << "Zmienić tablice w funkcji. Wypisać poza funkcją." << endl;
+  cout << endl << "Zmienić tablice w funkcji. Wypisać poza funkcją." << endl;
   cout << "Czy wartości poza funkcją się zmieniły?" << endl;
-  cout << "-------------------" << endl;
+  cout << endl;
 }
 
 /**
@@ -41,11 +43,13 @@ void przekaz1D(int tab[]) {
  * @param tab A 1D array of integers.
  */
 void przekaz1DA(int tab[]) {
+  cout << endl << "*** Przekaz1DA ---------------------------" << endl;
   int iSize = sizeof(&tab) / sizeof(tab[0]); // Incorrect size calculation
   cout << "Size: " << iSize << endl;
   for (int i = 0; i <= iSize; i++) {
-    cout << tab[i] << endl;
+    cout << tab[i] << " ";
   }
+  cout << endl;
 
   // TODO: Fix the size calculation and array handling
 }
@@ -59,12 +63,13 @@ void przekaz1DA(int tab[]) {
  * @param tab A pointer to a 1D array of integers.
  */
 void przekaz1Dwsk(int *tab) {
+  cout << endl << "*** Przekaz1Dwsk ---------------------------" << endl;
   for (int i = 0; i < 6; i++) {
-    cout << i << ":\t" << tab[i] << endl;
+    cout << tab[i] << " ";
   }
+  cout << endl;
   cout << "Zmienić tablice w funkcji. Wypisać poza funkcją." << endl;
   cout << "Czy wartości poza funkcją się zmieniły?" << endl;
-  cout << "-------------------" << endl;
 }
 
 /**
@@ -76,12 +81,23 @@ void przekaz1Dwsk(int *tab) {
  * @param tab A 2D array of integers with dimensions [3][3].
  */
 void przekaz2D(int tab[3][3]) {
+  cout << endl << "*** Przekaz2D ---------------------------" << endl;
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 3; j++) {
       cout << "(" << i << "," << j << ")\t" << tab[i][j] << endl;
     }
   }
-  cout << "-------------------" << endl;
+}
+
+/**
+ * @brief Function to pass a 1D array when the size is a part of type
+ * */
+void przekazTabSizeB(const array<int, 6> &arr) {
+  cout << endl << "*** PrzekazTabSizeB ---------------------------" << endl;
+  for (auto element : arr) {
+    cout << element << " ";
+  }
+  cout << endl;
 }
 
 /**
@@ -89,11 +105,12 @@ void przekaz2D(int tab[3][3]) {
  *
  * The function works with any type and size of array.
  * The size is "computed" at compile time, so it's efficient.
- * The array is not copied - we pass it by reference.__LDBL_REDIR
+ * The array is not copied - we pass it by reference.
  */
 template <typename T, int tabSize>
-void przekazTab(const T (&tablica)[tabSize]) {
-  cout << "Rozmiar tablicy: " << tabSize << endl;
+void przekazTabSizeA(const T (&tablica)[tabSize]) {
+  cout << endl << "*** PrzekazTabSizeA ---------------------------" << endl;
+  cout << "(inside function) Rozmiar tablicy: " << tabSize << endl;
   for (int i = 0; i < tabSize; ++i) {
     cout << tablica[i] << " ";
   }
@@ -111,6 +128,9 @@ void przekazTab(const T (&tablica)[tabSize]) {
  */
 int main() {
   int tablica1D[6] = {1, 2, 3, 4, 5, 6};
+  int iSize =
+      sizeof(&tablica1D) / sizeof(tablica1D[0]); // Incorrect size calculation
+  cout << "Size of the array: " << iSize << endl;
 
   // Pass 1D array by value
   przekaz1D(tablica1D);
@@ -132,8 +152,12 @@ int main() {
   // Pass 2D array
   przekaz2D(tablica2D);
 
+  // Use std::array (C++11 and later)
+  array<int, 6> tablica1DB = {1, 2, 3, 4, 5, 6};
+  przekazTabSizeB(tablica1DB);
+
   // The most classic method that preserves the size of the array
-  przekazTab(tablica1D);
+  przekazTabSizeA(tablica1D);
 
   return 0;
 }
