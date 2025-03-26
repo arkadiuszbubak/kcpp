@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Enable C++ standard and require it
-set(CMAKE_CXX_STANDARD 14) # Prefer C++14
+set(CMAKE_CXX_STANDARD 14) # Prefer C++14, TODO: change to c++20 standard
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
