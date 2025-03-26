@@ -37,13 +37,6 @@ Napisać program który zawiera:
 - nazwać program: ZadMainExample.cc 
 
 
-
------> Powyższe do wykonania po zajęciach 2025.03.19
-
-
-
-
-
 ------------------------------------------------------------------------------------------
   2. Zwracanie przez funkcje
 ------------------------------------------------------------------------------------------
@@ -57,6 +50,14 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 3. Przez wskaźnik
 4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
 - nazwać program: ZadZwracanie.cc
+
+
+-----> Powyższe do wykonania po zajęciach 2025.03.26
+
+
+
+
+
 
 
 
