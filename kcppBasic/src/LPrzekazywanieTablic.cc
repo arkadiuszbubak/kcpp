@@ -102,7 +102,7 @@ void przekazTabSizeArray(const array<int, 6> &arr) {
 }
 
 /**
- * @brief The modern way to handle arrays and maintain size info:
+ * @brief The modern way to handle arrays and maintain size information
  * */
 void przekazTabSizeSpan(span<int> s) {
   cout << endl << "*** PrzekazTabSizeSpan ---------------------------" << endl;
