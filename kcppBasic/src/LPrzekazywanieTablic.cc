@@ -104,15 +104,15 @@ void przekazTabSizeArray(const array<int, 6> &arr) {
 /**
  * @brief The modern way to handle arrays and maintain size information
  * */
-void przekazTabSizeSpan(span<int> s) {
-  cout << endl << "*** PrzekazTabSizeSpan ---------------------------" << endl;
-  for (auto elem : s) {
-    cout << elem << " ";
-  }
-  cout << endl;
-  // TODO: add c++20 support to vim compilation. Meanwhile compile via command
-  // line: -std=c++20
-}
+/* void przekazTabSizeSpan(span<int> s) {
+ *   cout << endl << "*** PrzekazTabSizeSpan ---------------------------" <<
+ * endl; for (auto elem : s) { cout << elem << " ";
+ *   }
+ *   cout << endl;
+ *   // TODO: add c++20 support to vim compilation. Meanwhile compile via
+ * command
+ *   // line: -std=c++20
+ * } */
 
 /**
  * @brief Function to pass a 2D array
@@ -170,8 +170,8 @@ int main() {
   // Use std::array (C++11 or later)
   przekazTabSizeArray(tablica1DB);
 
-  // Use std:span (C++20 or later)
-  przekazTabSizeSpan(tablica1DB);
+  /* // Use std:span (C++20 or later)
+   * przekazTabSizeSpan(tablica1DB); */
 
   // The most classic method that preserves the size of the array
   przekazTabSizeA(tablica1D);
