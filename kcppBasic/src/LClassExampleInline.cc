@@ -19,6 +19,7 @@ public:
     for (int i = 0; i < 10; i++) {
       cout << i << "\t";
     }
+    cout << endl;
     fVariable = rvariable;
   };
   // void SetVariable(int rvariable)       { fVariable     = rvariable; };
