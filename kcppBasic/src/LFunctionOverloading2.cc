@@ -9,15 +9,15 @@
 using namespace std;
 
 void dzialanie(int a, int b) {
-   
-   int r = a + b;
-   cout <<"Dzialanie na int: "<< r << endl;
+
+  int r = a + b;
+  cout << "Dzialanie na int: " << r << endl;
 }
 
 void dzialanie(double a, double b) {
 
-   double r = a + b;
-   cout <<"Dzialanie na double: "<< r << endl;
+  double r = a + b;
+  cout << "Dzialanie na double: " << r << endl;
 }
 
 /* void dzialanie(int a, int b, int c = 0) {
@@ -26,11 +26,8 @@ void dzialanie(double a, double b) {
  *    cout <<"Dzialanie na int: "<<  r << endl;
  * } */
 
-
-
-int main()
-{
-   dzialanie(2,2);
-   // dzialanie(2,2,2);
-   dzialanie(2.1 ,2.2);
+int main() {
+  dzialanie(2, 2);
+  // dzialanie(2,2,2);
+  dzialanie(2.1, 2.2);
 }

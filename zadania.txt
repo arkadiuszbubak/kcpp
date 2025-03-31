@@ -56,7 +56,40 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 
 
 
+Zadanie 2.2 (przeciążanie funkcji)
+--------------------------------------
+Napisz program który przeciążenia funkcję do obliczania pola: pole(...).
+Napisz funkcję pole, która będzie przeciążona dla:
+- kwadratu (przyjmuje długość boku),
+- prostokąta (przyjmuje długości dwóch boków),
+- koła (przyjmuje promień).
+nazwa: ZadPrzeciazaniePole.cc
 
+
+Zadanie 2.3 (przeciążanie funkcji)
+--------------------------------------
+Napisz program który przeciąża funkcję do dodawania różnych typów danych.
+Zaimplementuj funcję 'dodaj'
+- dodawanie dwóch liczb całkowitych,
+- dodawanie dwóch liczb zmiennoprzecinkowych,
+- konkatenację dwóch napisów (std::string).
+Nazwa: ZadPrzeciazanieDodaj.cc
+
+
+Zadanie 2.4 (przeciążanie operatora +)
+--------------------------------------
+Przeciążenie operatora + dla klasy Punkt
+Stwórz klasę Punkt przechowującą współrzędne (x, y). Przeciąż operator +, tak aby można było dodawać do siebie dwa obiekty klasy Punkt.
+Nazwa: ZadPrzeciazaniePlus.cc
+
+
+Zadanie 2.5 (przeciążenie potęgowanie)
+--------------------------------------
+Napisz program z funkcją do obliczania wartości potęgi (przeciążenie dla różnych typów)
+Napisz funkcję potega, która podnosi liczbę do potęgi, obsługując:
+- liczby całkowite,
+- liczby zmiennoprzecinkowe.
+Nazwa: LPrzeciazaniePotega.cc
 
 
 
@@ -86,7 +119,62 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
    3. Arytmetyka wskaźników
 ------------------------------------------------------------------------------------------
 
- Zadanie 3.1 (LArytmetykaWskaznikowZmienne.cc)
+Zadanie 3.1
+-------------------------------------
+Napisz program do zamiana miejscami dwóch liczb za pomocą wskaźników
+Napisz funkcję zamien(int* a, int* b), która zamienia miejscami wartości przechowywane pod adresami a i b.
+Nazwa: ZadArytmetykaWskaznikowZamiana.cc
+
+
+Zadanie 3.2
+-------------------------------------
+Napisz program do sumowania elementów tablicy za pomocą wskaźników
+Stwórz funkcję suma, która przyjmuje wskaźnik do tablicy liczb całkowitych oraz jej rozmiar, a następnie zwraca sumę jej elementów.
+Nazwa: ZadArytmetykaWskaznikowSuma.cc
+
+
+Zadanie 3.3
+-------------------------------------
+Napisz program znajdujący największy element w tablicy przy użyciu wskaźników
+Napisz funkcję maxElement, która przyjmuje wskaźnik na tablicę liczb oraz jej rozmiar i zwraca wskaźnik do największego elementu.
+Nazwa: ZadArytmetykaWskaznikowZnajdowanie.cc
+
+
+Zadanie 3.4
+-------------------------------------
+Napisz program do przesunięcie elementów tablicy o jedno miejsce w prawo
+Napisz funkcję przesun, która przesuwa wszystkie elementy tablicy o jedno miejsce w prawo (ostatni element przechodzi na początek), wykorzystując wskaźniki.
+Nazwa: ZadArytmetykaWskaznikowPrzesuniecie.cc
+
+
+Zadanie 3.5
+-------------------------------------
+Napisz program: Różnica między dwoma wskaźnikami
+Stwórz program, który definiuje tablicę 10 liczb całkowitych, a następnie oblicza różnicę między dwoma wskaźnikami wskazującymi na różne elementy tej tablicy.
+Nazwa: ZadArytmetykaWskaznikowRoznica.cc
+
+
+Zadanie 3.6
+-------------------------------------
+Napisz program do kopiowanie tablicy przy użyciu wskaźników
+Napisz funkcję kopiujTablice, która kopiuje jedną tablicę do drugiej, korzystając wyłącznie ze wskaźników.
+Nazwa: ZadArytmetykaWskaznikowKopiowanie.cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Zadanie 3.7 (LArytmetykaWskaznikowZmienne.cc)
  -------------------------------------
  Kierunek adresowania pamięci 
  - wyjaśnić w komentarzu do programu podającego przykład:
@@ -94,7 +182,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - nazwać program: ZadAdresowaniePamieci.cc
 
 
- Zadanie 3.2 (LArytmetykaWskaznikow.cc)
+ Zadanie 3.8 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
  - wyjaśnienie  w komentarzu w treści programu!!!!
@@ -102,14 +190,14 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - nazwać program: ZadIq.cc
 
  
- Zadanie 3.3 (LArytmetykaWskaznikowTablice.cc)
+ Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
  -------------------------------------
  Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
  Wypisać adresy poszczególnych elementów.
  - nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
 
 
- Zadanie 3.4 (LArytmetykaWskaznikow.cc)
+ Zadanie 3.10 (LArytmetykaWskaznikow.cc)
  -------------------------------------
  Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
  1. Funkcja1()
@@ -141,7 +229,7 @@ Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 3.5 (LOperatoryPrzypisania.cc)
+Zadanie 3.11 (LOperatoryPrzypisania.cc)
 -------------------------------------
 Napisać program z przykładami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
@@ -150,13 +238,13 @@ Napisać program z przykładami:
 
 
 
-Zadanie 3.6 (Nie trzeba, bo jest zrobione)
+Zadanie 3.12 (Nie trzeba, bo jest zrobione)
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 3.7 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
+Zadanie 3.13 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
@@ -167,7 +255,7 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 3.8 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
+Zadanie 3.14 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
 -------------------------------------
 Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
 elementową, gdize na poszczególnych pozycjach tablicy będize 0 lub 1. Program będzie
