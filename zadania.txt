@@ -52,10 +52,6 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 - nazwać program: ZadZwracanie.cc
 
 
------> Powyższe do wykonania po zajęciach 2025.03.26
-
-
-
 Zadanie 2.2 (przeciążanie funkcji)
 --------------------------------------
 Napisz program który przeciążenia funkcję do obliczania pola: pole(...).
@@ -92,9 +88,7 @@ Napisz funkcję potega, która podnosi liczbę do potęgi, obsługując:
 Nazwa: LPrzeciazaniePotega.cc
 
 
-
-
-Zadanie 2.2 (z gwiazdką == dla chętnych)
+Zadanie 2.6 (z gwiazdką == dla chętnych)
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
 Czy się da?
@@ -105,13 +99,10 @@ Jeśli się nie da to proszę wykonać zadanie:
 - nazwać program: ZadPrzekazywanieTablicZpodaniemRozmiaru.cc
 
 
-
-Zadanie 2.3 (z gwiazdką == dla chętnych)
+Zadanie 2.7 (z gwiazdką == dla chętnych)
 --------------------------------------
 Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
 - nazwać program: ZadPrzekazywanieTablicKopia.cc
-
-
 
 
 
@@ -156,11 +147,64 @@ Nazwa: ZadArytmetykaWskaznikowRoznica.cc
 
 Zadanie 3.6
 -------------------------------------
-Napisz program do kopiowanie tablicy przy użyciu wskaźników
+Napisz program do kopiowanie tablicy przy użyciu wskaźników.
 Napisz funkcję kopiujTablice, która kopiuje jedną tablicę do drugiej, korzystając wyłącznie ze wskaźników.
 Nazwa: ZadArytmetykaWskaznikowKopiowanie.cc
 
 
+Zadanie 3.7 (LArytmetykaWskaznikowZmienne.cc)
+-------------------------------------
+Kierunek adresowania pamięci 
+- wyjaśnić w komentarzu do programu podającego przykład:
+- wypisywanie adresów deklarowanych zmiennych
+- nazwać program: ZadAdresowaniePamieci.cc
+
+
+Zadanie 3.8 (LArytmetykaWskaznikow.cc)
+-------------------------------------
+Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
+- wyjaśnienie  w komentarzu w treści programu!!!!
+- przykład zastosowania
+- nazwać program: ZadIq.cc
+
+
+Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
+-------------------------------------
+Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
+Wypisać adresy poszczególnych elementów.
+- nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
+
+
+Zadanie 3.10 (LArytmetykaWskaznikow.cc)
+-------------------------------------
+Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
+1. Funkcja1()
+p++;
+++p;
+++*p;
+++(*p);
+++*(p);
+*p++;
+(*p)++;
+*(p)++;
+*++p;
+*(++p);
+
+oraz (Funkcja2()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
+
+1.  A, B, C: 0  0   0
+2.  A, B, C: 0  10  0
+3.  A, B, C: 0  10  20
+4.  A, B, C: 0  30  20
+5.  A, B, C: 40 30  20
+6.  A, B, C: 40 50  20
+7.  A, B, C: 40 50  60
+8.  A, B, C: 40 70  60
+9.  A, B, C: 80 70  60
+10. A, B, C: 80 90  60
+
+przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
+- nazwać program: ZadArytmetykaWskaznikow.cc
 
 
 
@@ -170,63 +214,13 @@ Nazwa: ZadArytmetykaWskaznikowKopiowanie.cc
 
 
 
+-----> Powyższe do wykonania po zajęciach 2025.04.02
 
 
 
 
- Zadanie 3.7 (LArytmetykaWskaznikowZmienne.cc)
- -------------------------------------
- Kierunek adresowania pamięci 
- - wyjaśnić w komentarzu do programu podającego przykład:
- - wypisywanie adresów deklarowanych zmiennych
- - nazwać program: ZadAdresowaniePamieci.cc
 
 
- Zadanie 3.8 (LArytmetykaWskaznikow.cc)
- -------------------------------------
- Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
- - wyjaśnienie  w komentarzu w treści programu!!!!
- - przykład zastosowania
- - nazwać program: ZadIq.cc
-
- 
- Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
- -------------------------------------
- Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
- Wypisać adresy poszczególnych elementów.
- - nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
-
-
- Zadanie 3.10 (LArytmetykaWskaznikow.cc)
- -------------------------------------
- Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
- 1. Funkcja1()
- p++;
- ++p;
- ++*p;
- ++(*p);
- ++*(p);
- *p++;
- (*p)++;
- *(p)++;
- *++p;
- *(++p);
-
- oraz (Funkcja2()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
-
- 1.  A, B, C: 0  0   0
- 2.  A, B, C: 0  10  0
- 3.  A, B, C: 0  10  20
- 4.  A, B, C: 0  30  20
- 5.  A, B, C: 40 30  20
- 6.  A, B, C: 40 50  20
- 7.  A, B, C: 40 50  60
- 8.  A, B, C: 40 70  60
- 9.  A, B, C: 80 70  60
- 10. A, B, C: 80 90  60
-
- przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
- - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
 Zadanie 3.11 (LOperatoryPrzypisania.cc)
