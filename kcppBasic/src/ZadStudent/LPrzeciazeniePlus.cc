@@ -6,12 +6,22 @@ public:
   int x, y;
 
   Punkt(int x, int y) : x(x), y(y) {}
+  /* Punkt(int x, int y) {
+   *   fX = x;
+   *   fY = y;
+   * } */
 
   Punkt operator+(const Punkt &other) {
     return Punkt(x + other.x, y + other.y);
+    // return Punkt(fX + other.fX, fY + other.fY);
   }
 
   void wyswietl() { cout << "(" << x << ", " << y << ")" << endl; }
+  /* void wyswietl() { cout << "(" << fX << ", " << fY << ")" << endl; }
+   *
+   * private:
+   *   int fX;
+   *   int fY; */
 };
 
 int main() {
