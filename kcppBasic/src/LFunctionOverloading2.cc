@@ -29,5 +29,5 @@ void dzialanie(double a, double b) {
 int main() {
   dzialanie(2, 2);
   // dzialanie(2,2,2);
-  dzialanie(2.1, 2.2);
+  dzialanie(2.1, 2.3);
 }
