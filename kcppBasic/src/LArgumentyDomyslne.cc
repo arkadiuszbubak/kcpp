@@ -109,6 +109,12 @@ int zmienC(int a, int b, int c) {
   return w;
 }
 
+int zmienE(int, int = 1, int = 2);
+int zmienE(int a = 1, int b, int c) {
+  int w = a + c;
+  return w;
+}
+
 /**
  * @brief Function with default arguments
  *
@@ -144,6 +150,7 @@ int main() {
 
   zmienC(1);
   zmienC(1, 2);
+  zmienC(1, 2, 3);
 
   // Demonstrate the `zwieksz` and `zmniejsz` functions
   int wynik;
@@ -162,6 +169,15 @@ int main() {
   cout << zmienC(2) << endl;
 
   cout << "Czy możliwe jest przeciżenie funkcji 'zwieksz'?" << endl;
+
+  wynik = zmienE();
+  cout << "Wywolanie zmenE(): " << wynik << endl;
+  wynik = zmienE(1);
+  cout << "Wywolanie zmenE(): " << wynik << endl;
+  wynik = zmienE(1, 2);
+  cout << "Wywolanie zmenE(): " << wynik << endl;
+  wynik = zmienE(1, 2, 3);
+  cout << "Wywolanie zmenE(): " << wynik << endl;
 
   return 0;
 }
