@@ -172,25 +172,36 @@ Kierunek adresowania pamięci
 
 
 
-
-
-
-Zadanie 3.8 (LArytmetykaWskaznikow.cc)
+Zadanie 3.8 (LArytmetykaWskaznikowTablice.cc)
 -------------------------------------
-Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
-- wyjaśnienie  w komentarzu w treści programu!!!!
-- przykład zastosowania
-- nazwać program: ZadIq.cc
+Operacje na tablicy przy użyciu wskaźników
+Napisz program, który:
+- Zadeklaruje statyczną tablicę 10 liczb całkowitych i wypełni ją wartościami od 1 do 10.
+- Używając wskaźników, obliczy i wyświetli sumę elementów tablicy.
+- Znajdzie i wyświetli maksymalny element w tablicy używając arytmetyki wskaźników.
+- Odwróci kolejność elementów w tablicy używając wyłącznie wskaźników (bez użycia indeksów []).
+Nazwać program: ZadArytmetykaWskaznikowTabliceA.cc
 
 
 Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
+-------------------------------------
+Operacje na dwóch tablicach z użyciem wskaźników
+Napisz program, który:
+- Zadeklaruje dwie tablice liczb zmiennoprzecinkowych o rozmiarze 5.
+- Wypełni pierwszą tablicę wartościami podanymi przez użytkownika, a drugą tablicę wartościami pierwszej tablicy pomnożonymi przez 2 (używając wyłącznie wskaźników).
+- Stworzy trzecią tablicę, która będzie zawierała sumy odpowiadających sobie elementów z dwóch pierwszych tablic (używając arytmetyki wskaźników).
+- Wyświetli zawartość wszystkich trzech tablic, używając wskaźników do iteracji po elementach.
+Nazwać program: ZadArytmetykaWskaznikowTabliceB.cc
+
+
+Zadanie 3.10 (LArytmetykaWskaznikowTablice.cc)
 -------------------------------------
 Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
 Wypisać adresy poszczególnych elementów.
 - nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
 
 
-Zadanie 3.10 (LArytmetykaWskaznikow.cc)
+Zadanie 3.11 (LArytmetykaWskaznikow.cc)
 -------------------------------------
 Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
 1. Funkcja1()
@@ -222,7 +233,7 @@ przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
 - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 3.11 (LOperatoryPrzypisania.cc)
+Zadanie 3.12 (LOperatoryPrzypisania.cc)
 -------------------------------------
 Napisać program z przykładami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
@@ -231,13 +242,13 @@ Napisać program z przykładami:
 
 
 
-Zadanie 3.12 (Nie trzeba, bo jest zrobione)
+Zadanie 3.13 (Nie trzeba, bo jest zrobione)
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 3.13 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
+Zadanie 3.14 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
@@ -248,13 +259,28 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 3.14 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
+Zadanie 3.15 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
 -------------------------------------
 Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
-elementową, gdize na poszczególnych pozycjach tablicy będize 0 lub 1. Program będzie
+elementową, gdzie na poszczególnych pozycjach tablicy będzie 0 lub 1. Program będzie
 zwracał liczbę, która w formie binarnej będzie miała ustawione 1 na pozycjach odpowiadających
 pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.cc
 - nazwać program: LBitoweOperatoryLogiczneSingleVariable.cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,7 +308,6 @@ Napisz program z przykładami manipulacji strumieniem cout:
   ==================================================
   Wynika naszego działania: x.xxxxx jest niepoprawny ale:
      output:   xx.xxx    T:  x.xxx 
-  // float w = 16.0;
      output1:   x.xxxx   T: xx.xxxxx
      output2:   x.xxxx   T: xx.xxxxxx
      ---------------------------------
@@ -307,6 +332,21 @@ Zadanie 4.3
 Napisz program:
 - pokazujący wykonanie tych samych operacji w c i c++ (kcpp02::34)
 - nazwać program: ZadCandCPP.cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Zadanie 4.4
