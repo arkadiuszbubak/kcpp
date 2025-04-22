@@ -9,8 +9,8 @@
 using namespace std;
 
 void printBinaryShort(const unsigned char val) {
-  for(int i = 7; i >= 0; i--)
-    if(val & (1 << i))
+  for (int i = 7; i >= 0; i--)
+    if (val & (1 << i))
       //(1 << 0) "wstawia 1 na kolejnych pozycjach"
       //(zmienna << ilosc_miejsc)
       cout << "1";
@@ -18,12 +18,14 @@ void printBinaryShort(const unsigned char val) {
       cout << "0";
 }
 
-#define PR(STR, EXPR) \
-  cout << EXPR << STR <<"\t"; printBinaryShort(EXPR); cout << endl;
+#define PR(STR, EXPR)                                                          \
+  cout << EXPR << STR << "\t";                                                 \
+  printBinaryShort(EXPR);                                                      \
+  cout << endl;
 
-int main(){
+int main() {
 
-  for(int i = 0; i<= 10; i++) {
+  for (int i = 0; i <= 10; i++) {
 
     // First method
     PR(" in binary: ", i);
@@ -32,14 +34,11 @@ int main(){
     // Second method
      * cout << i << " in binary: " <<"\t"; printBinaryShort(i); cout << endl; */
 
-
     /* // Third method
      * cout << i <<"\t";
      * printBinaryShort(i);
      * cout << endl; */
-
   }
-
 
   return 0;
 }

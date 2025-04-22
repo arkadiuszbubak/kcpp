@@ -24,7 +24,7 @@ void funA() {
     cout << "Wpisz wartosc: ";
     cin >> tab[i];
     // scanf("%d", &tab[i]);
-    tab[i] = 2 * tab[i];  // tab[i] *= 2;
+    tab[i] = 2 * tab[i]; // tab[i] *= 2;
     cout << "Tab[" << i << "] = " << tab[i] << endl;
     // printf("Tab[%d] = %d \n", i+1 , tab[i]);
   }
@@ -43,14 +43,14 @@ void funB() {
     cout << "Wpisz wartosc: ";
     cin >> *(tab + i);
     // cin >> tab[i];
-    *(tab + i) = 2 * *(tab + i);  // tab[i] *= 2;
+    *(tab + i) = 2 * *(tab + i); // tab[i] *= 2;
     // tab[i] = 2 * tab[i];  // tab[i] *= 2;
     cout << "Tab[" << i << "] = " << *(tab + i) << endl;
     // printf("Tab[%d] = %d \n", i+1 , *(tab+i));
   }
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
   cout << "Rozmiar tablicy zdefiniowany przez dyrektywę preprocesora" << endl;
   cout << "Rozmiar: " << ROZMIAR << endl;
 
