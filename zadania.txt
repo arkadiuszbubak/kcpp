@@ -160,18 +160,6 @@ Kierunek adresowania pamięci
 - nazwać program: ZadAdresowaniePamieci.cc
 
 
-
-
------> Powyższe do wykonania po zajęciach 2025.04.02
-
-
-
-
-
-
-
-
-
 Zadanie 3.8 (LArytmetykaWskaznikowTablice.cc)
 -------------------------------------
 Operacje na tablicy przy użyciu wskaźników
@@ -242,7 +230,7 @@ Napisać program z przykładami:
 
 
 
-Zadanie 3.13 (Nie trzeba, bo jest zrobione)
+Zadanie 3.13 (Nie trzeba, bo jest zrobione: LOperatoryPriorytet.cc)
 --------------------------------------
 Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
@@ -272,6 +260,7 @@ pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.
 
 
 
+-----> Powyższe do wykonania po zajęciach 2025.04.22
 
 
 
