@@ -12,27 +12,30 @@ using namespace std;
 
 #define ROZMIAR 5
 
-//--- dostep za pomoca indeksu --------------------------------------
+//--- Dostęp za pomocą indeksu --------------------------------------
 void funA() {
-  cout << "Dostep za pomocą indeksu" << endl;
+  cout << "Dostęp za pomocą indeksu" << endl;
   cout << "----------------------------" << endl;
 
   int tab[ROZMIAR];
   int i;
 
   for (i = 0; i < ROZMIAR; i++) {
-    cout << "Wpisz wartosc: ";
+    cout << "Wpisz wartość: ";
     cin >> tab[i];
-    // scanf("%d", &tab[i]);
-    tab[i] = 2 * tab[i]; // tab[i] *= 2;
+    /* scanf("%d", &tab[i]);      //!< as in pure C */
+
+    tab[i] = 2 * tab[i];
+    // tab[i] *= 2;
+
     cout << "Tab[" << i << "] = " << tab[i] << endl;
-    // printf("Tab[%d] = %d \n", i+1 , tab[i]);
+    /* printf("Tab[%d] = %d \n", i+1 , tab[i]);  //!< as in pure C */
   }
 }
 
-//--- dostep za pomoca adresu i indeksu ----------------------------
+//--- Dostęp za pomocą adresu i indeksu ----------------------------
 void funB() {
-  cout << "Dostep za pomocą adresu i indeksu" << endl;
+  cout << "Dostęp za pomocą adresu i indeksu" << endl;
   cout << "----------------------------" << endl;
 
   int tab[ROZMIAR];
@@ -40,17 +43,20 @@ void funB() {
 
   for (i = 0; i < ROZMIAR; i++) {
     // scanf("%d", tab+i);      //&*(tab+i) == tab+i
-    cout << "Wpisz wartosc: ";
+    cout << "Wpisz wartość: ";
     cin >> *(tab + i);
     // cin >> tab[i];
-    *(tab + i) = 2 * *(tab + i); // tab[i] *= 2;
-    // tab[i] = 2 * tab[i];  // tab[i] *= 2;
+
+    *(tab + i) = 2 * *(tab + i);
+    /* tab[i] = 2 * tab[i]; //!< as in pure C */
+    /* tab[i] *= 2;         //!< as in pure C */
+
     cout << "Tab[" << i << "] = " << *(tab + i) << endl;
-    // printf("Tab[%d] = %d \n", i+1 , *(tab+i));
+    /* printf("Tab[%d] = %d \n", i+1 , *(tab+i));        //!< as in pure C */
   }
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
   cout << "Rozmiar tablicy zdefiniowany przez dyrektywę preprocesora" << endl;
   cout << "Rozmiar: " << ROZMIAR << endl;
 
@@ -86,10 +92,10 @@ int main(int argc, char *argv[]) {
    *   } */
   //-----------------------------------------
 
-  // Zadanie 3.4
-  //------ Sposób 3 i 4 --------------------
-  //  Zaproponuj inne 2 sposoby wywołania funkcji
-  //----------------------------------------
+  /* Zadanie 3.4
+   * ------ Sposób 3 i 4 --------------------
+   *   Zaproponuj inne 2 sposoby wywołania funkcji
+   * ---------------------------------------- */
 
   return 0;
 }
