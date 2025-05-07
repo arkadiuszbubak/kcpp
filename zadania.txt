@@ -260,22 +260,6 @@ pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.
 
 
 
------> Powyższe do wykonania po zajęciach 2025.04.22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ------------------------------------------------------------------------------------------
   4. Operacje wejścia/wyjścia 
@@ -323,22 +307,72 @@ Napisz program:
 - nazwać program: ZadCandCPP.cc
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Zadanie 4.4
+--------------------------------------
+Napisz program, który wyświetli tabelę produktów w następującym formacie:
+
+| Nazwa          | Cena    | Ilosc |
+|----------------|---------|-------|
+| Chleb          |   4.99  |    5  |
+| Mleko          |   3.20  |   10  |
+| Jajka (10szt)  |   8.50  |    3  |
+
+- Użyj manipulatorów setw, left i right do wyrównania kolumn
+- Ceny wyświetl z dokładnością do 2 miejsc po przecinku
+- Szerokość kolumn: Nazwa (15 znaków), Cena (8 znaków), Ilosc (7 znaków)
+- nazwij program: ZadTabelaFormat.cc
+
+
+Zadanie 4.5
+--------------------------------------
+Napisz program, który wyświetli tabelę konwersji temperatur z Celsjusza na Fahrenheita dla wartości od -10 do 10 stopni C (co 5 stopni) w formacie:
+
+Celsjusz   Fahrenheit
+-------    ---------
+  -10        14.00
+   -5        23.00
+    0        32.00
+    5        41.00
+   10        50.00
+
+- Użyj fixed i setprecision dla temperatur w Fahrenheitach
+- Liczby wyświetl z wiodącymi spacjami (dodatnie) lub minusem (ujemne)
+- Wyrównaj liczby do prawej w kolumnach
+- nazwij program: ZadTemperaturaFormat.cc
+
+
+Zadanie 4.6
+--------------------------------------
+Napisz program, który wyświetli stałe matematyczne w trzech różnych formatach:
+
+Stała          Wartość (domyślnie)    Notacja stała      Notacja naukowa
+--------       -----------------      -------------      --------------
+Pi             3.14159                3.141593           3.141593e+00
+e              2.71828                2.718282           2.718282e+00
+Złoty podział  1.61803                1.618034           1.618034e+00
+
+- Użyj scientific i fixed do zmiany notacji
+- Dla każdej notacji zastosuj precyzję 6 cyfr
+- Szerokość kolumn: nazwa stałej (15 znaków), wartości (20 znaków)
+- Nagłówki kolumn wyrównaj do środka (używając spacji)
+- nazwij program: ZadDaneNaukoweFormat.cc
+
+
+
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.05.07
+
+
+
+
+
+
+
+
+
+Zadanie 4.7
 --------------------------------------
 Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - trzy funkcje:
@@ -349,13 +383,13 @@ Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
 - nazwać program: ZadParzysta.cc
 
 
-Zadanie 4.5 
+Zadanie 4.8 
 --------------------------------------
 Napisz program z użyciem 'switch' wybierajacy do wykonania jedną z trzech funkcji z zadania ZadParzysta.cc:
 - nazwać program: ZadParzystaCase.cc (kopia ZadParzyste do ZadParzysteCase+switch, lub pominięcie ZadParzyste i umieszczenie wszystkiego w ZadParzystaCase)
 
 
-Zadanie 4.6
+Zadanie 4.9
 --------------------------------------
 Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; trzy funkcje od a do c):
 (a) while    (pokazujące while z inkrementacją: i++, ++i)
@@ -365,7 +399,7 @@ Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; tr
 - nazwać program: ZadPetle.cc
 
 
-Zadanie 4.7
+Zadanie 4.10
 --------------------------------------
 Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całe słowo
@@ -373,7 +407,7 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - nazwać program: ZadSwitch.cc
 
 
-Zadanie 4.8
+Zadanie 4.11
 --------------------------------------
 Napisz program pokazujący zastosowanie dyrektywy preprocesora:
   '#ifdef' (#else)
