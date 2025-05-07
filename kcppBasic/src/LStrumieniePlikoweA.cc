@@ -8,25 +8,32 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <limits> // Potrzebne dla std::numeric_limits
+
 using namespace std;
 
+int main() {
+    ofstream f("log.txt", ios::app); // Otwieramy w trybie dopisywania (ios::app)
 
-int main()
-{
-  ofstream f("log.txt");
+    if (!f.is_open()) {
+        cerr << "Nie można otworzyć pliku log.txt!" << endl;
+        return 1; // Zwracamy kod błędu
+    }
 
-  string fullName;
+    string fullName;
 
-  cout << "Type your full name (then press Enter): \n";
-  cin >> fullName;
-  //getline (cin, fullName);
+    cout << "Wpisz swoje pełne imię i nazwisko (naciśnij Enter): \n";
+    getline(cin >> ws, fullName); // Używamy getline do wczytania całej linii, >> ws usuwa białe znaki z początku
 
-  cout << "Your name is: " << fullName << endl;;
+    cout << "Twoje imię to: " << fullName << endl;
 
-  if (f.good())
-  {
-    f << fullName;
+    f << fullName << endl; // Dodajemy znak nowej linii po zapisie
+    if (f.fail()) {
+        cerr << "Błąd podczas zapisu do pliku log.txt!" << endl;
+    } else {
+        cout << "Twoje imię zostało zapisane do pliku log.txt" << endl;
+    }
+
     f.close();
-  }
-  return 0;
+    return 0;
 }
