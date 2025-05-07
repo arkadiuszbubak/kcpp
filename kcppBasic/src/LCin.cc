@@ -42,10 +42,8 @@ int main(int argc, char *argv[]) {
       cout << "Podaj wartosc (B): ";
       /* cin >> cVar2 will try to write to whatever memory address the pointer
        * contains This will almost certainly cause a segmentation fault */
-      cin >> cVar2;
-      i // Writing to random memory location
-              cout
-          << "cVar2: " << cVar2 << endl;
+      cin >> cVar2; // Writing to random memory location
+      cout << "cVar2: " << cVar2 << endl;
     }
   }
   return 0;
