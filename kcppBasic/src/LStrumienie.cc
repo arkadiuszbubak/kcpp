@@ -9,22 +9,21 @@
 #include <string>
 using namespace std;
 
-// Pokazanie strumienia bledow: a.out 2>&1 | tee -a plikWynikowy.txt
-// Pokazanie strumienia bledow: a.out >plikWynikowy.txt 2>&1
+// Pokazanie strumienia błedow: a.out 2>&1 | tee -a plikWynikowy.txt
+// Pokazanie strumienia błedow: a.out >plikWynikowy.txt 2>&1
+// Pokazanie strumienia błędów: a.out 2> plikWynikowy.err
 
 void InputZeSpacjami() {
-
   cout << "--------------------" << endl;
   cout << "Input ze spacjami (zły)" << endl;
   cout << "Podaj tekst: ";
   string tekst;
-  // cin >> tekst; ///< ok
-  getline(cin, tekst); ///< problem
+  // cin >> tekst;  ///< ok
+  getline(cin, tekst);  ///< problem
   cout << tekst << endl;
 }
 
 void InputZeSpacjamiPoprawny() {
-
   // Jeśli przed użyciem funkcji "getline" użyjemy obiektu "cin", ten ostatni
   // pozostawia zwykle znak końca wiersza '\n' w buforze klawiatury. Funkcja
   // "getline" napotykając ten znak natychmiast kończy działanie, więc żeby
@@ -38,8 +37,8 @@ void InputZeSpacjamiPoprawny() {
 
   cout << "Podaj tekst: ";
   string tekst;
-  cin.ignore(); // to wywołanie usunie z bufora znak '\n' pozostawiony przez
-                // obiekt "cin"
+  cin.ignore();  // to wywołanie usunie z bufora znak '\n' pozostawiony przez
+                 // obiekt "cin"
   getline(cin, tekst);
   // std::getline(std::cin, tekst);
 
@@ -48,7 +47,6 @@ void InputZeSpacjamiPoprawny() {
 }
 
 int main() {
-
   cout << "Test standardowego strumienia" << endl;
   cerr << "Test strumienia bledow" << endl;
 
