@@ -9,7 +9,6 @@
 using namespace std;
 
 void printBinaryShort(const unsigned char val) {
-
   for (int i = 7; i >= 0; i--)
     if (val & (1 << i))
       //(1 << i) "wstawia 1 na kolejnych pozycjach"
@@ -19,13 +18,12 @@ void printBinaryShort(const unsigned char val) {
       cout << "0";
 }
 
-#define PRS(STR, EXPR)                                                         \
-  cout << STR << "\t";                                                         \
-  printBinaryShort(EXPR);                                                      \
+#define PRS(STR, EXPR)    \
+  cout << STR << "\t";    \
+  printBinaryShort(EXPR); \
   cout << endl;
 
 int main() {
-
   unsigned int a = 16626;
   int w;
 
