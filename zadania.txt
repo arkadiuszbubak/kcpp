@@ -295,8 +295,8 @@ Zadanie 4.2
 Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
 - +zapisywanie do strumienia błędów
-- zapisywania do pliku,
-- odczytywania z pliku,
+//- zapisywania do pliku,
+//- odczytywania z pliku,
 - nazwać program: ZadCinCoutFile.cc
 
 
