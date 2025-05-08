@@ -59,7 +59,8 @@ int main() {
     }
   }
 
-  // 6. Operator trójargumentowy (ternary) – krótka forma if-else
+  // 6. Operator trójargumentowy (ternary), operator warunkowy – krótka forma
+  // if-else.
   std::string wynik = (a > 5) ? "Większe" : "Mniejsze lub równe";
   std::cout << "a: " << wynik << std::endl;
 
