@@ -7,6 +7,7 @@
 
 #include <algorithm> // for sort, find
 #include <array>
+#include <iomanip> // for std::setw
 #include <iostream>
 
 int main() {
@@ -14,14 +15,14 @@ int main() {
   std::array<int, 5> myArray = {10, 20, 30, 40, 50};
 
   // Access elements using index
-  std::cout << "Accessing elements using index: ";
+  std::cout << std::left << std::setw(32) << "Accessing elements using index: ";
   for (size_t i = 0; i < myArray.size(); ++i) {
     std::cout << myArray[i] << " ";
   }
   std::cout << std::endl;
 
   // Use range-based for loop
-  std::cout << "Using range-based for loop: ";
+  std::cout << std::left << std::setw(32) << "Using range-based for loop: ";
   for (int val : myArray) {
     std::cout << val << " ";
   }
@@ -29,11 +30,11 @@ int main() {
 
   // Access front and back
   std::cout << "Front: " << myArray.front() << std::endl;
-  std::cout << "Back: " << myArray.back() << std::endl;
+  std::cout << "Back:  " << myArray.back() << std::endl;
 
   // Modify an element
   myArray[2] = 99;
-  std::cout << "After modification: ";
+  std::cout << std::left << std::setw(20) << "After modification: ";
   for (int val : myArray) {
     std::cout << val << " ";
   }
@@ -41,7 +42,7 @@ int main() {
 
   // Sort the array
   std::sort(myArray.begin(), myArray.end());
-  std::cout << "Sorted array: ";
+  std::cout << std::left << std::setw(20) << "Sorted array: ";
   for (int val : myArray) {
     std::cout << val << " ";
   }
