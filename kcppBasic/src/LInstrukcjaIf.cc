@@ -12,13 +12,13 @@
 
 // Funkcja szablonowa z użyciem if constexpr – działa na etapie kompilacji
 // (C++17+)
-template <typename T> void wypiszTyp() {
-  if constexpr (std::is_integral<T>::value) {
-    std::cout << "Typ całkowity" << std::endl;
-  } else {
-    std::cout << "Inny typ" << std::endl;
-  }
-}
+/* template <typename T> void wypiszTyp() {
+ *   if constexpr (std::is_integral<T>::value) {
+ *     std::cout << "Typ całkowity" << std::endl;
+ *   } else {
+ *     std::cout << "Inny typ" << std::endl;
+ *   }
+ * } */
 
 int main() {
   // Tworzymy wektor liczb całkowitych
@@ -65,8 +65,8 @@ int main() {
   std::cout << "a: " << wynik << std::endl;
 
   // 7. if constexpr – działa na etapie kompilacji
-  wypiszTyp<int>();    // Wypisze: Typ całkowity
-  wypiszTyp<double>(); // Wypisze: Inny typ
+  /* wypiszTyp<int>();    // Wypisze: Typ całkowity
+   * wypiszTyp<double>(); // Wypisze: Inny typ */
 
   // 8. Pętla for-each z if – iterujemy po elementach wektora
   for (int liczba : liczby) {
