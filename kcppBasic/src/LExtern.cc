@@ -35,7 +35,7 @@ void b() {}
  * @param zmienna An integer parameter.
  */
 void b(int zmienna) {
-  zmienna = 0; // Modify the parameter (no effect outside the function)
+  zmienna += 7; // Modify the parameter (no effect outside the function)
 }
 
 // Use `extern "C"` to prevent name mangling for C++ functions
