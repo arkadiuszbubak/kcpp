@@ -13,7 +13,8 @@
 // Funkcja pomocnicza do wyświetlania mapy (range-based for)
 void wyswietl(const std::map<std::string, int> &mapa, const std::string &opis) {
   std::cout << opis << ": " << std::endl;
-  for (const auto &[klucz, wartosc] : mapa) {
+  for (const auto &[klucz, wartosc] :
+       mapa) { // structured bindings only available with -std=c++17
     std::cout << "  " << klucz << " => " << wartosc << std::endl;
   }
 }
