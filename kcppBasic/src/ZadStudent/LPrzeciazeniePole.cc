@@ -13,7 +13,9 @@ double pole(double bok1, double bok2) { // Prostokąt
 }
 
 double pole(double promien, bool kolo) { // Koło
-  return PI * promien * promien;
+
+  double polekola = (kolo == true) ? PI * promien * promien : 0;
+  return polekola;
 }
 
 int main() {
