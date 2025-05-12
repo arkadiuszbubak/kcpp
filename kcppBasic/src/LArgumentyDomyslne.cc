@@ -105,13 +105,13 @@ int zmienB(int *, int, int) { return 0; }
  */
 int zmienC(int, int = 1, int = 2);
 int zmienC(int a, int b, int c) {
-  int w = a + c;
+  int w = a + b + c;
   return w;
 }
 
 int zmienE(int, int = 1, int = 2);
 int zmienE(int a = 1, int b, int c) {
-  int w = a + c;
+  int w = a + c + b;
   return w;
 }
 
@@ -144,7 +144,8 @@ int main() {
   // Demonstrate functions with default arguments
   zmienA(1, 2);
 
-  int *wskaznik;
+  int wsk = 9;
+  int *wskaznik = &wsk;
   zmienB(wskaznik, 2);
   zmienB(wskaznik, 2, 3);
 
