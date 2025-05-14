@@ -424,6 +424,20 @@ W programie ZadStudent/LGra.cc ogranicz liczbę prób do 10. Jeśli gracz nie zg
 Dodaj poziomy trudności (np. zakres 1-50 dla łatwego, 1-200 dla trudnego).
 
 
+Zadanie 4.15
+------------------------------------
+Napisz program ZadStudent.cc z wykorzystaniem std:vector, z fuknjonalnością:
+1. Dodaj studenta
+2. Usun studenta
+3. Wyswietl liste
+4. Sortuj liste (alfabetycznie)
+5. Sprawdz, czy student istnieje
+0. Wyjdz
+Spróbj napisać program sam. Jeśli się uda ti super, jeśli nie to przykład jest w ZadStudent/LVectorStudent.cc.
+Jeśli nie napisałeś sam programu (jeśli napisałeś) zmodyfikuj program, aby przechowywał nie tylko imiona, ale także nazwiska i numery indeksów (użyj struct Student).
+Dodaj walidację danych (np. sprawdzanie, czy imię nie jest puste lub czy numer indeksu jest unikalny).
+
+
 
 
 -----> Powyższe do wykonania po zajęciach 2025.05.14
@@ -518,7 +532,6 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 
 
-
 ------------------------------------------------------------------------------------------
   6. Podsumowanie zadań
 ------------------------------------------------------------------------------------------
@@ -529,7 +542,7 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 Zadanie 6.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść funkcje z 5 wybranych zadań z zakresu 1.1-5.6
+- Zaprojektuj klasę/klasy i umieść funkcje z 10 wybranych zadań z zakresu 1.1-5.6
   jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym

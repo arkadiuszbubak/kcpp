@@ -5,7 +5,7 @@
  * \version: v0.01
  */
 
-#include <algorithm> // Dla std::fill i std::remove
+#include <algorithm>  // Dla std::fill i std::remove
 #include <iostream>
 #include <vector>
 
@@ -98,7 +98,7 @@ int main() {
 
   // Usunięcie elementu z określonej pozycji (iterator)
   if (wektor5.size() > 2) {
-    wektor5.erase(wektor5.begin() + 1); // Usuwa element na indeksie 1
+    wektor5.erase(wektor5.begin() + 1);  // Usuwa element na indeksie 1
     std::cout << "Wektor 5 (po erase): ";
     for (int val : wektor5) {
       std::cout << val << " ";
@@ -109,7 +109,7 @@ int main() {
   // Usunięcie zakresu elementów (iteratory)
   std::vector<int> wektor6 = {1, 2, 3, 4, 5, 6, 7};
   wektor6.erase(wektor6.begin() + 2,
-                wektor6.begin() + 5); // Usuwa elementy na indeksach 2, 3, 4
+                wektor6.begin() + 5);  // Usuwa elementy na indeksach 2, 3, 4
   std::cout << "Wektor 6 (po erase zakresu): ";
   for (int val : wektor6) {
     std::cout << val << " ";
