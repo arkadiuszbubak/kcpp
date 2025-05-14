@@ -47,5 +47,14 @@ etykieta1:
 
   cout << endl;
 
+  cout << "\nPętla while z dwoma zmiennymi:" << endl;
+  int k = 0, l = 5;
+  while (k <= l) {
+    cout << "k: " << k << ", l: " << l << endl;
+    k++;
+    l--;
+  }
+  cout << endl;
+
   return 0;
 }
