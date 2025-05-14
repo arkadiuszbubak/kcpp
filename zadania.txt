@@ -394,6 +394,7 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 
 
 Zadanie 4.11
+-------------------------------------
 Zmodyfikuj program LFor.cc, aby wypisywał liczby nieparzyste zamiast parzystych.
 Dodaj kolejną pętlę, która wypisze liczby podzielne przez 7.
 Nazwij program: ZadForA.cc
