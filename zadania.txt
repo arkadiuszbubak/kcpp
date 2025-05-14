@@ -393,7 +393,16 @@ Napisz program wykorzystujący instrukcje 'switch' gdzie:
 - nazwać program: ZadSwitch.cc
 
 
+Zadanie 4.11
+Zmodyfikuj program LFor.cc, aby wypisywał liczby nieparzyste zamiast parzystych.
+Dodaj kolejną pętlę, która wypisze liczby podzielne przez 7.
+Nazwij program: ZadForA.cc
 
+
+Zadanie 4.12
+-------------------------------------
+Dodaj do programu LSilnia.cc sprawdzanie, czy podana liczba jest większa lub równa zero (silnia jest zdefiniowana tylko dla liczb nieujemnych).
+Zmodyfikuj program, aby obliczał sumę silni od 1 do n.
 
 
 
