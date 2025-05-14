@@ -30,7 +30,7 @@ int main() {
     std::cout << "a jest większe niż 5" << std::endl;
   }
 
-  // 2. if-else – wybór jednej z dwóch ścieżek
+  //   2. if-else – wybór jednej z dwóch ścieżek
   int b = 3;
   if (b > 5) {
     std::cout << "b jest większe niż 5" << std::endl;

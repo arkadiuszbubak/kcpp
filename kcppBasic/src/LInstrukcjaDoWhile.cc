@@ -10,8 +10,8 @@ using namespace std;
 
 int main() {
   int i = 0;
-  int iMaxLoop = 5; ///<  Option 1
-  // int  iMaxLoop = i; ///< Option 2; direct show differcence between while and
+  // int iMaxLoop = 5; ///<  Option 1
+  int iMaxLoop = i; ///< Option 2; direct show differcence between while and
   // do.while
 
   cout << "\n--- While ---------------------" << endl;

@@ -405,6 +405,12 @@ Dodaj do programu LSilnia.cc sprawdzanie, czy podana liczba jest większa lub r�
 Zmodyfikuj program, aby obliczał sumę silni od 1 do n.
 
 
+Zadanie 4.13
+-------------------------------------
+Zmodyfikuj program LKsztalt.cc, aby rysował trójkąt równoramienny.
+Dodaj pętlę, która narysuje "piramidę" z liczb (np. 1, 2 2, 3 3 3).
+
+
 
 -----> Powyższe do wykonania po zajęciach 2025.05.14
 
