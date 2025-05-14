@@ -315,7 +315,7 @@ Napisz program, który wyświetli tabelę produktów w następującym formacie:
 |----------------|---------|-------|
 | Chleb          |   4.99  |    5  |
 | Mleko          |   3.20  |   10  |
-| Jajka (10szt)  |   8.50  |    3  |
+| Jajka (10 szt) |   8.50  |    3  |
 
 - Użyj manipulatorów setw, left i right do wyrównania kolumn
 - Ceny wyświetl z dokładnością do 2 miejsc po przecinku
@@ -358,20 +358,6 @@ Złoty podział  1.61803                1.618034           1.618034e+00
 - nazwij program: ZadDaneNaukoweFormat.cc
 
 
-
-
-
-
------> Powyższe do wykonania po zajęciach 2025.05.07
-
-
-
-
-
-
-
-
-
 Zadanie 4.7
 --------------------------------------
 Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
@@ -402,9 +388,20 @@ Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; tr
 Zadanie 4.10
 --------------------------------------
 Napisz program wykorzystujący instrukcje 'switch' gdzie:
-- zamiast pojedynczego znaku będzie sprawdzane całe słowo
+- zamiast pojedynczego znaku będzie sprawdzane całe słowo (czy da się to zrobić bezpośrednio?)
 - program może być uszczegółowieniem/modyfikacją (zrobić kopie pliku i zmienić kopie) tego co jest w ZadParzysteCase.cc
 - nazwać program: ZadSwitch.cc
+
+
+
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.05.14
+
+
+
+
 
 
 Zadanie 4.11
