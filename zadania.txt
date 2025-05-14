@@ -414,8 +414,16 @@ Dodaj pętlę, która narysuje "piramidę" z liczb (np. 1, 2 2, 3 3 3).
 
 Zadanie 4.14
 ------------------------------------
-Zmodyfikuj program ZadStudent/ZadWhileA.cc, aby zliczał również liczbę wprowadzonych wartości.
+Zmodyfikuj program ZadStudent/LWhileA.cc, aby zliczał również liczbę wprowadzonych wartości.
 Dodaj sprawdzanie, czy podana liczba jest dodatnia – jeśli nie, program ma wypisać komunikat.
+
+
+Zadanie 4.15
+------------------------------------
+W programie ZadStudent/LGra.cc ogranicz liczbę prób do 10. Jeśli gracz nie zgadnie, program ma wyświetlić prawidłową liczbę.
+Dodaj poziomy trudności (np. zakres 1-50 dla łatwego, 1-200 dla trudnego).
+
+
 
 
 -----> Powyższe do wykonania po zajęciach 2025.05.14
