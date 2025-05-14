@@ -397,20 +397,25 @@ Zadanie 4.11
 -------------------------------------
 Zmodyfikuj program LFor.cc, aby wypisywał liczby nieparzyste zamiast parzystych.
 Dodaj kolejną pętlę, która wypisze liczby podzielne przez 7.
-Nazwij program: ZadForA.cc
+Nazwij program: ZadStudent/ZadForA.cc
 
 
 Zadanie 4.12
 -------------------------------------
-Dodaj do programu LSilnia.cc sprawdzanie, czy podana liczba jest większa lub równa zero (silnia jest zdefiniowana tylko dla liczb nieujemnych).
+Dodaj do programu ZadStudent/LSilnia.cc sprawdzanie, czy podana liczba jest większa lub równa zero (silnia jest zdefiniowana tylko dla liczb nieujemnych).
 Zmodyfikuj program, aby obliczał sumę silni od 1 do n.
 
 
 Zadanie 4.13
 -------------------------------------
-Zmodyfikuj program LKsztalt.cc, aby rysował trójkąt równoramienny.
+Zmodyfikuj program ZadStudent/LKsztalt.cc, aby rysował trójkąt równoramienny.
 Dodaj pętlę, która narysuje "piramidę" z liczb (np. 1, 2 2, 3 3 3).
 
+
+Zadanie 4.14
+------------------------------------
+Zmodyfikuj program ZadStudent/ZadWhileA.cc, aby zliczał również liczbę wprowadzonych wartości.
+Dodaj sprawdzanie, czy podana liczba jest dodatnia – jeśli nie, program ma wypisać komunikat.
 
 
 -----> Powyższe do wykonania po zajęciach 2025.05.14
