@@ -8,30 +8,38 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{   
+int main() {
   int i = 0;
-  int  iMaxLoop = 5; ///<  Option 1
-  //int  iMaxLoop = i; ///< Option 2; direct show differcence between while and do.while
+  int iMaxLoop = 5; ///<  Option 1
+  // int  iMaxLoop = i; ///< Option 2; direct show differcence between while and
+  // do.while
 
+  cout << "\n--- While ---------------------" << endl;
+  cout << " before: " << i << endl;
 
-  cout <<"\n--- While ---------------------"<< endl;
-  cout <<" before: "<< i << endl;
-
-  while(i < iMaxLoop){
-    i++;   ///< po wykonaniu petli i = 5
-    cout <<" inside: "<< i << endl;
+  while (i < iMaxLoop) {
+    i++; ///< po wykonaniu petli i = 5
+    cout << " inside: " << i << endl;
   }
-  cout <<"  after: "<< i << endl;
+  cout << "  after: " << i << endl;
 
-
-  cout <<"\n--- Do While ------------------"<< endl;
+  cout << "\n--- Do While ------------------" << endl;
   i = 0;
-  cout <<" before: "<< i << endl;
+  cout << " before: " << i << endl;
 
   do {
     i++;
-    cout <<" inside: "<< i << endl;
+    cout << " inside: " << i << endl;
   } while (i < iMaxLoop);
-  cout <<"  after: "<< i << endl;
+  cout << "  after: " << i << endl;
+
+  cout << "\nPętla do while z dwoma zmiennymi:" << endl;
+  int k = 0, l = 5;
+  while (k <= l) {
+    cout << "k: " << k << ", l: " << l << endl;
+    k++;
+    l--;
+  }
+
+  return 0;
 }
