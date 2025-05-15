@@ -18,7 +18,8 @@ int main() {
   cout << i << endl; // i = 10
 
   // Pętla while z inkrementacją przed sprawdzeniem warunku
-  i = -2;
+  cout << "Pętla while z inkrementacją przed sprawdzeniem warunku" << endl;
+  i = 1;
   while (i++) {
     cout << i << " ";
     if (i == 15)
@@ -37,8 +38,10 @@ etykieta1:
   cout << endl;
 
   // Pętla while wyświetlająca liczby 15–20 z pominięciem 18
+  cout << "Pętla while wyświetlająca liczby 15–20 z pominięciem 18" << endl;
   while (i <= 20) {
     if (i == 18) {
+      cout << "...";
       i++;
       continue; // Pomija 18
     }
