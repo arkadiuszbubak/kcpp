@@ -5,15 +5,14 @@
  * v0.01
  */
 
-#include <iostream>
 #include "LDyrektywaIncludeA.h"
 #include <LDyrektywaIncludeB.h>
+#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   WywolywanaFunkcjaA();
   WywolywanaFunkcjaB();
- 
+
   return 0;
 }

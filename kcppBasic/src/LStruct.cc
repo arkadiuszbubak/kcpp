@@ -12,15 +12,13 @@ using namespace std;
 
 //---------------------------------------------
 /* First struct creation method */
-struct Person
-{
+struct Person {
   char name1[50];
   string name2;
-  //char *name3;
+  // char *name3;
   int age = 7;
   float salary;
 };
-
 
 //---------------------------------------------
 /* Second struct creation method */
@@ -32,10 +30,8 @@ struct Person
  *   float salary;
  * } person1, person2; */
 
-
 /* Constructor in struct  */
-struct PersonSt
-{
+struct PersonSt {
   char name1[50];
   string name2;
   int age = 8;
@@ -43,43 +39,37 @@ struct PersonSt
   /* PersonSt(){
    *   age = 18;
    * } */
-  // PersonSt(int fAge, float fSalary) : age(fAge), salary(fSalary) {}
-  // PersonSt() : age(18), salary(153) { }
+  // PersonSt(int fAge, float fSalary) : age(fAge), salary(fSalary) {}  ///<
+  // ERROR if PersonSt() not defined PersonSt() : age(18), salary(153) { }
 } personSt1;
 //};
 
-
-
-
 //---- Union example -------------------------------------
-union Nazwa
-{
+union Nazwa {
   int z1;
   float z2;
   double z3;
 } nz;
 //--------------------------------------------------------
 
-
-int main()
-{
+int main() {
   //-------------------------------------------
   Person person1, person2, person3;
-  //struct Person person1, person2, person3;    ///< It is allowed as well
-  //Person person3;
-  // person1.age = 59;
+  // struct Person person1, person2, person3;    ///< It is allowed as well
+  // Person person3;
+  //  person1.age = 59;
 
-  //struct Person person1 = { "Olaf", "Arek", 4, 4.5};   ///< ok
-  //struct Person person2 = { "Olaf", "Arek", 4, 4.5};   ///< ok
+  // struct Person person1 = { "Olaf", "Arek", 4, 4.5};   ///< ok
+  // struct Person person2 = { "Olaf", "Arek", 4, 4.5};   ///< ok
 
+  // person1.name1 = "Leon";   ///< Error using char (name1), ok in string
+  // (name2) struct Person person1 = { "Olaf", "Bart", "Arek", 4, 4.5}; ///<
+  // Warning: ISO C++11 does not allow conversion string literal to 'char *'
 
-  //person1.name1 = "Leon";   ///< Error using char (name1), ok in string (name2)
-  //struct Person person1 = { "Olaf", "Bart", "Arek", 4, 4.5}; ///< Warning: ISO C++11 does not allow conversion string literal to 'char *'
-
-  
-  //strncpy(person1.name1, "Olaf", 5);
-  //strncpy(person2.name1, "Arek", 5);
-  //person1.name3 = "Arek";  ///< Warning: ISI C++11 does not allow conversion string literal to 'char *'
+  // strncpy(person1.name1, "Olaf", 5);
+  // strncpy(person2.name1, "Arek", 5);
+  // person1.name3 = "Arek";  ///< Warning: ISI C++11 does not allow conversion
+  // string literal to 'char *'
 
   cout << person1.name1 << endl;
   cout << person1.name2 << endl;
@@ -87,23 +77,18 @@ int main()
   cout << person1.age << endl;
   cout << personSt1.age << endl;
 
-  
-  //PersonSt personSt2(3, 18);
-  //cout <<"Struct with initialization: "<<  personSt2.age << endl;
-
-
-
+  // PersonSt  personSt2(3, 18);
+  // cout <<"Struct with initialization: "<<  personSt2.age << endl;
 
   //----- Union example ------------------------------------
   nz.z1 = 6;
-  cout <<"nz.z1: "<< nz.z1 << endl;
+  cout << "nz.z1: " << nz.z1 << endl;
 
   nz.z2 = 18;
-  cout <<"nz.z2: "<< nz.z2 << endl;
+  cout << "nz.z2: " << nz.z2 << endl;
 
   cout << nz.z1 << endl;
   //--------------------------------------------------------
-
 
   return 0;
 }

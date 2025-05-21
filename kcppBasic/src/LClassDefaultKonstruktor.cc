@@ -8,17 +8,16 @@
 #include <iostream>
 using namespace std;
 
-class A 
-{
-  public:
-    /* A() {
-     *   cout <<"Tworze obiekt" << endl;
-     * };    ///< It has to be created if another construtor (with non-zero amount arguments exist) */
-    int fLicznik;
+class A {
+public:
+  /* A() {
+   *   cout <<"Tworze obiekt" << endl;
+   * };    ///< It has to be created if another construtor (with non-zero amount
+   * arguments exist) */
+  int fLicznik;
 };
 
-int main()
-{   
+int main() {
   A objektA;
   objektA.fLicznik = 7;
 

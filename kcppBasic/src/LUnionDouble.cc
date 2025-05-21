@@ -1,24 +1,23 @@
-#include <iostream>
 #include <bitset>
 #include <cstdlib>
+#include <iostream>
 using namespace std;
 
 /* Online converter
  * https://www.rapidtables.com/convert/number/decimal-to-binary.html */
 
-void dec_to_bin(int liczba)
-{
-    cout <<"\nInside dec_to_bin function:"; 
-    int i=0, tab[31];
+void dec_to_bin(int liczba) {
+  cout << "\nInside dec_to_bin function:";
+  int i = 0, tab[31];
 
-    while(liczba) //dopóki liczba będzie różna od zera
-    {
-        tab[i++]=liczba%2;
-        liczba/=2;
-    }
+  while (liczba) // dopóki liczba będzie różna od zera
+  {
+    tab[i++] = liczba % 2;
+    liczba /= 2;
+  }
 
-    for(int j=i-1;j>=0;j--)
-        cout<<tab[j];
+  for (int j = i - 1; j >= 0; j--)
+    cout << tab[j];
 }
 
 union elements {
@@ -26,9 +25,7 @@ union elements {
   double weight;
 };
 
-
-
-int main(){
+int main() {
   elements eName;
 
   eName.weight = 4.0;
@@ -38,15 +35,15 @@ int main(){
   cout << "2. eName.amount: " << eName.amount << endl;
   cout << "2. eName.weight: " << eName.weight << endl;
   cout << "2. eName.amount: " << eName.amount << endl;
- 
+
   cout << &eName << ", " << &eName.weight << ", " << &eName.amount << endl;
-  cout << sizeof(eName) << ", " << sizeof(eName.weight) << ", " << sizeof(eName.amount) << endl;
+  cout << sizeof(eName) << ", " << sizeof(eName.weight) << ", "
+       << sizeof(eName.amount) << endl;
 
   dec_to_bin(4.0);
-  cout << endl << bitset<8>(4.0)  << endl;
+  cout << endl << bitset<8>(4.0) << endl;
   dec_to_bin(9);
-  cout << endl << bitset<8>(9)  << endl;
+  cout << endl << bitset<8>(9) << endl;
 
   return 0;
 }
-
