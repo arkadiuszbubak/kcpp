@@ -56,6 +56,6 @@ int main() {
   A *obiektM = new A(3, 6);
   cout << obiektM->fLicznikA << "\t" << obiektM->fLicznikB << "\t"
        << obiektM->fLicznikC << "\t" << endl;
-  A *obiekt1 = new A();
+  // A *obiekt1 = new A();
   // A obiekt2;
 }
