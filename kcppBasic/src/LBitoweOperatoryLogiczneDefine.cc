@@ -19,7 +19,7 @@ void printBinaryShort(const unsigned char val) {
 }
 
 #define PR(STR, EXPR)                                                          \
-  cout << EXPR << STR << "\t";              :                                   \
+  cout << EXPR << STR << "\t";                                                 \
   printBinaryShort(EXPR);                                                      \
   cout << endl;
 
