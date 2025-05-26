@@ -11,7 +11,7 @@ using namespace std;
 class A {
 
 public:
-  A(){};
+  A() {};
   A(int zmienna);
   A(double zmienna) { fLicznikDouble = zmienna; };
   ~A();
