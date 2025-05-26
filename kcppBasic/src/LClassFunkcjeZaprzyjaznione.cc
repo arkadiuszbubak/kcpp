@@ -8,17 +8,16 @@
 #include <iostream>
 using namespace std;
 
-class Pudelko 
-{   
-  public:
-    Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) { }
-    //float GetValueD() { return  fD; }; 
-    friend int Equalsize(Pudelko a, Pudelko b);
-    inline float GetValueD(){ return fD; }
-   // inline float GetValueD();
+class Pudelko {
+public:
+  Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) {}
+  // float GetValueD() { return  fD; };
+  friend int Equalsize(Pudelko a, Pudelko b);
+  inline float GetValueD() { return fD; }
+  // inline float GetValueD();
 
-  private:
-    float fD, fS, fW;
+private:
+  float fD, fS, fW;
 };
 
 /* float Pudelko::GetValueD(){
@@ -30,25 +29,24 @@ int Equalsize(Pudelko a, Pudelko b) {
   /* Funkcja nie bedąca metodą klasy Pudelko korzysta ze
    * skladowych prywatnych klasy Pudelko */
 
-  //if( a.GetValueD() == b.GetValueD()) return 1;    // A czy to zadziała?
-  if( a.fD * a.fS * a.fW == b.fD * b.fS * b.fW) return 1;
-  else return 0;
-
+  // if( a.GetValueD() == b.GetValueD()) return 137;    // A czy to zadziała?
+  if (a.fD * a.fS * a.fW == b.fD * b.fS * b.fW)
+    return 137;
+  else
+    return 0;
 }
 
-int main()
-{
+int main() {
   Pudelko objA(1, 2, 3);
-  Pudelko objB(1, 2, 3);    // 1.
-  //Pudelko objB(1, 4, 3);  // 2. Linie 1.to zamienmy na linie 2.
- 
-  //cout << objA.fD << endl;
-  // cout << objA.GetValueD() << endl;
+  Pudelko objB(1, 2, 3); // 1.
+  // Pudelko objB(1, 4, 3);  // 2. Linie 1.to zamienmy na linie 2.
+
+  // cout << objA.fD << endl;
+  //  cout << objA.GetValueD() << endl;
 
   cout << Equalsize(objA, objB) << endl;
 
-  /* // A czy to zadzaiała?
-   * Pudelko objC(3, 2, 1);
-   * cout << objC.Equalsize(objA, objB) << endl; */
+  // A czy to zadzaiała?
+  // Pudelko objC(3, 2, 1);
+  // cout << objC.Equalsize(objA, objB) << endl;
 }
-
