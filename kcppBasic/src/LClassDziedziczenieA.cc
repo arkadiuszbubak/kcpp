@@ -9,73 +9,61 @@
 using namespace std;
 
 //----------------------------------------------------------------------
-class Przodek 
-{
- public:
-   int FunFromPrzodek(int zm);
+class Przodek {
+public:
+  int FunFromPrzodek(int zm);
 
-   int   fM;
-   float fN;   ///< fN ia only here in the class you inherit from
+  int fN;
+  float fM;
 };
 
-
-
 //----------------------------------------------------------------------
-class Potomek : public Przodek 
-{ 
- public:
-   int fM;
-   //int fN;
-   
+class Potomek : public Przodek {
+public:
+  int fN;
+  // float fM;
 };
 
-
-int Przodek::FunFromPrzodek(int zm)
-{
-   int result = zm + fN;
-   return result;
+int Przodek::FunFromPrzodek(int zm) {
+  // int result = zm + fN;
+  int result = fN;
+  return result;
 }
-
-
 
 //----------------------------------------------------------------------
-int main()
-{
-   Przodek przObiekt;
-   przObiekt.fN = 7;
-   cout <<"przObiekt.fN: "<<przObiekt.fN << endl;
-  
-   //------------ 1 ------------------------
-   Potomek potObiekt;
-   potObiekt.fN = 8;
-   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
-   
-   //------------ 2 ------------------------
-   cout <<"przObiekt.fN: "<< przObiekt.fN << endl;
-   
-   //------------ 3 ------------------------
-   int resA = przObiekt.FunFromPrzodek(3);
-   cout << resA << endl;
+int main() {
+  Przodek przObiekt;
+  przObiekt.fN = 7;
+  cout << "0. przObiekt.fN: " << przObiekt.fN << endl;
 
-   //------------ 4 ------------------------
-   int resB = potObiekt.FunFromPrzodek(3);
-   cout << resB << endl;
+  //------------ 1 ------------------------
+  Potomek potObiekt;
+  potObiekt.fN = 8;
+  cout << "1. potObiekt.fN: " << potObiekt.fN << endl;
 
+  //------------ 2 ------------------------
+  cout << "2. przObiekt.fN: " << przObiekt.fN << endl;
 
-   //------------ 5 ------------------------
-   potObiekt.fM = 3;
-   cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
+  //------------ 3 ------------------------
 
-   przObiekt.fM = 7;
-   cout <<"przObiekt.fM: "<< przObiekt.fM << endl;
-   cout <<"potObiekt.fM: "<< potObiekt.fM << endl;
+  cout << "3. Value from object Przodek (FunFromPrzodek): "
+       << przObiekt.FunFromPrzodek(3) << endl;
 
-   //------------ 6 ------------------------
-   potObiekt.fN = 9;
-   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
+  cout << "3. Value from object Potomek (FunFromPrzodek): "
+       << potObiekt.FunFromPrzodek(3) << endl;
 
-   potObiekt.fN = 9.6;
-   cout <<"potObiekt.fN: "<< potObiekt.fN << endl;
+  //------------ 4 ------------------------
+  potObiekt.fM = 3;
+  cout << "4. potObiekt.fM: " << potObiekt.fM << endl;
 
+  przObiekt.fM = 7;
+  cout << "4. przObiekt.fM: " << przObiekt.fM << endl;
+  cout << "4. potObiekt.fM: " << potObiekt.fM << endl;
+
+  //------------ 5 ------------------------
+  potObiekt.fN = 9;
+  cout << "5. potObiekt.fN: " << potObiekt.fN << endl;
+
+  potObiekt.fN = 9.6;
+  cout << "5. potObiekt.fN: " << potObiekt.fN << endl;
 }
-
