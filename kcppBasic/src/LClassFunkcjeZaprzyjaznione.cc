@@ -11,7 +11,6 @@ using namespace std;
 class Pudelko {
 public:
   Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) {}
-  // float GetValueD() { return  fD; };
   friend int Equalsize(Pudelko a, Pudelko b);
   inline float GetValueD() { return fD; }
   // inline float GetValueD();
@@ -29,8 +28,8 @@ int Equalsize(Pudelko a, Pudelko b) {
   /* Funkcja nie bedąca metodą klasy Pudelko korzysta ze
    * skladowych prywatnych klasy Pudelko */
 
-  // if( a.GetValueD() == b.GetValueD()) return 137;    // A czy to zadziała?
   if (a.fD * a.fS * a.fW == b.fD * b.fS * b.fW)
+    // if (a.GetValueD() == b.GetValueD()) // A czy to zadziała?
     return 137;
   else
     return 0;
