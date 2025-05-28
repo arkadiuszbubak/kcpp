@@ -11,7 +11,7 @@ using namespace std;
 //----------------------------------------------------------------------
 class Przodek {
 public:
-  int FunFromPrzodek(int zm);
+  int FunFromPrzodek();
 
   int fN;
   float fM;
@@ -20,20 +20,17 @@ public:
 //----------------------------------------------------------------------
 class Potomek : public Przodek {
 public:
-  int fN;
+  // int fN;
   // float fM;
 };
 
-int Przodek::FunFromPrzodek(int zm) {
-  // int result = zm + fN;
-  int result = fN;
-  return result;
-}
+int Przodek::FunFromPrzodek() { return fN; }
 
 //----------------------------------------------------------------------
 int main() {
   Przodek przObiekt;
   przObiekt.fN = 7;
+  cout << endl;
   cout << "0. przObiekt.fN: " << przObiekt.fN << endl;
 
   //------------ 1 ------------------------
@@ -45,25 +42,26 @@ int main() {
   cout << "2. przObiekt.fN: " << przObiekt.fN << endl;
 
   //------------ 3 ------------------------
-
-  cout << "3. Value from object Przodek (FunFromPrzodek): "
-       << przObiekt.FunFromPrzodek(3) << endl;
-
-  cout << "3. Value from object Potomek (FunFromPrzodek): "
-       << potObiekt.FunFromPrzodek(3) << endl;
-
-  //------------ 4 ------------------------
   potObiekt.fM = 3;
-  cout << "4. potObiekt.fM: " << potObiekt.fM << endl;
+  cout << endl << "3. potObiekt.fM: " << potObiekt.fM << endl;
 
   przObiekt.fM = 7;
-  cout << "4. przObiekt.fM: " << przObiekt.fM << endl;
-  cout << "4. potObiekt.fM: " << potObiekt.fM << endl;
+  cout << "3. przObiekt.fM: " << przObiekt.fM << endl;
+  cout << "3. potObiekt.fM: " << potObiekt.fM << endl;
 
-  //------------ 5 ------------------------
+  //------------ 4 ------------------------
   potObiekt.fN = 9;
-  cout << "5. potObiekt.fN: " << potObiekt.fN << endl;
+  cout << endl << "4. potObiekt.fN: " << potObiekt.fN << endl;
 
   potObiekt.fN = 9.6;
-  cout << "5. potObiekt.fN: " << potObiekt.fN << endl;
+  cout << "4. potObiekt.fN: " << potObiekt.fN << endl;
+
+  //------------ 5 ------------------------
+  cout << endl
+       << "5. Value from object Przodek (FunFromPrzodek): "
+       << przObiekt.FunFromPrzodek() << endl;
+
+  cout << "5. Value from object Potomek (FunFromPrzodek): "
+       << potObiekt.FunFromPrzodek() << endl;
+  cout << endl;
 }
