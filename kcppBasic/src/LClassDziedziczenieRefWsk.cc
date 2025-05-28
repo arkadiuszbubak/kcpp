@@ -9,20 +9,21 @@
 using namespace std;
 
 class A {
-  public:
-    void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
+public:
+  void Funkcja() { cout << "Metoda z klasy A" << endl; }
 };
 
 class B : public A {
-  public:
-    void Funkcja() { cout <<"Metoda z klasy B"<< endl; } // metoda zredefiniowana
+public:
+  void Funkcja() {
+    cout << "Metoda z klasy B" << endl;
+  } // metoda zredefiniowana
 };
 
 int main() {
 
   A a;
   B b;
-
 
 #define ZMIANA
 
@@ -32,7 +33,7 @@ int main() {
   B *p2 = &b;
   A &r1 = a;
   B &r2 = b;
-#else   
+#else
   A *p1 = &a;
   A *p2 = &b;
   A &r1 = a;
@@ -46,6 +47,4 @@ int main() {
   p2->Funkcja();
   r1.Funkcja();
   r2.Funkcja();
-
-
 };

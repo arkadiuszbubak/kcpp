@@ -8,18 +8,16 @@
 #include <iostream>
 using namespace std;
 
-
-class A 
-{
-  public:
+class A {
+public:
   // void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
-  virtual void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
-}; 
+  virtual void Funkcja() { cout << "Metoda z klasy A" << endl; }
+};
 
-class B : public A 
-{
-  public:
-  void Funkcja() { cout <<"Metoda z klasy B"<< endl; } //metoda zredefiniowana
+class B : public A {
+public:
+  void Funkcja() { cout << "Metoda z klasy B" << endl; } // metoda
+                                                         // zredefiniowana
 };
 
 int main() {
@@ -39,6 +37,5 @@ int main() {
   r1.Funkcja();
   r2.Funkcja();
 
-  //cout << sizeof(A) << endl;
+  // cout << sizeof(A) << endl;
 };
-
