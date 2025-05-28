@@ -12,7 +12,6 @@ using namespace std;
 class Przodek {
 public:
   int FunFromPrzodek();
-
   int fN;
   float fM;
 };
@@ -50,11 +49,11 @@ int main() {
   cout << "3. potObiekt.fM: " << potObiekt.fM << endl;
 
   //------------ 4 ------------------------
-  potObiekt.fN = 9;
-  cout << endl << "4. potObiekt.fN: " << potObiekt.fN << endl;
+  przObiekt.fN = 91;
+  cout << "4. przObiekt.fN: " << przObiekt.fN << endl;
 
-  potObiekt.fN = 9.6;
-  cout << "4. potObiekt.fN: " << potObiekt.fN << endl;
+  potObiekt.fN = 92;
+  cout << endl << "4. potObiekt.fN: " << potObiekt.fN << endl;
 
   //------------ 5 ------------------------
   cout << endl
