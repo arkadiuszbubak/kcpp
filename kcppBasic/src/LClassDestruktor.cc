@@ -30,6 +30,7 @@ int main() {
   A *obiektE = new A();
 
   A obiektF;
+  // A obiektG;
   /*  Destructor is called automaticaly then:
    *  1. The program finished execution.
    *  2. When a scope (the { } parenthesis) containing local variable ends.
@@ -39,5 +40,5 @@ int main() {
   cout << obiektD->fLicznikDouble << endl;
   cout << obiektE->fLicznikInt << endl;
 
-  // delete obiektC;  //sprawdzic co sie stanie gdy zakomentujemy ta linie
+  // delete obiektC; // sprawdzic co sie stanie gdy zakomentujemy ta linie
 }

@@ -437,15 +437,6 @@ Jeśli nie napisałeś sam programu (jeśli napisałeś) zmodyfikuj program, aby
 Dodaj walidację danych (np. sprawdzanie, czy imię nie jest puste lub czy numer indeksu jest unikalny).
 
 
-
-
------> Powyższe do wykonania po zajęciach 2025.05.14
-
-
-
-
-
-
 Zadanie 4.11
 --------------------------------------
 Napisz program pokazujący zastosowanie dyrektywy preprocesora:
@@ -516,6 +507,12 @@ Sprawdzić działanie przyjaźni klas:
     
 Friendship is not mutual. If class A is a friend of B, then B doesn’t become a friend of A automatically.
 https://www.geeksforgeeks.org/friend-class-function-cpp/
+
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.05.28
+
 
 
 Zadanie 5.6

@@ -8,39 +8,32 @@
 #include <iostream>
 using namespace std;
 
-class A                    
-{                          
-  public:                  
-    int fA, fI;
+class A {
+public:
+  int fA, fI;
 };
 
-class B
-{
-  public:
-    int fB, fI;
+class B {
+public:
+  int fB, fI;
 };
 
-class C : public A, public B 
-{
-  public:
-    void Fun() {
-      fA = fB;          ///< poprawne
-      // fI = 0;            ///< błąd (niejednoznaczne)
-      A::fI = 7;        ///< poprawne
-      B::fI = 2;        ///< A czy to poprawne? :)
-    }
-    // float fI;
-    // int fI;
+class C : public A, public B {
+public:
+  void Fun() {
+    fA = fB; ///< poprawne
+    // fI = 0;  ///< błąd (niejednoznaczne)
+    // A::fI = 7;        ///< poprawne
+    // B::fI = 2;        ///< A czy to poprawne? :)
+  }
+  // float fI;
+  // int fI;
 };
 
-
-
-int main()
-{
+int main() {
   C *obiekt = new C();
   obiekt->Fun();
   cout << obiekt->A::fI << endl;
   cout << obiekt->B::fI << endl;
   // cout << obiekt->fI << endl;
 }
-

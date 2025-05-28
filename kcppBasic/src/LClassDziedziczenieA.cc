@@ -11,6 +11,7 @@ using namespace std;
 //----------------------------------------------------------------------
 class Przodek {
 public:
+  // Przodek() : fN(56), fM(57.0) { cout << "Przodek: Konstruktor" << endl; }
   int FunFromPrzodek();
   int fN;
   float fM;
@@ -19,6 +20,7 @@ public:
 //----------------------------------------------------------------------
 class Potomek : public Przodek {
 public:
+  Potomek() { cout << "Potomek: Konstruktor" << endl; }
   // int fN;
   // float fM;
 };
@@ -34,7 +36,7 @@ int main() {
 
   //------------ 1 ------------------------
   Potomek potObiekt;
-  potObiekt.fN = 8;
+  // potObiekt.fN = 7;
   cout << "1. potObiekt.fN: " << potObiekt.fN << endl;
 
   //------------ 2 ------------------------
