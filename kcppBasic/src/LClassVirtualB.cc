@@ -9,44 +9,33 @@
 using namespace std;
 
 //----------------------------------
-class A
-{   
- public:
+class A {
+public:
   char a[200];
 };
 
-
 //----------------------------------
-class B : virtual A 
-{
+class B : virtual A {
   char b[100];
 };
 
-
 //----------------------------------
-class C : virtual A 
-{
+class C : virtual A {
   char c[100];
 };
 
-
 //----------------------------------
-class D : A 
-{
+class D : A {
   char d[100];
 };
 
-
 //----------------------------------
-class E : B,C,D 
-{
+class E : B, C, D {
   char d[100];
 };
-
 
 //------------------------------------------------------------------
-int main()
-{ 
+int main() {
   cout << sizeof(A) << endl;
   cout << sizeof(B) << endl;
   cout << sizeof(C) << endl;
