@@ -515,9 +515,7 @@ Bazując na pliku LClassMetodyAbstrakcyjne.cc stwórz program który oblicza:
 - obwód, pole powierzchni
 dla:
 - kwadrat, trójkąt, prostokąt, koło (jako klasy dziedziczące po klasie abstrakcyjnej Figura),
-oraz funkcja Dystans (dodatkowo w klasie Koło):
-  Jeśli rząd podaje, że na każdego obywatela w sklepie (kościele etc) przypada X metrów kwadratowych (argument przekazywany do funkcji)
-  to w jakiej odległości (promieniu - to ma funkcja Dystans zwracać) może znaleźć się następna osoba.
+oraz funkcja Dystans (dodatkowo w klasie Koło): Jeśli rząd podaje, że na każdego obywatela w sklepie (kościele etc) przypada X metrów kwadratowych (argument przekazywany do funkcji) to w jakiej odległości (promieniu - to ma funkcja Dystans zwracać) może znaleźć się następna osoba.
 Nazwij program: ZadMetodyAbstrakcyjne.cc 
 
 
