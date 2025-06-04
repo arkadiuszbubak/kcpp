@@ -509,12 +509,6 @@ Friendship is not mutual. If class A is a friend of B, then B doesn’t become a
 https://www.geeksforgeeks.org/friend-class-function-cpp/
 
 
-
-
------> Powyższe do wykonania po zajęciach 2025.05.28
-
-
-
 Zadanie 5.6
 --------------------------------------
 Bazując na pliku LClassMetodyAbstrakcyjne.cc stwórz program który oblicza:
@@ -538,10 +532,9 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 Zadanie 6.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść funkcje z 10 wybranych zadań z zakresu 1.1-5.6
-  jako metody danej klasy/klas
-- Deklaracja metod w ciele klasy, a definicja poza,
-- Definicje metod w osobnym pliku nagłówkowym
+- Zaprojektuj klasę/klasy i umieść funkcje z 10 wybranych zadań (5.6 obowiązkowo) z zakresu 1.1-5.6
+  jako metody danej klasy/klas, np. jedno zadanie to jedna klasa dziedzicząca po klasie nadrzędnej
+- deklaracja metod w ciele klasy (plik/pliki nagłówkowy *.h), a definicja poza (pliki *.cc)
 - nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
 - używaj dyrektywy preprocesora #define w plikach nagłówkowych aby zapobiec powtórnemu umieszczaniu treści pliku nagłówkowego
 - wszystko w osobnym katalogu: ZadClassKcpp
@@ -564,5 +557,6 @@ Zadanie 6.1
 Zadanie 7.1
 --------------------------------------
 - Stwórz Makefile (lub użyj cmake) do kompilacji programu (programów) z zadania 6.1
+- wszystko w ramach katalogu ZadClassKcpp
 
 
