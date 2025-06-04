@@ -5,8 +5,6 @@
  * v0.01
  */
 
-// Student task: rewrite the code using 'auto' instead of template class
-
 #include <iostream>
 using namespace std;
 
