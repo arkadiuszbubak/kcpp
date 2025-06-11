@@ -525,7 +525,7 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 ------------------------------------------------------------------------------------------
 
 ********************************************************************************************
-- Stwórz katalog ZadKcppZaliczenie i w nim umieść zadanie 6.1 i w konsekwencji zadanie 7.1
+- Stwórz katalog ZadClassKcpp i w nim umieść zadanie 6.1 i w konsekwencji zadanie 7.1
 ********************************************************************************************
 
 Zadanie 6.1
