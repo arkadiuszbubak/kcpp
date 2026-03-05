@@ -37,17 +37,17 @@ int main() {
   //--- Character array (string) demonstration
   char fVarC[10]; // Declaration of a character array with a length of 10
 
-  char fVarD1[] =
-      "Tutaj jakis napis"; // Declaration with automatic length determination
+  char fVarD1[] = "Tutaj jakis napis fVarD1"; // Declaration with automatic
+                                              // length determination
   cout << "fVarD1: " << fVarD1 << endl;
 
-  char fVarD2[20] =
-      "Tutaj jakis napis"; // Declaration with specification of length
+  char fVarD2[30] =
+      "Tutaj jakis napis fVarD2"; // Declaration with specification of length
   cout << "fVarD2: " << fVarD2 << endl;
 
   //------------------------------------------------------------------------
   // Uncomment the following section to demonstrate user input for character
-  // arrays
+  // arrays and buffer overflow example
 
   cout << "Set fVarC variable: ";
   cin >> fVarC; // User input for fVarC
