@@ -1,0 +1,1342 @@
+[
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArgumentyDomyslne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArgumentyDomyslne_lib.dir/src/LArgumentyDomyslne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArgumentyDomyslne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArgumentyDomyslne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikow_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikow_lib.dir/src/LArytmetykaWskaznikow.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikow.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikow.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowTablice_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTablice_lib.dir/src/LArytmetykaWskaznikowTablice.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowTablice.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowTablice.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowZmienne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZmienne_lib.dir/src/LArytmetykaWskaznikowZmienne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowZmienne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowZmienne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLBitoweOperatoryLogiczneA0_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneA0_lib.dir/src/LBitoweOperatoryLogiczneA0.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA0.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA0.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLBitoweOperatoryLogiczneA1_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneA1_lib.dir/src/LBitoweOperatoryLogiczneA1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLBitoweOperatoryLogiczneB_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneB_lib.dir/src/LBitoweOperatoryLogiczneB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLBitoweOperatoryLogiczneDefine_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneDefine_lib.dir/src/LBitoweOperatoryLogiczneDefine.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneDefine.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneDefine.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLBoolType_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBoolType_lib.dir/src/LBoolType.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBoolType.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBoolType.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLChar_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LChar_lib.dir/src/LChar.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LChar.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LChar.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLCin_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCin_lib.dir/src/LCin.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCin.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCin.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLCinImproved_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCinImproved_lib.dir/src/LCinImproved.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCinImproved.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCinImproved.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClass001_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClass001_lib.dir/src/LClass001.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClass001.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClass001.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDefaultKonstruktor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDefaultKonstruktor_lib.dir/src/LClassDefaultKonstruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDefaultKonstruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDefaultKonstruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDestruktor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDestruktor_lib.dir/src/LClassDestruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDestruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDestruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDziedziczenieA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieA_lib.dir/src/LClassDziedziczenieA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDziedziczenieKonflikt_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieKonflikt_lib.dir/src/LClassDziedziczenieKonflikt.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieKonflikt.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieKonflikt.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDziedziczenieRefWsk_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieRefWsk_lib.dir/src/LClassDziedziczenieRefWsk.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieRefWsk.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieRefWsk.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDziedziczenieWielokrotne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieWielokrotne_lib.dir/src/LClassDziedziczenieWielokrotne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWielokrotne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWielokrotne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassDziedziczenieWybiorcze_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieWybiorcze_lib.dir/src/LClassDziedziczenieWybiorcze.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWybiorcze.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWybiorcze.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassExample_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassExample_lib.dir/src/LClassExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassExampleInline_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassExampleInline_lib.dir/src/LClassExampleInline.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExampleInline.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExampleInline.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassFunkcjeZaprzyjaznione_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassFunkcjeZaprzyjaznione_lib.dir/src/LClassFunkcjeZaprzyjaznione.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassFunkcjeZaprzyjaznione.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassFunkcjeZaprzyjaznione.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassKlasyZaprzyjaznione_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKlasyZaprzyjaznione_lib.dir/src/LClassKlasyZaprzyjaznione.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKlasyZaprzyjaznione.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKlasyZaprzyjaznione.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassKonstruktor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKonstruktor_lib.dir/src/LClassKonstruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassKonstruktorKopiujacy_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKonstruktorKopiujacy_lib.dir/src/LClassKonstruktorKopiujacy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktorKopiujacy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktorKopiujacy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassListaInicjalizacyjna_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassListaInicjalizacyjna_lib.dir/src/LClassListaInicjalizacyjna.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassListaInicjalizacyjna.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassListaInicjalizacyjna.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassMetodyAbstrakcyjne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassMetodyAbstrakcyjne_lib.dir/src/LClassMetodyAbstrakcyjne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassMetodyAbstrakcyjne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassMetodyAbstrakcyjne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassSkladoweKlasy_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassSkladoweKlasy_lib.dir/src/LClassSkladoweKlasy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweKlasy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweKlasy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassSkladoweStatyczne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassSkladoweStatyczne_lib.dir/src/LClassSkladoweStatyczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweStatyczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweStatyczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassThis001_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassThis001_lib.dir/src/LClassThis001.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis001.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis001.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassThis002_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassThis002_lib.dir/src/LClassThis002.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis002.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis002.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassVirtualA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualA_lib.dir/src/LClassVirtualA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassVirtualB_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualB_lib.dir/src/LClassVirtualB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassVirtualDestructor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualDestructor_lib.dir/src/LClassVirtualDestructor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualDestructor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualDestructor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClassZagniezdzanie_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassZagniezdzanie_lib.dir/src/LClassZagniezdzanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassZagniezdzanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassZagniezdzanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClogExample_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClogExample_lib.dir/src/LClogExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLClogSimpleExample_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClogSimpleExample_lib.dir/src/LClogSimpleExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogSimpleExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogSimpleExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLConversion_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LConversion_lib.dir/src/LConversion.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LConversion.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LConversion.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLCoutArray_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCoutArray_lib.dir/src/LCoutArray.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCoutArray.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCoutArray.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDataTypes_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDataTypes_lib.dir/src/LDataTypes.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDataTypes.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDataTypes.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDifferenceGPPandGCC_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDifferenceGPPandGCC_lib.dir/src/LDifferenceGPPandGCC.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCC.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCC.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDifferenceGPPandGCCb_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDifferenceGPPandGCCb_lib.dir/src/LDifferenceGPPandGCCb.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCCb.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCCb.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDynamicCastNew_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDynamicCastNew_lib.dir/src/LDynamicCastNew.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastNew.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastNew.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDynamicCastOld_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDynamicCastOld_lib.dir/src/LDynamicCastOld.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastOld.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastOld.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaDEBUG_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaDEBUG_lib.dir/src/LDyrektywaDEBUG.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaDEBUG.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaDEBUG.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaIfdef_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaIfdef_lib.dir/src/LDyrektywaIfdef.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaIfdef.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaIfdef.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaInclude_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaInclude_lib.dir/src/LDyrektywaInclude.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaInclude.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaInclude.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaNoIfdef_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaNoIfdef_lib.dir/src/LDyrektywaNoIfdef.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaNoIfdef.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaNoIfdef.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaPredefined_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaPredefined_lib.dir/src/LDyrektywaPredefined.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPredefined.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPredefined.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLDyrektywaPreprocesoraHash2_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaPreprocesoraHash2_lib.dir/src/LDyrektywaPreprocesoraHash2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPreprocesoraHash2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPreprocesoraHash2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLExtern_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LExtern_lib.dir/src/LExtern.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LExtern.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LExtern.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFun_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFun_lib.dir/src/LFun.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFun.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFun.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFunctionOverloading1_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunctionOverloading1_lib.dir/src/LFunctionOverloading1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFunctionOverloading2_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunctionOverloading2_lib.dir/src/LFunctionOverloading2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFunkcjaMain_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaMain_lib.dir/src/LFunkcjaMain.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMain.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMain.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFunkcjaMainEnvp_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaMainEnvp_lib.dir/src/LFunkcjaMainEnvp.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMainEnvp.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMainEnvp.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFunkcjaVoid_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaVoid_lib.dir/src/LFunkcjaVoid.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaVoid.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaVoid.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaDoWhile_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaDoWhile_lib.dir/src/LInstrukcjaDoWhile.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaDoWhile.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaDoWhile.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaGoto_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaGoto_lib.dir/src/LInstrukcjaGoto.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGoto.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGoto.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaGotoZastepstwo_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaGotoZastepstwo_lib.dir/src/LInstrukcjaGotoZastepstwo.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGotoZastepstwo.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGotoZastepstwo.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaIf_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaIf_lib.dir/src/LInstrukcjaIf.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaIf.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaIf.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaSwitch1_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch1_lib.dir/src/LInstrukcjaSwitch1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaSwitch2_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch2_lib.dir/src/LInstrukcjaSwitch2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaSwitch_char_A_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch_char_A_lib.dir/src/LInstrukcjaSwitch_char_A.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_A.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_A.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaSwitch_char_B_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch_char_B_lib.dir/src/LInstrukcjaSwitch_char_B.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_B.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_B.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLInstrukcjaWhile_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaWhile_lib.dir/src/LInstrukcjaWhile.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaWhile.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaWhile.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLManipulatory_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LManipulatory_lib.dir/src/LManipulatory.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LManipulatory.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LManipulatory.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLNamespace_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LNamespace_lib.dir/src/LNamespace.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNamespace.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNamespace.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLNawiasy_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LNawiasy_lib.dir/src/LNawiasy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNawiasy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNawiasy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLOperatorInkrementacji_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorInkrementacji_lib.dir/src/LOperatorInkrementacji.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorInkrementacji.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorInkrementacji.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLOperatorPriorytet_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorPriorytet_lib.dir/src/LOperatorPriorytet.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPriorytet.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPriorytet.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLOperatorPrzypisania_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorPrzypisania_lib.dir/src/LOperatorPrzypisania.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPrzypisania.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPrzypisania.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLOperatorWarunkowy_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorWarunkowy_lib.dir/src/LOperatorWarunkowy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorWarunkowy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorWarunkowy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPODInitalize_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPODInitalize_lib.dir/src/LPODInitalize.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPODInitalize.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPODInitalize.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPetlaFor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPetlaFor_lib.dir/src/LPetlaFor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPetlaFor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPetlaFor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzekazywaniePrzezWartoscReferencjeWskaznik_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywaniePrzezWartoscReferencjeWskaznik_lib.dir/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzekazywanieTablic_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywanieTablic_lib.dir/src/LPrzekazywanieTablic.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablic.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablic.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzekazywanieTablicShort_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywanieTablicShort_lib.dir/src/LPrzekazywanieTablicShort.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablicShort.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablicShort.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeliczanieDec2BinA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeliczanieDec2BinA_lib.dir/src/LPrzeliczanieDec2BinA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeliczanieDec2BinB_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeliczanieDec2BinB_lib.dir/src/LPrzeliczanieDec2BinB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLSetPrecision_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSetPrecision_lib.dir/src/LSetPrecision.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecision.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecision.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLSetPrecisionImproved_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSetPrecisionImproved_lib.dir/src/LSetPrecisionImproved.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecisionImproved.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecisionImproved.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLSizeof_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSizeof_lib.dir/src/LSizeof.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSizeof.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSizeof.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStaticCast_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticCast_lib.dir/src/LStaticCast.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticCast.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticCast.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStaticKeyword_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeyword_lib.dir/src/LStaticKeyword.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeyword.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeyword.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStaticKeywordFunctionMember_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeywordFunctionMember_lib.dir/src/LStaticKeywordFunctionMember.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordFunctionMember.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordFunctionMember.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStaticKeywordMember_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeywordMember_lib.dir/src/LStaticKeywordMember.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordMember.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordMember.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStdArray_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdArray_lib.dir/src/LStdArray.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdArray.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdArray.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStdList_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdList_lib.dir/src/LStdList.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdList.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdList.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStdListVectorComparison_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdListVectorComparison_lib.dir/src/LStdListVectorComparison.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdListVectorComparison.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdListVectorComparison.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStdMap_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdMap_lib.dir/src/LStdMap.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdMap.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdMap.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStdVector_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdVector_lib.dir/src/LStdVector.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdVector.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdVector.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLString_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LString_lib.dir/src/LString.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LString.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LString.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStruct_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStruct_lib.dir/src/LStruct.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStruct.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStruct.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStructListaInicjalizacyjna_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStructListaInicjalizacyjna_lib.dir/src/LStructListaInicjalizacyjna.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStructListaInicjalizacyjna.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStructListaInicjalizacyjna.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStrumienie_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienie_lib.dir/src/LStrumienie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStrumienieNapisow_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienieNapisow_lib.dir/src/LStrumienieNapisow.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieNapisow.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieNapisow.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStrumieniePlikoweA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumieniePlikoweA_lib.dir/src/LStrumieniePlikoweA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStrumieniePlikoweB_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumieniePlikoweB_lib.dir/src/LStrumieniePlikoweB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLStrumienieTail_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienieTail_lib.dir/src/LStrumienieTail.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieTail.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieTail.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTabliceAutomatyczne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTabliceAutomatyczne_lib.dir/src/LTabliceAutomatyczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceAutomatyczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceAutomatyczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTabliceDynamiczne_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTabliceDynamiczne_lib.dir/src/LTabliceDynamiczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceDynamiczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceDynamiczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLThis_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LThis_lib.dir/src/LThis.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LThis.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LThis.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTimeMeasure_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTimeMeasure_lib.dir/src/LTimeMeasure.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTimeMeasure.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTimeMeasure.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTypeAuto_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeAuto_lib.dir/src/LTypeAuto.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeAuto.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeAuto.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTypeConstKeyword_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeConstKeyword_lib.dir/src/LTypeConstKeyword.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeConstKeyword.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeConstKeyword.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTypeEnumerated_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeEnumerated_lib.dir/src/LTypeEnumerated.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeEnumerated.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeEnumerated.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLTypedefAlias_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypedefAlias_lib.dir/src/LTypedefAlias.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypedefAlias.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypedefAlias.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLUnion_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LUnion_lib.dir/src/LUnion.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnion.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnion.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLUnionDouble_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LUnionDouble_lib.dir/src/LUnionDouble.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnionDouble.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnionDouble.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowKopiowanie_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowKopiowanie_lib.dir/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowPrzesuniecie_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowPrzesuniecie_lib.dir/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowRoznica_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowRoznica_lib.dir/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowSuma_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowSuma_lib.dir/src/ZadStudent/LArytmetykaWskaznikowSuma.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowSuma.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowSuma.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowTabliceA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTabliceA_lib.dir/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowTabliceB_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTabliceB_lib.dir/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowZamiana_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZamiana_lib.dir/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLArytmetykaWskaznikowZnajdowanie_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZnajdowanie_lib.dir/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLFor_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFor_lib.dir/src/ZadStudent/LFor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LFor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LFor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLGra_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LGra_lib.dir/src/ZadStudent/LGra.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LGra.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LGra.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLKsztalt_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LKsztalt_lib.dir/src/ZadStudent/LKsztalt.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LKsztalt.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LKsztalt.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeciazaniePotega_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazaniePotega_lib.dir/src/ZadStudent/LPrzeciazaniePotega.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazaniePotega.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazaniePotega.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeciazenieDodaj_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazenieDodaj_lib.dir/src/ZadStudent/LPrzeciazenieDodaj.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazenieDodaj.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazenieDodaj.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeciazeniePlus_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazeniePlus_lib.dir/src/ZadStudent/LPrzeciazeniePlus.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePlus.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePlus.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLPrzeciazeniePole_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazeniePole_lib.dir/src/ZadStudent/LPrzeciazeniePole.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePole.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePole.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLSilnia_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSilnia_lib.dir/src/ZadStudent/LSilnia.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LSilnia.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LSilnia.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLVectorStudent_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudent_lib.dir/src/ZadStudent/LVectorStudent.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudent.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudent.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLVectorStudentExtended_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudentExtended_lib.dir/src/ZadStudent/LVectorStudentExtended.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtended.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtended.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLVectorStudentExtendedLong_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudentExtendedLong_lib.dir/src/ZadStudent/LVectorStudentExtendedLong.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtendedLong.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtendedLong.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DLWhileA_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LWhileA_lib.dir/src/ZadStudent/LWhileA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LWhileA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LWhileA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DnoTemplateFunction_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/noTemplateFunction_lib.dir/src/noTemplateFunction.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/noTemplateFunction.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/noTemplateFunction.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DtemplateClass_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/templateClass_lib.dir/src/templateClass.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateClass.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateClass.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++ -DtemplateFunction_lib_EXPORTS -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -fPIC -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/templateFunction_lib.dir/src/templateFunction.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateFunction.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateFunction.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArgumentyDomyslne.dir/src/LArgumentyDomyslne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArgumentyDomyslne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArgumentyDomyslne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikow.dir/src/LArytmetykaWskaznikow.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikow.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikow.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTablice.dir/src/LArytmetykaWskaznikowTablice.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowTablice.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowTablice.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZmienne.dir/src/LArytmetykaWskaznikowZmienne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowZmienne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LArytmetykaWskaznikowZmienne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneA0.dir/src/LBitoweOperatoryLogiczneA0.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA0.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA0.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneA1.dir/src/LBitoweOperatoryLogiczneA1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneA1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneB.dir/src/LBitoweOperatoryLogiczneB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBitoweOperatoryLogiczneDefine.dir/src/LBitoweOperatoryLogiczneDefine.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneDefine.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBitoweOperatoryLogiczneDefine.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LBoolType.dir/src/LBoolType.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBoolType.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LBoolType.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LChar.dir/src/LChar.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LChar.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LChar.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCin.dir/src/LCin.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCin.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCin.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCinImproved.dir/src/LCinImproved.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCinImproved.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCinImproved.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClass001.dir/src/LClass001.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClass001.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClass001.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDefaultKonstruktor.dir/src/LClassDefaultKonstruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDefaultKonstruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDefaultKonstruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDestruktor.dir/src/LClassDestruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDestruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDestruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieA.dir/src/LClassDziedziczenieA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieKonflikt.dir/src/LClassDziedziczenieKonflikt.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieKonflikt.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieKonflikt.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieRefWsk.dir/src/LClassDziedziczenieRefWsk.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieRefWsk.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieRefWsk.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieWielokrotne.dir/src/LClassDziedziczenieWielokrotne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWielokrotne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWielokrotne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassDziedziczenieWybiorcze.dir/src/LClassDziedziczenieWybiorcze.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWybiorcze.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassDziedziczenieWybiorcze.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassExample.dir/src/LClassExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassExampleInline.dir/src/LClassExampleInline.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExampleInline.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassExampleInline.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassFunkcjeZaprzyjaznione.dir/src/LClassFunkcjeZaprzyjaznione.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassFunkcjeZaprzyjaznione.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassFunkcjeZaprzyjaznione.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKlasyZaprzyjaznione.dir/src/LClassKlasyZaprzyjaznione.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKlasyZaprzyjaznione.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKlasyZaprzyjaznione.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKonstruktor.dir/src/LClassKonstruktor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassKonstruktorKopiujacy.dir/src/LClassKonstruktorKopiujacy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktorKopiujacy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassKonstruktorKopiujacy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassListaInicjalizacyjna.dir/src/LClassListaInicjalizacyjna.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassListaInicjalizacyjna.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassListaInicjalizacyjna.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassMetodyAbstrakcyjne.dir/src/LClassMetodyAbstrakcyjne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassMetodyAbstrakcyjne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassMetodyAbstrakcyjne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassSkladoweKlasy.dir/src/LClassSkladoweKlasy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweKlasy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweKlasy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassSkladoweStatyczne.dir/src/LClassSkladoweStatyczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweStatyczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassSkladoweStatyczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassThis001.dir/src/LClassThis001.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis001.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis001.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassThis002.dir/src/LClassThis002.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis002.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassThis002.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualA.dir/src/LClassVirtualA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualB.dir/src/LClassVirtualB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassVirtualDestructor.dir/src/LClassVirtualDestructor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualDestructor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassVirtualDestructor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClassZagniezdzanie.dir/src/LClassZagniezdzanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassZagniezdzanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClassZagniezdzanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClogExample.dir/src/LClogExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LClogSimpleExample.dir/src/LClogSimpleExample.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogSimpleExample.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LClogSimpleExample.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LConversion.dir/src/LConversion.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LConversion.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LConversion.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LCoutArray.dir/src/LCoutArray.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCoutArray.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LCoutArray.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDataTypes.dir/src/LDataTypes.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDataTypes.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDataTypes.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDifferenceGPPandGCC.dir/src/LDifferenceGPPandGCC.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCC.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCC.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDifferenceGPPandGCCb.dir/src/LDifferenceGPPandGCCb.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCCb.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDifferenceGPPandGCCb.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDynamicCastNew.dir/src/LDynamicCastNew.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastNew.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastNew.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDynamicCastOld.dir/src/LDynamicCastOld.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastOld.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDynamicCastOld.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaDEBUG.dir/src/LDyrektywaDEBUG.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaDEBUG.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaDEBUG.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaIfdef.dir/src/LDyrektywaIfdef.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaIfdef.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaIfdef.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaInclude.dir/src/LDyrektywaInclude.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaInclude.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaInclude.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaNoIfdef.dir/src/LDyrektywaNoIfdef.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaNoIfdef.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaNoIfdef.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaPredefined.dir/src/LDyrektywaPredefined.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPredefined.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPredefined.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LDyrektywaPreprocesoraHash2.dir/src/LDyrektywaPreprocesoraHash2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPreprocesoraHash2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LDyrektywaPreprocesoraHash2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LExtern.dir/src/LExtern.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LExtern.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LExtern.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFun.dir/src/LFun.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFun.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFun.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunctionOverloading1.dir/src/LFunctionOverloading1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunctionOverloading2.dir/src/LFunctionOverloading2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunctionOverloading2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaMain.dir/src/LFunkcjaMain.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMain.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMain.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaMainEnvp.dir/src/LFunkcjaMainEnvp.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMainEnvp.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaMainEnvp.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFunkcjaVoid.dir/src/LFunkcjaVoid.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaVoid.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LFunkcjaVoid.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaDoWhile.dir/src/LInstrukcjaDoWhile.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaDoWhile.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaDoWhile.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaGoto.dir/src/LInstrukcjaGoto.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGoto.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGoto.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaGotoZastepstwo.dir/src/LInstrukcjaGotoZastepstwo.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGotoZastepstwo.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaGotoZastepstwo.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaIf.dir/src/LInstrukcjaIf.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaIf.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaIf.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch1.dir/src/LInstrukcjaSwitch1.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch1.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch1.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch2.dir/src/LInstrukcjaSwitch2.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch2.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch2.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch_char_A.dir/src/LInstrukcjaSwitch_char_A.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_A.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_A.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaSwitch_char_B.dir/src/LInstrukcjaSwitch_char_B.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_B.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaSwitch_char_B.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LInstrukcjaWhile.dir/src/LInstrukcjaWhile.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaWhile.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LInstrukcjaWhile.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LManipulatory.dir/src/LManipulatory.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LManipulatory.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LManipulatory.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LNamespace.dir/src/LNamespace.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNamespace.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNamespace.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LNawiasy.dir/src/LNawiasy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNawiasy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LNawiasy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorInkrementacji.dir/src/LOperatorInkrementacji.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorInkrementacji.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorInkrementacji.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorPriorytet.dir/src/LOperatorPriorytet.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPriorytet.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPriorytet.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorPrzypisania.dir/src/LOperatorPrzypisania.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPrzypisania.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorPrzypisania.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LOperatorWarunkowy.dir/src/LOperatorWarunkowy.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorWarunkowy.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LOperatorWarunkowy.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPODInitalize.dir/src/LPODInitalize.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPODInitalize.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPODInitalize.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPetlaFor.dir/src/LPetlaFor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPetlaFor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPetlaFor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywaniePrzezWartoscReferencjeWskaznik.dir/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywanieTablic.dir/src/LPrzekazywanieTablic.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablic.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablic.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzekazywanieTablicShort.dir/src/LPrzekazywanieTablicShort.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablicShort.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzekazywanieTablicShort.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeliczanieDec2BinA.dir/src/LPrzeliczanieDec2BinA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeliczanieDec2BinB.dir/src/LPrzeliczanieDec2BinB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LPrzeliczanieDec2BinB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSetPrecision.dir/src/LSetPrecision.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecision.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecision.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSetPrecisionImproved.dir/src/LSetPrecisionImproved.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecisionImproved.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSetPrecisionImproved.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSizeof.dir/src/LSizeof.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSizeof.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LSizeof.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticCast.dir/src/LStaticCast.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticCast.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticCast.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeyword.dir/src/LStaticKeyword.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeyword.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeyword.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeywordFunctionMember.dir/src/LStaticKeywordFunctionMember.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordFunctionMember.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordFunctionMember.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStaticKeywordMember.dir/src/LStaticKeywordMember.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordMember.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStaticKeywordMember.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdArray.dir/src/LStdArray.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdArray.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdArray.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdList.dir/src/LStdList.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdList.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdList.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdListVectorComparison.dir/src/LStdListVectorComparison.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdListVectorComparison.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdListVectorComparison.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdMap.dir/src/LStdMap.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdMap.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdMap.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStdVector.dir/src/LStdVector.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdVector.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStdVector.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LString.dir/src/LString.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LString.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LString.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStruct.dir/src/LStruct.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStruct.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStruct.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStructListaInicjalizacyjna.dir/src/LStructListaInicjalizacyjna.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStructListaInicjalizacyjna.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStructListaInicjalizacyjna.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienie.dir/src/LStrumienie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienieNapisow.dir/src/LStrumienieNapisow.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieNapisow.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieNapisow.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumieniePlikoweA.dir/src/LStrumieniePlikoweA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumieniePlikoweB.dir/src/LStrumieniePlikoweB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumieniePlikoweB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LStrumienieTail.dir/src/LStrumienieTail.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieTail.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LStrumienieTail.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTabliceAutomatyczne.dir/src/LTabliceAutomatyczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceAutomatyczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceAutomatyczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTabliceDynamiczne.dir/src/LTabliceDynamiczne.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceDynamiczne.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTabliceDynamiczne.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LThis.dir/src/LThis.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LThis.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LThis.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTimeMeasure.dir/src/LTimeMeasure.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTimeMeasure.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTimeMeasure.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeAuto.dir/src/LTypeAuto.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeAuto.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeAuto.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeConstKeyword.dir/src/LTypeConstKeyword.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeConstKeyword.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeConstKeyword.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypeEnumerated.dir/src/LTypeEnumerated.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeEnumerated.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypeEnumerated.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LTypedefAlias.dir/src/LTypedefAlias.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypedefAlias.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LTypedefAlias.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LUnion.dir/src/LUnion.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnion.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnion.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LUnionDouble.dir/src/LUnionDouble.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnionDouble.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/LUnionDouble.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowKopiowanie.dir/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowKopiowanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowPrzesuniecie.dir/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowPrzesuniecie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowRoznica.dir/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowRoznica.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowSuma.dir/src/ZadStudent/LArytmetykaWskaznikowSuma.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowSuma.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowSuma.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTabliceA.dir/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowTabliceB.dir/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowTabliceB.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZamiana.dir/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZamiana.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LArytmetykaWskaznikowZnajdowanie.dir/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LArytmetykaWskaznikowZnajdowanie.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LFor.dir/src/ZadStudent/LFor.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LFor.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LFor.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LGra.dir/src/ZadStudent/LGra.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LGra.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LGra.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LKsztalt.dir/src/ZadStudent/LKsztalt.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LKsztalt.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LKsztalt.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazaniePotega.dir/src/ZadStudent/LPrzeciazaniePotega.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazaniePotega.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazaniePotega.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazenieDodaj.dir/src/ZadStudent/LPrzeciazenieDodaj.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazenieDodaj.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazenieDodaj.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazeniePlus.dir/src/ZadStudent/LPrzeciazeniePlus.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePlus.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePlus.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LPrzeciazeniePole.dir/src/ZadStudent/LPrzeciazeniePole.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePole.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LPrzeciazeniePole.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LSilnia.dir/src/ZadStudent/LSilnia.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LSilnia.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LSilnia.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudent.dir/src/ZadStudent/LVectorStudent.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudent.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudent.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudentExtended.dir/src/ZadStudent/LVectorStudentExtended.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtended.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtended.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LVectorStudentExtendedLong.dir/src/ZadStudent/LVectorStudentExtendedLong.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtendedLong.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LVectorStudentExtendedLong.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/LWhileA.dir/src/ZadStudent/LWhileA.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LWhileA.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/ZadStudent/LWhileA.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/noTemplateFunction.dir/src/noTemplateFunction.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/noTemplateFunction.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/noTemplateFunction.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/templateClass.dir/src/templateClass.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateClass.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateClass.cc"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic.build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/include -g -Wall -Wextra -Wpedantic -Wno-unused-variable -std=c++14 -o CMakeFiles/templateFunction.dir/src/templateFunction.cc.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateFunction.cc",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppBasic/src/templateFunction.cc"
+}
+]

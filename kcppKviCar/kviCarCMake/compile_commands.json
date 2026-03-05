@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/include  -o CMakeFiles/CarFactory.dir/src/CarFactory.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/CarFactory.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/CarFactory.cxx"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/include  -o CMakeFiles/CarFactory.dir/src/KviCar.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/KviCar.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/KviCar.cxx"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/include  -o CMakeFiles/CarFactory.dir/src/KviVan.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/KviVan.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppKviCar/kviCarCMake/src/KviVan.cxx"
+}
+]
