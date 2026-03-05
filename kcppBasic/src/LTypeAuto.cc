@@ -47,7 +47,7 @@ int main() {
 
   //----------------------------------------------------------------------------
   // Uncomment the following section to demonstrate initialization with literals
-
+  //
   // auto varA = 137.1;  // `auto` deduces `double` type (C++11)
   // int varB = 137.1;   // Explicit `int` type (truncates to 137)
   //
@@ -66,8 +66,7 @@ int main() {
   // mapa['a'] = 1.0;
   //
   // auto itA = mapa.begin(); // `auto` deduces `std::map<char,float>::iterator`
-  //                          // type (C++11)
-  // std::map<char, float>::iterator itB =
+  // type (C++11) std::map<char, float>::iterator itB =
   //     mapa.begin(); // Explicit iterator type (C++)
   //
   // cout << "--------------------------------------" << endl;
