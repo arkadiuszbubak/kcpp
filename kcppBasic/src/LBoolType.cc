@@ -10,11 +10,11 @@
 using namespace std;
 
 int main() {
-  bool isCodingFun = true;
-  bool isSkyGreen = false;
+  bool bIsCodingFun = true;
+  bool bIsSkyGreen = false;
 
-  cout << "Is coding fun? " << isCodingFun << endl;
-  cout << "Is the sky green? " << isSkyGreen << endl;
+  cout << "Is coding fun? " << bIsCodingFun << endl;
+  cout << "Is the sky green? " << bIsSkyGreen << endl;
 
   // Boolean values in C++ are internally represented as integers (0 for false,
   // 1 for true)
@@ -22,7 +22,7 @@ int main() {
   cout << "False is represented as: " << false << endl;
 
   // Using boolean in conditional statements
-  if (isCodingFun) {
+  if (!bIsCodingFun) {
     cout << "Yes, coding is fun!" << endl;
   } else {
     cout << "No, coding is not fun." << endl;
