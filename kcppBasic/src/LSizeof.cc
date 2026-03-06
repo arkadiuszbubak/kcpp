@@ -22,8 +22,7 @@ int main() {
   int mm; // Local variable to demonstrate size
 
   // Display the size of various data types
-  cout << "Godzina prawdy. W tym komputerze "
-       << "poszczegolne typy\n"
+  cout << "Godzina prawdy. W tym komputerze poszczegolne typy\n"
        << "maja nastepujace rozmiary w bajtach: \n";
 
   cout << "typ char        : \t" << sizeof(char) << " bajt" << endl;
