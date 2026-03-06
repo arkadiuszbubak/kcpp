@@ -18,7 +18,7 @@ using namespace std;
  * default-initialized, while class types (e.g., `std::string`) are.
  */
 struct does_not_default_initialize {
-  int x;         /**< Does not default-initialize */
+  int iIntiger;  /**< Does not default-initialize */
   std::string s; /**< Default-initializes (empty string) */
 };
 
@@ -29,15 +29,15 @@ struct does_not_default_initialize {
  * a default constructor.
  */
 struct default_initialize {
-  int x;         /**< Will be initialized to 0 */
+  int iIntiger;  /**< Will be initialized to 0 */
   std::string s; /**< Default-initializes (empty string) */
 
   /**
    * @brief Default constructor
    *
-   * Initializes `x` to 0 explicitly.
+   * Initializes `iIntiger` to 0 explicitly.
    */
-  default_initialize() : x{0} {}
+  default_initialize() : iIntiger{0} {}
 };
 
 /**
@@ -63,7 +63,7 @@ int main() {
 
   // Example of struct with default initialization
   default_initialize DNDI;
-  cout << "int x from struct: " << DNDI.x
+  cout << "int iIntiger from struct: " << DNDI.iIntiger
        << endl; // Output: 0 (explicitly initialized)
   cout << "str s from struct: " << DNDI.s << endl; // Output: (empty string)
 
