@@ -48,8 +48,8 @@ int main() {
   //----------------------------------------------------------------------------
   // Uncomment the following section to demonstrate initialization with literals
   //
-  // auto varA = 137.1;  // `auto` deduces `double` type (C++11)
-  // int varB = 137.1;   // Explicit `int` type (truncates to 137)
+  // auto varA = 137.1; // `auto` deduces `double` type (C++11)
+  // int varB = 137.1;  // Explicit `int` type (truncates to 137)
   //
   // cout << "--------------------------------------" << endl;
   // cout << "varA:    " << varA << endl;
