@@ -29,10 +29,10 @@ int main() {
   //------------------------------------------------------------------------
   // Uncomment the following section to demonstrate floating-point behavior
   //
-  // float fVarB;
-  // fVarB = 7;   // Integer assigned to float (implicit conversion)
-  // fVarB = 7.3; // Double assigned to float (implicit conversion)
-  // cout << "fVarB: " << fVarB << endl; // Output: 7.3
+  float fVarB;
+  fVarB = 7;   // Integer assigned to float (implicit conversion)
+  fVarB = 7.3; // Double assigned to float (implicit conversion)
+  cout << "fVarB: " << fVarB << endl; // Output: 7.3
 
   //--- Character array (string) demonstration
   char fVarC[10]; // Declaration of a character array with a length of 10
@@ -56,11 +56,10 @@ int main() {
   //------------------------------------------------------------------------
   // Deprecated or problematic practices (commented out for reference)
 
-  /* char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbids
-   * converting
-   *                                     // a string constant to 'char*'
-   * char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is
-   * stored */
+  // char *fVarE = "A tutaj inny napis"; // Deprecated: ISO C++ forbiconverting
+  //                                     // a string constant to 'char*'
+  // char fVarF = 'Inny'; // Warning: multi-character constant; only 'I' is
+  // stored
 
   //------------------------------------------------------------------------
   // Uncomment the following section to print character arrays
