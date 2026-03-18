@@ -17,7 +17,8 @@ using namespace std;
  *
  * @return const int Returns a constant integer value (73).
  */
-const int FunA() { return 73; }
+int FunA() { return 73; }
+// const int FunA() { return 73; }
 
 /**
  * @brief A function that takes a constant integer parameter
