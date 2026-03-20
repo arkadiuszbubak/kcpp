@@ -1,0 +1,15 @@
+/* Author: Arkadiusz Bubak
+   mail: arkadiusz@buabk.pl
+   date: 2026.03.20, v0.01
+ */
+
+#include "WorkExampleZero.h"
+#include <iostream>
+using namespace std;
+
+void WorkExampleZero::WorkExampleZeroA() {
+
+  cout << "---------------------------------------" << endl;
+  cout << "WorkExampleZeroA" << endl;
+  cout << "---------------------------------------" << endl;
+}
