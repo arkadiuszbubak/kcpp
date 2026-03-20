@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/include  -o CMakeFiles/WorkExample.dir/src/WorkExample.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExample.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExample.cxx"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/include  -o CMakeFiles/WorkExample.dir/src/WorkExampleOne.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleOne.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleOne.cxx"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/include  -o CMakeFiles/WorkExample.dir/src/WorkExampleZero.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleZero.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleZero.cxx"
+},
+{
+  "directory": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/build",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/include  -o CMakeFiles/WorkExample.dir/src/WorkExampleZeroOne.cxx.o -c /mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleZeroOne.cxx",
+  "file": "/mnt/c/Users/arkad/paper/job/us/zajecia/2025.2026/semestr.letni/Kurs.C++.III.IS_45h/kcpp.github/kcppWorkExample/src/WorkExampleZeroOne.cxx"
+}
+]
