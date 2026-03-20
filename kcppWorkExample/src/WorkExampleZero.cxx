@@ -13,3 +13,5 @@ WorkExampleZero::WorkExampleZero() {
 WorkExampleZero::~WorkExampleZero() {
   cout << "The WorkExampleZero Object has been destroyed" << endl;
 };
+
+void WorkExampleZero::Print() { cout << "Test print" << endl; };

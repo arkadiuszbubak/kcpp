@@ -20,6 +20,8 @@ public:
   /** Accesors **/
   int GetVariable() { return fVariable; };
 
+  void Print();
+
   // The function definition is in a separate file from the standard
   // function definitions for this class. This function definition
   // has been moved to a separate file, WorkExampleZeroOne.cxx, instead of

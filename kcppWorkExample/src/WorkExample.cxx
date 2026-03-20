@@ -18,4 +18,5 @@ int main() {
   cout << "Work no:     " << myWork->GetVariable() << endl;
 
   myWork->WorkExampleZeroA();
+  myWork->Print();
 }
