@@ -7,33 +7,30 @@ date: 2008.02.22, v0.01
 #ifndef KVICAR_H
 #define KVICAR_H 1
 
-class KviCar
-{
-  public:
-    /** Default constructor **/
-    KviCar();
+class KviCar {
+public:
+  /** Default constructor **/
+  KviCar();
 
-    /** Default destructor **/
-    ~KviCar();
+  /** Default destructor **/
+  ~KviCar();
 
-    /** Modifiers **/
-    void SetPlate(int rplate)       { fPlate     = rplate; };
-    void SetFakePlate(int fplate)   { fFakePlate = fplate; };
-    void SetColor(int color)        { fColor     = color; };
+  /** Modifiers **/
+  void SetPlate(int rplate) { fPlate = rplate; };
+  void SetFakePlate(int fplate) { fFakePlate = fplate; };
+  void SetColor(int color) { fColor = color; };
 
-    /** Accesors **/
-    int GetPlate()     { return fPlate; };
-    int GetFakePlate() { return fFakePlate; };
-    int GetColor()     { return fColor; };
+  /** Accesors **/
+  int GetPlate() { return fPlate; };
+  int GetFakePlate() { return fFakePlate; };
+  int GetColor() { return fColor; };
 
-    void Print();
+  void Print();
 
-  private:
-    int fPlate;
-    int fFakePlate;
-    int fColor;
-
-    //ClassDef(KviCar,1)
+private:
+  int fPlate;
+  int fFakePlate;
+  int fColor;
 };
 
 #endif
