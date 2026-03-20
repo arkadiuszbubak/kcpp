@@ -20,8 +20,8 @@ KviVan.o: src/KviVan.cxx
 	  
 #--------- Cleaning command ---------------------------------
 clean:
-	  rm -rf *.o *.o
+	  rm -rf *.o
 	  
 distclean:
-	  rm -rf *.o *.o *~ CarFactory
+	  rm -rf *.o *~ CarFactory
 	  
