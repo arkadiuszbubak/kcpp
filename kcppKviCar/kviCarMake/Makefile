@@ -2,7 +2,7 @@
 # mail: arkadiusz@buabk.pl
 # date: 2008.02.22
 
-#Example of Makefile (abubak)
+#Example of Makefile
 
 #--------- Link command -------------------------------------
 CarFactory: CarFactory.o KviCar.o KviVan.o
