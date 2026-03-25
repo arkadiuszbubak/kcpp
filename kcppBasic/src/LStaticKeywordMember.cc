@@ -13,9 +13,9 @@ public:
   static int iObjectCount;
 
   /* static const int staticConstVar = 42; // Allowed in class
-   * static constexpr double pi = 3.14159; // Allowed in class
-   * static std::string message;           // Definition must be done outside
-   * class */
+  static constexpr double pi = 3.14159; // Allowed in class
+  static std::string message;           // Definition must be done outside class
+*/
 
   //! Constructor definition
   LBox(double l = 2.0, double w = 2.0, double h = 2.0) {
@@ -52,8 +52,9 @@ int main(void) {
   cout << "Volume (dynamic object call): " << objectBox3->Volume() << endl;
 
   // constexpr int result = objectBox1.Square(objectBox3->Volume()); //!< Error
-  // constexpr int result = objectBox1.Square(5);
-  // cout << "Results from Square function: " << result << endl;
+  // - unknown during compilation constexpr int result = objectBox1.Square(5);
+  // //known during compilation cout << "Results from Square function: " <<
+  // result << endl;
 
   //! Print total number of objects
   cout << "Total objects: " << LBox::iObjectCount << endl;
