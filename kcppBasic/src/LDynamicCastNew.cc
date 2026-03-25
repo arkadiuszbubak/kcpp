@@ -22,14 +22,15 @@ using namespace std;
  */
 class Car {
 public:
-  Car(){};          /**< Default constructor */
-  virtual ~Car(){}; /**< Virtual destructor to ensure proper cleanup */
+  Car() {};          /**< Default constructor */
+  virtual ~Car() {}; /**< Virtual destructor to ensure proper cleanup */
 
   /**
    * @brief Run method for the Car class
    *
    * This method prints a message indicating that the car is running.
    */
+  // void Run() { cout << "Jestem w Car::Run" << endl; }
   virtual void Run() { cout << "Jestem w Car::Run" << endl; }
 };
 
@@ -41,8 +42,8 @@ public:
  */
 class Ford : public Car {
 public:
-  Ford(){};  /**< Default constructor */
-  ~Ford(){}; /**< Destructor */
+  Ford() {};  /**< Default constructor */
+  ~Ford() {}; /**< Destructor */
 
   /**
    * @brief Run method for the Ford class
@@ -53,8 +54,8 @@ public:
    * avoid errors such as accidentally overloading a function instead of
    * overriding it.
    */
-  // void Run() { cout << "Jestem w Ford::Run" << endl; }
-  void Run() override { cout << "Jestem w Ford::Run" << endl; }
+  void Run() { cout << "Jestem w Ford::Run" << endl; }
+  // void Run() override { cout << "Jestem w Ford::Run" << endl; }
 };
 
 /**
