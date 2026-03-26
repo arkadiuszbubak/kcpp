@@ -28,26 +28,26 @@ int main() {
   /* Based on https://pl.wikibooks.org/wiki/C%2B%2B/String
    * Look also at: https://cplusplus.com/reference/string/string/ */
 
-  // String initialization
+  /// String initialization
   string napis1;
   napis1 = "text1";
 
-  // Initialize a string at the time of creation
+  /// Initialize a string at the time of creation
   string napis2("text2");
 
-  // Use the assignment operator
+  /// Use the assignment operator
   string napis3 = "text3";
 
-  // Print the strings
+  /// Print the strings
   cout << "napis1: " << napis1 << endl
        << "napis2: " << napis2 << endl
        << "napis3: " << napis3 << endl;
 
-  // Initialize a string with repeated characters
+  /// Initialize a string with repeated characters
   string napis4(10, 'X');
   cout << "napis4: " << napis4 << endl;
 
-  // String manipulation
+  /// String manipulation
   cout << endl << "Manipulacja stringami" << endl;
   cout << "----------------------------------------" << endl;
   string a1, b1;
@@ -56,13 +56,13 @@ int main() {
   a1 = b1;
   cout << "a1 = b1: " << a1 << endl;
 
-  // Check addresses
+  /// Check addresses
   cout << endl << "Sprawdzenie adresow" << endl;
   cout << "----------------------------------------" << endl;
   cout << "Address of a1: " << &a1 << endl;
   cout << "Address of b1: " << &b1 << endl;
 
-  // String comparison
+  /// String comparison
   string a, b, c;
   a = "gosia";
   b = "iza";
@@ -77,7 +77,7 @@ int main() {
   cout << "Address of a: " << &a << endl;
   cout << "Address of c: " << &c << endl;
 
-  // Lexicographical order example
+  /// Lexicographical order example
   cout << endl << "Przyklad porzadku leksykograficznego" << endl;
   cout << "----------------------------------------" << endl;
   a = "adad";
@@ -90,7 +90,7 @@ int main() {
   else
     cout << "nieprawda\n";
 
-  // String concatenation
+  /// String concatenation
   a = "mal" + a;
 
   cout << "napis a (" << a << ") poprzedza napis b (" << b << "): ";
@@ -99,7 +99,7 @@ int main() {
   else
     cout << "nieprawda\n";
 
-  // String modification
+  /// String modification
   b[1] = '_';
   cout << "zmieniony wyraz b: " << b << '\n';
 
