@@ -31,6 +31,7 @@ enum e_acompany {
   Saab          /**< Saab, value = 15 */
 };
 
+// ----------------------------------------------------------------------------
 /**
  * @brief Scoped enumeration for data types
  *
@@ -44,6 +45,7 @@ enum class ScopedTypes {
   String  /**< String type */
 };
 
+// ----------------------------------------------------------------------------
 /**
  * @brief Unscoped enumeration for data types
  *
@@ -56,6 +58,43 @@ enum UnscopedTypes {
   String  /**< String type */
 };
 
+// ----------------------------------------------------------------------------
+/* Przechowywanie znaków (char) – TAK
+Modern C++ (enum class with explicite char type)
+Zarówno tradycyjny enum, jak i nowoczesny enum class (wprowadzony w C++11)
+muszą opierać się na tzw. typie całkowitoliczbowym (integral type).
+Ponieważ char pod maską jest po prostu małą liczbą całkowitą (reprezentującą kod
+ASCII), jest w pełni dozwolony. */
+enum class Litera : char { A = 'a', B = 'b', C = 'c' };
+// Użycie:
+Litera znak = Litera::A;
+
+// ----------------------------------------------------------------------------
+/* Przechowywanie ciągów znaków (std::string) – NIE
+Jeśli jest potrzeba aby powiązać wartość enum z tekstem (np. do wyświetlania
+komunikatów (logów) w konsoli), standardowym i najlepszym rozwiązaniem jest
+napisanie prostej funkcji konwertującej: */
+
+enum class Status { Sukces, Blad, Oczekuje };
+
+// Funkcja pomocnicza tłumacząca enum na string
+#include <string>
+
+std::string statusToString(Status s) {
+  switch (s) {
+  case Status::Sukces:
+    return "Sukces";
+  case Status::Blad:
+    return "Błąd";
+  case Status::Oczekuje:
+    return "Oczekuje";
+  default:
+    return "Nieznany";
+  }
+}
+// Proszę powiedzieć jak wywołać funkcję statusToString!
+
+// ----------------------------------------------------------------------------
 /**
  * @brief Main function
  *
