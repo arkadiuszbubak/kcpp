@@ -11,7 +11,7 @@
  * such as buffer overflows, when working with C-style strings.
  */
 
-#include <cstring> // For strcpy, strncpy
+#include <cstring> ///< For strcpy, strncpy
 #include <iostream>
 using namespace std;
 
@@ -27,57 +27,59 @@ using namespace std;
 int main() {
   // Initialize C-style strings
   char mystring1[] = {'H', 'e', 'l',
-                      'l', 'o', '\0'}; // Manually null-terminated
-  char mystring2[] = "Dzień dobry";    // Automatically null-terminated
-  char mystring3[12];                  // Uninitialized character array
+                      'l', 'o', '\0'}; ///< Manually null-terminated
+  char mystring2[] = "Dzień dobry";    ///< Automatically null-terminated
+  char mystring3[12];                  ///< Uninitialized character array
 
   // Print the strings
   cout << "mystring1.0:  " << mystring1 << endl;
   cout << "mystring2.0:  " << mystring2 << endl;
   cout << "mystring3.0:  " << mystring3
-       << endl; // Uninitialized, may contain garbage
+       << endl; ///< Uninitialized, may contain garbage
 
-  /* // Not allowed
+  /**
+   * Not allowed
    * char mystringA = "Hello"; // Error: Cannot assign a string literal to a
    * single char char mystringC = { 'H', 'e', 'l', 'l', 'o', '\0' }; // Error:
    * Cannot initialize a single char with an array
    */
 
-  // Assigning values to strings
+  /// Assigning values to strings
   mystring3[0] = 'H';
   mystring3[1] = 'e';
   mystring3[2] = 'l';
   mystring3[3] = 'l';
   mystring3[4] = 'o';
-  mystring3[5] = '\0'; // Null-terminate the string
+  mystring3[5] = '\0'; ///< Null-terminate the string
 
-  // Use strcpy to copy strings
-  strcpy(mystring3, "Dzien dobry"); // Safe copy
+  /// Use strcpy to copy strings
+  strcpy(mystring3, "Dzien dobry"); ///< Safe copy
   strcpy(mystring3,
-         "Dzien dobry wszystkim"); // Unsafe: Potential buffer overflow
+         "Dzien dobry wszystkim"); ///< Unsafe: Potential buffer overflow
 
-  // Print the modified string and individual characters
+  /// Print the modified string and individual characters
   cout << "mystring3.1: " << mystring3 << endl;
   cout << "mystring3.2 (11): " << mystring3[11] << endl;
   cout << "mystring3.3 (12): " << mystring3[12] << endl;
   cout << "mystring3.4 (16): " << mystring3[16] << endl;
-  cout << "mystring3.5 (39): " << mystring3[39] << endl; // Out-of-bounds access
+  cout << "mystring3.5 (39): " << mystring3[39]
+       << endl; ///< Out-of-bounds access
 
-  // Partial copy using strncpy
+  /// Partial copy using strncpy
   char str1[] = "To be or not to be";
-  char str2[10]; // Small buffer
-  char str3[40]; // Larger buffer
+  char str2[10]; ///< Small buffer
+  char str3[40]; ///< Larger buffer
 
-  // Copy to a sized buffer (overflow-safe)
+  /// Copy to a sized buffer (overflow-safe)
   strncpy(str2, str1,
-          sizeof(str2) - 1);     // Copy up to sizeof(str2) - 1 characters
-  str2[sizeof(str2) - 1] = '\0'; // Ensure null-termination
+          sizeof(str2) - 1);     ///< Copy up to sizeof(str2) - 1 characters
+  str2[sizeof(str2) - 1] = '\0'; ///< Ensure null-termination
 
-  // Partial copy (only 5 characters)
-  strncpy(str3, str2, 5); // Copy the first 5 characters
-  str3[5] = '\0';         // Ensure null-termination
+  /// Partial copy (only 5 characters)
+  strncpy(str3, str2, 5); ///< Copy the first 5 characters
+  str3[5] = '\0';         ///< Ensure null-termination
 
-  // Print the results
+  /// Print the results
   cout << "str1:\t" << str1 << "\n"
        << "str2:\t" << str2 << "\n"
        << "str3:\t" << str3 << endl;
