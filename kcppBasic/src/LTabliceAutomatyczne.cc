@@ -140,14 +140,14 @@ void tablice() {
       17; ///< Initialize element 2 with value 17 using pointer arithmetic
   *(A + 3) = *(A + 2) + 1; ///< Initialize element 3 with value *(A + 2) + 1
 
-  // Print array elements
+  /// Print array elements
   for (k = 0; k < 10; k++) {
     cout << "A[" << k << "]= " << *(A + k) << "\t\t" << A[k] << endl;
   }
 
-  //---------------------------------------------------------------
-  // Examples: try pre and post incrementation
-  //---------------------------------------------------------------
+  /* ---------------------------------------------------------------
+  Examples: try pre and post incrementation
+  --------------------------------------------------------------- */
   cout << "\nA[0] = " << A[0] << endl;
   (*A)++;
   // (*A++);     ///< error, prosze powiedziec dlaczego?
