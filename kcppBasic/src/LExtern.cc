@@ -15,70 +15,64 @@ using namespace std;
 
 /**
  * @brief Function `a`
- *
  * A simple function with C++ linkage.
  */
 void a() {}
 
 /**
  * @brief Function `b`
- *
  * A simple function with C++ linkage.
  */
 void b() {}
 
 /**
  * @brief Overloaded function `b`
- *
  * An overloaded version of function `b` that takes an integer parameter.
- *
  * @param zmienna An integer parameter.
  */
 void b(int zmienna) {
-  zmienna += 7; // Modify the parameter (no effect outside the function)
+  zmienna += 7; ///< Modify the parameter (no effect outside the function)
 }
 
-// Use `extern "C"` to prevent name mangling for C++ functions
+/// Use `extern "C"` to prevent name mangling for C++ functions
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 /**
  * @brief Function `ca`
- *
  * A function with C linkage (no name mangling).
  */
 void ca() {}
 
 /**
  * @brief Function `cb`
- *
  * A function with C linkage (no name mangling).
  */
 void cb() {}
 
-// Uncommenting the following line would cause an error because C does not
-// support function overloading void cb(int a) {}  // Error
+/* Uncommenting the following line would cause an error because C does not
+support function overloading */
+// void cb(int a) {}  ///< Error
 #ifdef __cplusplus
 }
 #endif
 
 /**
  * @brief Function `cc`
- *
  * A function with C linkage (no name mangling).
  */
 extern "C" void cc() {}
 
 /**
  * @brief Function `h`
- *
  * This function demonstrates calling functions with both C++ and C linkage.
  */
 void h() {
-  b();  // Call the C++ function `b`
-  cb(); // Call the C function `cb`
-  cc(); // Call the C function `cc`
-  b(2); // Call the overloaded C++ function `b(int)`
+  b();  ///<  Call the C++ function `b`
+  cb(); ///< Call the C function `cb`
+  cc(); ///< Call the C function `cc`
+  b(2); ///< Call the overloaded C++ function `b(int)`
 }
 
 /**
