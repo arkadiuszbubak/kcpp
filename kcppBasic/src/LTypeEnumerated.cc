@@ -1,15 +1,16 @@
 /**
  * @file LTypeEnumereted.cc
  * @author Arkadiusz Bubak <arkadiusz@bubak.pl>
- * @date 2020.02.21 v0.01, 2021.03.01 v0.02, 2025.02.28 v0.03
+ * @date 2020.02.21 v0.01, 2021.03.01 v0.02, 2025.02.28 v0.03. 2026.03.27 v0.04
  * @brief Demonstration of enum types in C++
- * @version v0.03
+ * @version v0.04
  *
  * This program demonstrates the use of unscoped and scoped enumerations in C++.
  * It also shows how to define and use enums with explicit values.
  */
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 /**
@@ -65,10 +66,9 @@ Zarówno tradycyjny enum, jak i nowoczesny enum class (wprowadzony w C++11)
 muszą opierać się na tzw. typie całkowitoliczbowym (integral type).
 Ponieważ char pod maską jest po prostu małą liczbą całkowitą (reprezentującą kod
 ASCII), jest w pełni dozwolony. */
-enum class Litera : char { A = '1', B = 'b', C = 'c' };
-enum Litera1 : char { D = 'c', E, F };
-// Użycie:
-Litera znak = Litera::A;
+enum class LiteraScoped : char { A = '1', B = 'b', C = 'c' };
+enum LiteraUnscoped : char { D = 'c', E, F };
+enum LiteraUnscopedA { G, H, I };
 
 // ----------------------------------------------------------------------------
 /* Przechowywanie ciągów znaków (std::string) – NIE
@@ -78,9 +78,7 @@ napisanie prostej funkcji konwertującej: */
 
 enum class Status { Sukces, Blad, Oczekuje };
 
-// Funkcja pomocnicza tłumacząca enum na string
-#include <string>
-
+/// Funkcja pomocnicza tłumacząca enum na string
 std::string statusToString(Status s) {
   switch (s) {
   case Status::Sukces:
@@ -93,8 +91,6 @@ std::string statusToString(Status s) {
     return "Nieznany";
   }
 }
-// Proszę powiedzieć jak wywołać funkcję statusToString!
-
 // ----------------------------------------------------------------------------
 /**
  * @brief Main function
@@ -104,55 +100,70 @@ std::string statusToString(Status s) {
  *
  * @return int Returns 0 on successful execution.
  */
+
 int main() {
 
   e_acompany my_car_brand = Ford;
-  // my_car_brand = Ford;            //! Can be done in such way
-  /* enum e_acompany my_car_brand;   //! Can be done in such way
-   * my_car_brand = BMW; */
+  // my_car_brand = Ford;            ///< Can be done in such way
+  enum e_acompany my_car_brand_new; ///< Can be done in such way
 
   if (my_car_brand == Ford) {
     cout << "Hello, Ford-car owner! Audi:       " << Audi << endl;
     cout << "Hello, Ford-car owner! BMW:        " << BMW << endl;
     cout << "Hello, Ford-car owner! Cadillac:   " << Cadillac << endl;
     cout << "Hello, Ford-car owner! Ford:       " << Ford << endl;
-
     cout << "Hello, Ford-car owner! RollsRoyce: " << RollsRoyce << endl;
     cout << "Hello, Ford-car owner! Saab:       " << Saab << endl;
   }
 
-  // Example of unscoped enumeration
+  //--------------------------------------------------
+  /// Example of unscoped enumeration
   e_acompany car = BMW;
   cout << "Value of BMW in e_acompany: " << car << endl; // Output:
 
   //--------------------------------------------------
-  Litera1 zmienna1 = D;
-  cout << "zmienna1: " << zmienna1 << endl;
-
-  Litera zmienna = Litera::A;
-  cout << "Zmienna: " << static_cast<char>(zmienna) << endl;
-  // cout << "Zmienna: " << zmienna << endl;
-  int zmiennaInt = static_cast<int>(zmienna);
-  //--------------------------------------------------
-
-  // Example of scoped enumeration
+  /// Example of scoped enumeration
   ScopedTypes dataType = ScopedTypes::Double;
-  // ScopedTypes b = Double; // Error: Requires qualification
-  cout << "Value of Double in ScopedTypes: " << static_cast<int>(dataType)
-       << endl; // Output: 1
+  // ScopedTypes b = Double; ///< Error: Requires qualification
+  cout << "Value of Double in ScopedTypes: with static_cast: "
+       << static_cast<int>(dataType) << endl; // Output: 1
+  // cout << "Value of Double in ScopedTypes: no static_cast:" << dataType <<
+  // endl; // Error
 
-  // Example of unscoped enumeration with implicit values
+  //--------------------------------------------------
+  /// Example of unscoped enumeration with implicit values
   UnscopedTypes type1 = Double;
-  UnscopedTypes type2 = UnscopedTypes::Double;
+  UnscopedTypes type2 = UnscopedTypes::Double;                   ///< Also works
   cout << "Value of Double in UnscopedTypes: " << type1 << endl; // Output: 1
   cout << "Value of Double in UnscopedTypes: " << type2 << endl; // Output: 1
 
-  cout << UnscopedTypes::Int << endl;
-  cout << UnscopedTypes::Double << endl;
-  cout << UnscopedTypes::String << endl;
   cout << Int << endl;
   cout << Double << endl;
   cout << String << endl;
+  /* cout << UnscopedTypes::Int << endl;    ///< Also works
+  cout << UnscopedTypes::Double << endl; ///< Also works
+  cout << UnscopedTypes::String << endl; ///< Also works */
+
+  //--------------------------------------------------
+  /// Example of enum chat enumeration
+  LiteraUnscoped zmiennaUnscoped = D;
+  cout << "zmiennaUnscoped: " << zmiennaUnscoped << endl;
+  cout << "LiteraUnscoped: " << D << endl;                 ///< First way
+  cout << "LiteraUnscoped: " << LiteraUnscoped::D << endl; ///< Second way
+
+  LiteraScoped zmiennaScoped = LiteraScoped::A;
+  cout << "zmiennaScoped: " << static_cast<char>(zmiennaScoped) << endl;
+  // cout << "zmiennaScoped: " << zmiennaScoped << endl; ///< Error
+  int zmiennaScopedInt = static_cast<int>(zmiennaScoped);
+
+  // cout << "LiteraScoped: " << A << endl;
+  // cout << "LiteraScoped: " << LiteraScoped::A << endl;
+  cout << "LiteraScoped: " << static_cast<char>(LiteraScoped::A) << endl;
+
+  //--------------------------------------------------
+  Status obecnyStan = Status::Sukces;
+  cout << statusToString(Status::Oczekuje) << endl; ///< First way
+  cout << statusToString(obecnyStan) << endl;       ///< Second way
 
   return 0;
 }
