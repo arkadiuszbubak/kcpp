@@ -53,7 +53,7 @@ int main() {
   double c2 = static_cast<double>(a) / b;                      // Proper casting
   double c3 =
       static_cast<double>(a / b); // Incorrect casting (integer division first)
-  // double c4 = static_cast<double> a / b;      // ERROR: Invalid syntax
+  // double c4 = static_cast<double> a / b; // ERROR: Invalid syntax
   //----------------------------------------------------------
 
   std::cout << endl << ">> C++-like" << endl;
@@ -72,33 +72,31 @@ int main() {
 
   //--------------------------------------------------------------------
   // Uncomment the following section to demonstrate additional examples
-  /*
-   *   int i1 = 6;
-   *   cout << " i1.0: " << i1 << endl; // Output: 6
-   *   std::cout << std::fixed << std::setprecision(3) << " i1.1: " << i1
-   *             << endl; // Output: 6.000 cout << endl;
-   *
-   *   double d1 = (double)i1;          // C-style casting
-   *   cout << " d1.1: " << d1 << endl; // Output: 6
-   *   std::cout << std::fixed << std::setprecision(3) << " d1.2: " << d1
-   *             << endl; // Output: 6.000 cout << endl;
-   *
-   *   double d2 = static_cast<double>(i1); // C++-style casting
-   *   cout << " d2.1: " << d2 << endl;     // Output: 6.000
-   *   std::cout << std::fixed << std::setprecision(3) << " d2.2: " << d1
-   *             << endl; // Output: 6.000 cout << endl;
-   *
-   *   double pi = 3.14159265;
-   *   cout << " pi.1: " << pi << endl; // Output: 3.142
-   *   std::cout << std::fixed << std::setprecision(5) << " pi.2: " << pi <<
-   * endl;
-   *   // Output: 3.14159 cout << endl;
-   *
-   *   int p1 = static_cast<int>(pi);   // C++-style casting (truncation)
-   *   cout << " p1.1: " << p1 << endl; // Output: 3
-   *   std::cout << std::fixed << std::setprecision(3) << " p1.1: " << p1 <<
-   * endl;
-   *   // Output: 3 */
+
+  /* int i1 = 6;
+  cout << " i1.0: " << i1 << endl; // Output: 6
+  std::cout << std::fixed << std::setprecision(3) << " i1.1: " << i1
+            << endl; // Output: 6.000 cout << endl;
+
+  double d1 = (double)i1;          // C-style casting
+  cout << " d1.1: " << d1 << endl; // Output: 6
+  std::cout << std::fixed << std::setprecision(3) << " d1.2: " << d1
+            << endl; // Output: 6.000 cout << endl;
+
+  double d2 = static_cast<double>(i1); // C++-style casting
+  cout << " d2.1: " << d2 << endl;     // Output: 6.000
+  std::cout << std::fixed << std::setprecision(3) << " d2.2: " << d1
+            << endl; // Output: 6.000 cout << endl;
+
+  double pi = 3.14159265;
+  cout << " pi.1: " << pi << endl; // Output: 3.142
+  std::cout << std::fixed << std::setprecision(5) << " pi.2: " << pi << endl;
+  // Output: 3.14159 cout << endl;
+
+  int p1 = static_cast<int>(pi);   // C++-style casting (truncation)
+  cout << " p1.1: " << p1 << endl; // Output: 3
+  std::cout << std::fixed << std::setprecision(3) << " p1.1: " << p1 << endl;
+  // Output: 3 */
 
   return 0;
 }

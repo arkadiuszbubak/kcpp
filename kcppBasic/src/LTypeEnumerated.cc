@@ -21,15 +21,15 @@ using namespace std;
  * starting from 0.
  */
 enum e_acompany {
-  Audi,           /**< Audi, value = 0 */
-  BMW,            /**< BMW, value = 1 */
-  Cadillac,       /**< Cadillac, value = 2 */
-  Ford,           /**< Ford, value = 3 */
-  Jaguar,         /**< Jaguar, value = 4 */
-  Lexus,          /**< Lexus, value = 5 */
-  Maybach = 13,   /**< Maybach, value = 13 */
-  RollsRoyce = 3, /**< RollsRoyce, value = 14 */
-  Saab            /**< Saab, value = 15 */
+  Audi,         /**< Audi, value = 0 */
+  BMW,          /**< BMW, value = 1 */
+  Cadillac,     /**< Cadillac, value = 2 */
+  Ford,         /**< Ford, value = 3 */
+  Jaguar,       /**< Jaguar, value = 4 */
+  Lexus,        /**< Lexus, value = 5 */
+  Maybach = 13, /**< Maybach, value = 13 */
+  RollsRoyce,   /**< RollsRoyce, value = 14 */
+  Saab          /**< Saab, value = 15 */
 };
 
 // ----------------------------------------------------------------------------
@@ -112,6 +112,9 @@ int main() {
     cout << "Hello, Ford-car owner! BMW:        " << BMW << endl;
     cout << "Hello, Ford-car owner! Cadillac:   " << Cadillac << endl;
     cout << "Hello, Ford-car owner! Ford:       " << Ford << endl;
+    cout << "Hello, Ford-car owner! Jaguar:     " << Jaguar << endl;
+    cout << "Hello, Ford-car owner! Lexus:      " << Lexus << endl;
+    cout << "Hello, Ford-car owner! Maybach:    " << Maybach << endl;
     cout << "Hello, Ford-car owner! RollsRoyce: " << RollsRoyce << endl;
     cout << "Hello, Ford-car owner! Saab:       " << Saab << endl;
   }
@@ -127,8 +130,10 @@ int main() {
   // ScopedTypes b = Double; ///< Error: Requires qualification
   cout << "Value of Double in ScopedTypes: with static_cast: "
        << static_cast<int>(dataType) << endl; // Output: 1
-  // cout << "Value of Double in ScopedTypes: no static_cast:" << dataType <<
-  // endl; // Error
+  // cout << "Value of Double in ScopedTypes: no static_cast:"
+  //      << ScopedTypes::Double << endl; // Error
+  // cout << "Value of Double in ScopedTypes: no static_cast:" << dataType
+  //      << endl; // Error
 
   //--------------------------------------------------
   /// Example of unscoped enumeration with implicit values
@@ -145,7 +150,7 @@ int main() {
   cout << UnscopedTypes::String << endl; ///< Also works */
 
   //--------------------------------------------------
-  /// Example of enum chat enumeration
+  /// Example of enum char enumeration
   LiteraUnscoped zmiennaUnscoped = D;
   cout << "zmiennaUnscoped: " << zmiennaUnscoped << endl;
   cout << "LiteraUnscoped: " << D << endl;                 ///< First way
@@ -162,8 +167,8 @@ int main() {
 
   //--------------------------------------------------
   Status obecnyStan = Status::Sukces;
-  cout << statusToString(Status::Oczekuje) << endl; ///< First way
   cout << statusToString(obecnyStan) << endl;       ///< Second way
+  cout << statusToString(Status::Oczekuje) << endl; ///< First way
 
   return 0;
 }
