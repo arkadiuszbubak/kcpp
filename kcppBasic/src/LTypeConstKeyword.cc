@@ -52,8 +52,6 @@ int main() {
   // int const *u2;  // Equivalent to `const int* u2`
   const char *v2; // Pointer to a constant character
   // char const *v1; // Equivalent to 'const char *v2
-  u1 = &i;
-  const int *u3 = &i;
 
   // Constant pointer to a variable
   int x = 37;
