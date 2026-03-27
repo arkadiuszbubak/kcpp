@@ -20,15 +20,15 @@ using namespace std;
  * starting from 0.
  */
 enum e_acompany {
-  Audi,         /**< Audi, value = 0 */
-  BMW,          /**< BMW, value = 1 */
-  Cadillac,     /**< Cadillac, value = 2 */
-  Ford,         /**< Ford, value = 3 */
-  Jaguar,       /**< Jaguar, value = 4 */
-  Lexus,        /**< Lexus, value = 5 */
-  Maybach = 13, /**< Maybach, value = 13 */
-  RollsRoyce,   /**< RollsRoyce, value = 14 */
-  Saab          /**< Saab, value = 15 */
+  Audi,           /**< Audi, value = 0 */
+  BMW,            /**< BMW, value = 1 */
+  Cadillac,       /**< Cadillac, value = 2 */
+  Ford,           /**< Ford, value = 3 */
+  Jaguar,         /**< Jaguar, value = 4 */
+  Lexus,          /**< Lexus, value = 5 */
+  Maybach = 13,   /**< Maybach, value = 13 */
+  RollsRoyce = 3, /**< RollsRoyce, value = 14 */
+  Saab            /**< Saab, value = 15 */
 };
 
 // ----------------------------------------------------------------------------
@@ -65,7 +65,8 @@ Zarówno tradycyjny enum, jak i nowoczesny enum class (wprowadzony w C++11)
 muszą opierać się na tzw. typie całkowitoliczbowym (integral type).
 Ponieważ char pod maską jest po prostu małą liczbą całkowitą (reprezentującą kod
 ASCII), jest w pełni dozwolony. */
-enum class Litera : char { A = 'a', B = 'b', C = 'c' };
+enum class Litera : char { A = '1', B = 'b', C = 'c' };
+enum Litera1 : char { D = 'c', E, F };
 // Użycie:
 Litera znak = Litera::A;
 
@@ -115,14 +116,24 @@ int main() {
     cout << "Hello, Ford-car owner! BMW:        " << BMW << endl;
     cout << "Hello, Ford-car owner! Cadillac:   " << Cadillac << endl;
     cout << "Hello, Ford-car owner! Ford:       " << Ford << endl;
-    cout << "Hello, Ford-car owner! Maybach:    " << Maybach << endl;
+
     cout << "Hello, Ford-car owner! RollsRoyce: " << RollsRoyce << endl;
     cout << "Hello, Ford-car owner! Saab:       " << Saab << endl;
   }
 
   // Example of unscoped enumeration
   e_acompany car = BMW;
-  cout << "Value of BMW in e_acompany: " << car << endl; // Output: 1
+  cout << "Value of BMW in e_acompany: " << car << endl; // Output:
+
+  //--------------------------------------------------
+  Litera1 zmienna1 = D;
+  cout << "zmienna1: " << zmienna1 << endl;
+
+  Litera zmienna = Litera::A;
+  cout << "Zmienna: " << static_cast<char>(zmienna) << endl;
+  // cout << "Zmienna: " << zmienna << endl;
+  int zmiennaInt = static_cast<int>(zmienna);
+  //--------------------------------------------------
 
   // Example of scoped enumeration
   ScopedTypes dataType = ScopedTypes::Double;
