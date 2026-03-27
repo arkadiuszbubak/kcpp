@@ -21,13 +21,14 @@ using namespace std;
  * @return int Returns 0 on successful execution.
  */
 int main() {
-  // Create a type alias for `int` using `typedef`
+  /// Create a type alias for `int` using `typedef`
   typedef int LInt; /**< Alias for the `int` type */
+  // typedef int LInt; ///< Alias for the `int` type
 
-  // Declare a variable using the alias
+  /// Declare a variable using the alias
   LInt zmienna = 8; /**< Variable of type `LInt` (alias for `int`) */
 
-  // Print the value of the variable
+  /// Print the value of the variable
   cout << "Value of zmienna: " << zmienna << endl;
 
   return 0;
