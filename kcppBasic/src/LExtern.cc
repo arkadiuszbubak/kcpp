@@ -91,10 +91,10 @@ int main() {
   cout << "Rozmontowanie/odwiklanie (disassemble):" << endl;
   cout << "  readelf -s LExtern.o\n" << endl;
 
-  cout << "Lub jesli z uzyciem cmake:" << endl;
+  cout << "Lub jeśli z użyciem cmake:" << endl;
   cout << "  readelf -s CMakeFiles/LExtern.dir/src/LExtern.cc.o\n" << endl;
 
-  cout << "'Unmangle' nazw funkcji:" << endl;
+  cout << "Rozplątanie (unmangle) nazw funkcji:" << endl;
   cout << "  c++filt _Z1fv" << endl;
 
   return 0;
