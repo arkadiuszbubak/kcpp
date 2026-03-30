@@ -39,6 +39,8 @@ int main() {
   string napis3 = "text3";
 
   /// Print the strings
+  cout << endl << "Wypisywanie napisów" << endl;
+  cout << "----------------------------------------" << endl;
   cout << "napis1: " << napis1 << endl
        << "napis2: " << napis2 << endl
        << "napis3: " << napis3 << endl;
@@ -91,6 +93,8 @@ int main() {
     cout << "nieprawda\n";
 
   /// String concatenation
+  cout << endl << "String concatenation" << endl;
+  cout << "----------------------------------------" << endl;
   a = "mal" + a;
 
   cout << "napis a (" << a << ") poprzedza napis b (" << b << "): ";
@@ -100,6 +104,8 @@ int main() {
     cout << "nieprawda\n";
 
   /// String modification
+  cout << endl << "String modification" << endl;
+  cout << "----------------------------------------" << endl;
   b[1] = '_';
   cout << "zmieniony wyraz b: " << b << '\n';
 
