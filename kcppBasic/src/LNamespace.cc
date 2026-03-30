@@ -13,7 +13,6 @@
 
 #include <iostream>
 using namespace std;
-// using namespace nasza;
 
 /**
  * @namespace nasza
@@ -33,6 +32,7 @@ int k = 7; /**< A variable defined within the `nasza` namespace */
  */
 void Funkcja() { cout << "Namespace: Funkcja" << endl; }
 } // namespace nasza
+// using namespace nasza;
 
 //----------------------------------------------------------------------
 /**
@@ -56,24 +56,25 @@ void Funkcja() { cout << "Global: Funkcja" << endl; }
  * @return int Returns 0 on successful execution.
  */
 int main() {
-  // Print a test message
+  /// Print a test message
   cout << "Test" << endl;
 
-  int k = 6; // Local variable with the same name as `nasza::k`
+  int k = 6; ///< Local variable with the same name as `nasza::k`
 
-  // Access the variable `k` from the `nasza` namespace
+  /// Access the variable `k` from the `nasza` namespace
   cout << "nasza::k: " << nasza::k << endl;
 
-  // Access the local variable `k`
+  /// Access the local variable `k`
   cout << "Local k: " << k << endl;
 
-  // Call the `Funkcja` function from the `nasza` namespace
+  /// Call the `Funkcja` function from the `nasza` namespace
   nasza::Funkcja();
 
-  // Uncommenting the following line would cause a conflict(?) if `using
-  // namespace nasza` is active
-  Funkcja(); // Error(?): Ambiguous call between global and namespace-scoped
-  // functions
+  /// Uncommenting the following line would cause a conflict(?) if `using
+  /// namespace nasza` is active
+  Funkcja(); ///< Error(?): Ambiguous call between global and
+  // namespace-scoped
+  ///< functions
 
   return 0;
 }
