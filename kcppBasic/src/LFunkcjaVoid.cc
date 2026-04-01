@@ -22,8 +22,8 @@ using namespace std;
  */
 void FunctionA() {
   cout << "W funkcji FunctionA" << endl;
-  return;                         ///< Exit the function
-  cout << "Jestem poza?" << endl; ///< Unreachable code
+  return;                         // Exit the function
+  cout << "Jestem poza?" << endl; // Unreachable code
 }
 
 /**
@@ -35,7 +35,7 @@ void FunctionA() {
  */
 void FunctionB(void) {
   cout << "W funkcji FunctionB" << endl;
-  // return; ///< Optional in `void` functions
+  // return; // Optional in `void` functions
 }
 
 /**
