@@ -85,11 +85,11 @@ int main() {
        << "str3:\t" << str3 << endl;
 
   // Prosze sprawdzic co robi sizeof
-  int iTab[10];
+  /* int iTab[10];
   double dTab[10];
 
   cout << "iTab: " << sizeof(iTab) << endl;
-  cout << "dTab: " << sizeof(dTab) << endl;
+  cout << "dTab: " << sizeof(dTab) << endl; */
 
   /* From cstring
    * https://www.programiz.com/cpp-programming/library-function/cstring/strlen
