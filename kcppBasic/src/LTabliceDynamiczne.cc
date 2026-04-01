@@ -44,7 +44,7 @@ int main() {
  * contents. Finally, it deallocates the memory to avoid memory leaks.
  */
 void tablice() {
-  int k; ///< Loop counter
+  int k; // Loop counter
 
   /// Allocate memory for dynamic arrays
   int *tInt = new int[7];       /**< Dynamic array of integers */
@@ -52,12 +52,12 @@ void tablice() {
   char *tChar = new char[7];    /**< Dynamic array of characters */
 
   /// Initialize array elements
-  tInt[0] = 0; ///< Direct indexing
-  // *(tInt) = 0;      ///< Direct indexing
-  // *tInt = 0;        ///< Direct indexing
-  *(tInt + 1) = 1;       ///< Pointer arithmetic
-  *(tFloat) = 3.14;      ///< Pointer arithmetic for float array
-  strcpy(tChar, "abcd"); ///<  Copy a string into the char array
+  tInt[0] = 0; // Direct indexing
+  // *(tInt) = 0;      // Direct indexing
+  // *tInt = 0;        // Direct indexing
+  *(tInt + 1) = 1;       // Pointer arithmetic
+  *(tFloat) = 3.14;      // Pointer arithmetic for float array
+  strcpy(tChar, "abcd"); //  Copy a string into the char array
 
   /// Print the contents of the integer array
   for (k = 0; k < 7; k++) {
@@ -68,7 +68,7 @@ void tablice() {
   cout << "tFloat[0] = " << *(tFloat + 0) << endl;
 
   /// Deallocate memory to avoid memory leaks
-  delete[] tInt;   ///< Delete the integer array
-  delete[] tFloat; ///< Delete the float array
-  delete[] tChar;  ///< Delete the char array
+  delete[] tInt;   // Delete the integer array
+  delete[] tFloat; // Delete the float array
+  delete[] tChar;  // Delete the char array
 }
