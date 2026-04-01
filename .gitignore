@@ -3,4 +3,5 @@ kcppBasic/build
 kcppBasic.build
 .vscode
 .cache
+kcpp.doxygen
 
