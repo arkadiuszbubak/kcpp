@@ -83,22 +83,27 @@ void tablice() {
   /* for(int w = 0; w < 10; w++) {
    *   cout << "Tab A: " << A[w] << endl;
    * } */
-  // CoutWholeArray(A, 10);
+  CoutWholeArray(A, 10);
+  int AA[6] = {}; ///< It is posiible in a new version
+  CoutWholeArray(AA, 6);
 
   int A0[10]; ///< Array of 10 integers, uninitialized
   /* for (int w = 0; w < 10; w++) {
     cout << "Tab A0: " << A0[w] << endl;
   } */
-  // CoutWholeArray(A0, 10);
+  CoutWholeArray(A0, 10);
 
   int A1[] = {1, 2, 3,
               4, 5, 6}; ///< Array of 6 integers, initialized with values
-  // CoutWholeArray(A1, 6);
+  CoutWholeArray(A1, 6);
 
   // int A2[6] = {0}; ///< Array of 6 integers, initialized to 0
   int A2[6] = {
-      6}; ///< Array of 6 integers, first element initialized to 6, rest to 0
-  // CoutWholeArray(A2, 6);
+      7}; ///< Array of 6 integers, first element initialized to 7, rest to 0
+  CoutWholeArray(A2, 6);
+  int A21[6] = {7, 2}; ///< Array of 6 integers, first element initialized to 7,
+                       ///< second 2, rest to 0
+  CoutWholeArray(A21, 6);
 
   int A3[6]{0, 0, 1,
             0, 0, 0}; ///< Array of 6 integers, initialized with specific values

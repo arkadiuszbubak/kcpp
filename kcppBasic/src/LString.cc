@@ -32,22 +32,22 @@ int main() {
   string napis1;
   napis1 = "text1";
 
+  /// Use the assignment operator
+  string napis3 = "text3";
+
   /// Initialize a string at the time of creation
   string napis2("text2");
 
-  /// Use the assignment operator
-  string napis3 = "text3";
+  /// Initialize a string with repeated characters
+  string napis4(10, 'X');
 
   /// Print the strings
   cout << endl << "Wypisywanie napisów" << endl;
   cout << "----------------------------------------" << endl;
   cout << "napis1: " << napis1 << endl
        << "napis2: " << napis2 << endl
-       << "napis3: " << napis3 << endl;
-
-  /// Initialize a string with repeated characters
-  string napis4(10, 'X');
-  cout << "napis4: " << napis4 << endl;
+       << "napis3: " << napis3 << endl
+       << "napis4: " << napis4 << endl;
 
   /// String manipulation
   cout << endl << "Manipulacja stringami" << endl;
@@ -57,6 +57,7 @@ int main() {
   b1 = '2';
   a1 = b1;
   cout << "a1 = b1: " << a1 << endl;
+  cout << "b1: " << b1 << endl;
 
   /// Check addresses
   cout << endl << "Sprawdzenie adresow" << endl;
