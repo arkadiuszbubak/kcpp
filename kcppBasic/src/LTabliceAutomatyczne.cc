@@ -86,9 +86,9 @@ void tablice() {
   // CoutWholeArray(A, 10);
 
   int A0[10]; ///< Array of 10 integers, uninitialized
-  /* for(int w = 0; w < 10; w++) {
-   *   cout << "Tab A0: " << A0[w] << endl;
-   * } */
+  /* for (int w = 0; w < 10; w++) {
+    cout << "Tab A0: " << A0[w] << endl;
+  } */
   // CoutWholeArray(A0, 10);
 
   int A1[] = {1, 2, 3,
@@ -114,9 +114,9 @@ void tablice() {
   // Array of 20 characters, partially initialized
   char B[i] = {'a', 'b', 'c', 'd', 'e', 'f'};
   // char B[6] = {'a', 'b', 'c', 'd', 'e', 'f'};
-  /* for (int w = 0; w < i; w++) {
-   *   cout << B[w] << endl;
-   * } */
+  for (int w = 0; w < i; w++) {
+    cout << B[w] << endl;
+  }
 
   int BB[j] = {0, 1, 2, 3}; ///< Array of 10 integers, partially initialized
 
@@ -150,7 +150,8 @@ void tablice() {
   --------------------------------------------------------------- */
   cout << "\nA[0] = " << A[0] << endl;
   (*A)++;
-  // (*A++);     ///< error, prosze powiedziec dlaczego?
+  // (*A++); ///< error, prosze powiedziec dlaczego?
+  // *(A++); ///< error, prosze powiedziec dlaczego?
   int fVar = (*A)++;
   cout << "fVar =   " << fVar << endl;
   cout << "(*A)++ = " << (*A)++ << endl;

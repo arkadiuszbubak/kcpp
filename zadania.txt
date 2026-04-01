@@ -25,15 +25,10 @@ Napisać prosty program z jedną klasą. Wszystko zawarte w jednym pliku: klasa 
 
 Zadanie 1.2
 --------------------------------------
-Napisać program który zawiera przykłady funkcji z biblioteki cstring (plik: LChar.cc)
-- nazwać program: ZadCharExample.cc
-
-Zadanie 1.3
---------------------------------------
 Napisać program (z zajęć) o treści zadanej w pliku LString.cc
 - nazwać program: ZadStringExample.cc
 
-Zadanie 1.4
+Zadanie 1.3
 --------------------------------------
 Napisać program który zawiera:
 - funkcję main
