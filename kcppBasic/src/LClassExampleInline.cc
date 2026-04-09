@@ -16,13 +16,13 @@ public:
 
   /** Modifiers **/
   inline void SetVariable(int rvariable) {
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 7; i++) {
       cout << i << "\t";
     }
     cout << endl;
     fVariable = rvariable;
   };
-  // void SetVariable(int rvariable)       { fVariable     = rvariable; };
+  void SetVariableSingle(int rvariable) { fVariable = rvariable; };
 
   /** Accesors **/
   int GetVariable() { return fVariable; };
@@ -35,10 +35,10 @@ int main() {
 
   ClassExample *object = new ClassExample();
 
-  object->SetVariable(10);
-  object->SetVariable(10);
-  object->SetVariable(10);
-  object->SetVariable(10);
+  object->SetVariable(7);
+  object->SetVariable(7);
+  object->SetVariable(7);
+  object->SetVariable(7);
 
   int var = object->GetVariable();
   cout << var << endl;
