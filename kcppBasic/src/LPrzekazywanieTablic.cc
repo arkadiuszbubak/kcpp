@@ -15,6 +15,7 @@
 #include <iostream>
 #include <iterator>
 #include <span>
+#include <vector>
 using namespace std;
 
 /**
@@ -47,7 +48,7 @@ void przekaz1DA(int tab[]) {
   cout << endl << "*** Przekaz1DA ---------------------------" << endl;
   int iSize = sizeof(&tab) / sizeof(tab[0]); // Incorrect size calculation
   cout << "Size: " << iSize << endl;
-  for (int i = 0; i <= iSize; i++) {
+  for (int i = 0; i < iSize; i++) {
     cout << tab[i] << " ";
   }
   cout << endl;
@@ -105,14 +106,14 @@ void przekazTabSizeArray(const array<int, 6> &arr) {
  * @brief The modern way to handle arrays and maintain size information
  * */
 /* void przekazTabSizeSpan(span<int> s) {
- *   cout << endl << "*** PrzekazTabSizeSpan ---------------------------" <<
- * endl; for (auto elem : s) { cout << elem << " ";
- *   }
- *   cout << endl;
- *   // TODO: add c++20 support to vim compilation. Meanwhile compile via
- * command
- *   // line: -std=c++20
- * } */
+  cout << endl << "*** PrzekazTabSizeSpan ---------------------------" << endl;
+  for (auto elem : s) {
+    cout << elem << " ";
+  }
+  cout << endl;
+  // TODO: add c++20 support to vim compilation. Meanwhile compile via command
+  // line: -std=c++20
+} */
 
 /**
  * @brief Function to pass a 2D array
@@ -127,6 +128,21 @@ void przekazTabSizeA(const T (&tablica)[tabSize]) {
   cout << "(inside function) Rozmiar tablicy: " << tabSize << endl;
   for (int i = 0; i < tabSize; ++i) {
     cout << tablica[i] << " ";
+  }
+  cout << endl;
+}
+
+/**
+ * @brief Function to pass a vector instead of array
+ * zaleca się używanie kontenera std::vector, który „pamięta” swój rozmiar i
+ * jest bezpieczniejszy.
+ */
+void przekaz1DA(const std::vector<int> &v) {
+  cout << endl << "*** Przekaz1DA (Vector) ------------------" << endl;
+  cout << "Size: " << v.size() << endl;
+
+  for (int element : v) {
+    cout << element << " ";
   }
   cout << endl;
 }
@@ -170,11 +186,22 @@ int main() {
   // Use std::array (C++11 or later)
   przekazTabSizeArray(tablica1DB);
 
-  /* // Use std:span (C++20 or later)
-   * przekazTabSizeSpan(tablica1DB); */
+  // Use std:span (C++20 or later)
+  // przekazTabSizeSpan(tablica1DB);
 
   // The most classic method that preserves the size of the array
   przekazTabSizeA(tablica1D);
+
+  // Use std::vector
+  // 1. Inicjalizacja wektora listą wartości (C++11 i nowsze)
+  vector<int> liczby = {10, 20, 30, 40, 50};
+
+  // 2. Wywołanie funkcji
+  przekaz1DA(liczby);
+
+  // Możesz też dodać elementy dynamicznie przed wywołaniem
+  liczby.push_back(60);
+  przekaz1DA(liczby);
 
   return 0;
 }
