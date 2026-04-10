@@ -11,8 +11,8 @@
  * (`.c`).
  */
 
-#include <stdio.h>
-// #include <iostream>
+// #include <stdio.h>
+#include <iostream>
 //
 /**
  * @brief Function to print "Hello World!"
@@ -20,8 +20,8 @@
  * This function demonstrates a simple C function that prints a message to the
  * console.
  */
-void Funkcja(void) { printf("Hello World!\n"); }
-// void Funkcja(void) { std::cout << "Hello World!" << std::endl; }
+// void Funkcja(void) { printf("Hello World!\n"); }
+void Funkcja(void) { std::cout << "Hello World!" << std::endl; }
 
 /**
  * @brief Main function

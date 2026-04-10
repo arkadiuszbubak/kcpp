@@ -47,6 +47,9 @@ int main(void) {
    *   gcc LDifferenceGPPandGCC.cxx -o gcc_cxx.out
    *   g++ LDifferenceGPPandGCC.cxx -o gpp_cxx.out
    *
+   *   gcc LDifferenceGPPandGCC.cpp -o gcc_cpp.out
+   *   g++ LDifferenceGPPandGCC.cpp -o gpp_cpp.out
+   *
    *   gcc LDifferenceGPPandGCC_bigC.C -o gcc_bigC.out
    *   g++ LDifferenceGPPandGCC_bigC.C -o gpp_bigC.out
    *
@@ -59,6 +62,9 @@ int main(void) {
    *
    *   readelf -s gcc_cxx.out  | grep Funkcja
    *   readelf -s gpp_cxx.out  | grep Funkcja
+   *
+   *   readelf -s gcc_cpp.out  | grep Funkcja
+   *   readelf -s gpp_cpp.out  | grep Funkcja
    *
    *   readelf -s gcc_bigC.out | grep Funkcja
    *   readelf -s gpp_bigC.out | grep Funkcja
