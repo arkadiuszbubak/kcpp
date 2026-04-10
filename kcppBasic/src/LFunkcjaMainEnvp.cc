@@ -39,8 +39,18 @@ int main(int argc, char *argv[], char *envp[]) {
   }
 
   // Uncomment the following block to print environment variables
+  /* for (int i = 0; i < 10; i++) {
+    cout << envp[i] << endl;
+  } */
+
+  /* int i = 0;
+  while (envp[i] != NULL) {
+    printf("%s\n", envp[i]);
+    i++;
+  } */
+
   /*
-  while (*envp) {
+  while (envp[]) {
     printf("%s\n", *envp++);
   }
   */
