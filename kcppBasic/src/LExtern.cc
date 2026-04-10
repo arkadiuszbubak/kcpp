@@ -19,7 +19,7 @@ using namespace std;
  */
 void a() {}
 
-/* int a(int a) {
+int a(int a) {
   cout << "int a" << endl;
   return a;
 }
@@ -27,12 +27,12 @@ void a() {}
 double a(double a) {
   cout << "double a" << endl;
   return a;
-} */
+}
 
-auto a(auto a) {
+/* auto a(auto a) {
   cout << "auto a" << endl;
   return a;
-}
+} */
 
 /**
  * @brief Function `b`
@@ -114,7 +114,7 @@ int main() {
 
   cout << a(1) << endl;
   cout << a(5.0) << endl;
-  cout << a(7.0) << endl;
+  // cout << a(7.0) << endl;
 
   return 0;
 }
