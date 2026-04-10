@@ -3,6 +3,7 @@
  * \date 2019.04.23
  * \brief Klasy: This w C++
  * v0.01
+ * v0.02 2026.04.10
  */
 
 #include <iostream>
@@ -12,7 +13,7 @@ class A {
 public:
   int fIndex;
   void Ustaw(int x) {
-    fIndex = x; ///< this->fIndex = x;
+    fIndex = x; ///< dostęp do przesłoniętej składowej klasy
   }
 };
 
@@ -21,8 +22,9 @@ public:
   int fIndex;
   void Ustaw(int fIndex) {
     this->fIndex = fIndex; ///< dostęp do przesłoniętej składowej klasy
-    cout << "fIndex inside Ustaw(): " << fIndex << endl;
-    // fIndex = fIndex; // Zobaczmy co sie stanie
+    // cout << &fIndex << endl;
+    // cout << &(this->fIndex) << endl;
+    // fIndex = fIndex; ///< dostęp do przesłoniętej składowej klasy
   }
 };
 
