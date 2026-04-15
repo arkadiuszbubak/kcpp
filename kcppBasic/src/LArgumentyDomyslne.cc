@@ -109,7 +109,8 @@ int zmienC(int a, int b, int c) {
   return w;
 }
 
-int zmienE(int, int = 1, int = 2);
+int zmienE(int, int = 1, int = 2); // Nazwy mogą pojawić się tylko w definicji,
+                                   // nawet jeśli nie ma ich w deklaracji
 int zmienE(int a = 1, int b, int c) {
   int w = a + c + b;
   return w;
@@ -128,7 +129,8 @@ int zmienE(int a = 1, int b, int c) {
  */
 int zmienD(int a, int b, int c = 2);
 int zmienD(int, int, int) {
-  // int w = a + b;
+  // int w = a + b;     // A to czy działa? Nazwy w deklaracji, ale nie w
+  // definicji
   return 0;
 }
 
@@ -169,7 +171,7 @@ int main() {
 
   cout << zmienC(2) << endl;
 
-  cout << "Czy możliwe jest przeciżenie funkcji 'zwieksz'?" << endl;
+  cout << "Czy możliwe jest przeciążenie funkcji 'zwieksz'?" << endl;
 
   wynik = zmienE();
   cout << "Wywolanie zmenE(): " << wynik << endl;
