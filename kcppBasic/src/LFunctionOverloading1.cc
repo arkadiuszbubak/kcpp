@@ -14,10 +14,8 @@ void Print(int i) { cout << " Here is int " << i << endl; }
 //--------------------------------------------
 void Print(double f) { cout << " Here is double " << f << endl; }
 
-/* //--------------------------------------------
- * void Print(float  f) {
- *   cout << " Here is float " << f << endl;
- * } */
+//--------------------------------------------
+// void Print(float f) { cout << " Here is float " << f << endl; }
 
 //--------------------------------------------
 void Print(char const *c) { cout << " Here is char* " << c << endl; }
