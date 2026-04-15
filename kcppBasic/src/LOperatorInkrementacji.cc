@@ -14,7 +14,7 @@ int main() {
   cout << a << " -- przed zmianą" << endl;
   cout << ++a << " -- preinkrementacja" << endl;  //!< preinkrementacja
   cout << a++ << " -- postinkrementacja" << endl; //!< postinkrementacja
-  cout << a << " -- resultat" << endl;
+  cout << a << " -- rezultat" << endl;
 
   // ----- Bez roznicy ----------------------------
   cout << "\n--> Bez różnicy ------" << endl;
