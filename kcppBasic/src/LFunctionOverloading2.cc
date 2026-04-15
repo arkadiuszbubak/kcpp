@@ -21,10 +21,10 @@ void dzialanie(double a, double b) {
 }
 
 /* void dzialanie(int a, int b, int c = 0) {
- *
- *    int r = a - b;
- *    cout <<"Dzialanie na int: "<<  r << endl;
- * } */
+
+  int r = a - b;
+  cout << "Dzialanie na int: " << r << endl;
+} */
 
 int main() {
   dzialanie(2, 2);
