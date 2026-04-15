@@ -6,11 +6,11 @@
  * TODO: add hextodec which works wit double
  */
 
-#include <stdio.h>
+#include "LConversion.h"
 #include <iostream>
 #include <sstream>
+#include <stdio.h>
 #include <string>
-#include "LConversion.h"
 /* //4 includes
  * #include <string>
  * #include <vector>
@@ -38,7 +38,7 @@ using namespace std;
 
 void SizeofPointer() {
   int a;
-  int* wsk = &a;
+  int *wsk = &a;
   cout << "Address(zmienna,wskaznik): " << &a << "\t" << &wsk << endl;
   cout << "Sizeof(zmienna,wskaznik):  " << sizeof(a) << "\t" << sizeof(wsk)
        << endl;
@@ -52,7 +52,7 @@ int main() {
   float x;
   double y;
   double z;
-  int* wsk_int;
+  int *wsk_int;
   // Rozne sposoby zapisu nowej wartosci do zmiennej b za pomoca wskaznika na b
   // i sasiadujace zmienne
   cout << "Size of intiger: " << sizeof(int) << endl;
@@ -60,11 +60,11 @@ int main() {
   cout << "Size of double:  " << sizeof(double) << endl;
 
   // Wyswieltlenie adresow zmiennych
-  printf("\n--- C --------------------------------");
-  // printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
-  /* printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
-   * printf(" \nAdres zmiennej A: %p\n", &a);
-   * cout << &a << endl; */
+  /* printf("\n--- C --------------------------------");
+  printf(" \nAdres zmiennej A: %u",   &a);   //!< %u is unsigned integer
+  printf(" \nAdres zmiennej A: %d",   &a);   //!< %d is signed integer
+  printf(" \nAdres zmiennej A: %p\n", &a);
+  cout << &a << endl; */
 
   // string a1 = std::to_string(0xa1a56);
 
@@ -138,16 +138,16 @@ int main() {
   *(&c - 1) = 50;
   cout << "6. A, B, C: " << a << "\t" << b << "\t" << c << endl;
 
-  *((int*)&x - 2) = 60;
+  *((int *)&x - 2) = 60;
   cout << "7. A, B, C: " << a << "\t" << b << "\t" << c << endl;
 
-  *(int*)(&x - 1) = 70;
+  *(int *)(&x - 1) = 70;
   cout << "8. A, B, C: " << a << "\t" << b << "\t" << c << endl;
 
-  *((int*)&wsk_int - 2) = 80;
+  *((int *)&wsk_int - 2) = 80;
   cout << "9. A, B, C: " << a << "\t" << b << "\t" << c << endl;
 
-  *(int*)(&wsk_int - 1) = 90;
+  *(int *)(&wsk_int - 1) = 90;
   cout << "10. A, B, C: " << a << "\t" << b << "\t" << c << endl;
 
   SizeofPointer();
