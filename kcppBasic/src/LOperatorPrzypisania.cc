@@ -11,32 +11,26 @@ using namespace std;
 
 int main() {
 
-  int
-    varA = 5,
-    varB = 27;
+  int varA = 5, varB = 27;
 
   float result[10];
 
-  result[0] = varB/varA;
-  result[1] = varB%varA;
+  result[0] = static_cast<float>(varA) / static_cast<float>(varB);
+  result[1] = varB % varA;
 
-  if(varB%varA != 0) cout << "Values differ" << endl;
- 
+  if (varB % varA != 0)
+    cout << "Values differ" << endl;
 
-  cout << "Rezultaty: "
-    << result[0] << "\t"
-    << result[1] << endl;
+  cout << "Rezultaty: " << result[0] << "\t" << result[1] << endl;
 
-
-  //Application example
-  for(int i = 0; i < 100; i++){
+  // Application example
+  for (int i = 0; i < 50; i++) {
     sleep(1);
-    //cout <<"---->"<< i << endl;
-    if(i%10 == 0){
-      cout <<"#"<<i<< endl;
+    // cout <<"---->"<< i << endl;
+    if (i % 10 == 0) {
+      cout << "#" << i << endl;
     }
   }
 
-
-  return 0;   
+  return 0;
 }
