@@ -9,32 +9,30 @@
 #include "LConversion.h"
 #include <iostream>
 #include <sstream>
-#include <stdio.h>
 #include <string>
-/* //4 includes
- * #include <string>
- * #include <vector>
- * #include <stdint.h>
- * #include <math.h> */
+// 4 includes
+/*
+#include <vector>
+#include <stdint.h>
+#include <math.h> */
 using namespace std;
 
-/* //in order to avoid include LConversion.h. Remember to add 4 includes
- * unsigned long hextodec(string hex)
- * {
- *     unsigned long result = 0;
- *     for (unsigned int i=0; i<hex.length(); i++) {
- *         if (hex[i]>=48 && hex[i]<=57)
- *         {
- *             result += (hex[i]-48)*pow(16,hex.length()-i-1);
- *         } else if (hex[i]>=65 && hex[i]<=70) {
- *             result += (hex[i]-55)*pow(16,hex.length( )-i-1);
- *         } else if (hex[i]>=97 && hex[i]<=102) {
- *             result += (hex[i]-87)*pow(16,hex.length()-i-1);
- *         }
- *     }
- *     return result;
- * }
- *  */
+// in order to avoid include LConversion.h. Remember to add 4 includes
+/* unsigned long hextodec(string hex)
+{
+    unsigned long result = 0;
+    for (unsigned int i=0; i<hex.length(); i++) {
+        if (hex[i]>=48 && hex[i]<=57)
+        {
+            result += (hex[i]-48)*pow(16,hex.length()-i-1);
+        } else if (hex[i]>=65 && hex[i]<=70) {
+            result += (hex[i]-55)*pow(16,hex.length( )-i-1);
+        } else if (hex[i]>=97 && hex[i]<=102) {
+            result += (hex[i]-87)*pow(16,hex.length()-i-1);
+        }
+    }
+    return result;
+} */
 
 void SizeofPointer() {
   int a;
