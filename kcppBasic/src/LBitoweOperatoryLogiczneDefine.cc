@@ -11,7 +11,7 @@ using namespace std;
 void printBinaryShort(const unsigned char val) {
   for (int i = 7; i >= 0; i--)
     if (val & (1 << i))
-      //(1 << 0) "wstawia 1 na kolejnych pozycjach"
+      //(1 << i) "wstawia 1 na kolejnych pozycjach"
       //(zmienna << ilosc_miejsc)
       cout << "1";
     else
