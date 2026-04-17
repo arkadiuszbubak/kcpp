@@ -22,10 +22,10 @@ public:
     cout << endl;
     fVariable = rvariable;
   };
-  void SetVariableSingle(int rvariable) { fVariable = rvariable; };
+  inline void SetVariableSingle(int rvariable) { fVariable = rvariable; };
 
   /** Accesors **/
-  int GetVariable() { return fVariable; };
+  inline int GetVariable() { return fVariable; };
 
 private:
   int fVariable;
