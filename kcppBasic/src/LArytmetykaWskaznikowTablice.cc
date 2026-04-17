@@ -5,7 +5,7 @@
  * v0.01
  */
 
-//#include <stdio.h>
+// #include <stdio.h>
 #include <cstring>
 #include <iostream>
 using namespace std;
@@ -56,7 +56,7 @@ void funB() {
   }
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
   cout << "Rozmiar tablicy zdefiniowany przez dyrektywę preprocesora" << endl;
   cout << "Rozmiar: " << ROZMIAR << endl;
 
