@@ -7,7 +7,6 @@
 
 #include <fstream>
 #include <iostream>
-#include <limits> // Potrzebne dla std::numeric_limits
 #include <string>
 
 using namespace std;
@@ -40,17 +39,17 @@ int main() {
   f.close();
 
   // ----- Przykład czytania z pliku ------------------
-  std::ifstream plik("log.txt");
-  std::string linia;
+  ifstream plik("log.txt");
+  string linia;
 
   if (plik.is_open()) {
-    while (std::getline(plik, linia)) { // Czytaj dopóki są linie
+    while (getline(plik, linia)) { // Czytaj dopóki są linie
       cout << "Twoje imię zostało odczytane z pliku log.txt" << endl;
-      std::cout << linia << std::endl;
+      cout << linia << endl;
     }
     plik.close();
   } else {
-    std::cerr << "Nie udało się otworzyć pliku!";
+    cerr << "Nie udało się otworzyć pliku!";
   }
 
   return 0;
