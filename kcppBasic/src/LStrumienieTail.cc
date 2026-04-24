@@ -12,14 +12,15 @@ using namespace std;
 // ./a.out > plik.txt
 // tail -f plik.txt
 
-int main(){
+int main() {
 
-    for(int i = 0; i < 10; i++){
-        cout << i << endl;
-        cerr <<"Error\t"<< i << endl;
-        sleep(1);
-    }
+  for (int i = 0; i < 100; i++) {
+    cout << "Cout\t" << i << endl;
+    cerr << "Cerr\t" << i << endl;
+    clog << "Clog\t" << i << endl;
+    cout << "----------------" << endl;
+    sleep(1);
+  }
 
-    return 0;
+  return 0;
 }
-
