@@ -2,12 +2,13 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.02.10
  * \brief Bitowe operatory logiczne w C++
- * v0.01
+ * v0.02 2026.04.24
  */
 
 #include <iostream>
 using namespace std;
 
+// Porówniajcie, że printBinaryShort przyjmuje char, a printBinaryLong int
 void printBinaryShort(const unsigned char val) {
 
   for (int i = 7; i >= 0; i--)
@@ -64,6 +65,12 @@ int main() {
 
   cout << endl;
 
+  // C++ odziedziczył po języku C zasadę, według której kompilator
+  // pozwala na rzutowanie typów w dół (z większego do mniejszego), bez
+  // ostrzegania. Standard języka to dopuszcza, więc domyślnie kompilator uznaje
+  // to za celowe działanie, a nie za błąd. printBinaryShort(char) a potem (int)
+  // -Wconversion --> warning: conversion from 'unsigned int' to 'unsigned char'
+  // may change value
   PRS("a w binarnej notacji: ", a);
   PRS("w w binarnej notacji: ", w);
 

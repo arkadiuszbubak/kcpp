@@ -2,14 +2,28 @@
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.02.10
  * \brief Bitowe operatory logiczne w C++
- * v0.01
+ * v0.02 2026.04.24
  */
 
 #include <iostream>
 using namespace std;
 
 // Student task: Pokazać jak można uniknąć przekazywania rozmiaru po którym
-// będzie pętla. Napisz nową funkcje: printBinaryGeneral
+// będzie pętla. Napisz nową funkcje: printBinaryGeneralo
+// 1. sposób
+// template <typename T>
+// void printBinaryGeneral(const T& val) {...
+
+// 2. sposób
+/* #include <bitset>
+#include <climits>
+
+template <typename T>
+void printBinaryModern(const T& val) {
+    constexpr size_t totalBits = sizeof(T) * CHAR_BIT;
+    std::cout << std::bitset<totalBits>(val);
+} */
+
 void printBinary(const unsigned char val, int range = 7) {
   for (int i = range; i >= 0; i--)
     if (val & (1 << i))
@@ -30,12 +44,16 @@ int main() {
   unsigned char a, b;
 
   cout << "Podaj liczbe 'a' od 0 do 255: ";
+  if (getval > 255) {
+    cout << "Błąd! Podana liczba jest za duża." << endl;
+    return 1;
+  }
   cin >> getval;
-  a = getval;
+  a = static_cast<unsigned char>(getval);
 
   cout << "Podaj liczbe 'b' od 0 do 255: ";
   cin >> getval;
-  b = getval;
+  b = static_cast<unsigned char>(getval);
 
   PR("a w binarnej notacji: ", a);
   PR("b w binarnej notacji: ", b);
