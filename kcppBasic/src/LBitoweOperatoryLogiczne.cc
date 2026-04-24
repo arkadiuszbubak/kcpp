@@ -8,6 +8,8 @@
 #include <iostream>
 using namespace std;
 
+// Student task: Pokazać jak można uniknąć przekazywania rozmiaru po którym
+// będzie pętla. Napisz nową funkcje: printBinaryGeneral
 void printBinary(const unsigned char val, int range = 7) {
   for (int i = range; i >= 0; i--)
     if (val & (1 << i))
