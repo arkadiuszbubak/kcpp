@@ -24,11 +24,12 @@ int main() {
     switch (choice) {
     case 1:
       // kod dla opcji 1
+      cout << "Wybrano opcje 1\n";
       break;
     case 2:
       // kod dla opcji 2
+      cout << "Wybrano opcje 2\n";
       break;
-    // ... inne przypadki
     default:
       cout << "Nieprawidlowy wybor!\n";
     }
