@@ -93,6 +93,8 @@ int main() {
   }
 
   // 11. Pętla z użyciem iteratorów – typowe w kodzie STL
+  // for (std::vector<int>::iterator it = liczby.begin(); it != liczby.end();
+  // ++it)
   for (auto it = liczby.begin(); it != liczby.end(); ++it) {
     if (*it % 2 != 0) {
       std::cout << *it << " jest nieparzyste" << std::endl;
