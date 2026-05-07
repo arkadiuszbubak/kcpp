@@ -1,8 +1,8 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.02.10 v0.01; 2023.04.27 v0.02
+ * \date 2019.02.10 v0.01; 2023.04.27 v0.02; 2026.05.07 v0.03
  * \brief Strumienie w C++
- * v0.02
+ * v0.03
  */
 
 #include <filesystem> //C++17
