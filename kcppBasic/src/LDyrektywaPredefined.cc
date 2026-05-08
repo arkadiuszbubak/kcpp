@@ -48,7 +48,7 @@ int main() {
   cout << "This is the line number " << __LINE__ << " of file " << __FILE__
        << ".\n";
   cout << "Its compilation began " << __DATE__ << " at " << __TIME__ << ".\n";
-  cout << "The compiler gives a __cplusplus value of " << __cplusplus;
+  cout << "The compiler gives a __cplusplus value of " << __cplusplus << endl;
 
   // Makra pomocnicze i diagnostyczne
   /* __func__ (lub __FUNCTION__ w MSVC):
