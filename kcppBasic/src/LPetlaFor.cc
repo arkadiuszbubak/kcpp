@@ -6,6 +6,7 @@
  */
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
@@ -59,6 +60,20 @@ int main() {
     if (++licznik == 3)
       break;
   }
+  cout << "\n";
+
+  // 6. Pętla po wektorze
+  cout << "Pętla po wektorze:\n";
+  std::vector<int> vec = {1, 2, 3, 4, 5};
+  cout << "Vector value: ";
+  for (int i : vec)
+    cout << i << " ";
+  cout << endl;
+  cout << "Vector value: ";
+  for (auto i : vec) {
+    cout << i << " ";
+  }
+  cout << endl;
 
   return 0;
 }
