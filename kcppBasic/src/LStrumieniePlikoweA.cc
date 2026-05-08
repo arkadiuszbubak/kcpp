@@ -46,7 +46,7 @@ int main() {
   if (plik.is_open()) {
     while (getline(plik, linia)) { // Czytaj dopóki są linie
       cout << "Twoje imię zostało odczytane z pliku " << fileName << endl;
-      cout << linia << endl;
+      cout << "Odczytana lina z pliku: " << linia << endl;
     }
     plik.close();
   } else {
@@ -55,7 +55,7 @@ int main() {
 
   // ----- Usuwanie pliku ----------------------------
   // C++17
-  if (std::filesystem::remove(fileName)) {
+  /* if (std::filesystem::remove(fileName)) {
     cout << "Plik " << fileName << " został pomyślnie usunięty." << endl;
   } else {
     cout << "Plik " << fileName << " nie istnieje lub nie mógł zostać usunięty."
@@ -68,7 +68,7 @@ int main() {
   } else {
     // perror prints the specific reason for failure
     perror("Plik log.txt nie istnieje lub nie mógł zostać usunięty.");
-  }
+  } */
 
   return 0;
 }
