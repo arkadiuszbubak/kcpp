@@ -41,7 +41,7 @@ etykieta1:
   cout << "Pętla while wyświetlająca liczby 15–20 z pominięciem 18" << endl;
   while (i <= 20) {
     if (i == 18) {
-      cout << "...";
+      cout << "... ";
       i++;
       continue; // Pomija 18
     }
