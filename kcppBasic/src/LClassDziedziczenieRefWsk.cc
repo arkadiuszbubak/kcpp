@@ -42,9 +42,12 @@ int main() {
 
   a.Funkcja();
   b.Funkcja();
+  cout << endl;
 
   p1->Funkcja();
   p2->Funkcja();
+  cout << endl;
+
   r1.Funkcja();
   r2.Funkcja();
 };
