@@ -45,7 +45,7 @@ int main() {
 
   cout << Equalsize(objA, objB) << endl;
 
-  // A czy to zadzaiała?
+  // A czy to zadziała?
   // Pudelko objC(3, 2, 1);
   // cout << objC.Equalsize(objA, objB) << endl;
 }
