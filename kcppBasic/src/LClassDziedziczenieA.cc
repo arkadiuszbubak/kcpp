@@ -52,10 +52,10 @@ int main() {
 
   //------------ 4 ------------------------
   przObiekt.fN = 91;
-  cout << "4. przObiekt.fN: " << przObiekt.fN << endl;
+  cout << endl << "4. przObiekt.fN: " << przObiekt.fN << endl;
 
   potObiekt.fN = 92;
-  cout << endl << "4. potObiekt.fN: " << potObiekt.fN << endl;
+  cout << "4. potObiekt.fN: " << potObiekt.fN << endl;
 
   //------------ 5 ------------------------
   cout << endl
