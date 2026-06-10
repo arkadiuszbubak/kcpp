@@ -14,6 +14,7 @@ int main() {
 
   // Pusty wektor liczb całkowitych
   std::vector<int> wektor1;
+  std::cin.get();
   std::cout << "Wektor 1 (pusty): ";
   for (int val : wektor1) {
     std::cout << val << " ";
@@ -23,6 +24,7 @@ int main() {
   // Wektor z predefiniowanym rozmiarem (elementy zainicjowane wartościami
   // domyślnymi, czyli 0 dla int)
   std::vector<int> wektor2(5);
+  std::cin.get();
   std::cout << "Wektor 2 (rozmiar 5, domyślne wartości): ";
   for (int val : wektor2) {
     std::cout << val << " ";
@@ -31,6 +33,7 @@ int main() {
 
   // Wektor z predefiniowanym rozmiarem i wartością początkową
   std::vector<int> wektor3(3, 10);
+  std::cin.get();
   std::cout << "Wektor 3 (rozmiar 3, wartość początkowa 10): ";
   for (int val : wektor3) {
     std::cout << val << " ";
@@ -39,6 +42,7 @@ int main() {
 
   // Wektor zainicjowany listą inicjalizacyjną
   std::vector<int> wektor4 = {1, 2, 3, 4, 5};
+  std::cin.get();
   std::cout << "Wektor 4 (inicjalizacja listą): ";
   for (int val : wektor4) {
     std::cout << val << " ";
@@ -47,6 +51,7 @@ int main() {
 
   // Kopia innego wektora
   std::vector<int> wektor5 = wektor4;
+  std::cin.get();
   std::cout << "Wektor 5 (kopia wektora 4): ";
   for (int val : wektor5) {
     std::cout << val << " ";
@@ -59,6 +64,7 @@ int main() {
   wektor1.push_back(10);
   wektor1.push_back(20);
   wektor1.push_back(30);
+  std::cin.get();
   std::cout << "Wektor 1 (po push_back): ";
   for (int val : wektor1) {
     std::cout << val << " ";
@@ -70,6 +76,7 @@ int main() {
     wektor2[0] = 100;
     wektor2[2] = 200;
   }
+  std::cin.get();
   std::cout << "Wektor 2 (po zmianie elementów): ";
   for (int val : wektor2) {
     std::cout << val << " ";
@@ -78,6 +85,7 @@ int main() {
 
   // Wypełnianie całego wektora tą samą wartością
   std::fill(wektor3.begin(), wektor3.end(), 5);
+  std::cin.get();
   std::cout << "Wektor 3 (po fill): ";
   for (int val : wektor3) {
     std::cout << val << " ";
@@ -89,6 +97,7 @@ int main() {
   // Usunięcie ostatniego elementu
   if (!wektor4.empty()) {
     wektor4.pop_back();
+    std::cin.get();
     std::cout << "Wektor 4 (po pop_back): ";
     for (int val : wektor4) {
       std::cout << val << " ";
@@ -99,6 +108,7 @@ int main() {
   // Usunięcie elementu z określonej pozycji (iterator)
   if (wektor5.size() > 2) {
     wektor5.erase(wektor5.begin() + 1); // Usuwa element na indeksie 1
+    std::cin.get();
     std::cout << "Wektor 5 (po erase): ";
     for (int val : wektor5) {
       std::cout << val << " ";
@@ -110,6 +120,7 @@ int main() {
   std::vector<int> wektor6 = {1, 2, 3, 4, 5, 6, 7};
   wektor6.erase(wektor6.begin() + 2,
                 wektor6.begin() + 5); // Usuwa elementy na indeksach 2, 3, 4
+  std::cin.get();
   std::cout << "Wektor 6 (po erase zakresu): ";
   for (int val : wektor6) {
     std::cout << val << " ";
@@ -118,6 +129,7 @@ int main() {
 
   // Usunięcie wszystkich elementów (wyczyszczenie wektora)
   wektor1.clear();
+  std::cin.get();
   std::cout << "Wektor 1 (po clear, rozmiar: " << wektor1.size() << "): ";
   for (int val : wektor1) {
     std::cout << val << " ";
@@ -131,6 +143,7 @@ int main() {
   auto it = std::remove(wektor7.begin(), wektor7.end(), 2);
   // Następnie używamy erase, aby usunąć te elementy z końca
   wektor7.erase(it, wektor7.end());
+  std::cin.get();
   std::cout << "Wektor 7 (po usunięciu wartości 2): ";
   for (int val : wektor7) {
     std::cout << val << " ";
@@ -142,6 +155,7 @@ int main() {
   std::cout << "\nIterowanie po wektorze 4:\n";
 
   // Iteracja za pomocą indeksów (klasyczna pętla for)
+  std::cin.get();
   std::cout << "Za pomocą indeksów: ";
   for (size_t i = 0; i < wektor4.size(); ++i) {
     std::cout << wektor4[i] << " ";
@@ -149,6 +163,7 @@ int main() {
   std::cout << std::endl;
 
   // Iteracja za pomocą iteratorów
+  std::cin.get();
   std::cout << "Za pomocą iteratorów: ";
   for (std::vector<int>::iterator it = wektor4.begin(); it != wektor4.end();
        ++it) {
@@ -157,6 +172,7 @@ int main() {
   std::cout << std::endl;
 
   // Iteracja za pomocą const_iterator (gdy nie chcemy modyfikować elementów)
+  std::cin.get();
   std::cout << "Za pomocą const_iterator: ";
   for (std::vector<int>::const_iterator cit = wektor4.cbegin();
        cit != wektor4.cend(); ++cit) {
@@ -166,6 +182,7 @@ int main() {
 
   // Iteracja za pomocą pętli for-each (zakresowej pętli for) - najprostszy
   // sposób
+  std::cin.get();
   std::cout << "Za pomocą pętli for-each: ";
   for (int val : wektor4) {
     std::cout << val << " ";
