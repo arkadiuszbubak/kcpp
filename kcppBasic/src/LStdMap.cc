@@ -12,6 +12,7 @@
 
 // Funkcja pomocnicza do wyświetlania mapy (range-based for)
 void wyswietl(const std::map<std::string, int> &mapa, const std::string &opis) {
+  std::cin.get();
   std::cout << opis << ": " << std::endl;
   for (const auto &[klucz, wartosc] :
        mapa) { // structured bindings only available with -std=c++17
@@ -24,6 +25,7 @@ void iteracje(const std::map<std::string, int> &mapa, const std::string &opis) {
   std::cout << "\n" << opis << " - iteracje:" << std::endl;
 
   // 1. Range-based for
+  std::cin.get();
   std::cout << "Range-based for:" << std::endl;
   for (const auto &para : mapa) {
     std::cout << "  " << para.first << " => " << para.second << std::endl;
