@@ -15,6 +15,7 @@ int main() {
   std::array<int, 5> myArray = {10, 20, 30, 40, 50};
 
   // Access elements using index
+  std::cin.get();
   std::cout << std::left << std::setw(32) << "Accessing elements using index: ";
   for (size_t i = 0; i < myArray.size(); ++i) {
     std::cout << myArray[i] << " ";
@@ -22,6 +23,7 @@ int main() {
   std::cout << std::endl;
 
   // Use range-based for loop
+  std::cin.get();
   std::cout << std::left << std::setw(32) << "Using range-based for loop: ";
   for (int val : myArray) {
     std::cout << val << " ";
@@ -29,11 +31,13 @@ int main() {
   std::cout << std::endl;
 
   // Access front and back
+  std::cin.get();
   std::cout << "Front: " << myArray.front() << std::endl;
   std::cout << "Back:  " << myArray.back() << std::endl;
 
   // Modify an element
   myArray[2] = 99;
+  std::cin.get();
   std::cout << std::left << std::setw(20) << "After modification: ";
   for (int val : myArray) {
     std::cout << val << " ";
@@ -42,6 +46,7 @@ int main() {
 
   // Sort the array
   std::sort(myArray.begin(), myArray.end());
+  std::cin.get();
   std::cout << std::left << std::setw(20) << "Sorted array: ";
   for (int val : myArray) {
     std::cout << val << " ";
@@ -49,6 +54,7 @@ int main() {
   std::cout << std::endl;
 
   // Find an element
+  std::cin.get();
   auto it = std::find(myArray.begin(), myArray.end(), 99);
   if (it != myArray.end()) {
     std::cout << "Found 99 at position: " << std::distance(myArray.begin(), it)
@@ -59,6 +65,7 @@ int main() {
 
   // Fill array with a single value
   myArray.fill(7);
+  std::cin.get();
   std::cout << "Array after fill(7): ";
   for (int val : myArray) {
     std::cout << val << " ";
