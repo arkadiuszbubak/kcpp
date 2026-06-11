@@ -18,13 +18,16 @@ public:
 
   ~CCalculator(void) {}
 
-  const T Add(void) { return fMx + fMy; }
+  // const T Add(void) { return fMx + fMy; }  ///< before C++11
+  //  T - zwracamy przez czyste T (bez const), aby działało przenoszenie
+  //  const na końcu - oznacza, że metoda nie modyfikuje stanu klasy Calculator
+  T Add(void) const { return fMx + fMy; }
 
-  const T Sub(void) { return fMx - fMy; }
+  T Sub(void) const { return fMx - fMy; }
 
-  const T Mult(void) { return fMx * fMy; }
+  T Mult(void) const { return fMx * fMy; }
 
-  const T Div(void) { return fMx / fMy; }
+  T Div(void) const { return fMx / fMy; }
 
 private:
   const T fMx;
